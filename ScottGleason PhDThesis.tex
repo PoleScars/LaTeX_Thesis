@@ -1,81 +1,8 @@
-\documentclass[a4paper,12pt,oneside]{report}
-\usepackage{indentfirst}
-\usepackage[top=2cm,bottom=2cm,right=3.5cm,left=0.5cm]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage[none]{hyphenat} %Prevents hyphen words
-\usepackage{setspace}
-%\doublespace
-\onehalfspacing
+\documentclass[a4paper,12pt,oneside]{report}%NormalView
+%\documentclass[draft,a4paper,12pt,oneside]{report}%draftView
 
-\usepackage{graphicx}
-\graphicspath{{./images/}}
-\usepackage[center]{caption}
-\usepackage{subcaption}
-\usepackage{placeins}
-\usepackage{float}
-%\captionsetup[sub]{labelsep=newline}
-%\usepackage{subfigure}
-
-\usepackage[ colorinlistoftodos ]{todonotes}
-%\sloppy
-\usepackage[hyperfigures=true,colorlinks=true,linkcolor=black]{hyperref}
-\usepackage{tikz}
-\usetikzlibrary{patterns}
-\usepackage{pgfplots}
-\usepackage{color}
-\usepackage{hyperref}
-\hypersetup{urlcolor=blue,linkcolor=black,citecolor=black,colorlinks=true}
-\usepackage{array,multirow}
-\usepackage[numbers,sort&compress]{natbib}
-\usetikzlibrary{plotmarks}
-\usepackage{amsmath}
-%\usepackage{fancyhdr}
-%\pagestyle{fancy}
-\usepackage{numprint}
-\usepackage{sistyle}
-\usepackage{booktabs}
-%\DeclareMathOperator\erfc{erfc}
-%\DeclareMathOperator\erf{erf}
-%\DeclareMathOperator\F{F}
-%\DeclareMathOperator\G{G}
-\usepackage{lscape}
-\setlength{\unitlength}{1cm}
-\usepackage{amssymb} 
-\usepackage[parfill]{parskip}
-\usepackage[nottoc,numbib]{tocbibind}
-\usepackage{rotating, graphicx}
-\usepackage{pdflscape}
-\usepackage[toc,page]{appendix}
-\pgfplotsset{minor grid style={dashed,gray!50}}
-\pgfplotsset{major grid style={black}}
-\usepackage{threeparttable}
-\usepackage[version=2]{mhchem}
-\usepackage{array}
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\setcounter{tocdepth}{4} %Adds subsubsection numbers
-\setcounter{secnumdepth}{4} %Adds subsubsections to ToC
-\usepackage{verbatim} %Allows multiple line comments
-
-%My Commands
-\newcommand{\MgZnCa}{Mg$_{65}$Zn$_{30}$Ca$_{5}$}
-\newcommand{\Tg}{$T_{g}$}
-\newcommand{\Tx}{$T_{x}$}
-\newcommand{\Tm}{$T_{m}$}
-\newcommand{\Tl}{$T_{l}$}
-\newcommand{\TgTm}{$T_{g}/T_{m}$}
-\newcommand{\TgTl}{$T_{g}/T_{l}$}
-\newcommand{\n}{$\eta$}
-\newcommand{\Rc}{$R_{c}$}
-\newcommand{\dTg}{$\delta T_{g}$}
-\newcommand{\Tsub}{$T_{sub}$}
-\newcommand{\Tf}{$T_{f}$}
-\newcommand{\Tk}{$T_{k}$}
-\newcommand{\Tonset}{$T_{onset}$}
-\newcommand{\degree}{$^{\circ}$}
-\newcommand{\Cp}{$C_{p}$}
-\newcommand{\p}{$\rho$}
+\input{settings/preamble.tex}%Preamble in .tex
+\usepackage[color]{showkeys}%Shows cross ref path
 
 \begin{document}
 \thispagestyle{empty} % don't show (roman) page number on titlepage
@@ -225,7 +152,7 @@ Where $\Delta G$ is the change in free energy, $r$ the nuclei radius, $\gamma_{S
 		\caption{}
 		\label{fig:FreeEnergy}
 	\end{subfigure}
-	\caption{(a) Homogeneous nuclei within the liquid must reach the critical radius ($r^*$) of the nucleation barrier energy ($\Delta G^*$) to initiate crystalline growth. (b) Thermodynamically stable materials are always at the lowest Free Energy ($G$) state, but can exist in unstable higher free energy states if there is no driving force for the energy reduction.}%global caption
+	\caption[Homogenous Nucleation]{(a) Homogeneous nuclei within the liquid must reach the critical radius ($r^*$) of the nucleation barrier energy ($\Delta G^*$) to initiate crystalline growth. (b) Thermodynamically stable materials are always at the lowest Free Energy ($G$) state, but can exist in unstable higher free energy states if there is no driving force for the energy reduction.}%global caption
 	\label{fig:Gibbs}
 \end{figure}
 
