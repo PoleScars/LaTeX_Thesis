@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  3 SEP 2015 17:36
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  3 SEP 2015 17:42
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1297,9 +1297,6 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks59
 \verbatim@in@stream=\read2
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\showkeys.sty"
-Package: showkeys 2014/10/28 v3.17 Show cite and label keys (DPC, MH)
-)
 ("ScottGleason PhDThesis.aux"
 
 LaTeX Warning: Label `tab:SputterParameters' multiply defined.
@@ -1391,7 +1388,6 @@ LaTeX Info: Redefining \nameref on input line 7.
 ("ScottGleason PhDThesis.out") ("ScottGleason PhDThesis.out")
 \@outlinefile=\write6
 
-("ScottGleason PhDThesis.glsdefs")
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.12} into 
@@ -1478,14 +1474,6 @@ Requested font "pplb8t" at 14.4pt
 File: ./images/UNIlogo.png Graphic file (type QTm)
 
 <use  "./images/UNIlogo.png" >
-Requested font "pplr8t" at 10.95pt
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 34.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Requested font "ectt1095" at 10.95pt
-
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
@@ -1509,9 +1497,6 @@ ss Tran-si-tion
 ] [2])
 \tf@toc=\write7
  [3] ("ScottGleason PhDThesis.lof"
-Requested font "pplr8t" at 10.0pt
-Requested font "ectt1000" at 10.0pt
-
 Overfull \hbox (30.12633pt too wide) in paragraph at lines 4--4
  [][] [][][]\T1/ppl/m/n/12 Schematic of spe-cific en-thalpy ($\OML/zplm/m/it/12
  h$\T1/ppl/m/n/12 ) or spe-cific vol-ume ($\OML/zplm/m/it/12 v$\T1/ppl/m/n/12 )
@@ -1569,8 +1554,8 @@ Overfull \hbox (36.92444pt too wide) in paragraph at lines 29--29
  [][] [][][]\T1/ppl/m/n/12 Plots of $\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , $\O
 ML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , $\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , $\
 OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , and $\OT1/zplm/m/n/12 ^^A\OML/zplm/m/it/1
-2 T$ \T1/ppl/m/n/12 for al-loys pre-sented in Ta-ble [][]7.2. (a) Mg$[]$Zn$[]$C
-a$[]$, 
+2 T$ \T1/ppl/m/n/12 for al-loys pre-sented in Ta-ble 7.2. (a) Mg$[]$Zn$[]$Ca$[]
+$, 
  []
 
 )
@@ -3115,6 +3100,7 @@ e-ory for ho-moge-nous and het-ero-ge-neous
 
 File: ./images/nucleation_free_energy.png Graphic file (type QTm)
 <use  "./images/nucleation_free_energy.png" >
+Requested font "pplr8t" at 10.95pt
 File: ./images/gibbs_free_energy.png Graphic file (type QTm)
 
 <use  "./images/gibbs_free_energy.png" > [5]
@@ -3150,8 +3136,8 @@ n mech-a-nism al-lows BMGs to be post-processed
 File: ./images/ProcessingofBMGs.png Graphic file (type QTm)
  <use  "./images/ProcessingofBMGs.png" >
 Overfull \hbox (5.29819pt too wide) in paragraph at lines 224--225
-[]\T1/ppl/m/n/12 Figure [][][][]2.4[][] shows a TTT di-a-gram for a generic BMG
-. Line (1) of this im-age shows the min-i-mum
+[]\T1/ppl/m/n/12 Figure [][]2.4[][] shows a TTT di-a-gram for a generic BMG. Li
+ne (1) of this im-age shows the min-i-mum
  []
 
 
@@ -3189,8 +3175,8 @@ ia a ther-mal pro-cess un-der ul-tra-high
 File: ./images/PLD_02.png Graphic file (type QTm)
 <use  "./images/PLD_02.png" > [11]
 Overfull \hbox (0.78528pt too wide) in paragraph at lines 260--261
-\T1/ppl/m/n/12 cause par-tial crys-talli-sa-tion (Fig-ure [][][][]2.7[][]), whi
-le still achiev-ing amor-phous TFMGs de-po-si-tions
+\T1/ppl/m/n/12 cause par-tial crys-talli-sa-tion (Fig-ure [][]2.7[][]), while s
+till achiev-ing amor-phous TFMGs de-po-si-tions
  []
 
 File: ./images/CaoThesis_XRDTarget.png Graphic file (type QTm)
@@ -3213,8 +3199,8 @@ Overfull \hbox (3.86952pt too wide) in paragraph at lines 297--298
 
 [14] [15] [16]
 Overfull \hbox (26.08159pt too wide) in paragraph at lines 324--325
-[]\T1/ppl/m/n/12 Yu, et al. [][[]] has noted that while more com-pli-cated atom
-ic struc-tures re-quire higher tem-per-a-tures
+[]\T1/ppl/m/n/12 Yu, et al. [[]] has noted that while more com-pli-cated atomic
+ struc-tures re-quire higher tem-per-a-tures
  []
 
 File: ./images/Tsub_Yu_SMG.png Graphic file (type QTm)
@@ -3245,7 +3231,7 @@ d lower en-ergy states be-ing en-dother-mic
 
 Overfull \hbox (4.40901pt too wide) in paragraph at lines 346--347
 \T1/ppl/m/n/12 in-ter-ests the ex-trap-o-lated SCL en-thalpy line of the bulk m
-a-te-rial (Fig-ure [][][][]2.10[][]) [][[]]. An or-di-nary
+a-te-rial (Fig-ure [][]2.10[][]) [[]]. An or-di-nary
  []
 
 File: ./images/Kearns_DSC.png Graphic file (type QTm)
@@ -3351,8 +3337,8 @@ e an-odic or ca-thodic re-ac-tions' driv-ing
 
 
 Overfull \hbox (2.81403pt too wide) in paragraph at lines 520--521
-[]\T1/ppl/m/n/12 The Tafel equa-tion (Equa-tion [][][][]2.6[][]) and Tafel Plot
-s are tools used to in-ter-pret the data gen-er-ated
+[]\T1/ppl/m/n/12 The Tafel equa-tion (Equa-tion [][]2.6[][]) and Tafel Plots ar
+e tools used to in-ter-pret the data gen-er-ated
  []
 
 
@@ -3378,8 +3364,8 @@ three months. The wound-healing
 File: ./images/ZbergHydrogen.png Graphic file (type QTm)
 <use  "./images/ZbergHydrogen.png" >
 Overfull \hbox (5.13095pt too wide) in paragraph at lines 563--564
-[]\T1/ppl/m/n/12 As Witte [][[]] has shown in his re-view mag-ne-sium was show-
-ing promise as a bio-reabsorbable
+[]\T1/ppl/m/n/12 As Witte [[]] has shown in his re-view mag-ne-sium was show-in
+g promise as a bio-reabsorbable
  []
 
 [33]
@@ -3417,7 +3403,7 @@ te of 3.3nm/s. Af-ter full de-po-si-tion
 [37] [38]
 Overfull \hbox (22.30891pt too wide) in paragraph at lines 636--637
 []\T1/ppl/m/n/12 The ini-tial TFMG sput-ter-ing pa-ram-e-ters will be based on 
-Liu, et al. [][[]] work on Zr$[]$Cu$[]$Ni$[]$Al$[]$
+Liu, et al. [[]] work on Zr$[]$Cu$[]$Ni$[]$Al$[]$
  []
 
 
@@ -3573,12 +3559,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 905.
  ) 
 Here is how much of TeX's memory you used:
- 43451 strings out of 428755
- 912465 string characters out of 3164221
- 1118037 words of memory out of 3000000
- 46129 multiletter control sequences out of 15000+200000
- 24940 words of font info for 59 fonts, out of 3000000 for 9000
+ 43289 strings out of 428755
+ 909722 string characters out of 3164221
+ 1112555 words of memory out of 3000000
+ 45977 multiletter control sequences out of 15000+200000
+ 23382 words of font info for 56 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 64i,16n,77p,10431b,720s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,10n,77p,10431b,720s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on ScottGleason PhDThesis.pdf (62 pages).
