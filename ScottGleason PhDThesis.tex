@@ -1,0 +1,978 @@
+\documentclass[a4paper,12pt,oneside]{report}
+\usepackage{indentfirst}
+\usepackage[top=2cm,bottom=2cm,right=3.5cm,left=0.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[none]{hyphenat} %Prevents hyphen words
+\usepackage{setspace}
+%\doublespace
+\onehalfspacing
+
+\usepackage{graphicx}
+\graphicspath{{./images/}}
+\usepackage[center]{caption}
+\usepackage{subcaption}
+\usepackage{placeins}
+\usepackage{float}
+%\captionsetup[sub]{labelsep=newline}
+%\usepackage{subfigure}
+
+\usepackage[ colorinlistoftodos ]{todonotes}
+%\sloppy
+\usepackage[hyperfigures=true,colorlinks=true,linkcolor=black]{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usepackage{pgfplots}
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{urlcolor=blue,linkcolor=black,citecolor=black,colorlinks=true}
+\usepackage{array,multirow}
+\usepackage[numbers,sort&compress]{natbib}
+\usetikzlibrary{plotmarks}
+\usepackage{amsmath}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+\usepackage{numprint}
+\usepackage{sistyle}
+\usepackage{booktabs}
+%\DeclareMathOperator\erfc{erfc}
+%\DeclareMathOperator\erf{erf}
+%\DeclareMathOperator\F{F}
+%\DeclareMathOperator\G{G}
+\usepackage{lscape}
+\setlength{\unitlength}{1cm}
+\usepackage{amssymb} 
+\usepackage[parfill]{parskip}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{rotating, graphicx}
+\usepackage{pdflscape}
+\usepackage[toc,page]{appendix}
+\pgfplotsset{minor grid style={dashed,gray!50}}
+\pgfplotsset{major grid style={black}}
+\usepackage{threeparttable}
+\usepackage[version=2]{mhchem}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\setcounter{tocdepth}{4} %Adds subsubsection numbers
+\setcounter{secnumdepth}{4} %Adds subsubsections to ToC
+\usepackage{verbatim} %Allows multiple line comments
+
+%My Commands
+\newcommand{\MgZnCa}{Mg$_{65}$Zn$_{30}$Ca$_{5}$}
+\newcommand{\Tg}{$T_{g}$}
+\newcommand{\Tx}{$T_{x}$}
+\newcommand{\Tm}{$T_{m}$}
+\newcommand{\Tl}{$T_{l}$}
+\newcommand{\TgTm}{$T_{g}/T_{m}$}
+\newcommand{\TgTl}{$T_{g}/T_{l}$}
+\newcommand{\n}{$\eta$}
+\newcommand{\Rc}{$R_{c}$}
+\newcommand{\dTg}{$\delta T_{g}$}
+\newcommand{\Tsub}{$T_{sub}$}
+\newcommand{\Tf}{$T_{f}$}
+\newcommand{\Tk}{$T_{k}$}
+\newcommand{\Tonset}{$T_{onset}$}
+\newcommand{\degree}{$^{\circ}$}
+\newcommand{\Cp}{$C_{p}$}
+\newcommand{\p}{$\rho$}
+
+\begin{document}
+\thispagestyle{empty} % don't show (roman) page number on titlepage
+\begin{titlepage}
+\begin{center}
+\vspace*{1cm}
+
+%Title
+\textbf{\LARGE{Biocompatible Thin Film and Ultra-Stable\\Metallic Glass Surfaces (TFMGs and SMGs)}}\\
+%Subtitle
+\textbf{PhD Thesis}
+
+\vspace{2cm}
+
+\textbf{\large{PhD Candidate: Scott Alan Gleason}}
+
+\textbf{Supervisor: Professor Michael Ferry}
+
+\textbf{Co-Supervisor: Dr. Kevin Laws}
+
+\vspace{2cm}
+
+A thesis in fulfilment of the requirements for the degree of \\
+Doctor of Philosophy
+
+\vspace{1.1cm}
+
+\includegraphics[width=0.2\textwidth]{UNIlogo.png}
+\label{fig:Unilogo}
+
+\vspace{0.8cm}
+
+School of Material Science and Engineering\\ Faculty of Science
+
+\vspace{2cm}
+
+%Month and Year
+\today
+\end{center}
+\end{titlepage}
+
+\clearpage 
+\pagenumbering{roman}
+\tableofcontents\newpage
+\listoffigures\newpage
+\listoftables\newpage
+\clearpage %% start of main matter
+\pagenumbering{arabic} 
+
+\chapter*{ACKNOWLEDGEMENTS}
+Professor Michael Ferry
+
+Dr. Kevin Laws
+
+Dr. Bulent Gun
+
+Professor Jianzhong Jiang
+
+Fellow PhD students
+
+\chapter*{ABSTRACT}
+\todo{General abstract structure;
+	Problem investigated;
+	Procedures followed;
+	Principle results obtained;
+	Major conclusion reached}
+The aims of this thesis are to produce and examine biodegradable thin film metallic glasses (TFMGs) and the recently discovered ultrastable metallic glass (SMG) films for biomedical applications. To ensure full biocompatibility the films will be composed entirely of essential mineral MgZnCa alloys.
+
+The literature review provides an overview of metallic glass formation and processing, thin films and deposition methods, initial understandings of ultrastable glasses, and biomedical requirements with a focus on biodegradation. 
+
+The films will be deposited onto various substrates via magnetron sputtering and pulse laser deposition (PLD) techniques. The master alloys and deposition targets will be prepared via induction furnace melting and copper mould gravity casting of pure base elemental Mg, Zn, and Ca (99.8wt\% pure or better).
+
+The initial results have shown the \MgZnCa~ alloy is relatively brittle, with most targets fracturing during casting or shaping operations. The targets which were produced without failure were examined via DSC and found to be at best primarily crystalline in structure. This should be expected as this alloy's critical casting thickness is similar to the thickness of the mould utilised. 
+
+Going forward XRD analysis will be used to definitively establish the targets' structures, and the target manufacturing process will be refined (current method is not efficient). \todo{Injection moulding
+Wider spacer
+Pre-heat the mould
+Coat riser with more thermal conductive materials (Diamond)
+Add a bottom riser to the mould to help it display air and get more fill
+Coat riser with Boron-Nitrate for more even cooling No, that would make riser take longer time to cool and make plate crack more.} Numinous thin film metallic glass specimens will be produced via sputtering/PLD and evaluated; hopefully leading to publications and attendance at conferences. 
+
+\chapter{INTRODUCTION}
+\todo{Property modification Coating BMG with same composition coating.  Look at K. Schluter Intro (Green part on property modification).
+	Look at Thin films, and the newly discovered ultra-stable thin films.
+	Multiple deposition methods  PLD, RF, Magnetron
+	Corrosion in Melbourne labs.
+	Look at other compositions or metal systems
+	Modifying the machines/equipment to fit our purposes.}
+Current pharmaceutical technology relies on re-dosing of drugs, often with treatments being readminister several times per day or week. Coating pharmaceuticals with tailored bioabsorbable films designed to degrade over time could allow for a slow controlled release of drug packages such as antibiotics, antimicrobials, and analgesics (painkillers). These medical devices could be implanted during surgeries, eliminating the need for daily drug administration.  
+
+Thin film metallic glasses (TFMGs) are one technology which may make this possible. These novel amorphous metallic materials have been demonstrated to significantly modify substrate properties such as hardness, wear residence, surface finish, fatigue and corrosion residence, and even ductility. Recently ultrastable metallic glass (SMG) films have been discovered which display improved thermal and kinetic stabilities, and often reduced entropy relative to the more established TFMGs. Many properties of SMGs have not yet been characterised and it is not yet known if in additional to improved stability if they may offer greater improvements in substrate property modification. The application of these films onto drug delivery systems, or even orthopaedic devices, could potentially provide great improvements in wound healing and pain management practices.
+
+The aims of this thesis are to produce and investigate quality TFMGs and SMGs for biomedical applications. Thin films of established bulk metallic glass (BMG) compositions, such as \MgZnCa~ will be deposited onto various substrates including; silicon wafer, BMGs of similar film composition, Polycaprolactone (PCL) scaffolds, and dissolvable NaCl substrate (to allow base film to be studied independently). The properties and characteristics of the films as well as their property modification effects on the different substrates will be investigated, and the characterised films compared with their BMG counterparts. 
+
+\chapter{LITERATURE SURVEY} 
+
+\section{Metallic Glasses (MGs)}
+Metallic glasses (MGs) are alloys which exhibit an amorphous structure with no long rang order (LRO). This lack of an ordered structure results in MGs possessing a range of unquiet properties which make them distinct even from traditional crystalline alloys of similar composition.
+
+\subsection{MGs Properties}
+The unique properties of MGs are largely the result of their lack of crystalline structure and grain boundaries, meaning they have essentially eliminated the principal structural and chemical weaknesses of metallic systems. This serves to provide MGs with superior strength, hardness, corrosion, oxidation and wear resistance, reduced density, reduced thermal and electrical conductivity, and low coefficients of friction when compared with conventional crystalline alloys. 
+ 
+These MG alloys also generally display large amounts of elastic deformation, though their plastic deformation is significantly limited. This results from the amorphous structure's lack of slip systems and dislocation movement; the fundamental mechanism of plastic deformation in crystalline metals. The plastic deformation that is displayed by MGs is via a limited localised shear band mechanism in what is termed the shear transfer zone (STZ ). Thus when MGs fail at high stress it tends to be via brittle fracture mechanisms, although it should be emphasised MGs are far less brittle than molecular glasses owing to their non-directional metallic bonds \cite{Greer2013}. This bonding structure also allows the failure mechanics to shift from brittle to ductile at elevated temperatures, as will be explained.
+
+\subsection{Theory of MG Production}
+The production of MGs requires metallic alloys to be solidified in such a way as to produce stable amorphous structures. This is accomplished via the high cooling rates achieved through rapid quenching from the liquid or vapour states. The physical mechanisms that make this possible are described below.  
+
+
+\subsubsection{Solidification, Super Cooled Liquid (SCL), and Glass Transition (\Tm)} \label{sec:Gibbs}
+Theoretically most liquid materials cooled to their melting temperature (\Tm) will undergo a phase change into an ordered solid with a repeating crystalline structure. This is a first-order thermodynamic phase change with the entire process occurring solely at the \Tm~ and being observed as an enthalpy ($H$) and volume ($V$) discontinuity. As the ordered structure is at a lower energy and generally more dense than the amorphous liquid both the $H$ and $V$ discontinues are negative, with a notable exception being water where the $V$ increases.
+ 
+A thermodynamical stable system is at the lowest energy as given by Gibb's Free Energy Theory, equation \ref{equ:Gibbs}, which indicates energy reduces with increasing temperature ($T$). At low temperatures the lowest energy is dominated by the absolute zero enthalpy ($H_{0}$) while the heat capacity ($C_{p}$) slope dominates at higher temperatures. Weakly bonded structures have greater $H_{0}$ and $C_{p}$ and hence their slopes vary more rapidly than strongly bonded structures. Thus at low temperatures strongly bonded solids are at the lowest stable energy, while at higher temperatures weakly bonded liquids become stable, see Figure \ref{fig:FreeEnergy}. 
+
+%numbered display equation
+\begin{equation}
+	G = H_{0}-\int_{0}^{T} 
+	\left[
+	\int_{0}^{T}(C_{p}/T) dT
+	\right] dT
+	\label{equ:Gibbs}
+\end{equation}
+
+Where $G$ is the free energy, $H_{0}$ the enthalpy at absolute zero, $C_{p}$ the heat capacity, and $T$ the temperature.
+
+Despite the thermodynamic driving force liquids are generally cooled below their \Tm before they begin to solidify because they require a stable nucleus to initiation the phase change. This solidification is described by Gibb's Free Energy Theory for homogenous and heterogeneous nucleation. In brief, a stable nuclei initiates solidification by reaching a critical size where further growth requires less energy than remelting, providing the driving force for the phase change. The simpler case of homogenous nucleation is given by equation \ref{equ:Homo} which is plotted as Figure \ref{fig:GibbsNucleation}. 
+
+\begin{equation}
+\Delta G(r) = (4 \pi r^2 ) \gamma_{SL}+(4/3) \pi r^3 \Delta G_{V} 
+\label{equ:Homo}
+\end{equation}
+
+
+Where $\Delta G$ is the change in free energy, $r$ the nuclei radius, $\gamma_{SL}$ the surface energy, and $\Delta G_{V}$ the reduction in volume energy.
+
+%code to put 2 images side by side in a figure
+\begin{figure}[bp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{nucleation_free_energy.png}
+		\caption{}
+		\label{fig:GibbsNucleation}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{gibbs_free_energy.png}
+		\caption{}
+		\label{fig:FreeEnergy}
+	\end{subfigure}
+	\caption{(a) Homogeneous nuclei within the liquid must reach the critical radius ($r^*$) of the nucleation barrier energy ($\Delta G^*$) to initiate crystalline growth. (b) Thermodynamically stable materials are always at the lowest Free Energy ($G$) state, but can exist in unstable higher free energy states if there is no driving force for the energy reduction.}%global caption
+	\label{fig:Gibbs}
+\end{figure}
+
+When a liquid is cooled below its $T_{m}$ without solidifying it is termed a super cooled liquid (SCL).  Amorphous solids, or glasses, are formed from SCL by cooling at rates sufficient to suppress the nucleation process entirely. As the SCL is cooled its viscosity ($\eta$) increases while its $H$ and $V$ decrease linearly with temperature at the same rate as the liquid state. As the $\eta$ approaches about $10^{12}$ $Pa*s$ the time scale for molecular rearrangement of the SCL becomes significantly longer than experimental observation and the SCL is for all practical purposes 'frozen' as a glass \cite{Ediger1996, Ishii2014}. This transition occurs at the glass transition temperature ($T_{g}$) and is characterised by a decrease in the rate of change of $H$ and $V$ with temperature. Note this transition is not a phase change but instead a kinetic event, meaning the material is not technically thermodynamically or kinetically stable , but is treated as stable since the glass does not possess the required kinetic energy to transform into a more stable structure \cite{Ediger1996, Ishii2014}. Being a kinetic event, this means glass' $T_{g}$, $H$, and $V$ are depend on the cooling rate, with faster cooling rates generally producing glasses with higher $T_{g}$, $H$, and $V$ (i.e. quickly cooled glasses have higher services temperatures and reduced density compared to slowly cooled glasses), see Figure \ref{fig:GlassCooling}. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Glass_Cooling_Graph.png}
+	\caption{Schematic of specific enthalpy ($h$) or specific volume ($v$) as a function of temperature for a material that exhibits both glass and crystalline solid states. Note 'glass 1' has a greater $T_{g}$ and accordingly greater $h$ \&  $v$ than 'glass 2.' This higher temperature stability is the result of 'glass 1' being cooled more quickly than 'glass 2.' Modified from \cite{Ediger1996}.}
+	\label{fig:GlassCooling}
+\end{figure}
+
+As the production demonstrates MGs have a similar amorphous atomic structure to liquid metals. This explains MGs' relative low density as their atoms are essentially still arranged in a spacious liquid-like configuration (see Figure \ref{fig:GlassCooling}). This liquid-like structure enables MGs to excide traditional alloys' solubility limits as the lack of LRO helps prevents the formation of intermetallic compounds. MGs lack of significant plastic deformation is due to the atoms not possessing the required kinetic energy for molecular rearrangement. Hence the atoms are not able to 'slide' past one another to deform as in the molten liquid state.
+
+\subsubsection{Glass Forming Ability (GFA) and Bulk Metallic Glasses (BMGs)}
+
+The ease at which a material is able to form a glass is termed its glass forming ability (GFA). The GFA is also closely tied to a glass's stability with high GFAs generally indicating high thermal stability \cite{Aji2013}. Molecular glasses possess sufficiently high GFAs and thermal stability that the material has been produced since ancient times, and polymers' GFAs are often high enough they can form glass even with slow cooling rates. In contrast metals have such low GFAs their amorphous glass state was only discovered in 1960 by Klement, et al. \cite{Klement1960}. This low GFA results from metals' high atomic mobility, which allows for  MGs' fast structural relaxation and recrystallization at elevated temperatures  \cite{Aji2013}. 
+
+Much of the work on MGs has been to improve their GFAs in order to decrease their critical cooling rate ($R_{c}$), the rate of quench required to avoid nucleation into the crystalline state \cite{Inoue2000}. From these works it has been discovered alloys with their $T_{g}$ near their $T_{m}$ have higher GFAs \cite{Inoue2000, Trexler2010, Turnbull1969}. Meaning the GFA of an alloy increases with its reduced glass transition temperature ($T_{g}/T_{m}$) \cite{Inoue2000, Trexler2010, Turnbull1969}. 
+
+From these findings Inoue \cite{Inoue2000} has formulised three rules for high GFA systems;
+
+%Bullet List
+\begin{itemize}
+	\item Multi-component systems of three or more alloy constituents;
+	\item Significant difference of above 12\% in atomic size ratios of the three main constituents; and
+	\item Negative heats of mixing among the three main constituents (i.e. exothermic reaction).
+\end{itemize}
+
+Alloys that follow these rules display deep eutectics with low $T_{m}$, sluggish crystallisation kinetics, and accordingly a high $T_{g}/T_{m}$ \cite{Inoue2000, Schroers2010}. The application of these rules has helped to lower $R_{c}$ sufficiently to allow the produce of three-dimensional amorphous alloys with their smallest dimension being at least 1mm, formally referred to as bulk metallic glass (BMG) formers. These BMGs are superior to MGs as they possess sufficiently high GFAs to allow for these greater dimensions and accordantly display improved thermal stability. As such alloys of BMG composition are of the most interests regardless of a sample's desired dimensions, and all alloy compositions henceforth in these works shall be BMGs unless otherwise noted. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{BMG_Tg_on_Tm_01.png}
+	\caption{Schematic of critical cooling rate ($R_{c}$) and maximum sample thickness ($t_{max}$) as a function of reduced glass transition temperature ($T_{rg}=T_{g}/T_{m}$) for a number of glass forming systems. Note the $R_{c}$ and $t_{max}$ improve with increasing $T_{g}/T_{m}$. Modified from \cite{Trexler2010}.}
+	\label{fig:BMGRc}
+\end{figure}
+
+The improvements in $R_{c}$ for amorphous alloy compositions is shown in Figure \ref{fig:BMGRc}, with the defining moment of BMG development being denoted by the minimum sample thicknesses ($t_{max}$) reaching the 1mm mark.  Note the $R_{c}$ and $t_{max}$ improve with increasing $T_{g}/T_{m}$, signifying alloys' with larger $T_{g}/T_{m}$ ratios possess higher GFAs. 
+
+\subsubsection{BMG Manufacture Methods}
+As mentioned, the production of BMGs requires the alloys be rapidly quenched at a rate equal or better than their \Rc~ in order to avoid crystallisation. For bulk samples these cooling rates are achieved via solidifying the liquid BMG alloys onto copper heat sinks capable  of extracting heat at the high rates required. The four standard production methods are:
+
+%Bullet List
+\begin{itemize}
+	\item Gravity Casting: Molten metal is poured under an air  atmosphere into a copper mould to solidify;
+	\item Injection Casting: Molten metal under an inert atmosphere is forced via pressure into a copper mould to solidify;
+	\item Melt Spinning: Molten metal is solidified onto a water cooled copper wheel, producing ribbons of material; and
+	\item Strip Casting: Molten metal is extruded between two water cooled copper rollers, producing continuous plate. 
+\end{itemize}
+
+These methods yield cooling rate sufficient for production of simple geometry BMGs, but do not allow for complex shapes. Furthermore secondary processing of BMGs via methods like machining are often impractical do to the materials' brittleness, low thermal conductivity, and the risk of recrystallization via the processing heat additions. Instead more complex shapes are accomplished via secondary processing conducted above the BMGs' \Tg. 
+
+\subsubsection{Thermoplastic Forming (TPF) Processing}
+A unique property of amorphous metals are once formed they can be heated above their \Tg~ into the SCL temperature range without crystallising for an appreciable amount of time. This is possible because BMGs process sufficient thermal stability above their \Tg~ to maintain their amorphous structure, i.e. the kinetics for crystallisation are slow \cite{Schroers2010}. At these elevated temperatures BMGs display dramatic softening and superplastically as their \n~ reduces to its SCL values, enabling the constituent atoms to flow more freely past each other. 
+
+The introduction of this temporary plastic deformation mechanism allows BMGs to be post-processed via thermoplastic forming (TPF) techniques, similar to thermoplastic polymers. Once the elevated temperature processing is complete the newly formed BMG components can be slowly cooled below their \Tg~  to the glassy state without initiating crystallisation. This slow cooling helps to eliminate residual internal stresses and allows for high dimensional accuracy in complex BMG components \cite{Schroers2010}. Note this processing is unique to BMG systems as the more rigid and limited plastic deformation mechanisms of conventional crystalline metallic systems do not support the high deformations of TPF.
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{ProcessingofBMGs.png}
+	\caption{Schematic TTT diagram where line (1) indicates the slowest cooling rate possible to avoid crystallisation and achieve the metallic glass state, and line (2) an elevated temperature processing window above \Tg~ where metallic glass displays excessive plastic deformation. Reproduced from \cite{Schroers2010}.}
+	\label{fig:BMGTTT}
+\end{figure}
+
+Figure \ref{fig:BMGTTT} shows a TTT diagram for a generic BMG. Line (1) of this image shows the minimum \Rc~ quench required to completely avoid crystallisation nucleation when forming the BMG. Line (2) then displays an elevated temperature processing window available for post-processing of the formed BMG. Note with line (2) the processing window stays below the crystallisation zone and displays a gradual cooling once the post processing is complete.
+
+These methods are well suited to the production of BMG substrates, but are unsuitable to forming thin film metallic glass (TFMG). The TFMGs of primary interest for these works must be quenched from the vapour state onto a substrates via deposition techniques.
+
+\section{Thin Films}
+\subsection{Thin Film Properties}
+Thin films are coatings of less than a nanometre to several micrometres in thickness applied to a substrate with the express purpose of modifying the substrate properties. The application of TFMGs to substrates has been shown to have wide spreading effects on properties such as hardness  \cite{Chu2012}, wear residence \cite{Liu2009, Prakash2005}, fatigue properties \cite{Chiang2006, Chu2011}, corrosion residence \cite{Chu2009}, and surface finish \cite{Liu2009, Chiang2006, Chu2011, Tsai2012}. Chu, et al. \cite{Chu2012} have even demonstrated TFMGs can significantly increase BMG substrates' bending ductility via modifying the shear band distribution. This ability to dramatically improving substrate properties, and for the films to often display enhanced properties even from equivalent macro BMGs makes TFMGs an intriguing method for the enhancement of biomaterials. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.50\textwidth]{ThinFilm.png}
+	\caption{Schematic of a thin film applied to a substrate to modify its properties. Typical film thickness (t) ranges are from a few $nm$ to several $\mu m$ depending on application}
+	\label{fig:ThinFilm}
+\end{figure}
+
+\subsection{Production via Deposition}
+TFMG coatings are readily produced via vapour deposition (VD) processes such as the physical vapour deposition (PVD) processes of pulsed laser deposition (PLD) and sputtering. These processes produce thin films by condensing vaporised material onto a solid substrate under low vacuum. 
+
+The VD manufacturing route has a significant advantage over traditional BMG liquid casting methods in that the composition window is much wider. The vaporised atoms are at much higher vapour pressure than the solid substrate and on impact their kinetic energy is rapidly dissipated into the substrate \cite{Ishii2014}. This greater distance from equilibrium provides a much greater rapid quench for this vapour-to-solid state process than the liquid-to-solid state utilised in BMG casting processes \cite{Chu2012b}. 
+
+\subsubsection{Pulsed Laser Deposition (PLD)}
+Pulsed laser deposition (PLD) produces films primarily via a thermal process under ultrahigh vacuum (UHV). In the process a 'target,' typically rotating, of the desired film material is irradiated and locally vaporised by a 45$^{\circ}$ inclined laser photon pulses. This results in vaporised atoms being ejected from the target as a primarily perpendicular plasma plume , which is directed toward the substrate. Over the course of thousands of repetitions the resulting build-up of atoms produces a thin film (Figure \ref{fig:PLD}). 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{PLD_02.png}
+	\caption{Schematic of a typical PLD setup showing the incoming laser beam inclined at an approximate 45$^{\circ}$ angle to the target, and the rotating target and substrate parallel to each other. Modified from \cite{Krebs1993}.}
+	\label{fig:PLD}
+\end{figure}
+
+\subsubsection{PLD Advantages}
+The key advantage of PLD is it is able to deposit films of the same stoichiometric ratio, or composition, as its targets \cite{Dijkkamp1987, Heitz1990}. This is significant as it means deposited films have the same elemental composition as their target material. As the compositions of BMGs are generally carefully chosen this is practically useful as it streamlines achieving the desired TFMG compositions. 
+
+\subsubsection{PLD Challenges}
+The work of Cao \cite{Cao2013} has identified potential problems in the PLD deposition of TFMGs with achieving quality surface finishes and recrystallization of amorphous targets. It appears the deposition times of the PLD allow for sufficient heat to be applied to amorphous targets to cause partial crystallisation (Figure \ref{fig:ReCryTarget}), while still achieving amorphous TFMGs depositions onto the examined crystalline zirconium substrates. As PLD is by definition a thermal deposition process preventing this heat from entering the targets could be difficult. And it remains to be examined if this excess heat could affect the substrates; i.e. recrystallization of amorphous substrates, polycaprolactone (PCL) scaffolds strength, thermal breakdown of the scaffold payloads, etc. Naturally this heat is a moot point when examining standalone TFMGs as these specimens are separated from their substrate after deposition. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{CaoThesis_XRDTarget.png}
+	\caption{Amorphous target XRD scan before (black curve) and after (red curve) PLD showing the shift from characteristic amorphous structure to crystalline. Reproduced from \cite{Cao2013}.}
+	\label{fig:ReCryTarget}
+\end{figure}
+
+PLD TFMG surface finish droplet defects have been observed by Krebs and Bremert \cite{Krebs1993} and later Cao \cite{Cao2013}. It is suggested these defects are intrinsic to the setup configuration and cannot be eliminated by refining the PLD parameters. It is further proposed it may be possible to achieve higher quality surface finishes with setup modifications such as the addition of a mechanical velocity filter to remove slower, droplet depositing prone particles from the plasma plume. Another option is dual-beam ablation geometry which utilised two colliding laser ablation to redirect the coating to a substrate outside the direct path of both plumes, preventing heavier droplet depositing prone particles from reaching the substrate. Note both of these methodologies reduce the deposition rate and it remains to be seen if these changes are practical to implicate at UNSW.
+
+\subsection{Sputtering Deposition}
+Sputtering deposition is similar to PLD in that it also coats a substrate with material transferred from a target under vacuum. The essential difference is sputtering utilises the momentum of colliding plasma cations, instead of lasers, to accomplish the transfer. 
+
+\subsection{Direct Current (DC) Sputtering} 
+Direct Current (DC) sputtering applies a high-voltage to create a circuit between the target and substrate, forming a negative (cathode) and positive (anode) electrode respectively. The high-voltage electric field generated within the chamber ionises the low pressure inert working gas , generally Argon, into a plasma, with its positivity charged cations being attracted to the negative target. When the charged cations collide with the target the moment exchange dislodges atoms from the target's surface and expelled them in all directions. A portion of these free, non-ionised target atoms are ejected toward the substrate surface and on impact are deposited as the thin film (Figure \ref{fig:Sputter_Schematic}).
+
+%code to put 2 images side by side in a figure
+\begin{figure}[bp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.75\textwidth}
+		\includegraphics[width=\textwidth]{Sputtering_02.png}
+		\caption{}
+		\label{fig:Sputter_Schematic}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.75\textwidth}
+		\includegraphics[width=\textwidth]{Field_Sputtering.png}
+		\caption{}
+		\label{fig:Field_Sputtering}
+	\end{subfigure}
+	\caption{(a) Schematic of a typical DC sputtering setup with an Ar working gas. The high-voltage field generates and propels Ar+ cations toward the negative target of material 'M.' Dislodged neutral 'M' atoms are hurled in all directions with some being deposited onto the positive substrate. Modified from \cite{Brown2014}. (b) Schematic of magnetron sputtering deposition showing magnetic field line's effect on the working Ar plasma. Note target 'M' atoms remain neutrally charged.}%global caption
+	\label{fig:Sputter}
+\end{figure}
+
+The key advantage of DC sputtering when working with amorphous materials is it able to accommodate low working temperatures as the momentum mechanism avoids adding unnecessary heat to the targets and substrates. Additionally, while Ar is a convenient working gas, greater deposition efficiency can be achieved when depositing lighter or heavier elements by working with lighter or heavier gases, respectively. These characteristics help make it possible to deposit most BMGs via DC sputtering.  
+
+\subsubsection{Magnetron Sputtering}
+Magnetron sputtering is a variant of DC sputtering which improves ionisation efficiency by applying a magnetic field to trap the charged plasma cations near the target surface. This trap also increases the total volume of plasma cations via trapped free electrons colliding with neutral working gas atoms and ionising them. The extra target collisions from these two effects increases the deposition rate even at lower working pressures . For these reasons this variant is prevalent in most recent studies and all further mention of sputtering shall be magnetron sputtering, unless otherwise noted. 
+
+\subsubsection{Sputtering Advantages}
+While the momentum exchange mechanism of sputtering allows for the use of amorphous targets when depositing TFMG (i.e. excess heat is not added to the system) it has been found the use of crystalline targets results in no appreciable difference in the quality, composition, and structure of the substrate coating \cite{Liu2012}. Instead, as shown by Liu, et al. \cite{Liu2012} work on the Zr$_{55}$Cu$_{30}$Ni$_{5}$Al$_{10}$ system, the coating quality and production of TFMG is primarily controlled by the Ar pressure and sputtering power parameters. This has implications for practical application production runs as crystalline targets are easier, quicker and cheaper to produce than amorphous ones. 
+
+When depositing TFMGs it has been observed the deposition rate is proportional to the sputtering power, and that higher rates result in smoother film surfaces \cite{Cao2013, Liu2012}. Additionally, Liu, et al. \cite{Liu2012} have found a dynamic smoothing effect occurs making it possible to produce atomically flat TFMGs with low Ar pressure and high sputtering power. 
+
+\subsubsection{Sputtering Challenges}
+One of the core challenges with single target magnetron sputtering is it can be difficult to achieve the same stoichiometric ratio as the target alloy when depositing multi-component TFMGs \cite{Cao2013, Liu2012, Kondoh2008}. This occurs because lighter elements dislodged from the target more easily when subjected to ion bombardment, resulting in different sputtering yields for each element of multicomponent targets. It is possible to remedy the situation through the use of multiple pure element targets, called combination deposition \cite{Deng2007, Qin2009, Apreutesei2014}, but as shown by Liu, et al. \cite{Liu2012} this method may not be necessary. Liu, et al. \cite{Liu2012} found it is possible to deposit TFMGs with the same composition as their Zr$_{55}$Cu$_{30}$Ni$_{5}$Al$_{10}$ target by refining the Ar pressure and sputtering power parameters. As this solution requires only a single target and no modifications to the sputtering set up it seems reasonable to examine it first with the Mg based systems.   
+
+\subsubsection{Preferred PVD Methods}
+Thus despite sputtering having more difficulties than PLD when refining the stoichiometric ratios for deposition, it is has been concluded it the superior deposition method. This is primarily because of its significant advantages; non-thermal process, higher operating pressures, faster deposition rates, and better surface finishes. For these reason sputtering shall be the preferred method for TFMG deposition in these works. 
+
+\section{Ultrastable Glass (USG)}
+Ultrastable glasses (USGs) are VD produced amorphous films in a low energy state generally characterised by high thermodynamic and kinetic stabilities, low entropy, high density, high elastic modulus , and always by an enhanced glass transition temperature (\dTg). The \dTg~ phenomenon is their defining characteristic as it indicates the high kinetic stability due to the higher temperatures required to dislodge their atoms from the glassy configuration [28, 29]. This naturally extends to give USGs higher service temperatures, and hence higher softening temperatures relative to their ordinary glass counterparts.
+
+\subsection{USG General Properties and Development}
+The defining characteristic of USGs are the \dTg~ and accordingly their high kinetic stability. They also generally are at a low-thermodynamic-energy state exhibited by low enthalpy, have a high density, and possess a high elastic modulus. These effects can be significant as demonstrated by Aji, et al. \cite{Aji2013} whom produced materials with 30\% gains in elastic modulus and hardness.  
+
+To date the only developed USGs are organic, molecular and polymer glasses, with only a handful of attempts being made to produce ultrastable metallic glasses (SMGs) [4, 30, 31]. Part of the reason for this is it unclear if the more simple atomic structures of metallic alloys, relativity to molecular and polymer glasses, are suitable to form USGs \cite{Yu2013}. Nevertheless the work of Yu, et al. \cite{Yu2013}, Aji, et al. \cite{Aji2013}, and Wang, et al. \cite{Wang2014} on Zr and Au alloy systems have established the initial understandings of what appear to be SMGs, though it remains to be seen how the established trends will extend to other metallic systems. 
+
+\subsection{USG Production}
+Production of USGs is via low rate, low pressure VD techniques onto substrates at elevated temperature [3, 4, 30-32]. This method allows sufficient time for the molecular relaxation kinetics of glasses to rearrange into highly efficient packing structures [4, 28, 31]. This initial work on USGs shows the more complicated the deposition material's atomic structure the higher the substrate temperature (\Tsub) must be \cite{Yu2013}. Accordingly the ideal \Tsub~ for a SMG is 0.7 $-$ 0.8 \Tg, while it is 0.75 $-$ 0.85 \Tg~ for the more complicated molecular glasses [28-30, 33, 34].
+ 
+Yu, et al. \cite{Yu2013} has noted that while more complicated atomic structures require higher temperatures to arrange into USG configurations no definite mechanism has been identified for why the ideal ranges are well below the USGs' \Tg. Theoretically higher temperatures should allow for more efficient rearrangement of atoms, but this does not happen due to unidentified limiting factors. Ishii and Nakayama \cite{Ishii2014} suggest increased diffusion and quicker relaxation times at the surface may be responsible while Yu, et al. \cite{Yu2013} extends, suggesting the quicker relaxation times lead to a lower \Tg~ at the USG surface. This implies the surface atoms behave as a SCL, meaning the atoms have essentially been quenched from the liquid state instead of being directly deposited from the vapour state \cite{Yu2013}. It is anticipated the simple atomic structure of SMGs could serve as model material in the study of these glass thermodynamics and kinetics phenomena [30, 31]. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Tsub_Yu_SMG.png}
+	\caption{Relationship between \Tsub~ and \dTg~ for the Yu, et al. \cite{Yu2013} SMG. Data clearly shows deposition at  \Tsub~ outside of the ideal temperature range results in poor USG \dTg~ gains. Reproduced from \cite{Yu2013}.}
+	\label{fig:YuTsub}
+\end{figure}
+
+Non-VD production techniques do not allow sufficient rearrangement time to form USGs as is demonstrated by organic glass where a reduction in cooling rate by a factor of 10 typically only decreases the \Tg~ by 3 $-$ 5 kelvin [2, 29] . The results of the VD techniques cannot even be replicated with extensive artificial aging or annealing times below \Tg. For example Swallen, et al. \cite{Swallen2007} found with organic  glass the ultrastable effects could not be replicated even when annealed below their  \Tg~ for 6 months, and when working with Kearns, et al. \cite{Kearns2008} went on to show the theoretical annealing time required would be at least 1000 years. Additionally both Aji, et al. \cite{Aji2013} and Wang, et al. \cite{Wang2014} showed annealing SMGs can completely remove the ultrastable effects, implying any production materials should have their service temperatures and thermal creep carefully evaluated.
+
+\subsection{SMG Characterisation and Modelling Techniques}
+Additional insight into the thermodynamic and kinetic stability, general properties, and structure of SMGs have been identified via a number of characterisation and modelling techniques. 
+
+\subsubsection{Fictive Temperature (\Tf), Kinetic Stability and Enthalpy via Differential Scanning Calorimetry (DSC)}
+Differential scanning calorimetry (DSC) is an analytical technique that measures the heat flow of an unknown sample. This is done by raising its temperature linearly at the same rate as a reference sample with a known heat capacity. This allows phase changes to be detected in the unknown sample as more or less heat will need to be applied to it to maintain both samples at the same temperature. This can be used to detect melting, crystallising, and other changes like glass transition in a sample.
+
+With amorphous materials the analysis displays an exothermic 'step in the baseline' as the sample reaches its \Tg~ because it undergoes a change in its heat capacity. Upon further heating many amorphous materials spontaneously rearrange themselves into an ordered crystalline structure. This Crystallisation temperature  (\Tx) is recorded as an exothermic peak. With further heating the melting temperature (\Tm) and liquidus temperature (\Tl) are reached and recorded as endothermic  peaks, absorbing energy. Note these peaks correspond with Gibb's Free Energy , with system restructuring to more ordered lower energy states being exothermic (i.e. glass to crystalline), and disordered lower energy states being endothermic (i.e. crystalline to liquid), see Figure \ref{fig:FreeEnergy}.
+
+Using DSC the kinetic stability of glass can be measured by shifts in the onset temperature (\Tonset), which appear as the first 'step in the baseline' in the DSC specific heat capacity ($c_{p}$) trace; identifying the start of the \Tg~ region. Shifts in the \Tonset~ to higher temperatures identify an increase in heat capacity as the atoms need to absorb more energy to become mobile; indicating the higher kinetic stability with a higher \Tg~ \cite{Kearns2008}. The value of the \Tg~ is generally taken as the maxima of the derivative of trace with respect to temperature.
+
+A specific enthalpy (h) curve from the DSC trace can be obtained by integrating the original \Cp~ trace, with respect to temperature. Using this curve the  fictive temperature (\Tf) can be used to establish the enthalpy of the glass  by measuring were the film's enthalpy line interests the extrapolated SCL enthalpy line of the bulk material (Figure \ref{fig:DSC_IMC_PMMA}) \cite{Kearns2008}. An ordinary glass's enthalpy appears at $T_{f} = T_{g}$ on the trace, whereas an ultrastable glass's is expected to have a lower \Tf~ and lower enthalpy at $T_{f} < T_{g}$.  
+
+%code to put 2 images side by side in a figure
+\begin{figure}[bp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.75\textwidth}
+		\includegraphics[width=\textwidth]{Kearns_DSC.png}
+		\caption{}
+		\label{fig:DSC_IMC}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.75\textwidth}
+		\includegraphics[width=\textwidth]{Guo_DSC.png}
+		\caption{}
+		\label{fig:DSC_PMMA}
+	\end{subfigure}
+	\caption{(a) An integrated DSC trace for the molecular  IMC glass system displaying the various values of \Tf~ obtained when varying the deposition rate (the coloured lines). Note all deposited glasses have a reduced \Tf~ indicating a reduction in enthalpy compared to ordinary glass. (b) An integrated DSC trace for the polymer PMMA system showing increased enthalpy with varied substrate temperature. Reproduced from \cite{Kearns2008} and \cite{Guo2012} respectively.}%global caption
+	\label{fig:DSC_IMC_PMMA}
+\end{figure}
+
+Most developed USGs and the new SMGs display reduced enthalpy, as improved stability predicts [4, 31]. However the work Yu, et al. \cite{Yu2013} and Guo, et al. \cite{Guo2012} on SMGs and polymer USGs respectively have shown exceptions with high enthalpy being coupled with high kinetic stability \dTg. When this occurs the enthalpy traces of USGs are greater than ordinary glass and intersect higher on the SCL line with $T_{f} > T_{g}$.  This contradiction with Kearns, et al. \cite{Kearns2008} demonstrates that \Tonset~ and \Tf~ are not coupled together and act independently in USG systems. Accordingly both parameters should be examined when studying new SMG materials. 
+
+\subsubsection{The Theoretical Entropy Limit of Glasses and the Kauzmann Temperature (\Tk)}
+Normally a glass is formed when a material's SCL solidifies on reaching its \Tg. However if the SCL could be lowered to the entropy (S) of its crystalline state before solidifying it would achieve the theoretical lowest thermodynamic-energy state possible and its 'ideal' \Tg, known as the Kauzmann temperature  (\Tk), (Figure \ref{fig:TkGraph}) [28, 34] . This makes \Tk~ a useful limit to evaluate the effectiveness of the improvements in thermodynamic stability of USGs. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Tk_Graph_Simple_02.png}
+	\caption{Schematic of glass temperature vs entropy in a typical glass forming system. The Kauzmann temperature (\Tk) represents the glass transition temperature (\Tg) of an ideal glass. The blue line is the extrapolated SCL line and the ideal path. Modified from \cite{Kearns2008}.}
+	\label{fig:TkGraph}
+\end{figure}
+
+Rewriting Swallen, et al. \cite{Swallen2007} and Kearns, et al. \cite{Kearns2008} equation for proportion along the energy landscape ($\theta_{k}$) to measure between \Tk~ and \Tg~ the following expression is obtained. 
+
+%numbered display equation
+\begin{equation}
+\theta_{k} = 1 - \frac{T_{g}-T_{f}}{T_{g}-T_{k}}
+\label{equ:EngeryLandscape}
+\end{equation}
+
+Equation \ref{equ:EngeryLandscape} follows the extrapolation SCL line of a glass and calculates an entropy ratio relative to the glass's ideal \Tk and its \Tg. From this it is seen an ideal glass with $T_{f}=T_{k}$ results in $\theta_{k}=0.0$, signifying the glass has reached the bottom of the energy landscape [28, 34]. While an ordinary glass with  $T_{f}=T_{k}$ results in $\theta_{k}=1.0$, signifying the glass has not moved down the energy landscape (it is 100\% the distance between \Tk and \Tg).
+
+Thus for real USGs with reduced entropy the $\theta_{k}$ falls between 0.0 and 1.0, while the higher entropy  SMGs of Yu, et al. \cite{Yu2013} would yield $\theta_{k}$ greater than 1.0, indicating they have moving up the energy landscape past the \Tg~ datum. For example, a $\theta_{k}=1.25$ would indicate a glass's entropy is 125\% greater than its ideal \Tk~ glass.
+
+\subsubsection{Glass Fragility (m)}
+The fragility (m)  of a glass is a measure of its deviation from ideal Arrhenius behaviour; defined as the rate of change of the glass's viscosity (\n) as a function of reduced inverse temperature scaled by the glass transition temperature ($T_{g}/T$).
+
+%numbered display equation
+\begin{equation}
+m \equiv 
+\frac{\partial log_{10} (\eta)}
+{\partial (\frac{T_{g}} {T})}
+\biggr|_{T=T_{g}}
+\label{equ:Fragility}
+\end{equation}
+
+The more a glass varies from this ideal Arrhenius behaviour the more 'fragile' it is, and higher its m value. Highly fragile glasses, or 'weak' glasses, vary significantly from the ideal Arrhenius behaviour, and generally experience substantial deviations in heat capacity with temperature [36, 37]. In contrast low fragility, or 'strong' glasses, have little variation from Arrhenius behaviour and usually experience little change in heat capacity with temperature. Whether a glass is strong or weak typically depends on the atomic structure, with BMGs generally characterised as 'strong', polymers as 'weak,' and molecular glasses somewhere in between, see Figure \ref{fig:ShelbyFragPlot}. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{ShelbyFragilityPlot.png}
+	\caption{Viscosity as a function of reduced inverse temperature ($T_{g}/T$) for strong to weak glasses over the flowing range of viscosities. Note the 'ideal' strong glass displays a constant exponential slope over the full temperature range, while weaker glass' slopes very. Reproduced from \cite{Shelby2005}.}
+	\label{fig:ShelbyFragPlot}
+\end{figure}
+
+Yu, et al. \cite{Yu2013} found m of metallic, molecular, and polymer USGs correlate with $\delta T_{g}/T_{g}$, which is surprising given the notable difference in their atomic structures, bonding, and deposition rates (Figure \ref{fig:YuMTgPlot}). From these initial findings it appears greater improvements in \dTg~ in relation to the standard \Tg~ correlates with more fragile glasses (i.e. high m values supports high \dTg). Despite  Yu, et al. \cite{Yu2013} providing the only SMG data a review of multiple glass systems by Angell \cite{Angell2014} supports this fragility relationship,  suggesting the  \dTg~ improvements for SMGs may have a modest limit. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{YuMTg.png}
+	\caption{Schematic of the relationship between glass frigidity (m) and the enhanced glass transition on glass transition ratio ($\delta T_{g}/T_{g}$) for a selection of metallic, molecular, and polymer USGs. Reproduced from \cite{Yu2013}.}
+	\label{fig:YuMTgPlot}
+\end{figure}
+
+\subsubsection{Glass Density (\p)} 
+USG are characterised as being denser than their liquid quenched counterparts \cite{Wang2014}. This is somewhat unexpected as traditional glass theory predicts more rapid cooling should produce lower density glass coupled with higher \Tg~ (see Figure \ref{fig:GlassCooling}). It appears the process of depositing atoms/molecules layer by layer via VD allows glasses to achieve both enhanced density and \Tg, though Nakayama, et al. \cite{Nakayama2013} point out that while the deposition conditions for dense glass seem to match those of USG, it is not yet clear if the two phenomena are the same class of material.
+
+Ishii and Nakayama \cite{Ishii2014} and Nakayama, et al. \cite{Nakayama2013} have found a relationship between deposition temperature and a decrease in molar volume, i.e. increased density, with many molecular glasses. The relationship shows the density of USG increase with the \Tsub~ up to the USG formation temperature limit (see Section 2.3.1) [3, 32]. Swallen, et al. \cite{Swallen2007} has also observed a very similar relationship between organic glass density and \Tsub. Dawson, et al. \cite{Dawson2010} suggest the higher temperatures permit the molecules more surface mobility to arrange into more ordered and dense structures, while a low \Tsub~ does not provide the required kinetic energy for this efficient rearrangement. This mechanism suggest the USGs density can be further increased via reducing the deposition rate as the molecules/atoms have more time to arrange into ordered structures \cite{Dawson2010}.
+
+%code to put 2 images side by side in a figure
+\begin{figure}[bp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.75\textwidth}
+		\includegraphics[width=\textwidth]{Density_Vs_Tsub_Ishii.png}
+		\caption{}
+		\label{fig:IshiiDensityTsub}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.75\textwidth}
+		\includegraphics[width=\textwidth]{IshiiMTg.png}
+		\caption{}
+		\label{fig:IshiiMTg}
+	\end{subfigure}
+	\caption{(a) Relationship between normalised substrate temperature ($T_{sub}/T_{g0}$) and normalised molar volume ($V_{m}/V_{m} (T_{g0})$) for several VD molecular glasses showing the greatest density occurs near the intersection of the VD glasses and their extrapolated SCL $V_{m}$ line. (b) Weak relationship between the normalised intersection temperature ($T_{i}/T_{g0}$) found in (a) and the glass fragility (m). (a) Modified from \cite{Ishii2014} and (b) Reproduced from \cite{Ishii2014}.}%global caption
+	\label{fig:IshiiTsubM}
+\end{figure}
+
+
+The Ishii and Nakayama \cite{Ishii2014} and Nakayama, et al. \cite{Nakayama2013} glass relationship between \Tsub~ and molar volume ($V_{m}$) is presented in Figure \ref{fig:IshiiTsubM}. In Figure \ref{fig:IshiiDensityTsub} the \Tsub~ for several molecular glasses are plotted against the $V_{m}$, both normalised by the quench glass' \Tg~ and $V_{m}$, called $T_{g0}$ and $V_{m}$ ($T_{g0}$) respectively. The plot shows the VD glass' densities increases with \Tsub, several being able to achieve enhanced density as per the condition $V_{m}/V_{m} (T_{g0})<1.0$. The densest glasses occur near the intersection temperature ($T_{i}$) between the solid VD glass trend line and an extrapolated SCL $V_{m}$ line. Figure \ref{fig:IshiiMTg} shows a weak relationship between this highest density state at $T_{i}/T_{g0}$ and m, similar to the one found by Yu, et al. \cite{Yu2013} between $\delta T_{g}/T_{g}$ and m in Figure \ref{fig:YuMTgPlot}. Suggesting high m glasses show the greatest promise for increased density, and that SMGs will have modest enhanced density relative to tradition BMGs [3, 32].  
+
+Aji, et al. \cite{Aji2013} provides the only density data on SMGs showing a modest density increase of 0.5\% relative to traditional quenched BMG. In contrast Guo, et al. \cite{Guo2012} work has shown polymer USGs display a significant reduction in density coupled with \dTg, though they point out this is the opposite of molecular and other USGs. 
+
+\subsubsection{Indentation Modulus (M)}
+The indentation modulus (M) of a material is an elastic constant which accounts for compressive and shear deformations with compressive load. It is given by;
+
+\begin{equation}
+m \equiv 
+\frac{E}
+{1-\nu^{2}}
+\label{equ:IndentModulus}
+\end{equation}
+
+The initial work of Yu, et al. \cite{Yu2013} has found a modest increase in M for SMGs over BMGs of $5- 10\%$ for the ultrastable Zr$_{65}$Cu$_{27.5}$Al$_{7.5}$ system, indicating SMG may be able to better support compressive loads.
+
+\subsection{SMG Structure, Medium Range Order (MRO)}
+From molecular glasses it is expected USGs will be distinguishable from normal glasses by extra-low angle peaks in XRD analysis. However Yu, et al. \cite{Yu2013} have observed this is not the case with SMGs as the analysis appears identical to BMGs, implying SMGs' corresponding states of packing are not significantly different. This difficultly was also encountered by Aji, et al. \cite{Aji2013} whom were also unable to differentiation between ordinary and ultrastable glass via XRD and HRTEM. However Yu, et al. \cite{Yu2013} went on to suggest there may be a hidden polyamorphous or layer-like super-structures in the SMGs, although they were unable to confirm it. 
+
+Using STEM techniques Aji, et al. \cite{Aji2013} were able to identify medium range order (MRO) structures of 2nm in their Zr$_{55}$Cu$_{30}$Ni$_{5}$Al$_{10}$ SMG, which they believe are responsible for the ultrastable effects. Via Angstrom beam electron diffraction (ABED) Aji, et al. \cite{Aji2013} examined the MRO further and found it is not composed of any of the alloy's known simple crystal structures, but are instead distorted icosahedra with local crystal-like cube symmetry. Aji, et al. \cite{Aji2013} believe this MRO is responsible for the SMG stability characteristics and offers explanation for why only VD techniques can produce SMG. The MRO occurs when tens to hundreds of atoms are arranged in the energy minima, but do not form in ordinary glass because solidification from liquid, or annealing already formed glass at elevated temperature, does not allow sufficient time for MRO formation. Conversely the slow VD techniques used in forming USGs allows the surface atoms to arrange themselves into the highly order MRO structures before being covered by later arriving atoms.
+
+\subsection{Potential SMG Challenges}
+Investigation has identified potential issues and challenges with the demonstrated PVD pressures and \Tsub~ required when producing SMGs. For example, Qin, et al. \cite{Qin2009} has found in the binary amorphous Zr$_{65}$Cu$_{35}$ system raising substrates to just room temperature can cause crystallisation of films if the Ar pressure is not properly refined. This appears concerning as the alloy constituents of this system are in comparable amounts with the Yu, et al. \cite{Yu2013} and Aji, et al. \cite{Aji2013} systems of Zr$_{65}$Cu$_{27.5}$Al$_{7.5}$ and Zr$_{55}$Cu$_{30}$Ni$_{5}$Al$_{10}$ respectively. Additionally Aji, et al. \cite{Aji2013} found more simple binary and ternary system SMGs were more difficult to produce, had more modest gains in \Tg~ and \Tx, and often contained crystalline phases. However these findings support the theory simple atomic structure metallic alloys may not be suitable to form SMGs, and it may be only more atomically complicated BMGs, such as high GFA ternary systems, are suitable to form SMGs \cite{Yu2013}. As this research will be working with ternary Mg systems, it is believed they will be sufficiently atomically complicated to form SMGs. 
+
+It is known from Liu, et al. \cite{Liu2012} and Cao \cite{Cao2013} that higher deposition rates result in smoother TFMGs, while Kearns, et al. \cite{Kearns2008} work with molecular USGs has found lower deposition rates produce more kinetically stable, lower enthalpy  glasses. The effects of deposition rate on SMG production were not examined by Yu, et al. \cite{Yu2013}, Aji, et al. \cite{Aji2013}, and Wang, et al. \cite{Wang2014}, but there was a significant difference in deposition rate used by the three groups. Both Aji, et al. \cite{Aji2013}, and Wang, et al. \cite{Wang2014} made use of very slow deposition rates of less than 0.2nm/s to produced their SMGs with both materials displacing the ideal behaviour of high kinetic stability coupled with low enthalpy. However Yu, et al. \cite{Yu2013} made use of deposited rate almost a magnitude higher, 1.4nm/s and produced an SMGs possessing both high kinetic stability and high enthalpy. As Yu, et al. \cite{Yu2013} and Aji, et al. \cite{Aji2013} had similar SMGs of Zr$_{65}$Cu$_{27.5}$Al$_{7.5}$ and Zr$_{55}$Cu$_{30}$Ni$_{5}$Al$_{10}$ respectively, these observations would suggest it may be possible to produce lower enthalpy SMGs by lowing the deposition rates, although if the TFMG trends hold the films may become more rough. These effects should be examined in new research as there is no body of work on varying SMG deposition rate and the reliability of TFMG trends has not been confirmed to translate to SMG systems. 
+
+Interestingly Schlüter, et al. \cite{Schluter2012} have already examined the MgZnCa system (Mg$_{45}$Zn$_{50}$Ca$_{5}$ and Mg$_{60}$Zn$_{35}$Ca$_{5}$) over various power and deposition rates to produce thin films. They found high power/deposition rates result in crystalline films while lower rates are able to deposit fully amorphous  TFMG \cite{Schluter2012}. They came to the conclusion the higher powers allow sufficient heat to be added to the substrate for crystallisation to occur \cite{Schluter2012}. Wang, et al. \cite{Wang2014} found similar results working with Au$_{52}$Ag$_{5}$Pd$_{2}$Cu$_{25}$Si$_{10}$Al$_{6}$ SMG where they showed the heat additions of the magnetron sputtering plasma can be attributed to a 20K temperature fluctuation at the substrate. This alloy has a fairly low \Tg~ of 400K meanings its ideal \Tsub~ for SMG deposition is around room temperature, making these 5\% of \Tg~ fluctuations significant. Additionally MgZnCa based bio-alloys have a similar low \Tg~ (405K for \MgZnCa~ [40, 41]) suggesting their substrates can be expected to experience the same 20K temperature fluctuation. 
+
+These findings raise important question as to how high deposition power can be in the Mg system without the risk of elevated \Tsub~ exceeding the ideal range and resulting in TFMG or crystalline films instead SMG films. Can SMG deposition power parameters be refined to the point that no substrate heat addition is needed to produce ultrastable materials, or that substrates will needed to be cooled These are significant as the implications suggest a possibility of reduced production cost through higher production rates, and reduced energy use. 
+ 
+\subsection{Thin Film Testing Methods}
+\subsubsection{Adhesion}
+Scratch tests can be used to ascertain the film adhesion. 
+The adhesion of films is readily tested via scat methods [42-45].
+
+\section{Biomedical Materials} 
+Biomaterials are materials designed for use within a human or other animal's body for a medical purpose. This task requires the materials to be biocompatible, which is taken to mean they must not adversely affect the body. Generally this requirement has been met via the use of bio-inert materials like Ti or certain polymers which do not interact with the body and do not significantly degrade or corrode. After these bio-inert materials have served their function, they often have to be removed via secondary surgeries.  
+
+\subsection{Biomaterial Requirements} 
+In vivo biomaterials are medical devices designed to aid in healing via performing part of the body's internal functions. They are approved and tested by regulatory organisations like the Food and Drug Administration (FDA) in the USA, and the Therapeutic Goods Administration (TGA) in Australia. To gain approval devices are subjected to a series of biocompatibility tests which establish the body's acceptance to them in the surrounding tissues and the body as a whole. Actual passing requirements are dependent on the consequence of failure (i.e. heart values have stringent requirements as failure can result in death), but as minimal requirements, \textit{in vivo} medical device treatment should not result in any of the following:
+
+%Bullet List
+\begin{itemize}
+	\item Irritate the surrounding structures;
+	\item Provoke an abnormal inflammatory response;
+	\item Incite allergic or immunologic reactions; or
+	\item Cause cancer.  
+\end{itemize}
+
+\subsubsection{Current Metallic Biomaterials}
+Traditional metallic biomaterials like stainless steels and Ti are designed to be bio-inert and not degrade within the body. After severing their function they must be removed via secondary surgeries unless they have been designed to remain in the body permanently. There is also a significant mismatch between their high stiffness and strength relative to bone, which in orthopaedic applications can result in stress shielding.
+
+Stress shielding is a reduction in bone density and strength which results from reduced stimulus during bone remodelling. It occurs around orthopaedic implants because they are able to carry significant loads and thus the bones are not thoroughly stimulated. Mg implants are less sustainable to this phenomena because their elastic modulus (E) is only about $41 - 45~ GPa$, which is much closer to human bone's $3 - 20~ GPa$ than other metallic biomaterials [46, 47].
+
+\subsubsection{Metallic Biochemistry}
+Essential bio-absorbable metallic elements are critical for proper bodily function and when metabolised can aid in the healing process. This makes the elements of Mg, Zn, and Ca ideal major alloy constituents for biodegradable alloys. Moreover, as these elements are water soluble any reasonable excess can be safely excreted from the body via urination.
+
+Mg plays a critical role in numinous reactions within the body. It is an activator in many enzyme reactions, co-regulator in protein synthesis and muscle contraction, and stabiliser of RNA and DNA \cite{Zheng2014} . In the past, when used as an \textit{in vivo} biomaterial Mg has also been linked to stimulating new bone growth  \cite{Witte2010}. Zn is a trace element in the body which appears in enzyme classes and in muscles \cite{Zheng2014}. Ca is well known for its structure function in the skeleton, but also has a signal function in muscle contractions, blood clotting, and cell function \cite{Zheng2014}. Other essential minerals which can be safely used in bio-absorbable alloys include Fe and Mn.
+
+Other elements like Al and rare earths (RE) have also been alloyed with Mg in past, but their use is not ideal as they are known to not meet the necessary biomaterial requirements. For example, Al has been linked to neurological disorders such as Alzheimers disease \cite{Zheng2014}. Even though the body can tolerate toxic elements in small quantities it is not ideal, and they will not be considered for bio-corrosion applications in these works. 
+
+\subsubsection{Degradation of Biomaterials} 
+Ideally essential metallic element biodegradable alloys are designed to undergo controlled corrosion \textit{in vivo} throughout the tissue healing process. This gradually releases corrosion products around the injury site throughout the healing process, which are either metabolised to assist with the healing or simply excreted. Once healing is complete the support of the biodegradable alloys is no longer needed. The materials continue to degrade ultimately corroding completely to leave no implant residues, and eliminating the need for secondary removal surgeries.  
+
+\subsubsection{Basic Theory of Corrosion and Its Measurement}
+Corrosion is an electrochemical reaction describing the flow of electrons which occurs when a physical electrical connection exist between an anode and a cathode via an electrolyte medium. By convention, electrons will flow from the negative anode to the positive cathode, resulting in oxidation at the anode and reduction at the cathode. 
+
+The kinetics of the corrosion reaction acting upon a specimen can be measured via potentiodynamic polarisation (PDP) scans, in which the rate of the anodic or cathodic reactions on the specimen (i.e. the working electrode) are represented by the current density (i.e. current per unit area). The rate of the corrosion reaction can be significantly affected by numerous variables including temperature, specimen surface condition \cite{Jones1992}, and the chemical environment and thus these should be carefully controlled and standardised. 
+
+The polarisation scans are performed via controlling the anodic or cathodic reactions' driving force, AKA their potential ($V$), and observing the applied current density ($i$) required to produce the desired variations in potential. The anodic scans start at low potentials and ramp up, whereas the cathodic start at high potentials and ramp down, hence by convention anodic currents are positive and cathodic negative. The slowest corrosion rate will occur when the anodic and cathodic currents equal each other and the applied current density is at its minimum (theoretically zero); this is known as the open circuit potential (OCP). 
+
+The Tafel equation (Equation \ref{equ:Tafel}) and Tafel Plots are tools used to interpret the data generated by PDP scans. The Tafel equation expresses the anodic or cathodic reactions' current density as a function of their overpotential (\n); overpotential being defined as the difference between the applied potential ($E_{A}$) and OCP ($E_{OCP}$).  
+
+\begin{equation}
+\eta = E_{A} - E_{OCP}=\beta log \frac{i}{i_{0}}
+\label{equ:Tafel}
+\end{equation}
+
+Where $\beta$ is the Tafel slope, $i$ the applied current density, and $i_{0}$ the exchange current density. 
+
+Plotting the Tafel equation for both the anodic and cathodic reactions produces the Tafel Plot (Figure \ref{fig:EnosTafel}) for the corrosion reaction. From the plot the OCP, where anodic and cathodic currents are equal, can be obtained via extrapolation. This is performed along the linear region of the anodic and cathodic $\beta$ slopes, with the extrapolations' intersection indicating the OCP. The current density and potential coordinates of the OCP on the plot indicate the corrosion current density ($i_{corr}$), and corrosion potential ($E_{corr}$) for the reaction. When evaluating improved corrosion resistance the idea specimen will have both a more noble potential (i.e. $E_{corr}$ is more cathodic ), and a reduced $i_{corr}$ in relation to the comparison specimen.
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Enos_TafelPlot.png}
+	\caption{Tafel Plot showing the positive anodic Tafle slope $\beta_{a}$ negative cathodic Tafle slope $\beta_{b}$, and their linear extrapolations with their intersection indicating the OCP, and thus the $i_{corr}$ and the $E_{corr}$ positions \cite{Enos1997}.}
+	\label{fig:EnosTafel}
+\end{figure}
+
+\subsubsection{Mg Hydrogen Evolution}
+The corrosion of Mg (equation \ref{equ:MgH}) results in the generation of molecular hydrogen gas products, in a process called hydrogen evolution \cite{Zberg2009}. This is problematic in biomedical applications as biodegradation of Mg alloys can result in the production of hydrogen gas cavities around the treatment area. 
+
+As noted in the Witte \cite{Witte2010} historical review of Mg implant clinical trials, generally these gas cavities were not considered painful and often subsided within days or weeks, with complete corrosion of implants following shortly [52, 53]. The corrosion of the implants also did not appear to harm the surrounding tissues, showing no signs of irritation or inflammation \cite{Verbrugge1933}. Though excessive gas formation produced local swelling and significant pain, resulting in implants being prematurely removed \cite{Lambotte1932}. The cause of these critical failures were soon identified as resulting from the large potentials of electrically coupling Mg with Fe, and were not repeated \cite{Lambotte1932}. 
+
+\begin{equation}
+Mg + 2H_{2}O \rightarrow Mg^{2+} + 2OH^{-} + H_{2}
+\label{equ:MgH}
+\end{equation}
+
+As can be inferred from equation \ref{equ:MgH}, the severity and quantity of H$_{2}$ gas generation via hydrogen evolution is dependent on the corrosion of the Mg. Thus the effects of hydrogen evolution can be greatly mediated by slowing the rate at which H$_{2}$ gas is generated via lowing the corrosion rate of Mg.  Common methods employed to improve and inhibit Mg corrosion include the use of high-purity Mg alloys, alloying to promote the formation of protective passive films, and alloying to promote the formation of amorphous structures. 
+
+In devolving high corrosion resistance Mg alloys, Wang, et al. \cite{Wang2012} have found amorphous and semi-crystalline Mg$_{67}$Zn$_{28}$Ca$_{5}$  alloy are able to quickly form a protective passive film to limit their corrosion rate and hydrogen evolution. Initially these alloys produce a moderate amount of H$_{2}$ gas, but the rate quickly drops off and results in a very small amount of total gas being release throughout the corrosion process \cite{Wang2012}. In contrast, the fully crystalline alloy initially sees its H$_{2}$ gas release rate increase over time, before eventually reducing and stabling at a low level \cite{Wang2012}. This occurs because initially it is difficult for the crystalline alloy to form the passive film, resulting in a high average rate and large total volume of gas release \cite{Wang2012}. The release of large total amounts of hydrogen gas is closely linked to great amounts of specimen weight loss, meaning these crystalline alloys loss far more bulk material to the corrosion process than the amorphous ones, and hence would have shorter service lives \cite{Wang2012}. 
+
+Zberg, et al. \cite{Zberg2009} has also been particularly successful at reducing hydrogen evolution with amorphous Mg$_{60+x}$Zn$_{35-x}$Ca$_{5}$ alloys, showing the passive films generated by Zn can eliminate hydrogen evolution almost completely. From these studies, Zberg, et al. \cite{Zberg2009} showed Zn poor alloys produce significant hydrogen, while alloys with Zn contents greater than 28at\% produced almost none. Additionally Zberg, et al. \cite{Zberg2009} conditioned animal trials on pigs of their alloys via implanting Mg disk of amorphous Mg$_{60}$Zn$_{35}$Ca$_{5}$ and crystalline Mg alloy (WZ21) within the abdominal walls for a period of three months. The wound-healing process was characterised as typical for both alloys with no inflammatory reactions observed for either \cite{Zberg2009}. Though only the crystalline alloy implants showed hydrogen generation during the conducted one and three month examinations \cite{Zberg2009}.
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{ZbergHydrogen.png}
+	\caption{Plot of hydrogen evolution generated by Mg$_{60+x}$Zn$_{35-x}$Ca$_{5}$ alloys. Note the hydrogen evolution drops off significantly for Zn concentration $>28at\%$. (Filled points are amorphous, open crystalline). Reproduced from \cite{Zberg2009}.}
+	\label{fig:ZbergHydrogen}
+\end{figure}
+
+As Witte \cite{Witte2010} has shown in his review magnesium was showing promise as a bio-reabsorbable material in the early 1900s before the trend switch to bio-inert materials like Ti. 
+
+The challenges with bio-reabsorbable metals is currently a need to;
+
+%Bullet List
+\begin{itemize}
+	\item Reduce the level of ion toxicity;
+	\item Reduce the amount of hydrogen gas; and
+	\item Control the loss of mechanical strength over time. 
+\end{itemize}
+
+\subsubsection{Pitting Corrosion}
+Generally pitting is associated with the breakdown of passive films, such as in stainless steels [48, 50, 54]. Pitting is associated with quenched in free volume surface defects in BMG \cite{Wang2012}.  
+
+Pitting corrosion is associated with the breakdown of the passive film (Reread page 41 of Jones fundamentals) [48, 50, 54]. This can be due to the presents of Cl- ions \cite{Zheng2014}. 
+
+BMG suffer from pitting corrosion because of quenched in free volume defects \cite{Wang2012} (many more papers. Check later). Pitting increases with level of amorphousness \cite{Schluter2012}. 
+
+Amorphous Mg allows for higher alloy continents and a homogeneous single-phase structure.  These help improve corrosion characteristics. 
+
+Amorphous metal has high corrosion resistance due to
+
+%Bullet List
+\begin{itemize}
+	\item Chemical homogeneity 
+	\item Monolithic structure
+	\item Lack of grain boundaries 
+\end{itemize}
+ 
+Mg and Ca corrode in preference to Zn, leaving behind a Zn rich surface which promotes a passive layer \cite{Wang2012}.
+Pitting occur on anodic end of the Tafel Plots \cite{Schluter2012}.
+
+\subsection{Anti-biotic Scaffolds}
+
+\chapter{EXPERIMENTAL PROCEDURE}
+\section{Target Manufacture}
+The thin film metallic glasses (TFMGs) and ultrastable glasses (SMGs) are deposited onto various substrates via physical vapour deposition (PVD) processes.
+
+\subsection{Induction Furnace} 
+The production of thin films via PVD processes first requires the manufacture of targets from pure base elements. This is accomplished via induction furnace and shaping operations. 
+
+\section{Charges Preparation}
+The pure alloy constituent elements of Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%) are polished and filed to removal surface contamination and oxides. The quantities of elements required are then checked via a developed MS Excel tool which calculates constituent element weights, checks alloy composition, and provides a form for notes on the induction casting process (i.e. heating cycles, observations, possible future refinements, etc.).
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.99\textwidth]{ChargeSheet.png}
+	\caption{Screenshot of the MS Excel tool developed for calculating charge weights, checking alloy composition, and taking notes for improvements in future charges.}
+	\label{fig:ChargeSheet}
+\end{figure}
+
+\subsection{Induction Casting of Alloys}
+Thin 4mm plates  of \MgZnCa~ alloy are produced via melting the constituent elements via induction furnace within a boron nitrate coated graphite crucible. The pure Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%) elements are heated under an inert Ar atmosphere and the plates produced via gravity casting. Alloy homogony is ensured via following a multiple heating/cooling cycle between the alloy's solidus/liquidus region and the liquid state. The \MgZnCa~ alloy cycle is; initial melting of all constituent elements together at 700\degree C, partial solidification at 385\degree C, remelt at 650\degree C, partial re-solidification at 385\degree C, and remelt at 650\degree C. The melt is then cooled to a casting temperature of 500 $-$ 510\degree C and gravity cast into a naturally cooled copper plate mould, producing thin plate of the alloy. 
+
+\subsection{Shaping of Targets}
+After casting the riser is cut off, and a target extracted from the amorphous plate via a slightly oversized diamond bit drill press. The amorphous target is then shaped into a nominally 1in (25.2 $-$ 25.4mm) diameter disk via removal of excess pieces and linishing operations. The targets are then gradually polished on both sides to at least a P1200 grit, before they are suitable for use in the sputtering gun. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{CruciblePlateRiserRoughtarget.png}
+	\caption{(a) boron nitrate coated graphite crucible  for induction furnace melting of alloys, (b) cracked amorphous plate, (c) riser cut free from main casting, and (d) drilled and partly shaped target.}
+	\label{fig:CrucibleShaping}
+\end{figure}
+
+\section{PVD via Magnetron Sputtering}
+\subsection{Sputtering of TFMGs and SMGs}
+Each target is expected to be able to deposit approximately $10 - 15~ \mu m$ of total film thickness onto a substrate, which is about an hour of deposition at rate of 3.3nm/s. After full deposition the targets are no longer usable and should be disposed. 
+
+\subsection{Sputtering Methods and Initial Parameters}
+Once placed in the sputtering gun the targets are prepared for deposition via a pre-sputter to remove contamination and oxides from their surface. The TFMGs are deposited onto room temperature substrates, and SMGs onto elevated temperate substrates. The elevated temperatures are achieved and controlled via hot plate and thermocouple.
+
+The initial TFMG sputtering parameters will be based on Liu, et al. \cite{Liu2012} work on Zr$_{55}$Cu$_{30}$Ni$_{5}$Al$_{10}$ film refinement, and the SMG parameters will be based on Yu, et al. \cite{Yu2013} and Aji, et al. \cite{Aji2013} work on Zr$_{65}$Cu$_{27.5}$Al$_{7.5}$ and Zr$_{55}$Cu$_{30}$Ni$_{5}$Al$_{10}$ SMG films respectively. These parameters will be refined via appropriate step sizes as required to suit the examined MgZnCa biocompatible systems. 
+
+%table
+\begin{table}[h]
+	\centering
+	\begin{tabular}{ l l l }
+		\toprule
+		\multicolumn{3}{c}{Sputter Parameters}\\
+		\midrule
+		Nominal Sputtering Parameters: & TFMG & SMG \\
+		\midrule
+		Base Camber Pressure: & $3 \times 10^{-4} - 10^{-2}~ Pa$ & $5 \times 10^{-5} - 10^{-4}~ Pa$ \\
+		Deposition Ar Pressure:	& $0.3 - 3.0~ Pa$ & $5\times 10^{-2} - 0.3~ Pa$\\
+		Deposition Power Range:	& $30 - 50~ W$ & $30 - 50~ W$\\
+		Max Deposition Rate: (To be determined via TEM) & $3.3~ nm s^{-1}$ & $1.4~ nm s^{-1}$ \\	 
+		Substrate Deposition Temperature: & Room Temperature & $0.7 - 0.8~ T_{g}$ \\
+		\bottomrule
+	\end{tabular}
+	\caption{Nominal Sputtering Parameters}
+	\label{tab:SputterParameters}
+\end{table} 	
+
+\section{Examined Substrates} 
+The films will be deposited onto four different substrates for examination; silicon wafer, water soluble substrate, BMG substrates, and PCL scaffold substrates.
+
+\subsection{Silicon Wafer Substrate}
+Films are easily and readily deposed onto (100) silicon wafer with minimal difficult. This substrate allows film properties to be easily examined with minimal influence from the substrate. These substrates can be purchased. 
+
+\subsection{Water Soluble Substrate} 
+Depositing films onto water soluble substrates allows the films be physically separated from a substrate and examined without their influence. A possible candidate substrate is NaCl wafer which dissolve quickly with the application of water, allowing for the physical separation of the films. These substrates can be purchased. 
+
+\subsection{BMG Substrate}
+Depositing films onto BMG substrates of similar composition allows for property modification effects of the films to be examined. Knowing the properties of the BMG substrates and the applied films independently will allow the extent of the property modification to be fully evaluated, and should allow for modelling. These substrates can be produced via the same methods  used to produce targets. 
+
+\subsection{Polycaprolactone (PCL) Scaffolds}
+Depositing films onto Polycaprolactone (PCL) scaffolds substrates will allow for examination of the films' effects and degradation performance. Ideally this will lead to the slow, controlled release of infused with antimicrobial, antibiotic, or analgesics packages.
+
+\section{Film Characterisation}
+The properties of the TFMGs and SMGs will be investigated via characterising the films after application to the different substrates; allowing standalone films as well as their substrate property modification effects to be investigated. 
+
+\subsection{Physical and Chemical Properties}
+The physical and chemical properties of the films will be characterised via a range of techniques; XRD, DSC, FIB-SEM, EDS-SEM, EPMA, ICP, STEM, ABED, etc. 
+
+\subsection{Biocompatibility and Bioabsorption} 
+The biocompatibility and bioabsorption of the TFMGs will be characterised via cytotoxicity testing, PDP scans, etc.  
+
+\subsection{Quality of Deposition} 
+The quality of the TFMG deposition will be ascertained via investigation of the surface finish, coating adhesion, bonding, etc.
+
+\chapter{RESULTS AND DISCUSSION}
+
+\section{Experimental Results} 
+\subsection{Casting Challenges and Observations}
+When casting the target plates it was found slow melt pouring resulted in a poor mould fill while quicker pour experienced greater fills. The thin plate and relatively large mould riser creates a notable cooling difference between the two sections within the casting. It is believe this temperature gradient encourages the formation of cracks which often make the casting unusable. Additionally, the casting often display porosity within the plate, which may result in increased brittleness of the material. 
+
+Once the casting size was increased from 3mm thickness to 4mm the fill problems and thermal cracking were largely mitigated. These 4mm plates often experience full or near full fills, and displayed much less cracking. The 4mm plates appear to have fewer internal defects as it has been possible to extract two nominal targets from each plate, while was difficult to extract even one target from the 3mm plate. 
+
+\subsection{DSC Scans}
+Isochoric DSC scans are performed as a simple check for amorphous alloy structure via looking for evidence of the distinct exothermal \Tg~ and \Tx~ recrystallization peaks, and the endodermal \Tm~ and \Tl~ troughs. Scans are performed at heating rate of 20K/min in sealed alumina crucibles under a protective Ar atmosphere.
+
+\subsection{Target Structure}
+Ideal \MgZnCa~ targets should be completely amorphous as this should make them more resistance to corrosion before use, and provide a more homogenous distribution of constructional elements within the targets. The initial DSC scans of the targets produced thus far do not display clear exothermal peaks, indicating they are not fully amorphous. However it is possible the targets are semi-crystalline, especially given how subtle exothermal peaks can be in MgZnCa systems \cite{Gu2010}. 
+
+It is expected XRD analysis may be able to provide more detail into the structure of the target plates as this technique has proven effective in differentiating between amorphous, semi-crystalline, and crystalline MgZnCa alloy [39, 46], although it can still be difficult \cite{Zhou2013}. Fully amorphous MgZnCa should display wide halo peaks around 38\degree and 66\degree (2 theta) and no additional sharp peaks, while semi-crystalline alloy would start to displace additional peaks [40, 41, 46, 55, 57]. 
+
+Alloys of similar composition, like Mg$_{70}$Zn$_{25}$Ca$_{5}$, have a low GFA with a $t_{max}$ of only about 3mm [41, 56]. This coupled with the casting riser's (Figure \ref{fig:CrucibleShaping}c) ability to hold heat and thus extend the solidification time provides evidence that some amount of crystallization should be expected within the plate casting. 
+
+The work of Schlüter, et al. \cite{Schluter2012}, Zhou, et al. \cite{Zhou2013}, and Wang, et al. \cite{Wang2012} on Mg$_{60}$Zn$_{35}$Ca$_{5}$, Mg$_{70}$Zn$_{25}$Ca$_{5}$, and Mg$_{67}$Zn$_{28}$Ca$_{5}$ respectively shows, semi-crystalline structures display both lower corrosion current density and more noble corrosion potential in comparison to fully crystalline alloy, and similar values to amorphous alloy. Hence semi-crystalline targets are expected to be relativity stable from crystalline galvanic/intergranular corrosion between the alloy constituents. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png}
+	\caption{DSC trace of the 3mm \MgZnCa~ target plate casting. The trace shows clear endothermic troughs indicating  \Tm~  and \Tl~, but no clear exothermal peaks which would indicate \Tg~  and \Tx~. This data suggest the casting is primary crystalline.}
+	\label{fig:DSCTarget1}
+\end{figure}
+
+However Zhou, et al. \cite{Zhou2013} has shown that despite this amorphous alloy has increased cathodic reaction kinetics and decreased anodic reaction when compared to CP Mg, suggesting the corrosion rate of amorphous and semi-crystalline alloys is not significantly different from pure Mg. 
+
+Ehrler \cite{Ehrler2008} master's on amorphous ribbons found Mg$_{67}$Zn$_{28}$Ca$_{5}$ becomes more brittle after 4 days of aging at RT. Suggest targets should be shaped as soon as possible after casting in order to maximise ductility. 
+
+\subsection{Target Composition}
+
+ICP testing found the first 3mm target plate only has about 26\% Zn. This is a loss of about 13\% Zn, or 8 grams of the total 108 grams of alloy cast.  This is too much material to attribute to loses, implying the Zn has migrated to riser during cooling. Injection moulding may produce more even cooling and better composition. 
+
+EDS analysis via SEM on the first five plates has shown (insert results here). 
+
+\chapter{SUMMARY AND CONCLUSIONS}
+Found thin films and SMGs were...
+
+This implies...
+
+Significant because...
+
+%References
+\bibliography{ThesisBib}
+\bibliographystyle{unsrt}
+
+\chapter{APPENDICES}
+\section{Glossary}
+
+\begin{comment}
+ABED 	? 	Angstrom Beam Electron Diffraction 
+BMG 	? 	Bulk Metallic Glass
+C_p 	? 	Heat Capacity ( J  )
+c_p 	? 	Specific Heat Capacity ( J / gK )
+CVD 	? 	Chemical Vapour Deposition
+DC 	? 	Direct Current ( I )
+DSC 	? 	Differential Scanning Calorimetry
+E 	? 	Young?s Modulus ( GPa )
+E_A	? 	Applied Potential ( V )
+E_OCP	? 	Open Circuit Potential ( V )
+E_corr	? 	Corrosion Potential ( V )
+FDA 	? 	Food and Drug Administration
+G	? 	Gibb?s Free Energy ( J )
+GFA 	? 	Glass Forming Ability
+H 	? 	Enthalpy ( J )
+h 	? 	Specific Enthalpy ( J / g )
+H_0 	? 	Absolute Zero Enthalpy ( J )
+i	? 	Current Density ( A/cm2¬ )
+i_0	? 	Exchange Current Density ( A/cm2¬ )
+i_corr	? 	Corrosion Current Density ( A/cm2¬ )
+LRO	? 	Long Range Order 
+m 	? 	Fragility 
+MG 	? 	Metallic Glass
+MRO 	? 	Medium Range Order
+PCL 	? 	Polycaprolactone
+PDP 	? 	Potentiodynamic Polarisation
+PLD 	? 	Pulse Laser Deposition
+PVD 	? 	Physical Vapour Deposition
+r	? 	Nucleus Radius ( m )
+R_c 	? 	Critical Cooling Rate ( K / s )
+RE	? 	Rare Earth Elements
+S	? 	Entropy ( J / K )
+s	? 	Specific Entropy ( J / gK )
+SCL 	? 	Super Cooled Liquid
+SCLR 	? 	Super Cooled Liquid Region
+SMG 	? 	Ultrastable Metallic Glass
+SRO 	? 	Short Range Order
+T	? 	Temperature ( K )
+T_f 	? 	Fictive Temperature ( K )
+TFMG 	? 	Thin Film Metallic Glass
+T_g 	? 	Glass Transition Temperature ( K )
+TGA 	? 	Therapeutic Goods Administration
+T_i 	? 	Intersection Temperature ( K )
+T_k 	? 	Kauzmann Temperature ( K )
+T_l 	? 	Liquidus Temperature ( K )
+T_m 	? 	Melting Temperature ( K )
+T_onset 	? 	Onset Temperature ( K )
+TPF 	? 	Thermoplastic Forming
+T_rg	? 	Reduced Glass Transition Temperature ( T_g/T_m )
+T_sub 	? 	Substrate Temperature ( K )
+t_max 	? 	Maximum Sample Thickness ( mm )
+T_x 	? 	Crystallisation Temperature ( K )
+STEM 	? 	Scan Transmission Electron Microscopy 
+UHV 	? 	Ultrahigh Vacuum 
+UNSW 	? 	University of New South Wales 
+USG 	? 	Ultrastable Glass
+V 	? 	Volume ( m^3 )
+v 	? 	Specific Volume ( m^3  / kg )
+VD 	? 	Vapour Deposition
+V_m	? 	Molar Volume ( m^3  / mol )
+?	? 	Tafel Slope
+?_SL	? 	Surface Energy ( J / m^2 )
+?G	? 	Change in Gibb?s Free Energy ( J )
+?G_V	? 	Reduction in Volume Energy ( J / m^3 )
+?T 	? 	Super Cooled Liquid Region ( K )
+?T_g 	? 	Enhanced Glass Transition Temperature ( K )
+?_k 	? 	Proportion along the Energy Landscape
+? 	? 	Viscosity ( Pa s ) 
+?	? 	Overpotential ( V )
+?	? 	Density ( kg / m^3 )
+\end{comment}
+
+\newpage
+
+\section{MgZnCa System}
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{MgZnCa300CPhaseDiagram_SprMats.png}
+	\caption{Partial isothermal ternary phase diagram of MgZnCa system at 300\degree C. Modified from \cite{Melnik1978}.}
+	\label{fig:MgZnCa300PhaseD}
+\end{figure}
+
+%table
+\begin{table}[h]
+	\centering
+	\begin{tabular}{ l l l }
+		\toprule
+		Phase & Composition & Source \\
+		\midrule
+		$T_{1}$ & Mg$_{6}$Zn$_{3}$Ca$_{2}$ OR & \cite{Clark1961} \\
+		& Mg$_{5}$Zn$_{5}$Ca$_{2}$ & \\
+		$T_{2}$	& Mg$_{5}$Zn$_{13}$Ca$_{2}$ OR & \cite{Clark1961} \\
+		& Mg$_{3}$Zn$_{6}$Ca & \\
+		$T_{3}$	& MgZnCa & \cite{Schulze1961} \\
+		\bottomrule
+	\end{tabular}
+	\caption{$T_{1}$, $T_{2}$, and $T_{3}$ phases of Figure \ref{fig:MgZnCa300PhaseD}. Note: The first composition of both $T_{1}$ and $T_{2}$ are better supported by data.}
+	\label{tab:SputterParameters}
+\end{table}
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{MgZnCaLiquidPhase_SprMats.png}
+	\caption{Liquidus Projection ternary phase diagram of MgZnCa system. Reproduced from \cite{Paris1933}}
+	\label{fig:MgZnCaLiquidPhaseD}
+\end{figure}
+
+%table
+\begin{table}[h]
+	\centering
+	\begin{tabular}{ l l l l l l l l l l }
+		\toprule
+		Composition & \Tg  & \Tx  & \Tm  & \Tl  & $\Delta T$ & $T_{rg(m)}$ & $T_{rg(l)}$ & GFA & Source \\ 
+		& & & & & $(T_{x} - T_{g})$ & $(T_{g}/T_{m})$ & $(T_{g}/T_{l})$ & (mm) & \\ 
+		\midrule
+		Mg$_{70}$Zn$_{24}$Ca$_{6}$ & 120 & 141 & 352 & 442 & 21 & 0.629 & 0.550 & 3.0 & [21, 57] \\ 
+		Mg$_{68}$Zn$_{26}$Ca$_{6}$ & 128 & 151 & 336 & 406 & 23 & 0.658 & 0.591 & 3.3 & [21, 57] \\ 
+		Mg$_{66}$Zn$_{28}$Ca$_{6}$ & 129 & 155 & 334 & 410 & 26 & 0.662 & 0.589 & 2.8 & [21, 57] \\ 
+		Mg$_{64}$Zn$_{30}$Ca$_{6}$ & 131 & 160 & 335 & 412 & 29 & 0.664 & 0.590 & 2.7 & [21, 57] \\ 
+		Mg$_{62}$Zn$_{32}$Ca$_{6}$ & 138 & 169 & 338 & 424 & 31 & 0.673 & 0.590 & 1.5 & [21, 57] \\ 
+		Mg$_{75}$Zn$_{20}$Ca$_{5}$ & 114 & 122 & 353 & 452.5 & 8 & 0.618 & 0.533 & 1.0 & \cite{Gu2005} \\ 
+		Mg$_{70}$Zn$_{25}$Ca$_{5}$ & 124 & 136 & 351 & 398 & 12 & 0.636 & 0.592 & 3.0 & [41, 56] \\ 
+		Mg$_{67.5}$Zn$_{27.5}$Ca$_{5}$ & 134 & 146 & 336 & 375 & 12 & 0.668 & 0.628 & 4.0 & \cite{Gu2005} \\ 
+		Mg$_{68}$Zn$_{28}$Ca$_{5}$ & 134.5 & 145.5 & 333 & 374.5 & 11 & 0.672 & 0.629 & 4.0 & \cite{Gu2005} \\ 
+		Mg$_{65}$Zn$_{30}$Ca$_{5}$ & 141.5 & 155 & 336 & 387 & 13.5 & 0.681 & 0.628 & 3.0 & \cite{Gu2005} \\ 
+		Mg$_{60}$Zn$_{35}$Ca$_{5}$ & 169 & 174 & 336 & 432.5 & 5 & 0.726 & 0.627 & 2.0 & \cite{Gu2005} \\ 
+		Mg$_{72}$Zn$_{24}$Ca$_{4}$ & 84 & 115 & 335 & 420 & 31 & 0.587 & 0.515 & 1.1 & [21, 57] \\ 
+		Mg$_{70}$Zn$_{26}$Ca$_{4}$ & 86 & 126 & 335 & 398 & 40 & 0.590 & 0.535 & 2.8 & [21, 57] \\ 
+		Mg$_{69}$Zn$_{27}$Ca$_{4}$ & 111 & 139 & 339 & 378 & 28 & 0.627 & 0.590 & - & \cite{Wang2013} \\ 
+		Mg$_{68}$Zn$_{28}$Ca$_{4}$ & 84 & 135 & 331 & 393 & 51 & 0.591 & 0.536 & 4.0 & [21, 57] \\ 
+		Mg$_{66}$Zn$_{30}$Ca$_{4}$ & 89 & 140 & 336 & 391 & 51 & 0.594 & 0.545 & 3.5 & [21, 57] \\ 
+		Mg$_{64}$Zn$_{32}$Ca$_{4}$ & 89 & 142 & 335 & 436 & 53 & 0.595 & 0.511 & 0.7 & [21, 57] \\
+		\bottomrule 
+	\end{tabular}
+	\caption{Known basic BMG properties of several MgZnCa alloys. All temperatures are in \degree C. Temperature values from \cite{Gu2005} have been interpreted from plots, as has \Tg~ from \cite{Wang2013}. Compiled from [21, 41, 56, 57, 63].}
+	\label{tab:MgZnCaAlloys}
+\end{table}
+
+%code to put 3 images side by side in a figure
+\begin{figure}[bp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Mg72-XZn24+XCa4.png}
+		\caption{}
+		\label{fig:Mg72xZn24xCa4}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Mg70-XZn24+XCa6.png}
+		\caption{}
+		\label{fig:Mg70xZn24xCa6}
+	\end{subfigure}
+	%Image 3
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Mg75-XZn20+XCa5.png}
+		\caption{}
+		\label{fig:Mg75xZn20xCa5}
+	\end{subfigure}
+	\caption{Plots of \Tg, \Tx, \Tm, \Tl, and $\Delta T$ for alloys presented in Table \ref{tab:MgZnCaAlloys}. (a) Mg$_{72-X}$Zn$_{24+X}$Ca$_{4}$, (b) Mg$_{70-X}$Zn$_{24+X}$Ca$_{6}$, (c) Mg$_{75-X}$Zn$_{20+X}$Ca$_{5}$. Compiled from [21, 41, 56, 57, 63].}%global caption
+	\label{fig:MgZnCaPlots}
+\end{figure}
+    
+
+\end{document}

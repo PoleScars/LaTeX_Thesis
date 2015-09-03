@@ -1,0 +1,208 @@
+
+\chapter{References}
+
+[1]	A. L. Greer, Y. Q. Cheng, and E. Ma, "Shear bands in metallic glasses," Materials Science and Engineering: R: Reports, vol. 74, pp. 71-132, 4// 2013.
+[2]	M. Ediger, C. Angell, and S. R. Nagel, "Supercooled liquids and glasses," The journal of physical chemistry, vol. 100, pp. 13200-13212, 1996.
+[3]	K. Ishii and H. Nakayama, "Structural relaxation of vapor-deposited molecular glasses and supercooled liquids," Physical Chemistry Chemical Physics, vol. 16, pp. 12073-12092, 2014.
+[4]	D. P. Aji, A. Hirata, F. Zhu, L. Pan, K. M. Reddy, S. Song, et al., "Ultrastrong and Ultrastable Metallic Glass," arXiv preprint arXiv:1306.1575, 2013.
+[5]	W. Klement, R. Willens, and P. Duwez, "Non-crystalline structure in solidified gold?silicon alloys," 1960.
+[6]	A. Inoue, "Stabilization of metallic supercooled liquid and bulk amorphous alloys," Acta Materialia, vol. 48, pp. 279-306, 1/1/ 2000.
+[7]	M. M. Trexler and N. N. Thadhani, "Mechanical properties of bulk metallic glasses," Progress in Materials Science, vol. 55, pp. 759-839, 11// 2010.
+[8]	D. Turnbull, "Under what conditions can a glass be formed?," Contemporary Physics, vol. 10, pp. 473-488, 1969/09/01 1969.
+[9]	J. Schroers, "Processing of Bulk Metallic Glass," Advanced Materials, vol. 22, pp. 1566-1597, 2010.
+[10]	J. P. Chu, J. E. Greene, J. S. C. Jang, J. C. Huang, Y.-L. Shen, P. K. Liaw, et al., "Bendable bulk metallic glass: Effects of a thin, adhesive, strong, and ductile coating," Acta Materialia, vol. 60, pp. 3226-3238, 4// 2012.
+[11]	F. X. Liu, F. Q. Yang, Y. F. Gao, W. H. Jiang, Y. F. Guan, P. D. Rack, et al., "Micro-scratch study of a magnetron-sputtered Zr-based metallic-glass film," Surface and Coatings Technology, vol. 203, pp. 3480-3484, 8/15/ 2009.
+[12]	B. Prakash, "Abrasive wear behaviour of Fe, Co and Ni based metallic glasses," Wear, vol. 258, pp. 217-224, 1// 2005.
+[13]	C. L. Chiang, J. P. Chu, F. X. Liu, P. K. Liaw, and R. A. Buchanan, "A 200nm thick glass-forming metallic film for fatigue-property enhancements," Applied Physics Letters, vol. 88, pp. -, 2006.
+[14]	J. P. Chu, C. M. Lee, R. T. Huang, and P. K. Liaw, "Zr-based glass-forming film for fatigue-property improvements of 316L stainless steel: Annealing effects," Surface and Coatings Technology, vol. 205, pp. 4030-4034, 5/15/ 2011.
+[15]	C. W. Chu, J. S. C. Jang, S. M. Chiu, and J. P. Chu, "Study of the characteristics and corrosion behavior for the Zr-based metallic glass thin film fabricated by pulse magnetron sputtering process," Thin Solid Films, vol. 517, pp. 4930-4933, 7/1/ 2009.
+[16]	P. H. Tsai, Y. Z. Lin, J. B. Li, S. R. Jian, J. S. C. Jang, C. Li, et al., "Sharpness improvement of surgical blade by means of ZrCuAlAgSi metallic glass and metallic glass thin film coating," Intermetallics, vol. 31, pp. 127-131, 12// 2012.
+[17]	J. P. Chu, J. S. C. Jang, J. C. Huang, H. S. Chou, Y. Yang, J. C. Ye, et al., "Thin film metallic glasses: Unique properties and potential applications," Thin Solid Films, vol. 520, pp. 5097-5122, 6/1/ 2012.
+[18]	H. U. Krebs and O. Bremert, "Pulsed laser deposition of thin metallic alloys," Applied Physics Letters, vol. 62, pp. 2341-2343, 1993.
+[19]	D. Dijkkamp, T. Venkatesan, X. Wu, S. Shaheen, N. Jisrawi, Y. Min?Lee, et al., "Preparation of Y?Ba?Cu oxide superconductor thin films using pulsed laser evaporation from high Tc bulk material," Applied Physics Letters, vol. 51, pp. 619-621, 1987.
+[20]	J. Heitz, X. Wang, P. Schwab, D. Bäuerle, and L. Schultz, "KrF laser?induced ablation and patterning of Y?Ba?Cu?O films," Journal of Applied Physics, vol. 68, pp. 2512-2514, 1990.
+[21]	J. D. Cao, "Processing and properties of biocompatible metallic glasses," M. Ferry and K. Laws, Eds., ed: Thesis (Ph.D) - University of New South Wales - Australia, 2013.
+[22]	T. E. Brown, T. L. Brown, H. E. H. LeMay, B. E. Bursten, C. Murphy, and P. Woodward, Chemistry: The Central Science: Pearson Education, 2014.
+[23]	Y. H. Liu, T. Fujita, A. Hirata, S. Li, H. W. Liu, W. Zhang, et al., "Deposition of multicomponent metallic glass films by single-target magnetron sputtering," Intermetallics, vol. 21, pp. 105-114, 2// 2012.
+[24]	K. Kondoh, K. Kawabata, T. Serikawa, and H. Kimura, "Structural Characteristics and Crystallization of Metallic Glass Sputtered Films by Using Zr System Target," Advances in Materials Science and Engineering, vol. 2008, 2008.
+[25]	Y. P. Deng, Y. F. Guan, J. D. Fowlkes, S. Q. Wen, F. X. Liu, G. M. Pharr, et al., "A combinatorial thin film sputtering approach for synthesizing and characterizing ternary ZrCuAl metallic glasses," Intermetallics, vol. 15, pp. 1208-1216, 9// 2007.
+[26]	J. Qin, X. Yong, Z. Xin-Yu, L. Gong, L. Li-Xin, X. Zhe, et al., "Zr-Cu amorphous films prepared by magnetron co-sputtering deposition of pure Zr and Cu," Chinese Physics Letters, vol. 26, p. 086109, 2009.
+[27]	M. Apreutesei, P. Steyer, L. Joly-Pottuz, A. Billard, J. Qiao, S. Cardinal, et al., "Microstructural, thermal and mechanical behavior of co-sputtered binary Zr?Cu thin film metallic glasses," Thin Solid Films, vol. 561, pp. 53-59, 6/30/ 2014.
+[28]	S. F. Swallen, K. L. Kearns, M. K. Mapes, Y. S. Kim, R. J. McMahon, M. D. Ediger, et al., "Organic glasses with exceptional thermodynamic and kinetic stability," Science, vol. 315, pp. 353-356, 2007.
+[29]	K. Dawson, L. Zhu, L. A. Kopff, R. J. McMahon, L. Yu, and M. Ediger, "Highly stable vapor-deposited glasses of four tris-naphthylbenzene isomers," The Journal of Physical Chemistry Letters, vol. 2, pp. 2683-2687, 2011.
+[30]	H.-B. Yu, Y. Luo, and K. Samwer, "Ultrastable Metallic Glass," Advanced Materials, vol. 25, pp. 5904-5908, 2013.
+[31]	J. Q. Wang, N. Chen, P. Liu, Z. Wang, D. V. Louzguine-Luzgin, M. W. Chen, et al., "The ultrastable kinetic behavior of an Au-based nanoglass," Acta Materialia, vol. 79, pp. 30-36, 10/15/ 2014.
+[32]	H. Nakayama, K. Omori, K. Ino-u-e, and K. Ishii, "Molar Volumes of Ethylcyclohexane and Butyronitrile Glasses Resulting from Vapor Deposition: Dependence on Deposition Temperature and Comparison to Alkylbenzenes," The Journal of Physical Chemistry B, vol. 117, pp. 10311-10319, 2013/09/05 2013.
+[33]	K. J. Dawson, L. Zhu, L. Yu, and M. Ediger, "Anisotropic structure and transformation kinetics of vapor-deposited indomethacin glasses," The Journal of Physical Chemistry B, vol. 115, pp. 455-463, 2010.
+[34]	K. L. Kearns, S. F. Swallen, M. Ediger, T. Wu, Y. Sun, and L. Yu, "Hiking down the energy landscape: Progress toward the Kauzmann temperature via vapor deposition," The Journal of Physical Chemistry B, vol. 112, pp. 4934-4942, 2008.
+[35]	Y. Guo, A. Morozov, D. Schneider, J. W. Chung, C. Zhang, M. Waldmann, et al., "Ultrastable nanostructured polymer glasses," Nature materials, vol. 11, pp. 337-343, 2012.
+[36]	J. E. Shelby, Introduction to Glass Science and Technology: Royal Society of Chemistry, 2005.
+[37]	C. A. Angell, "Formation of Glasses from Liquids and Biopolymers," Science, vol. 267, pp. 1924-1935, March 31, 1995 1995.
+[38]	C. A. Angell, "On the uncertain distinction between fast landscape exploration and second amorphous phase (ideal glass) interpretations of the ultrastable glass phenomenon," Journal of Non-Crystalline Solids, 2014.
+[39]	K. Schlüter, C. Zamponi, N. Hort, K. U. Kainer, and E. Quandt, "Polycrystalline and amorphous MgZnCa thin films," Corrosion Science, vol. 63, pp. 234-238, 10// 2012.
+[40]	J. D. Cao, P. Martens, K. J. Laws, P. Boughton, and M. Ferry, "Quantitative in vitro assessment of Mg65Zn30Ca5 degradation and its effect on cell viability," Journal of Biomedical Materials Research Part B: Applied Biomaterials, vol. 101B, pp. 43-49, 2013.
+[41]	X. Gu, G. J. Shiflet, F. Q. Guo, and S. J. Poon, "Mg?Ca?Zn Bulk Metallic Glasses with High Strength and Significant Ductility," Journal of Materials Research, vol. 20, pp. 1935-1938, 2005.
+[42]	S. J. Bull and A. M. Jones, "Multilayer coatings for improved performance," Surface and Coatings Technology, vol. 78, pp. 173-184, 1// 1996.
+[43]	P. J. Burnett and D. S. Rickerby, "The relationship between hardness and scratch adhession," Thin Solid Films, vol. 154, pp. 403-416, 11/12/ 1987.
+[44]	P. J. Burnett and D. S. Rickerby, "The scratch adhesion test: An elastic-plastic indentation analysis," Thin Solid Films, vol. 157, pp. 233-254, 2/29/ 1988.
+[45]	C. T. Pan, T. T. Wu, C. F. Liu, C. Y. Su, W. J. Wang, and J. C. Huang, "Study of scratching Mg-based BMG using nanoindenter with Berkovich probe," Materials Science and Engineering: A, vol. 527, pp. 2342-2349, 4/15/ 2010.
+[46]	Y. Wang, M. J. Tan, J. Pang, Z. Wang, and A. W. E. Jarfors, "In vitro corrosion behaviors of Mg67Zn28Ca5 alloy: From amorphous to crystalline," Materials Chemistry and Physics, vol. 134, pp. 1079-1087, 6/15/ 2012.
+[47]	B. Zberg, P. J. Uggowitzer, and J. F. Löffler, "MgZnCa glasses without clinically observable hydrogen evolution for biodegradable implants," Nature Materials, vol. 8, pp. 887-891, 2009.
+[48]	Y. F. Zheng, X. N. Gu, and F. Witte, "Biodegradable metals," Materials Science and Engineering: R: Reports, vol. 77, pp. 1-34, 3// 2014.
+[49]	F. Witte, "The history of biodegradable magnesium implants: A review," Acta Biomaterialia, vol. 6, pp. 1680-1692, 5// 2010.
+[50]	D. A. Jones, Principles and prevention of corrosion: Macmillan, 1992.
+[51]	D. G. Enos and L. Scribner, "The potentiodynamic polarization scan," Center for Electrochemical Science & Engineering, 1997.
+[52]	J. Verbrugge, "La tolérance du tissu osseux vis-à-vis du magnésium métallique," Presse méd, vol. 55, pp. 1112-1114, 1933.
+[53]	A. Lambotte, "L?utilisation du magnesium comme materiel perdu dans l?osteosynthèse," Bull Mem Soc Nat Chir, vol. 28, pp. 1325-1334, 1932.
+[54]	P. A. Schweitzer, Fundamentals of corrosion: mechanisms, causes, and preventative methods: CRC Press, 2009.
+[55]	X. Gu, Y. Zheng, S. Zhong, T. Xi, J. Wang, and W. Wang, "Corrosion of, and cellular responses to Mg?Zn?Ca bulk metallic glasses," Biomaterials, vol. 31, pp. 1093-1103, 2// 2010.
+[56]	X. Zhou, K. D. Ralston, K. J. Laws, J. D. Cao, R. K. Gupta, M. Ferry, et al., "Effect of the Degree of Crystallinity on the Electrochemical Behavior of Mg65Cu25Y10 and Mg70Zn25Ca5 Bulk Metallic Glasses," Corrosion, vol. 69, pp. 781-792, 2013/08/01 2013.
+[57]	J. D. Cao, K. J. Laws, N. Birbilis, and M. Ferry, "Potentiodynamic polarisation study of bulk metallic glasses based on the Mg?Zn?Ca ternary system," Corrosion Engineering, Science and Technology, vol. 47, pp. 329-334, 2012.
+[58]	D. Ehrler, "Investigation of the Corrosive and Mechanical Properties of Melt-Spun Amorphous MgZn and MgXZn Ribbons (X = Al, Ca, La)," B. Zberg, Ed., ed. Department of Materials, ETH Zuerich: Thesis (M.Eng) - ETH Zuerich, 2008.
+[59]	E. V. Melnik, Kostina, M.F., Yarmolyuk, Ya.P., Zmiy, O.F., "Study of Magnesium - Zinc - Cerium and Magnesium - Zinc - Calcium Ternary Systems," Magnievye Splavy, "Nauka", Moscow, pp. 95-99, 1978.
+[60]	J. B. Clark, "The Solid Constitution in the Magnesium&KHcy;Rich Region of the Mg-Ca-Zn Phase Diagram," Transactions of the Metallurgical Society of AIME, vol. 221, pp. 644-645, 1961.
+[61]	G. E. R. Schulze, Wieting, J., " About the Constitution Principles of the CaZn2-Lattice," Z. Metallkd., vol. 52, pp. 743-746, 1961.
+[62]	R. Paris, "Sur les alliages ternaires magnésium-zinc-calcium," Comptes Rendus Hebdomadaires des Seances de l'Academie des Sciences, vol. 197, pp. 1634-1636, 1933.
+[63]	J. Wang, S. Huang, Y. Li, Y. Wei, X. Xi, and K. Cai, "Microstructure, mechanical and bio-corrosion properties of Mn-doped Mg?Zn?Ca bulk metallic glass composites," Materials Science and Engineering: C, vol. 33, pp. 3832-3838, 10// 2013.
+
+\chapter{Appendices}
+\section{Glossary}
+
+ABED 	? 	Angstrom Beam Electron Diffraction 
+BMG 	? 	Bulk Metallic Glass
+C_p 	? 	Heat Capacity ( J  )
+c_p 	? 	Specific Heat Capacity ( J / gK )
+CVD 	? 	Chemical Vapour Deposition
+DC 	? 	Direct Current ( I )
+DSC 	? 	Differential Scanning Calorimetry
+E 	? 	Young?s Modulus ( GPa )
+E_A	? 	Applied Potential ( V )
+E_OCP	? 	Open Circuit Potential ( V )
+E_corr	? 	Corrosion Potential ( V )
+FDA 	? 	Food and Drug Administration
+G	? 	Gibb?s Free Energy ( J )
+GFA 	? 	Glass Forming Ability
+H 	? 	Enthalpy ( J )
+h 	? 	Specific Enthalpy ( J / g )
+H_0 	? 	Absolute Zero Enthalpy ( J )
+i	? 	Current Density ( A/cm2¬ )
+i_0	? 	Exchange Current Density ( A/cm2¬ )
+i_corr	? 	Corrosion Current Density ( A/cm2¬ )
+LRO	? 	Long Range Order 
+m 	? 	Fragility 
+MG 	? 	Metallic Glass
+MRO 	? 	Medium Range Order
+PCL 	? 	Polycaprolactone
+PDP 	? 	Potentiodynamic Polarisation
+PLD 	? 	Pulse Laser Deposition
+PVD 	? 	Physical Vapour Deposition
+r	? 	Nucleus Radius ( m )
+R_c 	? 	Critical Cooling Rate ( K / s )
+RE	? 	Rare Earth Elements
+S	? 	Entropy ( J / K )
+s	? 	Specific Entropy ( J / gK )
+SCL 	? 	Super Cooled Liquid
+SCLR 	? 	Super Cooled Liquid Region
+SMG 	? 	Ultrastable Metallic Glass
+SRO 	? 	Short Range Order
+T	? 	Temperature ( K )
+T_f 	? 	Fictive Temperature ( K )
+TFMG 	? 	Thin Film Metallic Glass
+T_g 	? 	Glass Transition Temperature ( K )
+TGA 	? 	Therapeutic Goods Administration
+T_i 	? 	Intersection Temperature ( K )
+T_k 	? 	Kauzmann Temperature ( K )
+T_l 	? 	Liquidus Temperature ( K )
+T_m 	? 	Melting Temperature ( K )
+T_onset 	? 	Onset Temperature ( K )
+TPF 	? 	Thermoplastic Forming
+T_rg	? 	Reduced Glass Transition Temperature ( T_g/T_m )
+T_sub 	? 	Substrate Temperature ( K )
+t_max 	? 	Maximum Sample Thickness ( mm )
+T_x 	? 	Crystallisation Temperature ( K )
+STEM 	? 	Scan Transmission Electron Microscopy 
+UHV 	? 	Ultrahigh Vacuum 
+UNSW 	? 	University of New South Wales 
+USG 	? 	Ultrastable Glass
+V 	? 	Volume ( m^3 )
+v 	? 	Specific Volume ( m^3  / kg )
+VD 	? 	Vapour Deposition
+V_m	? 	Molar Volume ( m^3  / mol )
+?	? 	Tafel Slope
+?_SL	? 	Surface Energy ( J / m^2 )
+?G	? 	Change in Gibb?s Free Energy ( J )
+?G_V	? 	Reduction in Volume Energy ( J / m^3 )
+?T 	? 	Super Cooled Liquid Region ( K )
+?T_g 	? 	Enhanced Glass Transition Temperature ( K )
+?_k 	? 	Proportion along the Energy Landscape
+? 	? 	Viscosity ( Pa s ) 
+?	? 	Overpotential ( V )
+?	? 	Density ( kg / m^3 )
+
+\section{MgZnCa System}
+
+
+Figure 19: Partial isothermal ternary phase diagram of MgZnCa system at 300°C. Modified from [59].
+Table 1: T1, T2, and T3 phases of Figure 19.
+Phase	Composition	Source
+T¬1	?Mg?_6 ?Zn?_3 ?Ca?_2    OR
+?Mg?_5 ?Zn?_5 ?Ca?_2
+[60]
+
+T2	?Mg?_5 ?Zn?_13 ?Ca?_2    OR
+?Mg?_3 ?Zn?_6 Ca
+[60]
+
+T3	MgZnCa	[61]
+
+
+Note: The first composition of both T1 and T2 are better supported by data.
+
+Figure 20: Liquidus Projection ternary phase diagram of MgZnCa system. Reproduced from [62]
+
+
+Table 2: Known basic BMG properties of several MgZnCa alloys. All temperatures are in °C. Temperature values from [41] have been interpreted from plots, as has T_g from [63]. Compiled from [21, 41, 56, 57, 63]. 
+Composition	T_g	T_x	T_m	T_l	?T
+(T_x-T_g)	T_(rg(m))
+(T_g/T_m)	T_(rg(l))
+(T_g/T_l)	GFA
+(mm)	Source
+Mg70Zn24Ca6	120	141	352	442	21	0.629	0.550	3.0	[21, 57]
+
+Mg68Zn26Ca6	128	151	336	406	23	0.658	0.591	3.3	[21, 57]
+
+Mg66Zn28Ca6	129	155	334	410	26	0.662	0.589	2.8	[21, 57]
+
+Mg64Zn30Ca6	131	160	335	412	29	0.664	0.590	2.7	[21, 57]
+
+Mg62Zn32Ca6	138	169	338	424	31	0.673	0.590	1.5	[21, 57]
+
+Mg75Zn20Ca5	114	122	353	452.5	8	0.618	0.533	1.0	[41]
+
+Mg70Zn25Ca5	124	136	351	398	12	0.636	0.592	3.0	[41, 56]
+
+Mg67.5Zn27.5Ca5	134	146	336	375	12	0.668	0.628	4.0	[41]
+
+Mg67Zn28Ca5	134.5	145.5	333	374.5	11	0.672	0.629	4.0	[41]
+
+Mg65Zn30Ca5	141.5	155	336	387	13.5	0.681	0.628	3.0	[41]
+
+Mg60Zn35Ca5	169	174	336	432.5	5	0.726	0.627	2.0	[41]
+
+Mg72Zn24Ca4	84	115	335	420	31	0.587	0.515	1.1	[21, 57]
+
+Mg70Zn26Ca4	86	126	335	398	40	0.590	0.535	2.8	[21, 57]
+
+Mg69Zn27Ca4	111	139	339	378	28	0.627	0.590	-	[63]
+
+Mg68Zn28Ca4	84	135	331	393	51	0.591	0.536	4.0	[21, 57]
+
+Mg66Zn30Ca4	89	140	336	391	51	0.594	0.545	3.5	[21, 57]
+
+Mg64Zn32Ca4	89	142	335	436	53	0.595	0.511	0.7	[21, 57]
+
+
+
+
+
+%Figure 21: Plots of T_g, T_x, T_m, T_l, and ?T for alloys presented in Table 2. (a) ?Mg?_(72-X) ?Zn?_(24+X) ?Ca?_4, (b) ?Mg?_(70-X) ?Zn?_(24+X) ?Ca?_6, (c) ?Mg?_(75-X) ?Zn?_(20+X) ?Ca?_5. Compiled from [21, 41, 56, 57, 63].     
