@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  3 SEP 2015 17:42
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  3 SEP 2015 17:50
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1497,20 +1497,6 @@ ss Tran-si-tion
 ] [2])
 \tf@toc=\write7
  [3] ("ScottGleason PhDThesis.lof"
-Overfull \hbox (30.12633pt too wide) in paragraph at lines 4--4
- [][] [][][]\T1/ppl/m/n/12 Schematic of spe-cific en-thalpy ($\OML/zplm/m/it/12
- h$\T1/ppl/m/n/12 ) or spe-cific vol-ume ($\OML/zplm/m/it/12 v$\T1/ppl/m/n/12 )
- as a func-tion of tem-per-a-ture 
- []
-
-
-Overfull \hbox (9.14597pt too wide) in paragraph at lines 5--5
- \T1/ppl/m/n/12 num-ber of glass form-ing sys-tems. Note the $\OML/zplm/m/it/12
- R[]$ \T1/ppl/m/n/12 and $\OML/zplm/m/it/12 t[]$ \T1/ppl/m/n/12 im-prove with i
-n-creas-ing 
- []
-
-
 Overfull \hbox (11.57367pt too wide) in paragraph at lines 6--6
  [][] [][][]\T1/ppl/m/n/12 Schematic TTT di-a-gram where line (1) in-di-cates t
 he slow-est cool-ing rate pos-si-ble 
@@ -1543,7 +1529,7 @@ Overfull \hbox (19.733pt too wide) in paragraph at lines 16--16
 /n/12 line. (b) Weak re-la-tion-ship be-tween the nor-malised 
  []
 
-[5]
+
 Overfull \hbox (10.52151pt too wide) in paragraph at lines 27--27
  [][] [][][]\T1/ppl/m/n/12 Partial isother-mal ternary phase di-a-gram of MgZnC
 a sys-tem at 300$[]$C. Mod-i-fied 
@@ -1560,7 +1546,7 @@ $,
 
 )
 \tf@lof=\write8
- [6] ("ScottGleason PhDThesis.lot")
+ [5] [6] ("ScottGleason PhDThesis.lot")
 \tf@lot=\write9
  [7
 
@@ -3473,7 +3459,7 @@ Chapter 5.
 Chapter 6.
 Missing character: There is no ‐ in font pplr8t!
 
-Underfull \hbox (badness 1097) in paragraph at lines 55--59
+Underfull \hbox (badness 1097) in paragraph at lines 45--49
 \T1/ppl/m/n/12 molec-u-lar glasses and su-per-cooled liq-uids.  \T1/ppl/m/it/12
  Phys-i-cal Chem-istry Chem-i-cal Physics\T1/ppl/m/n/12 ,
  []
@@ -3481,7 +3467,7 @@ Underfull \hbox (badness 1097) in paragraph at lines 55--59
 [45
 
 ]
-Underfull \hbox (badness 1609) in paragraph at lines 78--82
+Underfull \hbox (badness 1609) in paragraph at lines 68--72
 []\T1/ppl/m/n/12 R. Paris.  Sur les al-liages ter-naires magnésium-zinc-calcium
 .  \T1/ppl/m/it/12 Comptes Ren-dus
  []
@@ -3514,7 +3500,10 @@ Underfull \hbox (badness 1005) in paragraph at lines 294--299
 ng Wang, and
  []
 
-[48]) [49]
+[48]
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+) [49]
 Chapter 7.
 [50
 
@@ -3559,12 +3548,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 905.
  ) 
 Here is how much of TeX's memory you used:
- 43289 strings out of 428755
- 909722 string characters out of 3164221
- 1112555 words of memory out of 3000000
- 45977 multiletter control sequences out of 15000+200000
+ 43292 strings out of 428755
+ 909767 string characters out of 3164221
+ 1110930 words of memory out of 3000000
+ 45980 multiletter control sequences out of 15000+200000
  23382 words of font info for 56 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 64i,10n,77p,10431b,720s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,10n,77p,10443b,720s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on ScottGleason PhDThesis.pdf (62 pages).

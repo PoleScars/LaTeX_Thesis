@@ -1,15 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{Ediger1996}
-MD~Ediger, CA~Angell, and Sidney~R Nagel.
-\newblock Supercooled liquids and glasses.
-\newblock {\em The journal of physical chemistry}, 100(31):13200--13212, 1996.
-
-\bibitem{Trexler2010}
-Morgana~Martin Trexler and Naresh~N. Thadhani.
-\newblock Mechanical properties of bulk metallic glasses.
-\newblock {\em Progress in Materials Science}, 55(8):759--839, 2010.
-
 \bibitem{Schroers2010}
 Jan Schroers.
 \newblock Processing of bulk metallic glass.
@@ -98,6 +88,11 @@ A.~L. Greer, Y.~Q. Cheng, and E.~Ma.
 \newblock {\em Materials Science and Engineering: R: Reports}, 74(4):71--132,
   2013.
 
+\bibitem{Ediger1996}
+MD~Ediger, CA~Angell, and Sidney~R Nagel.
+\newblock Supercooled liquids and glasses.
+\newblock {\em The journal of physical chemistry}, 100(31):13200--13212, 1996.
+
 \bibitem{Aji2013}
 Daisman~PB Aji, Akihiko Hirata, Fan Zhu, Liu Pan, K~Madhav Reddy, Shuangxi
   Song, Yanhui Liu, Takeshi Fujita, Shinji Kohara, and Mingwei Chen.
@@ -114,6 +109,11 @@ Akihisa Inoue.
 \newblock Stabilization of metallic supercooled liquid and bulk amorphous
   alloys.
 \newblock {\em Acta Materialia}, 48(1):279--306, 2000.
+
+\bibitem{Trexler2010}
+Morgana~Martin Trexler and Naresh~N. Thadhani.
+\newblock Mechanical properties of bulk metallic glasses.
+\newblock {\em Progress in Materials Science}, 55(8):759--839, 2010.
 
 \bibitem{Turnbull1969}
 David Turnbull.
@@ -320,5 +320,12 @@ J.B. Clark.
 Wieting~J. Schulze, G.E.R.
 \newblock About the constitution principles of the cazn2-lattice.
 \newblock {\em Z. Metallkd.}, 52(11):743--746, 1961.
+
+\bibitem{Cao2012}
+J~D Cao, K~J Laws, N~Birbilis, and M~Ferry.
+\newblock Potentiodynamic polarisation study of bulk metallic glasses based on
+  the mg–zn–ca ternary system.
+\newblock {\em Corrosion Engineering, Science and Technology}, 47(5):329--334,
+  2012.
 
 \end{thebibliography}

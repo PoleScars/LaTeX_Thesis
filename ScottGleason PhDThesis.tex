@@ -1,7 +1,7 @@
 \documentclass[a4paper,12pt,oneside]{report}%NormalView
 %\documentclass[draft,a4paper,12pt,oneside]{report}%draftView
 
-\input{settings/preamble.tex}%Preamble in .tex
+\input{settings/preamble.tex}%Inputs Preamble for its .tex
 %\usepackage[color]{showkeys}%Shows cross ref path
 
 \begin{document}
@@ -162,7 +162,7 @@ When a liquid is cooled below its $T_{m}$ without solidifying it is termed a sup
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Glass_Cooling_Graph.png}
-	\caption{Schematic of specific enthalpy ($h$) or specific volume ($v$) as a function of temperature for a material that exhibits both glass and crystalline solid states. Note 'glass 1' has a greater $T_{g}$ and accordingly greater $h$ \&  $v$ than 'glass 2.' This higher temperature stability is the result of 'glass 1' being cooled more quickly than 'glass 2.' Modified from \cite{Ediger1996}.}
+	\caption[Glass Solidification Curve]{Schematic of specific enthalpy ($h$) or specific volume ($v$) as a function of temperature for a material that exhibits both glass and crystalline solid states. Note 'glass 1' has a greater $T_{g}$ and accordingly greater $h$ \&  $v$ than 'glass 2.' This higher temperature stability is the result of 'glass 1' being cooled more quickly than 'glass 2.' Modified from \cite{Ediger1996}.}
 	\label{fig:GlassCooling}
 \end{figure}
 
@@ -189,7 +189,7 @@ Alloys that follow these rules display deep eutectics with low $T_{m}$, sluggish
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{BMG_Tg_on_Tm_01.png}
-	\caption{Schematic of critical cooling rate ($R_{c}$) and maximum sample thickness ($t_{max}$) as a function of reduced glass transition temperature ($T_{rg}=T_{g}/T_{m}$) for a number of glass forming systems. Note the $R_{c}$ and $t_{max}$ improve with increasing $T_{g}/T_{m}$. Modified from \cite{Trexler2010}.}
+	\caption[BMG development]{Schematic of critical cooling rate ($R_{c}$) and maximum sample thickness ($t_{max}$) as a function of reduced glass transition temperature ($T_{rg}=T_{g}/T_{m}$) for a number of glass forming systems. Note the $R_{c}$ and $t_{max}$ improve with increasing $T_{g}/T_{m}$. Modified from \cite{Trexler2010}.}
 	\label{fig:BMGRc}
 \end{figure}
 
@@ -853,23 +853,23 @@ V_m	? 	Molar Volume ( m^3  / mol )
 		Composition & \Tg  & \Tx  & \Tm  & \Tl  & $\Delta T$ & $T_{rg(m)}$ & $T_{rg(l)}$ & GFA & Source \\ 
 		& & & & & $(T_{x} - T_{g})$ & $(T_{g}/T_{m})$ & $(T_{g}/T_{l})$ & (mm) & \\ 
 		\midrule
-		Mg$_{70}$Zn$_{24}$Ca$_{6}$ & 120 & 141 & 352 & 442 & 21 & 0.629 & 0.550 & 3.0 & [21, 57] \\ 
-		Mg$_{68}$Zn$_{26}$Ca$_{6}$ & 128 & 151 & 336 & 406 & 23 & 0.658 & 0.591 & 3.3 & [21, 57] \\ 
-		Mg$_{66}$Zn$_{28}$Ca$_{6}$ & 129 & 155 & 334 & 410 & 26 & 0.662 & 0.589 & 2.8 & [21, 57] \\ 
-		Mg$_{64}$Zn$_{30}$Ca$_{6}$ & 131 & 160 & 335 & 412 & 29 & 0.664 & 0.590 & 2.7 & [21, 57] \\ 
-		Mg$_{62}$Zn$_{32}$Ca$_{6}$ & 138 & 169 & 338 & 424 & 31 & 0.673 & 0.590 & 1.5 & [21, 57] \\ 
+		Mg$_{70}$Zn$_{24}$Ca$_{6}$ & 120 & 141 & 352 & 442 & 21 & 0.629 & 0.550 & 3.0 & \cite{Cao2013, Cao2012} \\ 
+		Mg$_{68}$Zn$_{26}$Ca$_{6}$ & 128 & 151 & 336 & 406 & 23 & 0.658 & 0.591 & 3.3 & \cite{Cao2013, Cao2012} \\ 
+		Mg$_{66}$Zn$_{28}$Ca$_{6}$ & 129 & 155 & 334 & 410 & 26 & 0.662 & 0.589 & 2.8 & \cite{Cao2013, Cao2012} \\ 
+		Mg$_{64}$Zn$_{30}$Ca$_{6}$ & 131 & 160 & 335 & 412 & 29 & 0.664 & 0.590 & 2.7 & \cite{Cao2013, Cao2012} \\ 
+		Mg$_{62}$Zn$_{32}$Ca$_{6}$ & 138 & 169 & 338 & 424 & 31 & 0.673 & 0.590 & 1.5 & \cite{Cao2013, Cao2012} \\ 
 		Mg$_{75}$Zn$_{20}$Ca$_{5}$ & 114 & 122 & 353 & 452.5 & 8 & 0.618 & 0.533 & 1.0 & \cite{Gu2005} \\ 
 		Mg$_{70}$Zn$_{25}$Ca$_{5}$ & 124 & 136 & 351 & 398 & 12 & 0.636 & 0.592 & 3.0 & [41, 56] \\ 
 		Mg$_{67.5}$Zn$_{27.5}$Ca$_{5}$ & 134 & 146 & 336 & 375 & 12 & 0.668 & 0.628 & 4.0 & \cite{Gu2005} \\ 
 		Mg$_{68}$Zn$_{28}$Ca$_{5}$ & 134.5 & 145.5 & 333 & 374.5 & 11 & 0.672 & 0.629 & 4.0 & \cite{Gu2005} \\ 
 		Mg$_{65}$Zn$_{30}$Ca$_{5}$ & 141.5 & 155 & 336 & 387 & 13.5 & 0.681 & 0.628 & 3.0 & \cite{Gu2005} \\ 
 		Mg$_{60}$Zn$_{35}$Ca$_{5}$ & 169 & 174 & 336 & 432.5 & 5 & 0.726 & 0.627 & 2.0 & \cite{Gu2005} \\ 
-		Mg$_{72}$Zn$_{24}$Ca$_{4}$ & 84 & 115 & 335 & 420 & 31 & 0.587 & 0.515 & 1.1 & [21, 57] \\ 
-		Mg$_{70}$Zn$_{26}$Ca$_{4}$ & 86 & 126 & 335 & 398 & 40 & 0.590 & 0.535 & 2.8 & [21, 57] \\ 
+		Mg$_{72}$Zn$_{24}$Ca$_{4}$ & 84 & 115 & 335 & 420 & 31 & 0.587 & 0.515 & 1.1 & \cite{Cao2013, Cao2012} \\ 
+		Mg$_{70}$Zn$_{26}$Ca$_{4}$ & 86 & 126 & 335 & 398 & 40 & 0.590 & 0.535 & 2.8 & \cite{Cao2013, Cao2012} \\ 
 		Mg$_{69}$Zn$_{27}$Ca$_{4}$ & 111 & 139 & 339 & 378 & 28 & 0.627 & 0.590 & - & \cite{Wang2013} \\ 
-		Mg$_{68}$Zn$_{28}$Ca$_{4}$ & 84 & 135 & 331 & 393 & 51 & 0.591 & 0.536 & 4.0 & [21, 57] \\ 
-		Mg$_{66}$Zn$_{30}$Ca$_{4}$ & 89 & 140 & 336 & 391 & 51 & 0.594 & 0.545 & 3.5 & [21, 57] \\ 
-		Mg$_{64}$Zn$_{32}$Ca$_{4}$ & 89 & 142 & 335 & 436 & 53 & 0.595 & 0.511 & 0.7 & [21, 57] \\
+		Mg$_{68}$Zn$_{28}$Ca$_{4}$ & 84 & 135 & 331 & 393 & 51 & 0.591 & 0.536 & 4.0 & \cite{Cao2013, Cao2012} \\ 
+		Mg$_{66}$Zn$_{30}$Ca$_{4}$ & 89 & 140 & 336 & 391 & 51 & 0.594 & 0.545 & 3.5 & \cite{Cao2013, Cao2012} \\ 
+		Mg$_{64}$Zn$_{32}$Ca$_{4}$ & 89 & 142 & 335 & 436 & 53 & 0.595 & 0.511 & 0.7 & \cite{Cao2013, Cao2012} \\
 		\bottomrule 
 	\end{tabular}
 	\caption{Known basic BMG properties of several MgZnCa alloys. All temperatures are in \degree C. Temperature values from \cite{Gu2005} have been interpreted from plots, as has \Tg~ from \cite{Wang2013}. Compiled from [21, 41, 56, 57, 63].}
