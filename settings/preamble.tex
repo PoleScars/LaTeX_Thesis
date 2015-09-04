@@ -1,5 +1,18 @@
 \usepackage{indentfirst}
-\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+
+%Page Geometry
+\usepackage[
+	top=2cm,
+	bottom=2cm,
+	left=2cm,
+	right=2cm,
+	%bindingoffset=1cm, %Adds a Binding offset for printed documents
+	marginparwidth=10cm, %Adds Overflow Width to Rigth Margin 
+	marginparsep=3mm %Gap between right margin and right overflow margin
+	]{geometry}
+\usepackage{showframe} % UNCOMMENT TO SHOW BORDERS REPRESENTING YOUR PAGE ARANGMENT
+\usepackage[cam,center,a3]{crop}%Extends PageView
+
 \usepackage[T1]{fontenc}
 \usepackage[none]{hyphenat} %Prevents hyphen words
 \usepackage{setspace}
@@ -15,7 +28,8 @@
 %\captionsetup[sub]{labelsep=newline}
 %\usepackage{subfigure}
 
-\usepackage[ colorinlistoftodos ]{todonotes}
+\usepackage[ colorinlistoftodos ]{todonotes} %Adds todonotes to margin
+\usepackage{marginnote} %Adds basic margin notes
 %\sloppy
 \usepackage[hyperfigures=true,colorlinks=true,linkcolor=black]{hyperref}%hyperlinks
 \usepackage{glossaries}%glossary
@@ -59,6 +73,7 @@
 \setcounter{tocdepth}{4} %Adds subsubsection numbers
 \setcounter{secnumdepth}{4} %Adds subsubsections to ToC
 \usepackage{verbatim} %Allows multiple line comments
+
 
 %My Commands
 \newcommand{\MgZnCa}{Mg$_{65}$Zn$_{30}$Ca$_{5}$}
