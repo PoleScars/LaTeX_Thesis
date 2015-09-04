@@ -1,5 +1,5 @@
-%\documentclass[a4paper,12pt,oneside]{report}%FinalView
-\documentclass[draft,a4paper,12pt,oneside]{report}%draftView
+\documentclass[a4paper,12pt,oneside]{report}%FinalView
+%\documentclass[draft,a4paper,12pt,oneside]{report}%draftView
 
 \input{settings/preamble.tex}%Inputs Preamble for its .tex
 \usepackage[color]{showkeys}%Shows cross ref paths
@@ -746,8 +746,10 @@ Significant because...
 \bibliographystyle{unsrt}
 
 \chapter{APPENDICES}
+\samepage
 %Glossary
-\glsaddall\printglossaries
+\glsaddall
+\printglossaries
 
 \newpage
 
