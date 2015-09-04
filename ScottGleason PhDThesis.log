@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  4 SEP 2015 10:27
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  4 SEP 2015 11:05
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -3115,13 +3115,13 @@ Overfull \hbox (3.86952pt too wide) in paragraph at lines 297--298
  when de-posit-ing lighter or heav-ier|
  []
 
-[14] [15] [16]
-Overfull \hbox (26.08159pt too wide) in paragraph at lines 324--325
-[]\T1/ppl/m/n/12 Yu, et al. [][[]] has noted that while more com-pli-cated atom
-ic struc-tures re-quire higher tem-per-a-tures|
+
+Overfull \hbox (2.84987pt too wide) in paragraph at lines 305--306
+\T1/ppl/m/n/12 sput-ter-ing power, and that higher rates re-sult in smoother fi
+lm sur-faces [][[], []]. Ad-di-tion-ally,|
  []
 
-[17] [18]
+[14] [15] [16] [17] [18]
 Overfull \hbox (2.5006pt too wide) in paragraph at lines 339--339
 []\T1/ppl/b/n/12 Fictive Tem-per-a-ture ($\OML/zplm/m/it/12 T[]$\T1/ppl/b/n/12 
 ), Ki-netic Sta-bil-ity and En-thalpy via Dif-fer-en-tial Scan-ning|
@@ -3131,12 +3131,6 @@ Overfull \hbox (2.5006pt too wide) in paragraph at lines 339--339
 Overfull \hbox (23.38148pt too wide) in paragraph at lines 342--343
 \T1/ppl/m/n/12 be-ing exother-mic (i.e. glass to crys-talline), and dis-or-dere
 d lower en-ergy states be-ing en-dother-mic|
- []
-
-
-Overfull \hbox (4.40901pt too wide) in paragraph at lines 346--347
-\T1/ppl/m/n/12 in-ter-ests the ex-trap-o-lated SCL en-thalpy line of the bulk m
-a-te-rial (Fig-ure [][]2.10) [][[]]. An or-di-nary|
  []
 
 
@@ -3170,7 +3164,7 @@ dy formed glass at el-e-vated tem-per-a-ture,|
 Overfull \hbox (45.58078pt too wide) in paragraph at lines 475--476
 \T1/ppl/m/n/12 sig-nif-i-cant. Ad-di-tion-ally MgZnCa based bio-alloys have a s
 im-i-lar low $\OML/zplm/m/it/12 T[]$  \T1/ppl/m/n/12 (405K for Mg$[]$Zn$[]$Ca$[
-]$  [40,|
+]$  [][[],|
  []
 
 [28]
@@ -3327,58 +3321,66 @@ Chapter 5.
 
 ]
 Chapter 6.
-Missing character: There is no ‐ in font pplr8t!
 
-Underfull \hbox (badness 1097) in paragraph at lines 45--49
+Underfull \hbox (badness 1097) in paragraph at lines 15--19
 \T1/ppl/m/n/12 molec-u-lar glasses and su-per-cooled liq-uids.  \T1/ppl/m/it/12
  Phys-i-cal Chem-istry Chem-i-cal Physics\T1/ppl/m/n/12 ,
  []
 
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
 [45
 
 ]
-Underfull \hbox (badness 1609) in paragraph at lines 68--72
+Missing character: There is no – in font pplr8t!
+Missing character: There is no ‐ in font pplr8t!
+Missing character: There is no ‐ in font pplr8t!
+Missing character: There is no ‐ in font pplr8t!
+Missing character: There is no ‐ in font pplr8t!
+Missing character: There is no ‐ in font pplr8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+ [46]
+Missing character: There is no – in font pplr8t!
+ [47]
+Underfull \hbox (badness 1803) in paragraph at lines 220--223
+[]\T1/ppl/m/n/12 C. A. An-gell.  For-ma-tion of glasses from liq-uids and biopo
+ly-mers.  \T1/ppl/m/it/12 Sci-ence\T1/ppl/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 237--242
+\T1/ppl/m/n/12 Quan-ti-ta-tive in vitro as-sess-ment of mg65zn30ca5 degra-da-ti
+on and its ef-fect on
+ []
+
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+[48]
+Missing character: There is no ’ in font pplr8t!
+Missing character: There is no ’ in font pplr8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+
+Underfull \hbox (badness 1005) in paragraph at lines 322--327
+[]\T1/ppl/m/n/12 Xuenan Gu, Yufeng Zheng, Sheng-ping Zhong, Tingfei Xi, Jun-qia
+ng Wang, and
+ []
+
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+
+Underfull \hbox (badness 1609) in paragraph at lines 366--370
 []\T1/ppl/m/n/12 R. Paris.  Sur les al-liages ter-naires magnésium-zinc-calcium
 .  \T1/ppl/m/it/12 Comptes Ren-dus
  []
 
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-[46]
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no ‐ in font pplr8t!
-Missing character: There is no ‐ in font pplr8t!
-Missing character: There is no ‐ in font pplr8t!
-Missing character: There is no ‐ in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
- [47]
-Missing character: There is no – in font pplr8t!
- [48]
-Missing character: There is no ’ in font pplr8t!
-Missing character: There is no ’ in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-
-Underfull \hbox (badness 1005) in paragraph at lines 320--325
-[]\T1/ppl/m/n/12 Xuenan Gu, Yufeng Zheng, Sheng-ping Zhong, Tingfei Xi, Jun-qia
-ng Wang, and
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 327--332
-\T1/ppl/m/n/12 Quan-ti-ta-tive in vitro as-sess-ment of mg65zn30ca5 degra-da-ti
-on and its ef-fect on
- []
-
 ) [49]
 Chapter 7.
 [50
@@ -3414,10 +3416,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 905.
  ) 
 Here is how much of TeX's memory you used:
- 43313 strings out of 428755
- 909681 string characters out of 3164221
- 1107984 words of memory out of 3000000
- 45997 multiletter control sequences out of 15000+200000
+ 43334 strings out of 428755
+ 910062 string characters out of 3164221
+ 1108096 words of memory out of 3000000
+ 46018 multiletter control sequences out of 15000+200000
  25253 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,720s stack positions out of 5000i,500n,10000p,200000b,50000s
