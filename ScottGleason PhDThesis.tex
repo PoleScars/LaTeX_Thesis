@@ -1,5 +1,5 @@
-\documentclass[a4paper,12pt,oneside]{report}%FinalView
-%\documentclass[draft,a4paper,12pt,oneside]{report}%draftView
+%\documentclass[a4paper,12pt,oneside]{report}%FinalView
+\documentclass[draft,a4paper,12pt,oneside]{report}%draftView
 
 \input{settings/preamble.tex}%Inputs Preamble for its .tex
 \usepackage[color]{showkeys}%Shows cross ref paths
@@ -70,15 +70,15 @@ Fellow PhD students
 	Procedures followed;
 	Principle results obtained;
 	Major conclusion reached}
-The aims of this thesis are to produce and examine biodegradable thin film metallic glasses (TFMGs) and the recently discovered ultrastable metallic glass (SMG) films for biomedical applications. To ensure full biocompatibility the films will be composed entirely of essential mineral MgZnCa alloys.
+The aims of this thesis are to produce and examine biodegradable \gls{tfmg} and the recently discovered \glspl{smg} films for biomedical applications. To ensure full biocompatibility the films will be composed entirely of essential mineral MgZnCa alloys.
 
 The literature review provides an overview of metallic glass formation and processing, thin films and deposition methods, initial understandings of ultrastable glasses, and biomedical requirements with a focus on biodegradation. 
 
-The films will be deposited onto various substrates via magnetron sputtering and pulse laser deposition (PLD) techniques. The master alloys and deposition targets will be prepared via induction furnace melting and copper mould gravity casting of pure base elemental Mg, Zn, and Ca (99.8wt\% pure or better).
+The films will be deposited onto various substrates via magnetron sputtering and \gls{pld} techniques. The master alloys and deposition targets will be prepared via induction furnace melting and copper mould gravity casting of pure base elemental Mg, Zn, and Ca (99.8wt\% pure or better).
 
-The initial results have shown the \MgZnCa~ alloy is relatively brittle, with most targets fracturing during casting or shaping operations. The targets which were produced without failure were examined via DSC and found to be at best primarily crystalline in structure. This should be expected as this alloy's critical casting thickness is similar to the thickness of the mould utilised. 
+The initial results have shown the \MgZnCa~ alloy is relatively brittle, with most targets fracturing during casting or shaping operations. The targets which were produced without failure were examined via \acrshort{dsc} and found to be at best primarily crystalline in structure. This should be expected as this alloy's critical casting thickness is similar to the thickness of the mould utilised. 
 
-Going forward XRD analysis will be used to definitively establish the targets' structures, and the target manufacturing process will be refined (current method is not efficient). Numinous thin film metallic glass specimens will be produced via sputtering/PLD and evaluated; hopefully leading to publications and attendance at conferences.
+Going forward \acrshort{xrd} analysis will be used to definitively establish the targets' structures, and the target manufacturing process will be refined (current method is not efficient). Numinous thin film metallic glass specimens will be produced via sputtering/\gls{pld} and evaluated; hopefully leading to publications and attendance at conferences.
 \todo{Injection moulding;
 	
 	Wider spacer;
@@ -92,6 +92,7 @@ Going forward XRD analysis will be used to definitively establish the targets' s
 	Coat riser with Boron-Nitrate for more even cooling? No, that would make riser take longer time to cool and make plate crack more.} 
 
 \chapter{INTRODUCTION}
+\glsresetall
 \todo{Property modification Coating BMG with same composition coating.
 	Look at K. Schluter Intro (Green part on property modification);
 	Look at Thin films, and the newly discovered ultra-stable thin films;
@@ -101,11 +102,12 @@ Going forward XRD analysis will be used to definitively establish the targets' s
 	Modifying the machines/equipment to fit our purposes.}
 Current pharmaceutical technology relies on re-dosing of drugs, often with treatments being readminister several times per day or week. Coating pharmaceuticals with tailored bioabsorbable films designed to degrade over time could allow for a slow controlled release of drug packages such as antibiotics, antimicrobials, and analgesics (painkillers). These medical devices could be implanted during surgeries, eliminating the need for daily drug administration.  
 
-Thin film metallic glasses (TFMGs) are one technology which may make this possible. These novel amorphous metallic materials have been demonstrated to significantly modify substrate properties such as hardness, wear residence, surface finish, fatigue and corrosion residence, and even ductility. Recently ultrastable metallic glass (SMG) films have been discovered which display improved thermal and kinetic stabilities, and often reduced entropy relative to the more established TFMGs. Many properties of SMGs have not yet been characterised and it is not yet known if in additional to improved stability if they may offer greater improvements in substrate property modification. The application of these films onto drug delivery systems, or even orthopaedic devices, could potentially provide great improvements in wound healing and pain management practices.
+\Gls{tfmg} are one technology which may make this possible. These novel amorphous metallic materials have been demonstrated to significantly modify substrate properties such as hardness, wear residence, surface finish, fatigue and corrosion residence, and even ductility. Recently \gls{smg} films have been discovered which display improved thermal and kinetic stabilities, and often reduced entropy relative to the more established \gls{tfmg}s. Many properties of \gls{smg}s have not yet been characterised and it is not yet known if in additional to improved stability if they may offer greater improvements in substrate property modification. The application of these films onto drug delivery systems, or even orthopaedic devices, could potentially provide great improvements in wound healing and pain management practices.
 
-The aims of this thesis are to produce and investigate quality TFMGs and SMGs for biomedical applications. Thin films of established bulk metallic glass (BMG) compositions, such as \MgZnCa~ will be deposited onto various substrates including; silicon wafer, BMGs of similar film composition, Polycaprolactone (PCL) scaffolds, and dissolvable NaCl substrate (to allow base film to be studied independently). The properties and characteristics of the films as well as their property modification effects on the different substrates will be investigated, and the characterised films compared with their BMG counterparts. 
+The aims of this thesis are to produce and investigate quality \gls{tfmg}s and \gls{smg}s for biomedical applications. Thin films of established \gls{bmg} compositions, such as \MgZnCa~ will be deposited onto various substrates including; silicon wafer, \gls{bmg}s of similar film composition, \Gls{pcl} scaffolds, and dissolvable NaCl substrate (to allow base film to be studied independently). The properties and characteristics of the films as well as their property modification effects on the different substrates will be investigated, and the characterised films compared with their \gls{bmg} counterparts. 
 
 \chapter{LITERATURE SURVEY} 
+\glsresetall
 
 \section{Metallic Glasses (MGs)}
 Metallic glasses (MGs) are alloys which exhibit an amorphous structure with no long rang order (LRO). This lack of an ordered structure results in MGs possessing a range of unquiet properties which make them distinct even from traditional crystalline alloys of similar composition.
@@ -142,8 +144,7 @@ Despite the thermodynamic driving force liquids are generally cooled below their
 \label{equ:Homo}
 \end{equation}
 
-
-Where $\Delta G$ is the change in free energy, $r$ the nuclei radius, $\gamma_{SL}$ the surface energy, and $\Delta G_{V}$ the reduction in volume energy.
+Where \acrshort{dG} is the change in free energy, \acrshort{r} the nuclei radius, \acrshort{ysl} the surface energy, and \acrshort{dGV} the reduction in volume energy.
 
 %code to put 2 images side by side in a figure
 \begin{figure}[bp]
@@ -603,6 +604,8 @@ Pitting occur on anodic end of the Tafel Plots \cite{Schluter2012}.
 \subsection{Anti-biotic Scaffolds}
 
 \chapter{EXPERIMENTAL PROCEDURE}
+\glsresetall
+
 \section{Target Manufacture}
 The thin film metallic glasses (TFMGs) and ultrastable glasses (SMGs) are deposited onto various substrates via physical vapour deposition (PVD) processes.
 
@@ -691,6 +694,7 @@ The biocompatibility and bioabsorption of the TFMGs will be characterised via cy
 The quality of the TFMG deposition will be ascertained via investigation of the surface finish, coating adhesion, bonding, etc.
 
 \chapter{RESULTS AND DISCUSSION}
+\glsresetall
 
 \section{Experimental Results} 
 \subsection{Casting Challenges and Observations}
@@ -729,6 +733,8 @@ ICP testing found the first 3mm target plate only has about 26\% Zn. This is a l
 EDS analysis via SEM on the first five plates has shown (insert results here). 
 
 \chapter{SUMMARY AND CONCLUSIONS}
+\glsresetall
+
 Found thin films and SMGs were...
 
 This implies...
