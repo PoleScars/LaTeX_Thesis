@@ -70,5 +70,4 @@
 \contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{44}{chapter.5}
 \contentsline {chapter}{\numberline {6}Bibliography}{45}{chapter.6}
 \contentsline {chapter}{\numberline {7}APPENDICES}{50}{chapter.7}
-\contentsline {section}{\numberline {7.1}Glossary}{50}{section.7.1}
-\contentsline {section}{\numberline {7.2}MgZnCa System}{51}{section.7.2}
+\contentsline {section}{\numberline {7.1}MgZnCa System}{51}{section.7.1}
