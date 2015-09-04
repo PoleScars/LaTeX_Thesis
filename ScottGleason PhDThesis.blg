@@ -11,8 +11,8 @@ Too many commas in name 1 of "Melnik, E.V., Kostina, M.F., Yarmolyuk, Ya.P., Zmi
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Melnik, E.V., Kostina, M.F., Yarmolyuk, Ya.P., Zmiy, O.F." for entry Melnik1978
 while executing---line 944 of file unsrt.bst
-Warning--empty journal in Klement1960
-Warning--there's a number but no volume in Angell2014
 Too many commas in name 1 of "Schulze, G.E.R., Wieting, J." for entry Schulze1961
 while executing---line 944 of file unsrt.bst
+Warning--empty journal in Klement1960
+Warning--there's a number but no volume in Angell2014
 (There were 6 error messages)

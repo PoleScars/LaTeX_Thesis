@@ -76,11 +76,37 @@ X.~Gu, G.J. Shiflet, F.Q. Guo, and S.J. Poon.
   ductility.
 \newblock {\em Journal of Materials Research}, 20(08):1935--1938, 2005.
 
+\bibitem{Zhou2013}
+X.~Zhou, K.~D. Ralston, K.~J. Laws, J.~D. Cao, R.~K. Gupta, M.~Ferry, and
+  N.~Birbilis.
+\newblock Effect of the degree of crystallinity on the electrochemical behavior
+  of mg65cu25y10 and mg70zn25ca5 bulk metallic glasses.
+\newblock {\em Corrosion}, 69(8):781--792, 2013.
+
+\bibitem{Cao2012}
+J~D Cao, K~J Laws, N~Birbilis, and M~Ferry.
+\newblock Potentiodynamic polarisation study of bulk metallic glasses based on
+  the mg–zn–ca ternary system.
+\newblock {\em Corrosion Engineering, Science and Technology}, 47(5):329--334,
+  2012.
+
 \bibitem{Wang2013}
 Jingfeng Wang, Song Huang, Yang Li, Yiyun Wei, Xingfeng Xi, and Kaiyong Cai.
 \newblock Microstructure, mechanical and bio-corrosion properties of mn-doped
   mg–zn–ca bulk metallic glass composites.
 \newblock {\em Materials Science and Engineering: C}, 33(7):3832--3838, 2013.
+
+\bibitem{Clark1961}
+J.B. Clark.
+\newblock The solid constitution in the magnesium rich region of the mg-ca-zn
+  phase diagram.
+\newblock {\em Transactions of the Metallurgical Society of AIME},
+  221:644--645, 1961.
+
+\bibitem{Schulze1961}
+Wieting~J. Schulze, G.E.R.
+\newblock About the constitution principles of the cazn2-lattice.
+\newblock {\em Z. Metallkd.}, 52(11):743--746, 1961.
 
 \bibitem{Greer2013}
 A.~L. Greer, Y.~Q. Cheng, and E.~Ma.
@@ -297,35 +323,16 @@ Xuenan Gu, Yufeng Zheng, Shengping Zhong, Tingfei Xi, Junqiang Wang, and Weihua
   glasses.
 \newblock {\em Biomaterials}, 31(6):1093--1103, 2010.
 
-\bibitem{Zhou2013}
-X.~Zhou, K.~D. Ralston, K.~J. Laws, J.~D. Cao, R.~K. Gupta, M.~Ferry, and
-  N.~Birbilis.
-\newblock Effect of the degree of crystallinity on the electrochemical behavior
-  of mg65cu25y10 and mg70zn25ca5 bulk metallic glasses.
-\newblock {\em Corrosion}, 69(8):781--792, 2013.
+\bibitem{Cao2013b}
+Jake~D. Cao, Penny Martens, Kevin~J. Laws, Philip Boughton, and Michael Ferry.
+\newblock Quantitative in vitro assessment of mg65zn30ca5 degradation and its
+  effect on cell viability.
+\newblock {\em Journal of Biomedical Materials Research Part B: Applied
+  Biomaterials}, 101B(1):43--49, 2013.
 
 \bibitem{Ehrler2008}
 Daniel Ehrler.
 \newblock Investigation of the corrosive and mechanical properties of melt-spun
   amorphous mgzn and mgxzn ribbons (x = al, ca, la), 2008.
-
-\bibitem{Clark1961}
-J.B. Clark.
-\newblock The solid constitution in the magnesium rich region of the mg-ca-zn
-  phase diagram.
-\newblock {\em Transactions of the Metallurgical Society of AIME},
-  221:644--645, 1961.
-
-\bibitem{Schulze1961}
-Wieting~J. Schulze, G.E.R.
-\newblock About the constitution principles of the cazn2-lattice.
-\newblock {\em Z. Metallkd.}, 52(11):743--746, 1961.
-
-\bibitem{Cao2012}
-J~D Cao, K~J Laws, N~Birbilis, and M~Ferry.
-\newblock Potentiodynamic polarisation study of bulk metallic glasses based on
-  the mg–zn–ca ternary system.
-\newblock {\em Corrosion Engineering, Science and Technology}, 47(5):329--334,
-  2012.
 
 \end{thebibliography}
