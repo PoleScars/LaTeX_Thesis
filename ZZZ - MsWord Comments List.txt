@@ -1,0 +1,171 @@
+Scott Gleason - Preliminary PhD Thesis
+Main document changes and comments
+Page ii: Commented Scott Gleason 6/11/2014 17:17:00
+General abstract structure
+Problem investigated
+Procedures followed
+Principle results obtained
+Major conclusion reached
+Page ii: Commented Scott Gleason 21/11/2014 09:12:00
+Injection moulding?
+Wider spacer?
+Pre-heat the mould?
+Coat riser with more thermal conductive materials (Diamond?)
+Add a bottom riser to the mould to help it display air and get more fill…
+Coat riser with Boron-Nitrate for more even cooling? – No, that would make riser take longer time to cool and make
+plate crack more.
+Page 1: Commented Scott Gleason 18/11/2014 16:53:00
+Ferry Meeting – Notes (5 November 2014)
+Property modification – Coating BMG with same composition coating. – Look at K. Schluter Intro (Green part on
+property modification).
+Look at Thin films, and the newly discovered ultra-stable thin films.
+Multiple deposition methods – PLD, RF, Magnetron
+Corrosion in Melbourne labs.
+Look at other compositions or metal systems
+Modifying the machines/equipment to fit our purposes.
+Page 2: Commented Scott Gleason 13/05/2015 12:48:00
+Be coincident with use of ‘Thin Film’ and “Coating”?
+Page 2: Commented Scott Gleason 17/11/2014 16:54:00
+Remember, metals are ductile because bonds are not directional and alloy for easy sliding. The elimination of
+dislocations though means despite this BMGs can fracture!
+Page 2: Commented Scott Gleason 8/05/2015 15:05:00
+Flush out STZ later.
+Page 3: Commented Scott Gleason 28/05/2015 17:05:00
+Note: Weakly bonded structures have greater free energy slopes due to the large Cp/T dT value
+Assume typical glass bonding Ionic
+Assume typical solid bonding Covalent
+Covalent > Ionic bond strength.
+Thus solid slope < glass
+Glass Tg changes because H and Cp is dependent on cooling rate (i.e. its free energy line is not rigidly defined).
+Page 3: Commented Scott Gleason 11/05/2015 15:27:00
+Glass is metastable structure with greater free energy than the crystal state {Ishii, 2014 #147}
+& Structure does not possess the required kinetic energy to transform into the equilibrium state
+Gibbs Free Energy – Lower free energy means a process is more spontaneous. Therefore via thermos crystal is more
+stable than glass.
+Page 4: Commented Scott Gleason 12/05/2015 16:02:00
+Maybe more this down to the processing section.
+Page 4: Commented Scott Gleason 21/11/2014 09:42:00
+Rejects heat!
+Page 5: Commented Scott Gleason 21/11/2014 09:50:00
+Diamond extracts heat several times faster than Cu. Could industrial diamond be used in BMG production?
+Page 5: Commented Scott Gleason 12/05/2015 16:08:00
+Natural or air atmosphere?
+Page 7: Commented Scott Gleason 21/08/2014 16:07:00
+Hardness is tired to wear residence in a few source. Can probably add in those sources.
+Page 8: Commented Scott Gleason 8/05/2015 14:14:00
+The cooling rate achieved are estimated to be as much as 100K within the rotational relaxation time of the material
+(molecules)! (i.e. fractions of a second!) {Ishii, 2014 #147}
+Page 8: Commented Scott Gleason 12/05/2015 16:46:00
+Note in PLD, the Target atoms are the plasma. (Different from Sputtering). Therefore electrons must re-bond once
+atoms are deposited onto substrate.
+Page 9: Commented Scott Gleason 5/05/2015 10:55:00
+The voltage potential between the substrate and target supplies excess electrons to the negative target. The
+electrons are attracted to the positive substrate but collide with Ar atoms on their journey. This cause Ar to lose an
+electron and to become a plasma (Ar+ & e-). Ar+ collide with the target, and releases M atoms from the target. (Note
+e- has too little momentum to eject atoms from substrate).
+Thus the M atoms are neutral charge (not plasma) because they are not being impacted by electrons in the field.
+Page 9: Commented Scott Gleason 5/05/2015 16:00:00
+Because the Target and Substrate gap is not insulted, like in a capacitor, current can flow between the two. Providing
+the electrons as detailed above.
+Page 10: Commented Scott Gleason 5/05/2015 17:03:00
+Advantage of Sputtering is higher pressure than PLD. Maybe a better way to word this.
+Page 10: Commented Scott Gleason 18/06/2014 16:29:00
+Find more sources to back this up.
+Jake got closer to this conclusion, but did not quite make it.
+Page 11: Commented Scott Gleason 26/06/2014 17:41:00
+Can you do this to make it clear these are ‘combination sputtering’ references?
+Or do they have to go at the end of the sentence where this information will be lost?
+Page 11: Commented Scott Gleason 17/10/2014 17:06:00
+SMG corrosion has not been studied!!!
+Page 11: Commented Scott Gleason 24/11/2014 14:38:00
+Can probably cut this so next section is less redundant
+Page 12: Commented Scott Gleason 25/06/2014 12:14:00
+Dawson reference other papers before this, but made the conclusion. Can I site him, or should I go to his source
+material?
+Check the “Tg & Tf paper” as it should have first principles reference to this.
+Page 12: Commented Scott Gleason 6/05/2015 12:03:00
+Organic glasses are carbon based, molecular are Si or other elements.
+Page 13: Commented Scott Gleason 14/05/2015 14:59:00
+Crystallisation is exothermic because the LRO has a lower free energy than SRO glass (So the transformation releases
+energy).
+Solid to liquid causes an increase in rate of change of free energy, hence it is endothermic.
+Page 13: Commented Scott Gleason 6/05/2015 14:02:00
+Melting of solid to liquid is an endothermic reaction (i.e. heat needs to be supplied to the reaction).
+Page 13: Commented Scott Gleason 28/05/2015 17:20:00
+Free energy always decreases.
+Tg to Tx reduces energy as there are kinetics for atoms to move to lowest energy state.
+Tx to Tm/Tl reduces energy because Liquid free energy line has greater rate of change than solid.
+Page 13: Commented Scott Gleason 24/11/2014 14:57:00
+Find a proper/ full definition of Tf!
+Page 13: Commented Scott Gleason 1/10/2014 16:23:00
+Tf measures enthalpy. I.e. High Tf means higher enthalpy.
+Page 14: Commented Scott Gleason 6/05/2015 14:14:00
+Technically this may be Organic (Figure of the molecular structure has C-rings).
+Page 15: Commented Scott Gleason 27/05/2015 14:17:00
+“Tk is usually determined by extrapolation of supercooling liquid entropy to the temperature where S(liquid) =
+S(crystal)” {Angell, 2014 #131}
+Page 15: Commented Scott Gleason 30/06/2014 14:12:00
+Have some other references around this point. Should have a look at them.
+Page 16: Commented Scott Gleason 1/10/2014 16:26:00
+Tf was used in enthalpy before
+Should this be ‘enthalpy’ instead of ‘entropy’?
+Page 16: Commented Scott Gleason 27/05/2015 14:20:00
+Angell invented this relationship in old paper. Should use it more as source on m. {Angell, 1995 #164}
+Page 19: Commented Scott Gleason 29/09/2014 11:57:00
+Assuming this based on the definition.
+Page 19: Commented Scott Gleason 5/01/2015 14:59:00
+Normal Glasses only has SRO
+Crystals have LRO (Donald S. of MIT)
+So MRO is not a typical situation.
+Page 19: Commented Scott Gleason 6/05/2015 15:58:00
+Think 3D printing layering.
+Page 20: Commented Scott Gleason 17/11/2014 17:40:00
+Would even slower rates produce SMG?
+Check their parameters again.
+Page 21: Commented Scott Gleason 13/11/2014 16:37:00
+Outline for 3.4
+Human Body bio-compatibility requirements
+Current bio-material limitations
+Constant elements rolls in body
+Corrosion
+Hydrogen evolution
+Pitting corrosion
+Cell viability testing?
+Page 21: Commented Scott Gleason 14/11/2014 11:53:00
+Review article reference. Go back and add in the original reference later.
+Page 21: Commented Scott Gleason 14/11/2014 10:29:00
+Should be additional sources to back this.
+Page 22: Commented Scott Gleason 7/05/2015 10:27:00
+Anode and Cathode charges are opposite to Sputtering because this reaction releases voltage, like a battery, while
+sputtering draws voltage.
+Page 22: Commented Scott Gleason 21/11/2014 11:21:00
+May not be the reason. May have to do with electron flow. Re-read Jones Chapter 3 to see what it says.
+Page 23: Commented Scott Gleason 7/05/2015 10:37:00
+i.e. The Potential is a larger number
+( -1.0 V < -0.5 V)
+Page 24: Commented Scott Gleason 18/05/2015 11:52:00
+Very similar alloy. Thus trend should hold for Mg65Zn30Ca5
+Page 25: Commented Scott Gleason 5/01/2015 15:55:00
+Expect pitting may be less in SMGs, because despite higher density being expected, the surface finish may be higher
+quality with less defects…
+Page 27: Commented Scott Gleason 18/05/2015 14:29:00
+First plate was 3mm. These were difficult to cast and often broke. Hence we went to 4mm.
+Page 28: Commented Scott Gleason 18/05/2015 14:35:00
+A boron nitrate coated graphite crucible - {Cao, 2013 #54}
+Page 29: Commented Scott Gleason 18/11/2014 16:26:00
+Probably will be much closer to the 50 W end (Jake topped out at 55 W).
+MgCaZn has more light elements near Ar than ZrCuNiAl.
+Therefore expect greater deposition efficiencies and to not require as much power.
+ZrCuNiAl used 50 – 150 W, but we cannot get power that high unless we use 3 inch targets (not practical).
+Page 29: Commented Scott Gleason 21/11/2014 11:41:00
+Wedge mould to get amorphous metal!
+Page 31: Commented Scott Gleason 7/05/2015 11:07:00
+These are all for 3mm targets.
+Now using 4mm targets.
+Page 32: Commented Scott Gleason 5/01/2015 16:32:00
+Draft result. And rough numbers. Put in correct ones if you use this.
+Header and footer changes
+Text Box changes
+Header and footer text box changes
+Footnote changes
+Endnote changes
