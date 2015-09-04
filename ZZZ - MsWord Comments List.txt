@@ -1,35 +1,4 @@
-Scott Gleason - Preliminary PhD Thesis
-Main document changes and comments
-Page ii: Commented Scott Gleason 6/11/2014 17:17:00
-General abstract structure
-Problem investigated
-Procedures followed
-Principle results obtained
-Major conclusion reached
-Page ii: Commented Scott Gleason 21/11/2014 09:12:00
-Injection moulding?
-Wider spacer?
-Pre-heat the mould?
-Coat riser with more thermal conductive materials (Diamond?)
-Add a bottom riser to the mould to help it display air and get more fill…
-Coat riser with Boron-Nitrate for more even cooling? – No, that would make riser take longer time to cool and make
-plate crack more.
-Page 1: Commented Scott Gleason 18/11/2014 16:53:00
-Ferry Meeting – Notes (5 November 2014)
-Property modification – Coating BMG with same composition coating. – Look at K. Schluter Intro (Green part on
-property modification).
-Look at Thin films, and the newly discovered ultra-stable thin films.
-Multiple deposition methods – PLD, RF, Magnetron
-Corrosion in Melbourne labs.
-Look at other compositions or metal systems
-Modifying the machines/equipment to fit our purposes.
-Page 2: Commented Scott Gleason 13/05/2015 12:48:00
-Be coincident with use of ‘Thin Film’ and “Coating”?
-Page 2: Commented Scott Gleason 17/11/2014 16:54:00
-Remember, metals are ductile because bonds are not directional and alloy for easy sliding. The elimination of
-dislocations though means despite this BMGs can fracture!
-Page 2: Commented Scott Gleason 8/05/2015 15:05:00
-Flush out STZ later.
+
 Page 3: Commented Scott Gleason 28/05/2015 17:05:00
 Note: Weakly bonded structures have greater free energy slopes due to the large Cp/T dT value
 Assume typical glass bonding Ionic

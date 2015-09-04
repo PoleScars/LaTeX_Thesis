@@ -1,3 +1,4 @@
+\glossaryentry{MG?\glossentry{mg}|setentrycounter[]{page}\glsnumberformat}{i}
 \glossaryentry{TFMG?\glossentry{tfmg}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{SMG?\glossentry{smg}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{PLD?\glossentry{pld}|setentrycounter[]{page}\glsnumberformat}{2}
@@ -14,6 +15,9 @@
 \glossaryentry{BMG?\glossentry{bmg}|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{PCL?\glossentry{pcl}|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{BMG?\glossentry{bmg}|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{MG?\glossentry{mg}|setentrycounter[]{page}\glsnumberformat}{4}
+\glossaryentry{MG?\glossentry{mg}|setentrycounter[]{page}\glsnumberformat}{4}
+\glossaryentry{STZ?\glossentry{stz}|setentrycounter[]{page}\glsnumberformat}{4}
 \glossaryentry{$C_{p}$?\glossentry{Cp}|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{$\Delta G$?\glossentry{dG}|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{$r$?\glossentry{r}|setentrycounter[]{page}\glsnumberformat}{5}
@@ -94,3 +98,4 @@
 \glossaryentry{$\eta $?\glossentry{nOver}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{$\rho $?\glossentry{p}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{XRD?\glossentry{xrd}|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{STZ?\glossentry{stz}|setentrycounter[]{page}\glsnumberformat}{50}
