@@ -3,7 +3,7 @@
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{3}{chapter.1}
 \contentsline {chapter}{\numberline {2}LITERATURE SURVEY}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Metallic Glasses (MGs)}{4}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Metallic Glasses (Mgs) Properties}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Metallic Glasses (MGs) Properties}{4}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Theory of MG Production}{5}{subsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.2.1}Solidification, Super Cooled Liquid (SCL), and Glass Transition ($T_{m}$)}{5}{subsubsection.2.1.2.1}
 \contentsline {subsubsection}{\numberline {2.1.2.2}Glass Forming Ability (GFA) and Bulk Metallic Glasses (BMGs)}{6}{subsubsection.2.1.2.2}
@@ -70,4 +70,4 @@
 \contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{45}{chapter.5}
 \contentsline {chapter}{\numberline {6}Bibliography}{46}{chapter.6}
 \contentsline {chapter}{\numberline {7}APPENDICES}{51}{chapter.7}
-\contentsline {section}{\numberline {7.1}MgZnCa System}{52}{section.7.1}
+\contentsline {section}{\numberline {7.1}MgZnCa System}{51}{section.7.1}
