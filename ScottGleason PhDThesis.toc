@@ -29,7 +29,7 @@
 \contentsline {subsubsection}{\numberline {2.3.3.2}The Theoretical Entropy Limit of Glasses and the Kauzmann Temperature ($T_{k}$)}{22}{subsubsection.2.3.3.2}
 \contentsline {subsubsection}{\numberline {2.3.3.3}Glass Fragility (m)}{23}{subsubsection.2.3.3.3}
 \contentsline {subsubsection}{\numberline {2.3.3.4}Glass Density ($\rho $)}{23}{subsubsection.2.3.3.4}
-\contentsline {subsubsection}{\numberline {2.3.3.5}Indentation Modulus (M)}{27}{subsubsection.2.3.3.5}
+\contentsline {subsubsection}{\numberline {2.3.3.5}Indentation Modulus ($M$)}{27}{subsubsection.2.3.3.5}
 \contentsline {subsection}{\numberline {2.3.4}SMG Structure, Medium Range Order (MRO)}{27}{subsection.2.3.4}
 \contentsline {subsection}{\numberline {2.3.5}Potential SMG Challenges}{28}{subsection.2.3.5}
 \contentsline {subsection}{\numberline {2.3.6}Thin Film Testing Methods}{29}{subsection.2.3.6}
