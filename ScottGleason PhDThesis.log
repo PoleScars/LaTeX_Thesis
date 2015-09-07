@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  8 SEP 2015 09:21
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  8 SEP 2015 09:52
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1703,7 +1703,7 @@ age over tra-di-tional []BMG liq-uid cast-ing|
 
 Overfull \hbox (0.78528pt too wide) in paragraph at lines 280--281
 \T1/ppl/m/n/12 cause par-tial crys-talli-sa-tion (Fig-ure [][]2.7), while still
- achiev-ing amor-phous TFMGs de-po-si-tions|
+ achiev-ing amor-phous []TFMGs de-po-si-tions|
  []
 
 [12]
@@ -1920,8 +1920,8 @@ te of 3.3nm/s. Af-ter full de-po-si-tion|
 
 [38] [39]
 Overfull \hbox (22.30891pt too wide) in paragraph at lines 669--670
-[]\T1/ppl/m/n/12 The ini-tial TFMG sput-ter-ing pa-ram-e-ters will be based on 
-Liu, et al. [][[]] work on Zr$[]$Cu$[]$Ni$[]$Al$[]$|
+[]\T1/ppl/m/n/12 The ini-tial []TFMG sput-ter-ing pa-ram-e-ters will be based o
+n Liu, et al. [][[]] work on Zr$[]$Cu$[]$Ni$[]$Al$[]$|
  []
 
 
@@ -1993,6 +1993,12 @@ n when com-pared to CP Mg, sug-gest-ing|
 
 [44] [45]
 Chapter 5.
+
+Overfull \hbox (6.45026pt too wide) in paragraph at lines 763--764
+[]\T1/ppl/m/n/12 Found []thin film metal-lic glasses (TFMGs) and []ul-tra-stabl
+e metal-lic glasses (SMGs) were... |
+ []
+
 ("ScottGleason PhDThesis.bbl" [46
 
 ]
@@ -2063,7 +2069,7 @@ Chapter 7.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (22.5048pt too wide) in paragraph at lines 814--838
+Overfull \hbox (22.5048pt too wide) in paragraph at lines 818--842
  [][] |
  []
 
@@ -2078,13 +2084,13 @@ This document will not have a glossary.
 [52
 
 ] [53] [54]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 867.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 871.
  [55]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 867.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 871.
  ("ScottGleason PhDThesis.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 867.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 867.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 867.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 871.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 871.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 871.
  ) 
 Here is how much of TeX's memory you used:
  46525 strings out of 428755
