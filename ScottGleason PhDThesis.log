@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  7 SEP 2015 10:35
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  7 SEP 2015 11:10
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -2195,10 +2195,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 871.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 871.
  ) 
 Here is how much of TeX's memory you used:
- 46270 strings out of 428755
- 954419 string characters out of 3164221
- 1191964 words of memory out of 3000000
- 48934 multiletter control sequences out of 15000+200000
+ 46510 strings out of 428755
+ 957873 string characters out of 3164221
+ 1194796 words of memory out of 3000000
+ 49174 multiletter control sequences out of 15000+200000
  24940 words of font info for 59 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
