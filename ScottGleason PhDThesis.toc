@@ -3,12 +3,13 @@
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{3}{chapter.1}
 \contentsline {chapter}{\numberline {2}LITERATURE SURVEY}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Metallic Glasses (MGs)}{4}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Metallic Glasses (MGs) Properties}{4}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Theory of MG Production}{5}{subsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.2.1}Solidification, Super Cooled Liquid (SCL), and Glass Transition ($T_{m}$)}{5}{subsubsection.2.1.2.1}
-\contentsline {subsubsection}{\numberline {2.1.2.2}Glass Forming Ability (GFA) and Bulk Metallic Glasses (BMGs)}{6}{subsubsection.2.1.2.2}
-\contentsline {subsubsection}{\numberline {2.1.2.3}BMG Manufacture Methods}{8}{subsubsection.2.1.2.3}
-\contentsline {subsubsection}{\numberline {2.1.2.4}Thermoplastic Forming (TPF) Processing}{10}{subsubsection.2.1.2.4}
+\contentsline {subsection}{\numberline {2.1.1}Introduction}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Metallic Glass (MG) Properties}{4}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Metallic Glass (MG) Production}{5}{subsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3.1}Glass Formation from the Liquid State}{5}{subsubsection.2.1.3.1}
+\contentsline {subsubsection}{\numberline {2.1.3.2}Glass Forming Ability (GFA) and Bulk Metallic Glasses (BMGs)}{6}{subsubsection.2.1.3.2}
+\contentsline {subsubsection}{\numberline {2.1.3.3}BMG Production Methods}{8}{subsubsection.2.1.3.3}
+\contentsline {subsubsection}{\numberline {2.1.3.4}BMG Secondary Processing}{10}{subsubsection.2.1.3.4}
 \contentsline {section}{\numberline {2.2}Thin Films}{11}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Thin Film Properties}{11}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Production via Deposition}{11}{subsection.2.2.2}
@@ -22,52 +23,54 @@
 \contentsline {subsubsection}{\numberline {2.2.4.3}Sputtering Challenges}{16}{subsubsection.2.2.4.3}
 \contentsline {subsubsection}{\numberline {2.2.4.4}Preferred PVD Methods}{17}{subsubsection.2.2.4.4}
 \contentsline {section}{\numberline {2.3}Ultrastable Glass (USG)}{17}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}USG General Properties and Development}{17}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}USG Production}{18}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}SMG Characterisation and Modelling Techniques}{18}{subsection.2.3.3}
-\contentsline {subsubsection}{\numberline {2.3.3.1}Fictive Temperature ($T_{f}$), Kinetic Stability and Enthalpy via Differential Scanning Calorimetry (DSC)}{20}{subsubsection.2.3.3.1}
-\contentsline {subsubsection}{\numberline {2.3.3.2}The Theoretical Entropy Limit of Glasses and the Kauzmann Temperature ($T_{k}$)}{22}{subsubsection.2.3.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3.3}Glass Fragility (m)}{23}{subsubsection.2.3.3.3}
-\contentsline {subsubsection}{\numberline {2.3.3.4}Glass Density ($\rho $)}{23}{subsubsection.2.3.3.4}
-\contentsline {subsubsection}{\numberline {2.3.3.5}Indentation Modulus ($M$)}{27}{subsubsection.2.3.3.5}
-\contentsline {subsection}{\numberline {2.3.4}SMG Structure, Medium Range Order (MRO)}{27}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Potential SMG Challenges}{28}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Thin Film Testing Methods}{29}{subsection.2.3.6}
-\contentsline {subsubsection}{\numberline {2.3.6.1}Adhesion}{29}{subsubsection.2.3.6.1}
+\contentsline {subsection}{\numberline {2.3.1}Introduction}{17}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}USG General Properties and Development}{17}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}USG Production}{18}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}SMG Characterisation}{18}{subsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.4.1}Fictive Temperature ($T_{f}$), Kinetic Stability and Enthalpy via Differential Scanning Calorimetry (DSC)}{20}{subsubsection.2.3.4.1}
+\contentsline {subsubsection}{\numberline {2.3.4.2}The Theoretical Entropy Limit of Glasses and the Kauzmann Temperature ($T_{k}$)}{22}{subsubsection.2.3.4.2}
+\contentsline {subsubsection}{\numberline {2.3.4.3}Glass Fragility (m)}{23}{subsubsection.2.3.4.3}
+\contentsline {subsubsection}{\numberline {2.3.4.4}Glass Density ($\rho $)}{23}{subsubsection.2.3.4.4}
+\contentsline {subsubsection}{\numberline {2.3.4.5}Indentation Modulus ($M$)}{27}{subsubsection.2.3.4.5}
+\contentsline {subsection}{\numberline {2.3.5}SMG Structure, Medium Range Order (MRO)}{27}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Potential SMG Challenges}{28}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}Thin Film Testing Methods}{29}{subsection.2.3.7}
+\contentsline {subsubsection}{\numberline {2.3.7.1}Adhesion}{29}{subsubsection.2.3.7.1}
 \contentsline {section}{\numberline {2.4}Biomedical Materials}{29}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Biomaterial Requirements}{29}{subsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.1.1}Current Metallic Biomaterials}{30}{subsubsection.2.4.1.1}
-\contentsline {subsubsection}{\numberline {2.4.1.2}Metallic Biochemistry}{30}{subsubsection.2.4.1.2}
-\contentsline {subsubsection}{\numberline {2.4.1.3}Degradation of Biomaterials}{31}{subsubsection.2.4.1.3}
-\contentsline {subsubsection}{\numberline {2.4.1.4}Basic Theory of Corrosion and Its Measurement}{31}{subsubsection.2.4.1.4}
-\contentsline {subsubsection}{\numberline {2.4.1.5}Mg Hydrogen Evolution}{32}{subsubsection.2.4.1.5}
-\contentsline {subsubsection}{\numberline {2.4.1.6}Pitting Corrosion}{34}{subsubsection.2.4.1.6}
-\contentsline {subsection}{\numberline {2.4.2}Anti-biotic Scaffolds}{35}{subsection.2.4.2}
-\contentsline {chapter}{\numberline {3}EXPERIMENTAL PROCEDURE}{36}{chapter.3}
-\contentsline {section}{\numberline {3.1}Target Manufacture}{36}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Induction Furnace}{36}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Charges Preparation}{36}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Induction Casting of Alloys}{36}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Shaping of Targets}{37}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}PVD via Magnetron Sputtering}{37}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Sputtering of TFMGs and SMGs}{37}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Sputtering Methods and Initial Parameters}{39}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Examined Substrates}{39}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Silicon Wafer Substrate}{39}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Water Soluble Substrate}{39}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}BMG Substrate}{40}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Polycaprolactone (PCL) Scaffolds}{40}{subsection.3.4.4}
-\contentsline {section}{\numberline {3.5}Film Characterisation}{40}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Physical and Chemical Properties}{40}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Biocompatibility and Bioabsorption}{40}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Quality of Deposition}{41}{subsection.3.5.3}
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{42}{chapter.4}
-\contentsline {section}{\numberline {4.1}Experimental Results}{42}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Casting Challenges and Observations}{42}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}DSC Scans}{42}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Target Structure}{43}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Target Composition}{43}{subsection.4.1.4}
-\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{45}{chapter.5}
-\contentsline {chapter}{\numberline {6}Bibliography}{46}{chapter.6}
-\contentsline {chapter}{\numberline {7}APPENDICES}{51}{chapter.7}
-\contentsline {section}{\numberline {7.1}MgZnCa System}{51}{section.7.1}
+\contentsline {subsection}{\numberline {2.4.1}Introduction}{29}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Biomaterial Requirements}{30}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}Current Metallic Biomaterials}{30}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}Metallic Biochemistry}{30}{subsubsection.2.4.2.2}
+\contentsline {subsection}{\numberline {2.4.3}Degradation of Biomaterials}{31}{subsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.3.1}Basic Theory of Corrosion and Its Measurement}{31}{subsubsection.2.4.3.1}
+\contentsline {subsubsection}{\numberline {2.4.3.2}Mg Hydrogen Evolution}{32}{subsubsection.2.4.3.2}
+\contentsline {subsubsection}{\numberline {2.4.3.3}Pitting Corrosion}{35}{subsubsection.2.4.3.3}
+\contentsline {subsection}{\numberline {2.4.4}Anti-biotic Scaffolds}{36}{subsection.2.4.4}
+\contentsline {chapter}{\numberline {3}EXPERIMENTAL PROCEDURE}{37}{chapter.3}
+\contentsline {section}{\numberline {3.1}Target Manufacture}{37}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Induction Furnace}{37}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Charges Preparation}{37}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Induction Casting of Alloys}{37}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Shaping of Targets}{38}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}PVD via Magnetron Sputtering}{38}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Sputtering of TFMGs and SMGs}{38}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Sputtering Methods and Initial Parameters}{40}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Examined Substrates}{40}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Silicon Wafer Substrate}{40}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Water Soluble Substrate}{40}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}BMG Substrate}{41}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Polycaprolactone (PCL) Scaffolds}{41}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Film Characterisation}{41}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Physical and Chemical Properties}{41}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Biocompatibility and Bioabsorption}{41}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Quality of Deposition}{42}{subsection.3.5.3}
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Experimental Results}{43}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Casting Challenges and Observations}{43}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}DSC Scans}{43}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Target Structure}{44}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Target Composition}{44}{subsection.4.1.4}
+\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{46}{chapter.5}
+\contentsline {chapter}{\numberline {6}Bibliography}{47}{chapter.6}
+\contentsline {chapter}{\numberline {7}APPENDICES}{52}{chapter.7}
+\contentsline {section}{\numberline {7.1}MgZnCa System}{52}{section.7.1}
