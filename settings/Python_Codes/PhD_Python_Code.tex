@@ -1,0 +1,981 @@
+\documentclass[a4paper,8pt]{article}
+\usepackage[utf8]{inputenc}
+
+% Default fixed font does not support bold face
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+
+% Custom colors
+\usepackage{color}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+
+\usepackage{listings}
+
+% Python style for highlighting
+\newcommand\pythonstyle{\lstset{
+language=Python,
+basicstyle=\ttm,
+otherkeywords={self},             % Add keywords here
+keywordstyle=\ttb\color{deepblue},
+emph={MyClass,__init__},          % Custom highlighting
+emphstyle=\ttb\color{deepred},    % Custom highlighting style
+stringstyle=\color{deepgreen},
+frame=tb,                         % Any extra options here
+showstringspaces=false            % 
+}}
+
+
+% Python environment
+\lstnewenvironment{python}[1][]
+{
+\pythonstyle
+\lstset{#1}
+}
+{}
+
+% Python for external files
+\newcommand\pythonexternal[2][]{{
+\pythonstyle
+\lstinputlisting[#1]{#2}}}
+
+% Python for inline
+\newcommand\pythoninline[1]{{\pythonstyle\lstinline!#1!}}
+
+\begin{document}
+
+\section{Python Code}
+\subsection{Calculation Codes}
+\subsubsection{At\% to Wt\% Calculations}
+
+
+\begin{python}
+# In[1]:
+
+'''Code for converting from At% to Wt% of an alloy
+Code by Scott Gleason, University of New South Wales (UNSW), Australia 
+S.Gleason@student.unsw.edu.au, April 2015'''
+
+'''Takes an At% alloy and converts to Wt% for constituent elements
+Element properties are entered as an object array
+Prints alloy in At%, Wt%, expected density, 
+and weight of each con element and total alloy wt.
+
+From weights of con elements calcs Wt%, and returns At% & expected density'''
+
+
+# In[2]:
+
+'''Convert at% to wt% 
+C1 = C1' * A1 / (C1' * A1 + ... + Cn' * An)
+
+Convert wt% to at%
+C1' = C1 / A1 / (C1 / A1 + ... + Cn / An)
+
+Density from wt%
+1 / D = C1 / D1 + ... + Cn / Dn
+
+Where Cn = wt%, Cn' = at%, An = atomic weight, Dn = density'''
+
+
+# In[3]:
+
+'''Imports numpy, and matplotlib libaries 
+numpy & matplotlib allow for complex math'''
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+# In[4]:
+
+def MgZnCaAtToWt(MgAt = 65., ZnAt = 30.):
+'''Creates an object array of a Mg, Zn, Ca alloy
+At% of Mg and Zn are inputs
+Defaults are Mg 65, Zn 30, which gives Ca 5'''
+
+'assertion test for invalid inputs'
+assert MgAt + ZnAt < 100.0, 'At% of Mg plus Zn must be less than 100%'
+assert (MgAt and ZnAt) > 0.0, 'At% of Mg and Zn must be greater than 0'
+
+return [
+{'name': 'Mg', 
+	'atomicPercent': round(MgAt, 3), #alloy atomic percent
+	'atomicWeight': 24.305, #amu
+	'density': 1.738}, #g/cm3
+
+{'name': 'Zn', 
+	'atomicPercent': round(ZnAt, 3), #alloy atomic percent
+	'atomicWeight': 65.382, #amu
+	'density': 7.14}, #g/cm3
+
+{'name': 'Ca', 
+	'atomicPercent': round((100. - MgAt - ZnAt), 3), #alloy atomic percent
+	'atomicWeight': 40.078, #amu
+	'density': 1.55} #g/cm3
+]
+
+
+# In[5]:
+
+def AtToWtCalc(Mg = 65, Zn = 30, totalAlloyMass = 100.0):
+'''Loop to calculate MgZnCa Wt% of alloy elements from At%
+Mg = At% of Mg, default 65 at%
+Zn = At% of Zn, default 30 at%
+totalAlloyMass = total mass of the charge, default 100 grams'''
+
+'assertion test for invalid inputs'
+assert Mg + Zn < 100.0, 'At% of Mg plus Zn must be less than 100%'
+assert (Mg and Zn) > 0.0, 'At% of Mg and Zn must be greater than 0'
+assert totalAlloyMass > 0.0, 'The total alloy charge mass must be greater than 0.0 grams'
+
+'Stores the analysis alloy within the Object Array function'
+elements = MgZnCaAtToWt(Mg, Zn)
+
+'''Returns alloy name and atomic percent.
+AlloyArray creates a string array of Name+At% via a loop 
+%s%.xf formats the string; first item str, second number of x floats'''
+AlloyArray = ['%s%.1f' % (i['name'], i['atomicPercent']) for i in elements]
+'join combines AlloyArray into a single string, seperatred by the Delimiter'
+delimiter = ' '
+AlloyAt = delimiter.join(AlloyArray)  
+print 'For an alloy of ', AlloyAt, 'at%'
+
+'''Loop to return At% to Wt% denominator of 
+total sum of atomic percent (at%) times atomic weight (AMU) of alloy
+i.e. C1'*A1 + ... + Cn'*An
+Where Cn = wt%, Cn' = at%, An = atomic weight'''
+totalAtxAMU = 0
+for i in elements:
+totalAtxAMU += i['atomicPercent'] * i['atomicWeight']
+
+'''Loop to return alloy density
+Uses start of main loop to computer Wt% for use in calculation
+i.e. 1/D = C1/D1 + ... + Cn/Dn'''
+OneOnDensity = 0
+for i in elements:
+AtxAMU = i['atomicPercent'] * i['atomicWeight']
+wt = AtxAMU / totalAtxAMU
+OneOnDensity += (wt / i['density'])
+alloyDensity = 1. / OneOnDensity
+print 'The expected alloy density is', round(alloyDensity, 3), 'g/cm^3'
+print
+
+'''Main loop to computer Wt%, mass of each element, and alloy density
+i.e. C1 = C1' * A1 / (C1' * A1 + ... + Cn' * An)'''
+OneOnDensity = 0
+for i in elements:
+AtxAMU = i['atomicPercent'] * i['atomicWeight']
+wt = AtxAMU / totalAtxAMU
+wt100 = 100 * wt
+wtRound = round(wt100, 3)
+print i['name'], i['atomicPercent'], 'at% is ', wtRound, 'wt%'
+
+'Alloy weight calcs happen here'
+AlloyMass = totalAlloyMass * wt
+AlloyMassRound = round(AlloyMass, 3) 
+print AlloyMassRound, 'grams', i['name'], 'per', totalAlloyMass, 'gram charge'
+print 
+
+
+# In[6]:
+
+def MgZnCaMass(MgWt = 42.222, ZnWt = 52.422, CaWt = 5.356):
+'''Calculate Wt% of given masses of Mg, Zn, and C
+Creates an object array of those Mg, Zn, Ca Wt%
+Mass of Mg, Zn, and Ca are inputs
+Defaults are the masses for a Mg65Zn30Ca5 At% alloy'''
+
+'assertion test for invalid inputs'
+assert (MgWt and ZnWt and CaWt) > 0.0, 'Wt of elements must be greater than 0'
+
+'Works out wt% of alloy from componet input masses'
+TotalWeight = float(MgWt + ZnWt + CaWt)
+MgWtPer = 100 * (MgWt / TotalWeight)
+ZnWtPer = 100 * (ZnWt / TotalWeight)
+CaWtPer = 100 * (CaWt / TotalWeight)
+
+return [
+{'name': 'Mg', 
+	'weightPercent': round(MgWtPer, 3), #alloy atomic percent
+	'atomicWeight': 24.305, #amu
+	'density': 1.738}, #g/cm3
+
+{'name': 'Zn', 
+	'weightPercent': round(ZnWtPer, 3), #alloy atomic percent
+	'atomicWeight': 65.382, #amu
+	'density': 7.14}, #g/cm3
+
+{'name': 'Ca', 
+	'weightPercent': round(CaWtPer, 3), #alloy atomic percent
+	'atomicWeight': 40.078, #amu
+	'density': 1.55} #g/cm3
+]
+\end{python}
+
+
+\subsubsection{SMG Target Deposition Calculations}
+
+\begin{python}
+	# In[1]:
+	
+	'''Code for the Deposition of Targets
+	Code by Scott Gleason, University of New South Wales (UNSW), Australia 
+	S.Gleason@student.unsw.edu.au, May 2015'''
+	
+	
+	# In[2]:
+	
+	'imports numpy and matplotlib libaries into code'
+	import numpy as np
+	import matplotlib.pyplot as plt
+	
+	
+	# In[3]:
+	
+	def DepositionTime(Rate = 1.5, Thickness = 1000):
+	'''Finds the deposition time for a desidered film thickness 
+	time = Thickness / Rate
+	Rate is in nm/s, default 1.5 nm/s
+	Thickness is in nm, default 1000 nm'''
+	
+	assert (Rate and Thickness) > 0.0, "Rate/Thickness must be greater than 0.0"
+	
+	TimeSeconds = Thickness / Rate #seconds
+	TimeMinutes = TimeSeconds / 60. #minutes
+	print 'Deposition Rate is', Rate, 'nm/s'
+	print 'Film Thickness T is', Thickness, 'nm'
+	print 'Time to deposite thin film', round(TimeSeconds, 3), 'seconds'
+	print 'Time to deposite thin film', round(TimeMinutes, 3), 'minutes'
+	
+	
+	# In[4]:
+	
+	def SubstrateTemp(GlassTransition = 132, LowerTsub = 0.7, UpperTsub = 0.8):
+	'''Finds the USG deposition temperatures 
+	Tsub = GlassTransition * LowerTsub OR UpperTsub
+	GlassTransition is in C, default 132 C
+	LowerTsub & UpperTsub are unitless, default is 0.7 and 0.8'''
+	
+	assert (GlassTransition and LowerTsub and UpperTsub) > 0.0, "Parameters must be greater than 0.0"
+	
+	TempKelvin = GlassTransition + 273.15 #kelvin
+	LowerTsubKelvin = LowerTsub * TempKelvin #kelvin
+	UpperTsubKelvin = UpperTsub * TempKelvin #kelvin
+	LowerTsubCelius = LowerTsubKelvin - 273.15 #celious
+	UpperTsubCelius = UpperTsubKelvin - 273.15 #celious
+	
+	print 'The glass transition temperature (Tg) is', GlassTransition, 'C,  or', TempKelvin, 'K'
+	print 'The lower Tsub limit is', LowerTsub, 'of Tg'
+	print 'The upper Tsub limit is', UpperTsub, 'of Tg'
+	print 'The lower Tsub temperature is', LowerTsubCelius, 'C,  or', LowerTsubKelvin, 'K'
+	print 'The upper Tsub temperature is', UpperTsubCelius, 'C,  or', UpperTsubKelvin, 'K'
+	
+\end{python}
+
+
+\subsubsection{Casting Volume Calculations}
+
+\begin{python}
+	# In[1]:
+	
+	'''Code for the Volume of Tagets
+	Code by Scott Gleason, University of New South Wales (UNSW), Australia 
+	S.Gleason@student.unsw.edu.au, April 2015'''
+	
+	
+	# In[2]:
+	
+	'imports numpy and matplotlib libaries into code'
+	import numpy as np
+	import matplotlib.pyplot as plt
+	
+	
+	# In[3]:
+	
+	def CylindarVolume(Diameter = 25.4, Thickness = 4.0):
+	'''Finds the volume of a cylindar as given by 
+	V = pi * (D/2)^2 * t
+	Diameter is in mm, default 25.4 mm
+	Thickness is in mm, default 4 mm'''
+	
+	assert Diameter > 0.0, "Diameter must be a positive value"
+	assert Thickness > 0.0, "Thickness must be a positive value"
+	
+	Radius = Diameter / 2.0
+	Volume = np.pi * Thickness * Radius**2 #mm^3
+	VolumeCC = Volume / 1000 #cc #(1000mm^3 per cm^3)
+	print 'Radius R is', Radius, 'mm'
+	print 'Thickness t is', Thickness, 'mm'
+	print 'Volume of cylinder is', round(Volume, 3), 'mm^3'
+	print 'Volume of cylinder is', round(VolumeCC, 3), 'cc'
+	
+	
+	# In[4]:
+	
+	def PlateVolume(Thickness = 4.0, Height = 49.0, Length = 102.0):
+	'''Finds the volume of a plate as given by 
+	V = L * H * t
+	Thickness is in mm, default 4 mm
+	Height is in mm, default 49 mm
+	Length is in mm, default 102 mm'''
+	
+	assert Thickness > 0.0, "Thickness must be a positive value"
+	assert Height > 0.0, "Height must be a positive value"
+	assert Length > 0.0, "Length must be a positive value"
+	
+	Volume = Length * Height * Thickness #mm^3
+	VolumeCC = Volume / 1000 #cc #(1000mm^3 per cm^3)
+	print 'Thickness t is', Thickness, 'mm'
+	print 'Height H is', Height, 'mm'
+	print 'Length L is', Length, 'mm'
+	print 'Volume of plate is', round(Volume, 3), 'mm^3'
+	print 'Volume of plate is', round(VolumeCC, 3), 'cc'
+	return round(VolumeCC, 3)
+	
+	
+	# In[5]:
+	
+	def PlateRiserVolume(Thickness = 4.0, RiserHeight = 18.0, Length = 102.0):
+	'''Finds the volume of a plate riser as given by 
+	V = L * Rh/2 * (t0 + Thickness)
+	Thickness is in mm, default 4 mm
+	RiserHeight is in mm, default 18 mm
+	Length is in mm, default 102 mm'''
+	
+	assert Thickness > 0.0, "Thickness must be a positive value"
+	assert RiserHeight > 0.0, "RiserHeight must be a positive value"
+	assert Length > 0.0, "Length must be a positive value"
+	
+	OpeningThickness = 13.0 #Thickness of plate riser opening
+	Area = RiserHeight/2 * (Thickness + OpeningThickness) #mm^2
+	Volume = Length * Area #mm^3
+	VolumeCC = Volume / 1000 #cc #(1000mm^3 per cm^3)
+	print 'Riser Base Thickness t0 is', Thickness, 'mm'
+	print 'Riser Opening Thickness t is', Thickness + OpeningThickness, 'mm'
+	print 'Riser Height Rh is', RiserHeight, 'mm'
+	print 'Length L is', Length, 'mm'
+	print 'Volume of riser is', round(Volume, 3), 'mm^3'
+	print 'Volume of riser is', round(VolumeCC, 3), 'cc'
+	return round(VolumeCC, 3)
+	
+	
+	# In[6]:
+	
+	def VolumeCCToMass(VolumeCC = 8.107, Density = 2.85):
+	'''Converts cc volume to total mass from density 
+	VolumeCC = volume in cc, default to 8.107 cc
+	Density = Total alloy density, default to 2.85 g/cm3 (Mg65Zn30Ca5)'''
+	
+	assert VolumeCC > 0.0, "Volume must be a positive value"
+	assert Density > 0.0, "Density must be a positive value"
+	
+	Mass = VolumeCC * Density #cc * g/cm3 = g
+	print VolumeCC, 'cc of material with a density of', Density, 'g/cm3 is:'
+	print round(Mass,3), 'g'
+	
+	
+	# In[7]:
+	
+	def MassToVolumeCC(Mass = 100.0, Density = 2.85):
+	'''Converts total mass to cc volume from density 
+	Mass = Total alloy mass, default to 100 g
+	Density = Total alloy density, default to 2.85 g/cm3 (Mg65Zn30Ca5)'''
+	
+	assert Mass > 0.0, "Mass must be a positive value"
+	assert Density > 0.0, "Density must be a positive value"
+	
+	VolumeCC = Mass / Density #g / (g/cm3) = cm3 = cc
+	print Mass, 'g of material with a density of', Density, 'g/cm3 is:'
+	print round(VolumeCC,3), 'cc'
+	
+	
+	# In[8]:
+	
+	print '2-Inch Target size:'
+	CylindarVolume(50.8, 4.5)
+	
+	
+	# In[9]:
+	
+	print 'Small Crucible Size:'
+	CylindarVolume(32, 85)
+	
+	
+	# In[10]:
+	
+	print 'Large Crucible Size:'
+	CylindarVolume(34, 85)
+	
+\end{python}
+
+\section{Plotting Codes}
+\subsubsection{MgZnCa System Property Plots}
+
+\begin{python}
+# In[1]:
+
+'''Code to plot MgZnCa Temperature Properites from .txt directory
+Code by Scott Gleason, University of New South Wales (UNSW), Australia 
+S.Gleason@student.unsw.edu.au, June 2015'''
+
+
+# In[2]:
+
+'''Imports numpy, matplotlib, and glob libaries 
+numpy & matplotlib allow for complex math
+glob allows for pattern matching with * and ? wild cards
+(note glob's only function is glob (i.e. glob.glob('search critrea')))'''
+
+'%matplotlib inline'
+'Generates plots inline of the notebook. Commit out if want indivudual files'
+
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.ticker import AutoMinorLocator #Used for minor axis ticks
+import glob
+
+
+# In[3]:
+
+cd 'C:\\Users\\z3492622\\Documents\\PhD Project\\Results'
+
+
+# In[4]:
+
+cd 'Modelling\\'
+
+
+# In[5]:
+
+'Directs to directory containing files to be anaylised'
+
+Folder = 'MgZnCa BMG Properites'
+
+print 'Directory to be anaylised:'
+print Folder
+
+
+# In[6]:
+
+def dataFilesRange(FileType, StartFile = 0, EndFile = None):
+'''Preforms a glob list of *.filetype within directory
+FileType = csv, txt, etc
+StartFile = Number of first file to be anaylsis from the glob
+Defaulted to 0
+EndFile = Number of last file to be anaylsis from the glob
+Defaulted to None, as to return last value'''
+
+'assertion test for the function'
+assert StartFile > -1, 'First file must be atleast 0'
+if EndFile<>None:
+assert EndFile > 0, 'Last file must be atleast 1'
+
+dataFiles = glob.glob(Folder + '\\*.'+ FileType)
+
+'set range of files to be analysed'
+Range = dataFiles[StartFile:EndFile]
+
+return Range
+
+
+# In[7]:
+
+def dataArray(filename, Delimiter = ',', StartRow = 1, LastColumn = None):
+'''Creates an array from an input file, and defines limits of the array
+filename = file to anaylisied
+Delimiter = data separator (defaulted to ',' for .csv)
+StartRow = row data starts on (defaulted to 1)
+LastColumn = column data ends on (defaulted to None)
+Note: .txt use 'None' as Delimiter'''
+
+assert StartRow > 0, 'First row must be atleast 1'
+
+'''If condition determining the last column of the array
+also contains assertion to ensure last column is valid'''
+if LastColumn<>None:
+assert LastColumn > 0, 'Last column must be atleast 1'
+Column = range(0, LastColumn, 1)
+else:
+Column = None
+
+'Returns array of data, do not edit this string'
+return np.loadtxt(filename, delimiter = Delimiter,
+skiprows = StartRow - 1, 
+usecols = Column)
+
+
+# In[8]:
+
+def plotFile(filename, title, xAxis=1, yAxis=2):
+'''Generates a plot of data from a file, and formates chart layout
+filename = file to anaylisied
+title = tile of the plot
+xAxis = Column of X-Axis Data (defaulted to 1st column)
+yAxis = Column of Y-Axis Data (defaulted to 2nd column)'''
+
+'Assertion to ensure x and y axis are valid'
+assert xAxis > 0, 'X Axis must be at least 1'
+assert yAxis > 0, 'Y Axis must be at least 1'
+
+'Defines the columns X & Y axis data come from in filename array'
+xAxisData = filename[:, xAxis-1]
+Y1 = filename[:, yAxis-1]
+Y2 = filename[:, yAxis]
+Y3 = filename[:, yAxis+1]
+Y4 = filename[:, yAxis+2]
+Y5 = filename[:, yAxis+3]
+
+'Define Plot layout, axis lables, legends, etc'
+PlotLayout = {'fileName': title, # Plot filename 
+	'title': title, # Title lable
+	'titleFontSize': 25, # Title lable font size
+	'X-Lable': '$X$ $(at\%)$', # X axis lable
+	'Y-Lable': '$T$  $(^{\circ}C)$', # Y axis lable
+	'axisFontSize': 18, # X & Y axis lable font size
+	'xAxisMin': -1, # lower scale limit for x axis
+	'xAxisMax': 20, # upper scale limit for X axis
+	'yAxisMin': 0, # lower scale limit for y axis
+	'yAxisMax': 500, # upper scale limit for y axis
+	'lineColourType': 'b', # line colour and style
+	'lineWeight': 1.2 # weight of line
+}
+
+'Add PlotLayout objects to plot'
+plt.figure(PlotLayout['fileName'])
+plt.title(PlotLayout['title'], fontsize = PlotLayout['titleFontSize'])
+plt.xlabel(PlotLayout['X-Lable'], fontsize = PlotLayout['axisFontSize'])
+plt.ylabel(PlotLayout['Y-Lable'], fontsize = PlotLayout['axisFontSize'])
+
+'Turns on minor axis ticks'
+plt.minorticks_on()
+
+'Generates the plot'
+plt.hold(True)
+plt.plot(xAxisData, Y1, linewidth = PlotLayout['lineWeight'],
+marker='^', label='$T_{g}$')
+plt.plot(xAxisData, Y2, linewidth = PlotLayout['lineWeight'],
+marker='v', label='$T_{x}$')
+plt.plot(xAxisData, Y3, linewidth = PlotLayout['lineWeight'],
+marker='s', label='$T_{m}$')
+plt.plot(xAxisData, Y4, linewidth = PlotLayout['lineWeight'],
+marker='D', label='$T_{l}$')
+plt.plot(xAxisData, Y5, linewidth = PlotLayout['lineWeight'],
+marker='p', label='$\Delta T$', ls = '--')
+plt.hold(False)
+plt.axis([PlotLayout['xAxisMin'], PlotLayout['xAxisMax'], 
+PlotLayout['yAxisMin'], PlotLayout['yAxisMax']])
+plt.legend()
+plt.show()
+
+
+# In[9]:
+
+filesToPlot = dataFilesRange('txt', 1, 4)
+print filesToPlot
+
+
+# In[10]:
+
+def PlotFile(filename, title):
+'''Plot a .txt or .csv file with a title
+Prints filepath of each *.filetype file anaylisied 
+Uses dataArray() function to print matrix of each file
+Uses dataArray() and plotFile() functions to plot each file'''
+
+print filename #Prints files
+'''dataArray takes 4 arrguments; filename, Delimiter, StartRow, and LastColumn
+Note1: For .csv Delimiter = ',' and for .txt Delimiter = None'''
+dataToPlot = dataArray(filename, None, 2, None) #Defines data and limits
+print dataToPlot #Prints matrix
+'plotfile requires the X & Y axis be specified'
+plotFile(dataToPlot, title, 1, 2) #Generates plot
+
+
+# In[11]:
+
+PlotFile(filesToPlot[0], '$Mg_{70-X}Zn_{24+X}Ca_{6}$')
+
+
+# In[12]:
+
+PlotFile(filesToPlot[1], '$Mg_{72-X}Zn_{24+X}Ca_{4}$')
+
+
+# In[13]:
+
+PlotFile(filesToPlot[2], '$Mg_{75-X}Zn_{20+X}Ca_{5}$')
+\end{python}
+
+
+\subsubsection{Gibbs Free Energy Plots}
+
+\begin{python}
+# In[1]:
+
+'''Code to plot Gibbs Free Energy Schematic Plot
+Code by Scott Gleason, University of New South Wales (UNSW), Australia 
+S.Gleason@student.unsw.edu.au, May 2015'''
+
+
+# In[2]:
+
+'''Imports numpy, matplotlib, and glob libaries 
+numpy & matplotlib allow for complex math'''
+
+'%matplotlib inline'
+'Generates plots inline of the notebook. Commit out if want indivudual files'
+
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.ticker import AutoMinorLocator #Used for minor axis ticks
+
+
+# In[3]:
+
+def SystemFreeEnergy():
+'''Plot of Free Energy for differnt system phases (Liquid, solid, glass)'''
+
+'Define Plot layout, axis lables, legends, etc'
+PlotLayout = {'fileName': 'Gibbs Free Energy', # Plot filename 
+	'title': '', # Title lable
+	'titleFontSize': 20, # Title lable font size
+	'X-Lable': '$Temperature$', # X axis lable
+	'Y-Lable': '$G$', # Y axis lable
+	'axisFontSize': 25, # X & Y axis lable font size
+	'xAxisMax': 55, # upper scale limit for X axis
+	'yAxisMax': 85, # upper scale limit for y axis
+	'lineWeight': 2.5 # weight of line
+}
+
+'Add PlotLayout objects to plot'
+plt.figure(PlotLayout['fileName'])
+plt.title(PlotLayout['title'], fontsize = PlotLayout['titleFontSize'])
+plt.xlabel(PlotLayout['X-Lable'], fontsize = PlotLayout['axisFontSize'])
+plt.ylabel(PlotLayout['Y-Lable'], fontsize = PlotLayout['axisFontSize'])
+
+'''Add Free Energy Lines
+Note: Weakly bonded structures have greater slopes (large Cp/T dT value)
+Assume typical glass bonding Ionic 
+Assume typical solid bonding Covalent
+Covalent > Ionic bond strength. Thus solid slope < glass''' 
+FreeEnergy = [
+{'x0': 0, 'x1': 100, 'y0': 80, 'y1': 0, 
+	'colour': 'r', 'line': '-', 'label': 'Liquid'},
+{'x0': 0, 'x1': 100, 'y0': 58, 'y1': 33,
+	'colour': 'g', 'line': '-', 'label': 'Solid'},
+{'x0': 0, 'x1': 100, 'y0': 70, 'y1': 40,
+	'colour': 'b', 'line': '--', 'label': 'Glass'}]
+
+for i in FreeEnergy:
+plt.plot([i['x0'], i['x1']], [i['y0'], i['y1']],
+color=i['colour'], linestyle=i['line'], 
+linewidth=PlotLayout['lineWeight'],
+label=i['label'])
+
+'Add annotations to the plot'
+PlotAnnotate = [
+{'label': '$T_{m}$', 'xPos': 40, 'yPos1': 37, 'yPos2': 63, 'colour': 'k'},
+{'label': '$T_{g}$', 'xPos': 20, 'yPos1': 39, 'yPos2': 70, 'colour': 'k'}]
+
+for i in PlotAnnotate:
+plt.annotate(i['label'], size = 20, xy=(i['xPos'], i['yPos2']),
+xytext=(i['xPos'], i['yPos1']),
+arrowprops=dict(arrowstyle="-", linewidth=1,
+color=i['colour']),
+horizontalalignment='center')
+
+'Generates the plot'
+plt.axis([0, PlotLayout['xAxisMax'], 30, PlotLayout['yAxisMax']])
+ax = plt.subplot(1, 1, 1)
+ax.set_xticklabels([]) #Removes xAxis numbers
+ax.set_yticklabels([]) #Removes yAxis numbers
+plt.legend() #Add legend
+plt.show()
+
+
+# In[4]:
+
+def NucleationEnergy():
+'''Plot of Gibbs Nucleation Energy
+G(r)=(4 pi r^2)SL + (4/3) pi r^3(GV)
+Where: Surface Energy SL = 1
+Where: Volume Energy GV = -1'''
+
+'Define Plot layout, axis lables, legends, etc'
+PlotLayout = {'fileName': 'Nucleation Free Energy', # Plot filename 
+	'title': '', # Title lable
+	'titleFontSize': 20, # Title lable font size
+	'X-Lable': '$r$', # X axis lable
+	'Y-Lable': '$G$', # Y axis lable
+	'axisFontSize': 30, # X & Y axis lable font size
+	'xAxisMax': 3.7, # upper scale limit for X axis
+	'yAxisMax': 25, # upper scale limit for y axis
+	'yAxisMin': -15, # lower scale limit for y axis
+	'lineWeight': 3 # weight of line
+}
+
+'Add PlotLayout objects to plot'
+plt.figure(PlotLayout['fileName'])
+plt.title(PlotLayout['title'], fontsize = PlotLayout['titleFontSize'])
+plt.xlabel(PlotLayout['X-Lable'], fontsize = PlotLayout['axisFontSize'])
+plt.ylabel(PlotLayout['Y-Lable'], fontsize = PlotLayout['axisFontSize'])
+
+'Add Nucleation Function and lines'
+r = np.linspace(0,5,1000) # linearly spaced numbers
+SL = 4. * np.pi * r**2 #Surface Energy
+GV = -4./3 * np.pi * r**3 #Volume Energy
+G = SL + GV #Total Nucleation Energy
+
+NucleationLines = [
+{'xAxis': r, 'yAxis': SL, 'colour': 'r', 'line': '--',
+	'label': '$(4 \pi r^{2}) \gamma_{SL}$'},
+{'xAxis': r, 'yAxis': GV, 'colour': 'g', 'line': '--',
+	'label': '$(4/3) \pi r^{3} \Delta G_{V}$'},
+{'xAxis': r, 'yAxis': G, 'colour': 'b', 'line': '-',
+	'label': '$\Delta G(r)$'}]
+
+for i in NucleationLines:
+plt.plot(i['xAxis'], i['yAxis'], 
+color=i['colour'], linestyle=i['line'], 
+linewidth=PlotLayout['lineWeight'],
+label=i['label'])
+
+'Add annotations to the plot'
+PlotAnnotate = [
+{'label': '$\Delta G{*}$', 'xPos': 2, 'yPos1': 17.3, 'yPos2': 0,
+	'colour': 'k', 'size': 18},
+{'label': '$r{*}$', 'xPos': 2, 'yPos1': -3, 'yPos2': 0,
+	'colour': 'k', 'size': 25}]
+
+for i in PlotAnnotate:
+plt.annotate(i['label'], size = i['size'], xy=(i['xPos'], i['yPos2']),
+xytext=(i['xPos'], i['yPos1']),
+arrowprops=dict(arrowstyle="-", linewidth=0.75,
+color=i['colour']),
+horizontalalignment='center')
+
+'Generates the plot'
+plt.axis([0, PlotLayout['xAxisMax'],
+PlotLayout['yAxisMin'], PlotLayout['yAxisMax']])
+plt.annotate('',xy=(3.5, 0), xytext=(0,0),
+arrowprops=dict(arrowstyle="->",linewidth=1.5,color='k'))
+ax = plt.subplot(1, 1, 1)
+ax.set_xticklabels([]) #Removes xAxis numbers
+ax.set_yticklabels([]) #Removes yAxis numbers
+plt.legend() #Add legend
+plt.show()
+
+
+# In[5]:
+
+SystemFreeEnergy()
+
+
+# In[6]:
+
+NucleationEnergy()
+
+\end{python}
+
+
+\subsubsection{EDS Plotting Loop Function}
+
+\begin{python}
+# In[1]:
+
+'''Code to plot EDS spectra anaylsis from a master .csv or .txt directory
+Code by Scott Gleason, University of New South Wales (UNSW), Australia 
+S.Gleason@student.unsw.edu.au, April 2015'''
+
+'''Future Devlopment - Make a derivative and intergration of the dataMatrix,
+and plot all 3 Matrixs in a row for each file (see SoftwareCap). 
+This will be for plotting DSC / SMG data'''
+
+
+# In[2]:
+
+'''Imports numpy, matplotlib, and glob libaries 
+numpy & matplotlib allow for complex math
+glob allows for pattern matching with * and ? wild cards
+(note glob's only function is glob (i.e. glob.glob('search critrea')))'''
+
+get_ipython().magic(u'matplotlib inline')
+'Generates plots inline of the notebook. Commit out if want indivudual files'
+
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.ticker import AutoMinorLocator #Used for minor axis ticks
+import glob
+
+
+# In[3]:
+
+cd 'C:\\Users\\z3492622\\Documents\\PhD Project\\Results'
+
+
+# In[4]:
+
+cd 'SEM\\2015-04-14 (T1 2 3 5)\\'
+
+
+# In[5]:
+
+'Directs to directory containing files to be anaylised'
+
+Folder = 'EDS Spectra Sheets'
+
+print 'Directory to be anaylised:'
+print Folder
+
+
+# In[6]:
+
+def dataFilesRange(FileType, StartFile = 0, EndFile = None):
+'''Preforms a glob list of *.filetype within directory
+FileType = csv, txt, etc
+StartFile = Number of first file to be anaylsis from the glob
+Defaulted to 0
+EndFile = Number of last file to be anaylsis from the glob
+Defaulted to None, as to return last value'''
+
+'assertion test for the function'
+assert StartFile > -1, 'First file must be atleast 0'
+if EndFile<>None:
+assert EndFile > 0, 'Last file must be atleast 1'
+
+dataFiles = glob.glob(Folder + '\\*.'+ FileType)
+
+'set range of files to be analysed'
+Range = dataFiles[StartFile:EndFile]
+
+return Range
+
+
+# In[7]:
+
+def dataArray(filename, Delimiter = ',', StartRow = 1, LastColumn = None):
+'''Creates an array from an input file, and defines limits of the array
+filename = file to anaylisied
+Delimiter = data separator (defaulted to ',' for .csv)
+StartRow = row data starts on (defaulted to 1)
+LastColumn = column data ends on (defaulted to None)
+Note: .txt use 'None' as Delimiter'''
+
+assert StartRow > 0, 'First row must be atleast 1'
+
+'''If condition determining the last column of the array
+also contains assertion to ensure last column is valid'''
+if LastColumn<>None:
+assert LastColumn > 0, 'Last column must be atleast 1'
+Column = range(0, LastColumn, 1)
+else:
+Column = None
+
+'Returns array of data, do not edit this string'
+return np.loadtxt(filename, delimiter = Delimiter,
+skiprows = StartRow - 1, 
+usecols = Column)
+
+
+# In[8]:
+
+def plotFile(filename, xAxis=1, yAxis=2):
+'''Generates a plot of data from a file, and formates chart layout
+filename = file to anaylisied
+xAxis = Column of X-Axis Data (defaulted to 1st column)
+yAxis = Column of Y-Axis Data (defaulted to 2nd column)'''
+
+'Assertion to ensure x and y axis are valid'
+assert xAxis > 0, 'X Axis must be at least 1'
+assert yAxis > 0, 'Y Axis must be at least 1'
+
+'Defines the columns X & Y axis data come from in filename array'
+xAxisData = filename[:, xAxis-1]
+yAxisData = filename[:, yAxis-1]
+
+'Define Plot layout, axis lables, legends, etc'
+PlotLayout = {'fileName': 'Spectra Counts', # Plot filename 
+	'title': 'Counts / $keV$', # Title lable
+	'titleFontSize': 20, # Title lable font size
+	'X-Lable': '$keV$', # X axis lable
+	'Y-Lable': 'Counts', # Y axis lable
+	'axisFontSize': 16, # X & Y axis lable font size
+	'xAxisMax': 20, # upper scale limit for X axis
+	'yAxisMax': 8000, # upper scale limit for y axis
+	'lineColourType': 'k', # line colour and style
+	'lineWeight': 0.8 # weight of line
+}
+
+'Add PlotLayout objects to plot'
+plt.figure(PlotLayout['fileName'])
+plt.title(PlotLayout['title'], fontsize = PlotLayout['titleFontSize'])
+plt.xlabel(PlotLayout['X-Lable'], fontsize = PlotLayout['axisFontSize'])
+plt.ylabel(PlotLayout['Y-Lable'], fontsize = PlotLayout['axisFontSize'])
+
+'Add annotations to the plot'
+PlotAnnotate = [
+{'label': 'Mg', 'xPos': 1.253, 'yPos': 4000, 'colour': 'g'},
+{'label': 'Ca', 'xPos': 0.341, 'yPos': 3000, 'colour': 'c'},
+{'label': 'Ca', 'xPos': 3.690, 'yPos': 3000, 'colour': 'c'},
+{'label': 'Zn', 'xPos': 1.012, 'yPos': 7500, 'colour': 'm'},
+{'label': 'Zn', 'xPos': 8.630, 'yPos': 2000, 'colour': 'm'},
+{'label': '', 'xPos': 1.302, 'yPos': 500, 'colour': 'g'},
+{'label': '', 'xPos': 4.012, 'yPos': 500, 'colour': 'c'},
+{'label': '', 'xPos': 0.345, 'yPos': 500, 'colour': 'c'},
+{'label': '', 'xPos': 9.570, 'yPos': 500, 'colour': 'm'},
+{'label': '', 'xPos': 1.043, 'yPos': 500, 'colour': 'm'}]
+
+for i in PlotAnnotate:
+plt.annotate(i['label'], xy=(i['xPos'], 0),
+xytext=(i['xPos'], i['yPos']),
+arrowprops=dict(arrowstyle="-", linewidth = 0.4,
+color=i['colour']),
+horizontalalignment='center')
+
+'Turns on minor axis ticks'
+#plt.minorticks_on()
+ax = plt.subplot(1, 1, 1)
+ax.xaxis.set_minor_locator(AutoMinorLocator(5))
+
+'Generates the plot'
+plt.plot(xAxisData, yAxisData,
+PlotLayout['lineColourType'], 
+linewidth = PlotLayout['lineWeight'])
+plt.axis([0, PlotLayout['xAxisMax'], 0, PlotLayout['yAxisMax']])
+plt.show()
+
+
+# In[9]:
+
+filesToPlot = dataFilesRange('txt', 0, 5)
+print filesToPlot
+
+
+# In[10]:
+
+def PlotFilesLoop():
+'''For loop to print dataFileRange
+Prints filepath of each *.filetype file anaylisied 
+Uses dataArray() function to print matrix of each file
+Uses dataArray() and plotFile() functions to plot each file'''
+
+for files in filesToPlot:
+print files #Prints files
+
+'''dataArray takes 4 arrguments; filename, Delimiter, StartRow, and LastColumn
+Note1: For .csv Delimiter = ',' and for .txt Delimiter = None'''
+dataToPlot = dataArray(files, None, 26, 2) #Defines data and limits
+print dataToPlot #Prints matrix
+'plotfile requires the X & Y axis be specified'
+plotFile(dataToPlot, 1, 2) #Generates plot
+
+
+# In[11]:
+
+PlotFilesLoop()
+
+\end{python}
+
+\end{document}
