@@ -1,5 +1,5 @@
-%\documentclass[a4paper,12pt,oneside]{report}%FinalView
-\documentclass[draft,a4paper,12pt,oneside]{report}%draftView
+\documentclass[a4paper,12pt,oneside]{report}%FinalView
+%\documentclass[draft,a4paper,12pt,oneside]{report}%draftView
 
 \input{settings/preamble.tex}%Inputs Preamble for its .tex
 \usepackage[color]{showkeys}%Shows cross ref paths
@@ -11,7 +11,7 @@
 \vspace*{1cm}
 	
 %Title
-\textbf{\LARGE{Biocompatible Thin Film and Ultra-Stable\\Metallic Glass Surfaces (TFMGs and SMGs)}}\\
+\textbf{\LARGE{Biocompatible Thin Film and Ultrastable\\Metallic Glass Surfaces (TFMGs and SMGs)}}\\
 %Subtitle
 \textbf{PhD Thesis}
 
@@ -47,22 +47,41 @@ School of Material Science and Engineering\\ Faculty of Science
 
 \clearpage 
 \pagenumbering{roman}
-\tableofcontents\newpage
-\listoffigures\newpage
-\listoftables\newpage
-\clearpage %% start of main matter
-\pagenumbering{arabic} 
+
+\chapter*{Certificate of Originality}
+I hereby declare that this submission is my own work and to the best of my knowledge it
+contains no material previously published or written by another person, nor material which
+to a substantial extent has been accepted for the award of any other degree or diploma
+at UNSW or any other educational institution, except where due acknowledgement is
+made in the thesis. Any contribution made to the research by others, with whom I have
+worked at UNSW or elsewhere, is explicitly acknowledged in the thesis.
+
+I also declare that the intellectual content of this thesis is the product of my own work,
+except to the extent that assistance from others in the project’s design and conception
+or in style, presentation and linguistic expression is acknowledged.
+
+\vspace{2cm}
+
+Signed ...................................................................................
 
 \chapter*{ACKNOWLEDGEMENTS}
-Professor Michael Ferry
+Professor Michael Ferry $-$ 
 
-Dr. Kevin Laws
+Dr. Kevin Laws $-$ 
 
-Dr. Bulent Gun
+Dr. Bulent Gun $-$ 
 
-Professor Jianzhong Jiang
+Professor Jianzhong Jiang $-$
 
-Fellow PhD students
+Patrick Conway $-$ 
+
+Caitlin Healy $-$ 
+
+Nicholas Hamilton $-$ For his assistance with \LaTeX{} text editing, and various scripting problems.
+
+Jane Gao \& Danny Kim $-$ For their continued IT assistance throughout my time at \acrshort{unsw}.
+
+Brad Jones $-$ For his assistance is setting up efficient computer backup \& syncing scripts.
 
 \chapter*{ABSTRACT}
 \todo{General abstract structure;
@@ -92,7 +111,17 @@ Going forward \acrshort{xrd} analysis will be used to definitively establish the
 	
 	Coat riser with Boron-Nitrate for more even cooling? No, that would make riser take longer time to cool and make plate crack more.} 
 
+
+%Table of Contents
+\clearpage
+\tableofcontents\newpage
+\listoffigures\newpage
+\listoftables\newpage
+\clearpage %% start of main matter
+
+
 \chapter{INTRODUCTION}
+\pagenumbering{arabic}
 \glsresetall
 \todo{Property modification Coating BMG with same composition coating.
 	Look at K. Schluter Intro (Green part on property modification);
