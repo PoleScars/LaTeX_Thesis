@@ -49,6 +49,8 @@ School of Material Science and Engineering\\ Faculty of Science
 \pagenumbering{roman}
 
 \chapter*{CERTIFICATE OF ORIGINALITY}
+\addcontentsline{toc}{chapter}{CERTIFICATE OF ORIGINALITY}
+
 I hereby declare that this submission is my own work and to the best of my knowledge it
 contains no material previously published or written by another person, nor material which
 to a substantial extent has been accepted for the award of any other degree or diploma
@@ -64,7 +66,9 @@ or in style, presentation and linguistic expression is acknowledged.
 
 Signed ...................................................................................
 
+
 \chapter*{ACKNOWLEDGEMENTS}
+\addcontentsline{toc}{chapter}{ACKNOWLEDGEMENTS}
 Professor Michael Ferry $-$ 
 
 Dr. Kevin Laws $-$ 
@@ -77,13 +81,14 @@ Patrick Conway $-$
 
 Caitlin Healy $-$ 
 
-Nicholas Hamilton $-$ For his assistance with \LaTeX{} text editing, and various scripting problems.
+Nicholas Hamilton $-$ For his assistance with \LaTeX{} typesetting, and various scripting problems.
 
 Jane Gao \& Danny Kim $-$ For their continued IT assistance throughout my time at \acrshort{unsw}.
 
-Brad Jones $-$ For his assistance is setting up efficient computer backup \& syncing scripts.
+Brad Jones $-$ For his assistance is setting up backup \& syncing scripts.
 
 \chapter*{ABSTRACT}
+\addcontentsline{toc}{chapter}{ABSTRACT}
 \todo{General abstract structure;
 	Problem investigated;
 	Procedures followed;
@@ -113,8 +118,10 @@ Going forward \acrshort{xrd} analysis will be used to definitively establish the
 
 
 %Table of Contents
-\clearpage
+%\clearpage
+\newpage
 \tableofcontents\newpage
+\addcontentsline{toc}{chapter}{TABLE OF CONTENTS}
 \listoffigures\newpage
 \listoftables\newpage
 \clearpage %% start of main matter
@@ -191,7 +198,7 @@ Where \acrshort{dG} is the change in free energy, \acrshort{r} the nuclei radius
 		\caption{}
 		\label{fig:FreeEnergy}
 	\end{subfigure}
-	\caption[Homogenous Nucleation]{(a) Homogeneous nuclei within the liquid must reach the critical radius ($r^*$) of the nucleation barrier energy ($\Delta G^*$) to initiate crystalline growth. (b) Thermodynamically stable materials are always at the lowest Free Energy ($G$) state, but can exist in unstable higher free energy states if there is no driving force for the energy reduction.}%global caption
+	\caption{(a) Homogeneous nuclei within the liquid must reach the critical radius ($r^*$) of the nucleation barrier energy ($\Delta G^*$) to initiate crystalline growth. (b) Thermodynamically stable materials are always at the lowest Free Energy ($G$) state, but can exist in unstable higher free energy states if there is no driving force for the energy reduction.}%global caption
 	\label{fig:Gibbs}
 \end{figure}
 	\todo{Note: Weakly bonded structures have greater free energy slopes due to the large Cp/T dT value
@@ -212,7 +219,7 @@ When a liquid is cooled below its $T_{m}$ without solidifying it is termed a \gl
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Glass_Cooling_Graph.png}
-	\caption[Glass Solidification Curve]{Schematic of specific enthalpy ($h$) or specific volume ($v$) as a function of temperature for a material that exhibits both glass and crystalline solid states. Note 'glass 1' has a greater $T_{g}$ and accordingly greater $h$ \& $v$ than 'glass 2.' This higher temperature stability is the result of 'glass 1' being cooled more quickly than 'glass 2.' Modified from \cite{Ediger1996}.}
+	\caption[Schematic of specific enthalpy ($h$) or specific volume ($v$) as a function of temperature for a material that exhibits both glass and crystalline solid states. Note 'glass 1' has a greater $T_{g}$ and accordingly greater $h$ \& $v$ than 'glass 2.' This higher temperature stability is the result of 'glass 1' being cooled more quickly than 'glass 2.']{Schematic of specific enthalpy ($h$) or specific volume ($v$) as a function of temperature for a material that exhibits both glass and crystalline solid states. Note 'glass 1' has a greater $T_{g}$ and accordingly greater $h$ \& $v$ than 'glass 2.' This higher temperature stability is the result of 'glass 1' being cooled more quickly than 'glass 2.' Modified from \cite{Ediger1996}.}
 	\label{fig:GlassCooling}
 \end{figure}
 
@@ -238,7 +245,7 @@ Alloys that follow these rules display deep eutectics with low $T_{m}$, sluggish
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{BMG_Tg_on_Tm_01.png}
-	\caption[BMG Development]{Schematic of critical cooling rate ($R_{c}$) and maximum sample thickness ($t_{max}$) as a function of reduced glass transition temperature ($T_{rg}=T_{g}/T_{m}$) for a number of glass forming systems. Note the $R_{c}$ and $t_{max}$ improve with increasing $T_{g}/T_{m}$. Modified from \cite{Trexler2010}.}
+	\caption[Schematic of critical cooling rate ($R_{c}$) and maximum sample thickness ($t_{max}$) as a function of reduced glass transition temperature ($T_{rg}=T_{g}/T_{m}$) for a number of glass forming systems. Note the $R_{c}$ and $t_{max}$ improve with increasing $T_{g}/T_{m}$.]{Schematic of critical cooling rate ($R_{c}$) and maximum sample thickness ($t_{max}$) as a function of reduced glass transition temperature ($T_{rg}=T_{g}/T_{m}$) for a number of glass forming systems. Note the $R_{c}$ and $t_{max}$ improve with increasing $T_{g}/T_{m}$. Modified from \cite{Trexler2010}.}
 	\label{fig:BMGRc}
 \end{figure}
 
@@ -266,7 +273,7 @@ The introduction of this temporary plastic deformation mechanism allows  \glspl{
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{ProcessingofBMGs.png}
-	\caption[BMG TTT Processing]{Schematic TTT diagram where line (1) indicates the slowest cooling rate possible to avoid crystallisation and achieve the metallic glass state, and line (2) an elevated temperature processing window above \Tg~ where metallic glass displays excessive plastic deformation. Reproduced from \cite{Schroers2010}.}
+	\caption[Schematic TTT diagram where line (1) indicates the slowest cooling rate possible to avoid crystallisation and achieve the metallic glass state, and line (2) an elevated temperature processing window above \Tg~ where metallic glass displays excessive plastic deformation.]{Schematic TTT diagram where line (1) indicates the slowest cooling rate possible to avoid crystallisation and achieve the metallic glass state, and line (2) an elevated temperature processing window above \Tg~ where metallic glass displays excessive plastic deformation. Reproduced from \cite{Schroers2010}.}
 	\label{fig:BMGTTT}
 \end{figure}
 
@@ -282,7 +289,7 @@ Thin films are coatings of less than a nanometre to several micrometres in thick
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.50\textwidth]{ThinFilm.png}
-	\caption[Thin Film Schematic]{Schematic of a thin film applied to a substrate to modify its properties. Typical film thickness (t) ranges are from a few $nm$ to several $\mu m$ depending on application}
+	\caption[Schematic of a thin film applied to a substrate to modify its properties. Typical film thickness (t) ranges are from a few $nm$ to several $\mu m$ depending on application.]{Schematic of a thin film applied to a substrate to modify its properties. Typical film thickness (t) ranges are from a few $nm$ to several $\mu m$ depending on application.}
 	\label{fig:ThinFilm}
 \end{figure}
 
@@ -298,7 +305,7 @@ The \gls{vd} manufacturing route has a significant advantage over traditional  \
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{PLD_02.png}
-	\caption[PLD Schematic]{Schematic of a typical PLD setup showing the incoming laser beam inclined at an approximate 45$^{\circ}$ angle to the target, and the rotating target and substrate parallel to each other. Modified from \cite{Krebs1993}.}
+	\caption[Schematic of a typical PLD setup showing the incoming laser beam inclined at an approximate 45$^{\circ}$ angle to the target, and the rotating target and substrate parallel to each other.]{Schematic of a typical PLD setup showing the incoming laser beam inclined at an approximate 45$^{\circ}$ angle to the target, and the rotating target and substrate parallel to each other. Modified from \cite{Krebs1993}.}
 	\label{fig:PLD}
 \end{figure}
 
@@ -312,7 +319,7 @@ The work of Cao \cite{Cao2013} has identified potential problems in the \gls{pld
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{CaoThesis_XRDTarget.png}
-	\caption[Target Re-Crystallisation]{Amorphous target XRD scan before (black curve) and after (red curve) PLD showing the shift from characteristic amorphous structure to crystalline. Reproduced from \cite{Cao2013}.}
+	\caption[Amorphous target XRD scan before (black curve) and after (red curve) PLD showing the shift from characteristic amorphous structure to crystalline.]{Amorphous target XRD scan before (black curve) and after (red curve) PLD showing the shift from characteristic amorphous structure to crystalline. Reproduced from \cite{Cao2013}.}
 	\label{fig:ReCryTarget}
 \end{figure}
 
@@ -340,7 +347,7 @@ Direct Current (DC) sputtering applies a high-voltage to create a circuit betwee
 		\caption{}
 		\label{fig:Field_Sputtering}
 	\end{subfigure}
-	\caption[Sputtering Schematic]{(a) Schematic of a typical DC sputtering setup with an Ar working gas. The high-voltage field generates and propels Ar+ cations toward the negative target of material 'M.' Dislodged neutral 'M' atoms are hurled in all directions with some being deposited onto the positive substrate. Modified from \cite{Brown2014}. (b) Schematic of magnetron sputtering deposition showing magnetic field line's effect on the working Ar plasma. Note target 'M' atoms remain neutrally charged.}%global caption
+	\caption[(a) Schematic of a typical DC sputtering setup with an Ar working gas. The high-voltage field generates and propels Ar+ cations toward the negative target of material 'M.' Dislodged neutral 'M' atoms are hurled in all directions with some being deposited onto the positive substrate. (b) Schematic of magnetron sputtering deposition showing magnetic field line's effect on the working Ar plasma. Note target 'M' atoms remain neutrally charged.]{(a) Schematic of a typical DC sputtering setup with an Ar working gas. The high-voltage field generates and propels Ar+ cations toward the negative target of material 'M.' Dislodged neutral 'M' atoms are hurled in all directions with some being deposited onto the positive substrate. (b) Schematic of magnetron sputtering deposition showing magnetic field line's effect on the working Ar plasma. Note target 'M' atoms remain neutrally charged. (a) Modified from \cite{Brown2014}.}%global caption
 	\label{fig:Sputter}
 \end{figure}
 
@@ -378,7 +385,7 @@ Yu, et al. \cite{Yu2013} has noted that while more complicated atomic structures
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Tsub_Yu_SMG.png}
-	\caption[\Tsub~ and \dTg~ Relationship]{Relationship between \Tsub~ and \dTg~ for the Yu, et al. \cite{Yu2013} SMG. Data clearly shows deposition at \Tsub~ outside of the ideal temperature range results in poor USG \dTg~ gains. Reproduced from \cite{Yu2013}.}
+	\caption[Relationship between \Tsub~ and \dTg~ for the Yu, et al. SMG. Data clearly shows deposition at \Tsub~ outside of the ideal temperature range results in poor USG \dTg~ gains.]{Relationship between \Tsub~ and \dTg~ for the Yu, et al. \cite{Yu2013} SMG. Data clearly shows deposition at \Tsub~ outside of the ideal temperature range results in poor USG \dTg~ gains. Reproduced from \cite{Yu2013}.}
 	\label{fig:YuTsub}
 \end{figure}
 
@@ -411,7 +418,7 @@ A specific enthalpy (h) curve from the \gls{dsc} trace can be obtained by integr
 		\caption{}
 		\label{fig:DSC_PMMA}
 	\end{subfigure}
-	\caption[General USG DSC]{(a) An integrated DSC trace for the molecular IMC glass system displaying the various values of \Tf~ obtained when varying the deposition rate (the coloured lines). Note all deposited glasses have a reduced \Tf~ indicating a reduction in enthalpy compared to ordinary glass. (b) An integrated DSC trace for the polymer PMMA system showing increased enthalpy with varied substrate temperature. Reproduced from \cite{Kearns2008} and \cite{Guo2012} respectively.}%global caption
+	\caption[(a) An integrated DSC trace for the molecular IMC glass system displaying the various values of \Tf~ obtained when varying the deposition rate (the coloured lines). Note all deposited glasses have a reduced \Tf~ indicating a reduction in enthalpy compared to ordinary glass. (b) An integrated DSC trace for the polymer PMMA system showing increased enthalpy with varied substrate temperature.]{(a) An integrated DSC trace for the molecular IMC glass system displaying the various values of \Tf~ obtained when varying the deposition rate (the coloured lines). Note all deposited glasses have a reduced \Tf~ indicating a reduction in enthalpy compared to ordinary glass. (b) An integrated DSC trace for the polymer PMMA system showing increased enthalpy with varied substrate temperature. Reproduced from \cite{Kearns2008} and \cite{Guo2012} respectively.}%global caption
 	\label{fig:DSC_IMC_PMMA}
 \end{figure} \todo{Technically fig:DSC IMC (a) may be Organic (Figure of the molecular structure has C-rings).}
 
@@ -424,7 +431,7 @@ Normally a glass is formed when a material's \gls{scl} solidifies on reaching it
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Tk_Graph_Simple_02.png}
-	\caption[Kauzmann Temperature]{Schematic of glass temperature vs entropy in a typical glass forming system. The Kauzmann temperature (\Tk) represents the glass transition temperature (\Tg) of an ideal glass. The blue line is the extrapolated SCL line and the ideal path. Modified from \cite{Kearns2008}.}
+	\caption[Schematic of glass temperature vs entropy in a typical glass forming system. The Kauzmann temperature (\Tk) represents the glass transition temperature (\Tg) of an ideal glass. The blue line is the extrapolated SCL line and the ideal path.]{Schematic of glass temperature vs entropy in a typical glass forming system. The Kauzmann temperature (\Tk) represents the glass transition temperature (\Tg) of an ideal glass. The blue line is the extrapolated SCL line and the ideal path. Modified from \cite{Kearns2008}.}
 	\label{fig:TkGraph}
 \end{figure}
 
@@ -458,7 +465,7 @@ The more a glass varies from this ideal Arrhenius behaviour the more 'fragile' i
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{ShelbyFragilityPlot.png}
-	\caption[Glass Fragility]{Viscosity as a function of reduced inverse temperature ($T_{g}/T$) for strong to weak glasses over the flowing range of viscosities. Note the 'ideal' strong glass displays a constant exponential slope over the full temperature range, while weaker glass' slopes very. Reproduced from \cite{Shelby2005}.}
+	\caption[Viscosity as a function of reduced inverse temperature ($T_{g}/T$) for strong to weak glasses over the flowing range of viscosities. Note the 'ideal' strong glass displays a constant exponential slope over the full temperature range, while weaker glass' slopes very.]{Viscosity as a function of reduced inverse temperature ($T_{g}/T$) for strong to weak glasses over the flowing range of viscosities. Note the 'ideal' strong glass displays a constant exponential slope over the full temperature range, while weaker glass' slopes very. Reproduced from \cite{Shelby2005}.}
 	\label{fig:ShelbyFragPlot}
 \end{figure}
 
@@ -468,7 +475,7 @@ Yu, et al. \cite{Yu2013} found m of metallic, molecular, and polymer USGs correl
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{YuMTg.png}
-	\caption[\dTg~ and Frigidity Relationship]{Schematic of the relationship between glass frigidity (m) and the enhanced glass transition on glass transition ratio ($\delta T_{g}/T_{g}$) for a selection of metallic, molecular, and polymer USGs. Reproduced from \cite{Yu2013}.}
+	\caption[Schematic of the relationship between glass frigidity (m) and the enhanced glass transition on glass transition ratio ($\delta T_{g}/T_{g}$) for a selection of metallic, molecular, and polymer USGs.]{Schematic of the relationship between glass frigidity (m) and the enhanced glass transition on glass transition ratio ($\delta T_{g}/T_{g}$) for a selection of metallic, molecular, and polymer USGs. Reproduced from \cite{Yu2013}.}
 	\label{fig:YuMTgPlot}
 \end{figure}
 
@@ -492,7 +499,7 @@ Ishii and Nakayama \cite{Ishii2014} and Nakayama, et al. \cite{Nakayama2013} hav
 		\caption{}
 		\label{fig:IshiiMTg}
 	\end{subfigure}
-	\caption[USG Enhanced Density]{(a) Relationship between normalised substrate temperature ($T_{sub}/T_{g0}$) and normalised molar volume ($V_{m}/V_{m} (T_{g0})$) for several VD molecular glasses showing the greatest density occurs near the intersection of the VD glasses and their extrapolated SCL $V_{m}$ line. (b) Weak relationship between the normalised intersection temperature ($T_{i}/T_{g0}$) found in (a) and the glass fragility (m). (a) Modified from \cite{Ishii2014} and (b) Reproduced from \cite{Ishii2014}.}%global caption
+	\caption[(a) Relationship between normalised substrate temperature ($T_{sub}/T_{g0}$) and normalised molar volume ($V_{m}/V_{m} (T_{g0})$) for several VD molecular glasses showing the greatest density occurs near the intersection of the VD glasses and their extrapolated SCL $V_{m}$ line. (b) Weak relationship between the normalised intersection temperature ($T_{i}/T_{g0}$) found in (a) and the glass fragility (m).]{(a) Relationship between normalised substrate temperature ($T_{sub}/T_{g0}$) and normalised molar volume ($V_{m}/V_{m} (T_{g0})$) for several VD molecular glasses showing the greatest density occurs near the intersection of the VD glasses and their extrapolated SCL $V_{m}$ line. (b) Weak relationship between the normalised intersection temperature ($T_{i}/T_{g0}$) found in (a) and the glass fragility (m). (a) Modified from \cite{Ishii2014} and (b) Reproduced from \cite{Ishii2014}.}%global caption
 	\label{fig:IshiiTsubM}
 \end{figure}
 
@@ -592,7 +599,7 @@ Plotting the Tafel equation for both the anodic and cathodic reactions produces 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Enos_TafelPlot.png}
-	\caption[Tafel Plot]{Tafel Plot showing the positive anodic Tafle slope $\beta_{a}$ negative cathodic Tafle slope $\beta_{b}$, and their linear extrapolations with their intersection indicating the OCP, and thus the $i_{corr}$ and the $E_{corr}$ positions \cite{Enos1997}.}
+	\caption[Tafel Plot showing the positive anodic Tafle slope $\beta_{a}$ negative cathodic Tafle slope $\beta_{b}$, and their linear extrapolations with their intersection indicating the OCP, and thus the $i_{corr}$ and the $E_{corr}$ positions.]{Tafel Plot showing the positive anodic Tafle slope $\beta_{a}$ negative cathodic Tafle slope $\beta_{b}$, and their linear extrapolations with their intersection indicating the OCP, and thus the $i_{corr}$ and the $E_{corr}$ positions \cite{Enos1997}.}
 	\label{fig:EnosTafel}
 \end{figure}
 
@@ -616,7 +623,7 @@ Zberg, et al. \cite{Zberg2009} has also been particularly successful at reducing
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{ZbergHydrogen.png}
-	\caption[Hydrogen Evolution]{Plot of hydrogen evolution generated by Mg$_{60+x}$Zn$_{35-x}$Ca$_{5}$ alloys. Note the hydrogen evolution drops off significantly for Zn concentration $>28at\%$. (Filled points are amorphous, open crystalline). Reproduced from \cite{Zberg2009}.}
+	\caption[Plot of hydrogen evolution generated by Mg$_{60+x}$Zn$_{35-x}$Ca$_{5}$ alloys. Note the hydrogen evolution drops off significantly for Zn concentration $>28at\%$. (Filled points are amorphous, open crystalline).]{Plot of hydrogen evolution generated by Mg$_{60+x}$Zn$_{35-x}$Ca$_{5}$ alloys. Note the hydrogen evolution drops off significantly for Zn concentration $>28at\%$. (Filled points are amorphous, open crystalline). Reproduced from \cite{Zberg2009}.}
 	\label{fig:ZbergHydrogen}
 \end{figure}
 
@@ -670,7 +677,7 @@ The pure alloy constituent elements of Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.99\textwidth]{ChargeSheet.png}
-	\caption[Charge Calculation Programme]{Screenshot of the MS Excel tool developed for calculating charge weights, checking alloy composition, and taking notes for improvements in future charges.}
+	\caption{Screenshot of the MS Excel tool developed for calculating charge weights, checking alloy composition, and taking notes for improvements in future charges.}
 	\label{fig:ChargeSheet}
 \end{figure}
 
@@ -684,7 +691,7 @@ After casting the riser is cut off, and a target extracted from the amorphous pl
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{CruciblePlateRiserRoughtarget.png}
-	\caption[Target Manufacture]{(a) boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) cracked amorphous plate, (c) riser cut free from main casting, and (d) drilled and partly shaped target.}
+	\caption{(a) boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) cracked amorphous plate, (c) riser cut free from main casting, and (d) drilled and partly shaped target.}
 	\label{fig:CrucibleShaping}
 \end{figure}
 
@@ -772,7 +779,7 @@ The work of Schlüter, et al. \cite{Schluter2012}, Zhou, et al. \cite{Zhou2013},
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png}
-	\caption[Target DSC]{DSC trace of the 3mm \MgZnCa~ target plate casting. The trace shows clear endothermic troughs indicating \Tm~ and \Tl~, but no clear exothermal peaks which would indicate \Tg~ and \Tx~. This data suggest the casting is primary crystalline.}
+	\caption{DSC trace of the 3mm \MgZnCa~ target plate casting. The trace shows clear endothermic troughs indicating \Tm~ and \Tl~, but no clear exothermal peaks which would indicate \Tg~ and \Tx~. This data suggest the casting is primary crystalline.}
 	\label{fig:DSCTarget1}
 \end{figure}
 
@@ -811,12 +818,12 @@ Significant because...
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{MgZnCa300CPhaseDiagram_SprMats.png}
-	\caption[MgZnCa Isothermal Ternary Phase Diagram]{Partial isothermal ternary phase diagram of MgZnCa system at 300\degree C. Modified from \cite{Melnik1978}.}
+	\caption[Partial isothermal ternary phase diagram of MgZnCa system at 300\degree C.]{Partial isothermal ternary phase diagram of MgZnCa system at 300\degree C. Modified from \cite{Melnik1978}.}
 	\label{fig:MgZnCa300PhaseD}
 \end{figure}
 
 %table
-\begin{table}[h]
+\begin{table}[H]
 	\centering
 	\begin{tabular}{ l l l }
 		\toprule
@@ -829,7 +836,7 @@ Significant because...
 		$T_{3}$	& MgZnCa & \cite{Schulze1961} \\
 		\bottomrule
 	\end{tabular}
-	\caption[MgZnCa Ternary Phases]{$T_{1}$, $T_{2}$, and $T_{3}$ phases of Figure \ref{fig:MgZnCa300PhaseD}. Note: The first composition of both $T_{1}$ and $T_{2}$ are better supported by data. Compiled from \cite{Clark1961, Schulze1961}.}
+	\caption[MgZnCa ternary phases $T_{1}$, $T_{2}$, and $T_{3}$ of Figure \ref{fig:MgZnCa300PhaseD}. Note: The first composition of both $T_{1}$ and $T_{2}$ are better supported by data.]{MgZnCa ternary phases $T_{1}$, $T_{2}$, and $T_{3}$ of Figure \ref{fig:MgZnCa300PhaseD}. Note: The first composition of both $T_{1}$ and $T_{2}$ are better supported by data. Compiled from \cite{Clark1961, Schulze1961}.}
 	\label{tab:SputterParameters}
 \end{table}
 
@@ -837,7 +844,7 @@ Significant because...
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{MgZnCaLiquidPhase_SprMats.png}
-	\caption[MgZnCa Liquidus Ternary Phase Diagram]{Liquidus Projection ternary phase diagram of MgZnCa system. Reproduced from \cite{Paris1933}}
+	\caption[Liquidus Projection ternary phase diagram of MgZnCa system.]{Liquidus Projection ternary phase diagram of MgZnCa system. Reproduced from \cite{Paris1933}}
 	\label{fig:MgZnCaLiquidPhaseD}
 \end{figure}
 
@@ -868,7 +875,7 @@ Significant because...
 		Mg$_{64}$Zn$_{32}$Ca$_{4}$ & 89 & 142 & 335 & 436 & 53 & 0.595 & 0.511 & 0.7 & \cite{Cao2013, Cao2012} \\
 		\bottomrule 
 	\end{tabular}
-	\caption[MgZnCa BMG System Properties]{Known basic BMG properties of several MgZnCa alloys. All temperatures are in \degree C. Temperature values from \cite{Gu2005} have been interpreted from plots, as has \Tg~ from \cite{Wang2013}. Compiled from \cite{Cao2013, Gu2005, Zhou2013, Cao2012, Wang2013}.}
+	\caption[Known basic BMG properties of several MgZnCa alloys. All temperatures are in \degree C.]{Known basic BMG properties of several MgZnCa alloys. All temperatures are in \degree C. Temperature values from \cite{Gu2005} have been interpreted from plots, as has \Tg~ from \cite{Wang2013}. Compiled from \cite{Cao2013, Gu2005, Zhou2013, Cao2012, Wang2013}.}
 	\label{tab:MgZnCaAlloys}
 \end{table}
 
@@ -893,7 +900,7 @@ Significant because...
 		\caption{}
 		\label{fig:Mg75xZn20xCa5}
 	\end{subfigure}
-	\caption[MgZnCa BMG System Properties Plots]{Plots of \Tg, \Tx, \Tm, \Tl, and $\Delta T$ for alloys presented in Table \ref{tab:MgZnCaAlloys}. (a) Mg$_{72-X}$Zn$_{24+X}$Ca$_{4}$, (b) Mg$_{70-X}$Zn$_{24+X}$Ca$_{6}$, (c) Mg$_{75-X}$Zn$_{20+X}$Ca$_{5}$. Compiled from \cite{Cao2013, Gu2005, Zhou2013, Cao2012, Wang2013}.}%global caption
+	\caption[Plots of \Tg, \Tx, \Tm, \Tl, and $\Delta T$ for alloys presented in Table \ref{tab:MgZnCaAlloys}. (a) Mg$_{72-X}$Zn$_{24+X}$Ca$_{4}$, (b) Mg$_{70-X}$Zn$_{24+X}$Ca$_{6}$, (c) Mg$_{75-X}$Zn$_{20+X}$Ca$_{5}$.]{Plots of \Tg, \Tx, \Tm, \Tl, and $\Delta T$ for alloys presented in Table \ref{tab:MgZnCaAlloys}. (a) Mg$_{72-X}$Zn$_{24+X}$Ca$_{4}$, (b) Mg$_{70-X}$Zn$_{24+X}$Ca$_{6}$, (c) Mg$_{75-X}$Zn$_{20+X}$Ca$_{5}$. Compiled from \cite{Cao2013, Gu2005, Zhou2013, Cao2012, Wang2013}.}%global caption
 	\label{fig:MgZnCaPlots}
 \end{figure}
 

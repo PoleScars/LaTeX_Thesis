@@ -1,5 +1,9 @@
+\contentsline {chapter}{CERTIFICATE OF ORIGINALITY}{i}{chapter*.1}
+\contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}{chapter*.2}
+\contentsline {chapter}{ABSTRACT}{iii}{chapter*.3}
+\contentsline {chapter}{TABLE OF CONTENTS}{vii}{chapter*.6}
 \contentsline {chapter}{LIST OF FIGURES}{vii}{chapter*.7}
-\contentsline {chapter}{LIST OF TABLES}{viii}{chapter*.8}
+\contentsline {chapter}{LIST OF TABLES}{x}{chapter*.8}
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}LITERATURE SURVEY}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Metallic Glasses (MGs)}{2}{section.2.1}
