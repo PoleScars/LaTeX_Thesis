@@ -74,7 +74,13 @@
 \setcounter{tocdepth}{4} %Adds subsubsection numbers
 \setcounter{secnumdepth}{4} %Adds subsubsections to ToC
 \usepackage{verbatim} %Allows multiple line comments
+\usepackage{titletoc}
 
+%Allow costume names for sections like Bibiography
+\renewcommand\bibname{BIBLIOGRAPHY}
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\renewcommand{\listfigurename}{LIST OF FIGURES}
+\renewcommand{\listtablename}{LIST OF TABLES}
 
 %My Commands
 \newcommand{\MgZnCa}{Mg$_{65}$Zn$_{30}$Ca$_{5}$}
