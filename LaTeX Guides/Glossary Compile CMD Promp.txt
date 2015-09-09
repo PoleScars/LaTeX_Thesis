@@ -1,0 +1,3 @@
+makeindex -s "ScottGleason PhDThesis.ist" -o "ScottGleason PhDThesis.gls" "ScottGleason PhDThesis.glo"
+
+http://ctan.unsw.edu.au/macros/latex/contrib/glossaries/glossariesbegin.pdf

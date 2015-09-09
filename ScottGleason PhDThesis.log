@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  9 SEP 2015 18:53
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  9 SEP 2015 19:20
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -2272,28 +2272,25 @@ File: ./images/Mg70-XZn24+XCa6.png Graphic file (type QTm)
  <use  "./images/Mg70-XZn24+XCa6.png" >
 File: ./images/Mg75-XZn20+XCa5.png Graphic file (type QTm)
 
-<use  "./images/Mg75-XZn20+XCa5.png" >
+<use  "./images/Mg75-XZn20+XCa5.png" > [52] [53] ("ScottGleason PhDThesis.gls"
+[54] [55
 
-Package glossaries Warning: No \printglossary or \printglossaries found.
-(Remove \makeglossaries if you don't want any glossaries.)
-This document will not have a glossary.
 
-[52] [53]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 907.
- [54]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 907.
+]) [56]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 913.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 913.
  ("ScottGleason PhDThesis.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 907.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 907.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 907.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 913.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 913.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 913.
  ) 
 Here is how much of TeX's memory you used:
- 46704 strings out of 428755
- 960502 string characters out of 3164221
+ 46707 strings out of 428755
+ 960558 string characters out of 3164221
  1204930 words of memory out of 3000000
  49366 multiletter control sequences out of 15000+200000
  25871 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ScottGleason PhDThesis.pdf (65 pages).
+Output written on ScottGleason PhDThesis.pdf (67 pages).
