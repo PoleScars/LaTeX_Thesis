@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  11 SEP 2015 09:42
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  14 SEP 2015 10:53
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1962,12 +1962,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 496.
 
-
-Overfull \hbox (4.04924pt too wide) in paragraph at lines 497--498
-\T1/ppl/m/n/12 of de-posit-ing atoms/molecules layer by layer via [][][]VD[][] 
-al-lows glasses to achieve both en-hanced
- []
-
 [23]
 File: ./images/Density_Vs_Tsub_Ishii.png Graphic file (type QTm)
  <use  "./images/Density_Vs_Tsub_Ishii.png" >
@@ -1995,14 +1989,7 @@ Overfull \hbox (4.48193pt too wide) in paragraph at lines 540--541
 dy formed glass at el-e-vated tem-per-a-ture,
  []
 
-[26]
-Overfull \hbox (45.58078pt too wide) in paragraph at lines 547--548
-\T1/ppl/m/n/12 sig-nif-i-cant. Ad-di-tion-ally MgZnCa based bio-alloys have a s
-im-i-lar low $\OML/zplm/m/it/12 T[]$  \T1/ppl/m/n/12 (405K for Mg$[]$Zn$[]$Ca$[
-]$  [][[],
- []
-
-[27]
+[26] [27]
 Requested font "pplri8t" at 12.0pt
 
 Overfull \hbox (19.17009pt too wide) in paragraph at lines 568--569
@@ -2156,15 +2143,15 @@ e char-ac-terised via a range of tech-niques;
 
 [39] [40]
 Chapter 4.
+[41
 
+]
 Overfull \hbox (5.86093pt too wide) in paragraph at lines 784--785
 \T1/ppl/m/n/12 How-ever it is pos-si-ble the tar-gets are semi-crystalline, es-
 pe-cially given how sub-tle exother-mal
  []
 
-[41
 
-]
 Overfull \hbox (1.6025pt too wide) in paragraph at lines 790--791
 \T1/ppl/m/n/12 Mg$[]$Zn$[]$Ca$[]$, and Mg$[]$Zn$[]$Ca$[]$ re-spec-tively shows,
  semi-crystalline struc-tures dis-play both
@@ -2287,7 +2274,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 927.
 Here is how much of TeX's memory you used:
  46707 strings out of 428755
  960558 string characters out of 3164221
- 1204929 words of memory out of 3000000
+ 1206835 words of memory out of 3000000
  49366 multiletter control sequences out of 15000+200000
  25871 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191

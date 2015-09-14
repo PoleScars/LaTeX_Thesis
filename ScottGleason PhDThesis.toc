@@ -73,7 +73,7 @@
 \contentsline {subsection}{\numberline {4.1.1}Casting Challenges and Observations}{41}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}DSC Scans}{41}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Target Structure}{42}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Target Composition}{42}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.4}Target Composition}{43}{subsection.4.1.4}
 \contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{44}{chapter.5}
 \contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{45}{chapter.6}
 \contentsline {chapter}{\numberline {7}APPENDICES}{51}{chapter.7}
