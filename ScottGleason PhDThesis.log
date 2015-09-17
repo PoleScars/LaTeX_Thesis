@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  16 SEP 2015 10:59
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  17 SEP 2015 12:09
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1431,8 +1431,11 @@ LaTeX Info: Redefining \nameref on input line 7.
 ("ScottGleason PhDThesis.out") ("ScottGleason PhDThesis.out")
 \@outlinefile=\write6
 
-Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.12}).
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.12} into 
+your preamble.
+ on input line 7.
 
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 7.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
@@ -2269,12 +2272,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 931.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 931.
  ) 
 Here is how much of TeX's memory you used:
- 46707 strings out of 428755
- 960558 string characters out of 3164221
- 1210171 words of memory out of 3000000
- 49366 multiletter control sequences out of 15000+200000
+ 46737 strings out of 428755
+ 960986 string characters out of 3164221
+ 1207109 words of memory out of 3000000
+ 49396 multiletter control sequences out of 15000+200000
  25871 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 64i,16n,83p,10443b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,16n,77p,10443b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on ScottGleason PhDThesis.pdf (67 pages).
