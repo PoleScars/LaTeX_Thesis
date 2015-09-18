@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  17 SEP 2015 12:09
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  18 SEP 2015 12:44
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -547,6 +547,7 @@ File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `draft' set `true' on input line 4319.
 Package hyperref Info: Option `hyperfigures' set `true' on input line 4319.
 Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
 Package hyperref Info: Hyper figures ON on input line 4441.
@@ -1414,8 +1415,11 @@ ABD: EveryShipout initializing macros
 Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 (marginnote)             Extended position detection mode activated.
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring ON on input line 7.
 
+
+Package hyperref Warning: Draft mode on.
+
+Package hyperref Info: Link coloring ON on input line 7.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1427,9 +1431,6 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
-
-("ScottGleason PhDThesis.out") ("ScottGleason PhDThesis.out")
-\@outlinefile=\write6
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
@@ -1514,15 +1515,13 @@ Requested font "pplb8t" at 20.74pt
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 20.
 Requested font "pplb8t" at 14.4pt
-File: ./images/UNIlogo.png Graphic file (type QTm)
-
-<use  "./images/UNIlogo.png" >
-Requested font "pplr8t" at 10.95pt
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 35.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 34.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
+Requested font "ectt1200" at 12.0pt
+Requested font "pplr8t" at 10.95pt
 Requested font "ectt1095" at 10.95pt
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
@@ -1546,13 +1545,13 @@ Requested font "pplr8t" at 9.0pt
 Overfull \hbox (60.00311pt too wide) in paragraph at lines 96--97
 []\T1/ppl/m/n/12 Nicholas Hamil-ton $\OMS/zplm/m/n/12 ^^@$ \T1/ppl/m/n/12 For h
 is as-sis-tance with L[]T[]X type-set-ting, and var-i-ous script-ing pro-gramme
-s. 
+s. |
  []
 
 
 Overfull \hbox (15.65378pt too wide) in paragraph at lines 98--99
 []\T1/ppl/m/n/12 Jane Gao & Danny Kim $\OMS/zplm/m/n/12 ^^@$ \T1/ppl/m/n/12 For
- their con-tin-ued IT as-sis-tance through-out my time at [][][]UNSW[][]. 
+ their con-tin-ued IT as-sis-tance through-out my time at []UNSW. |
  []
 
 [2
@@ -1565,83 +1564,95 @@ ine 114.
 ] ("ScottGleason PhDThesis.toc" [4
 
 ] [5])
-\tf@toc=\write7
+\tf@toc=\write6
  [6] ("ScottGleason PhDThesis.lof"
 Overfull \hbox (59.09537pt too wide) in paragraph at lines 3--3
- \T1/ppl/m/n/12 the nu-cle-ation bar-rier en-ergy ($\OT1/zplm/m/n/12 ^^A\OML/zp
-lm/m/it/12 G[]$\T1/ppl/m/n/12 ) to ini-ti-ate crys-talline growth. (b) Ther-mo-
-dy-nam-i-cally 
+ \T1/ppl/m/n/12 the []nu-cle-ation bar-rier en-ergy ($\OT1/zplm/m/n/12 ^^A\OML/
+zplm/m/it/12 G[]$\T1/ppl/m/n/12 ) to ini-ti-ate crys-talline growth. (b) Ther-m
+o-dy-nam-i-cally |
  []
 
 
 Overfull \hbox (30.12633pt too wide) in paragraph at lines 4--4
- [][] [][][]\T1/ppl/m/n/12 Schematic of spe-cific en-thalpy ($\OML/zplm/m/it/12
- h$\T1/ppl/m/n/12 ) or spe-cific vol-ume ($\OML/zplm/m/it/12 v$\T1/ppl/m/n/12 )
- as a func-tion of tem-per-a-ture 
+ [][] []\T1/ppl/m/n/12 Schematic of []spe-cific en-thalpy ($\OML/zplm/m/it/12 h
+$\T1/ppl/m/n/12 ) or []spe-cific vol-ume ($\OML/zplm/m/it/12 v$\T1/ppl/m/n/12 )
+ as a func-tion of tem-per-a-ture |
  []
 
 
 Overfull \hbox (9.14597pt too wide) in paragraph at lines 5--5
  \T1/ppl/m/n/12 num-ber of glass form-ing sys-tems. Note the $\OML/zplm/m/it/12
  R[]$ \T1/ppl/m/n/12 and $\OML/zplm/m/it/12 t[]$ \T1/ppl/m/n/12 im-prove with i
-n-creas-ing 
+n-creas-ing |
  []
 
 
 Overfull \hbox (11.57367pt too wide) in paragraph at lines 6--6
- [][] [][][]\T1/ppl/m/n/12 Schematic TTT di-a-gram where line (1) in-di-cates t
-he slow-est cool-ing rate pos-si-ble 
+ [][] []\T1/ppl/m/n/12 Schematic TTT di-a-gram where line (1) in-di-cates the s
+low-est cool-ing rate pos-si-ble |
  []
 
 
-Overfull \hbox (16.31355pt too wide) in paragraph at lines 6--6
- \T1/ppl/m/n/12 el-e-vated tem-per-a-ture pro-cess-ing win-dow above $\OML/zplm
-/m/it/12 T[]$  \T1/ppl/m/n/12 where metal-lic glass dis-plays 
+Overfull \hbox (14.03352pt too wide) in paragraph at lines 6--6
+ \T1/ppl/m/n/12 el-e-vated tem-per-a-ture pro-cess-ing win-dow above []$\OML/zp
+lm/m/it/12 T[]$ \T1/ppl/m/n/12 where metal-lic glass dis-plays |
  []
 
 
 Overfull \hbox (12.81519pt too wide) in paragraph at lines 7--7
  \T1/ppl/m/n/12 film thick-ness (t) ranges are from a few $\OML/zplm/m/it/12 nm
 $ \T1/ppl/m/n/12 to sev-eral $\OML/zplm/m/it/12 ^^Vm$ \T1/ppl/m/n/12 de-pend-in
-g on ap-pli-ca-tion.[][] [][]  
+g on ap-pli-ca-tion. [][]  |
  []
 
 
 Overfull \hbox (24.22214pt too wide) in paragraph at lines 10--10
  \T1/ppl/m/n/12 with some be-ing de-posited onto the pos-i-tive sub-strate. (b)
- Schematic of mag-netron 
+ Schematic of mag-netron |
  []
 
 [7
 
 ]
+Overfull \hbox (12.31433pt too wide) in paragraph at lines 12--12
+ \T1/ppl/m/n/12 the var-i-ous val-ues of []$\OML/zplm/m/it/12 T[]$ \T1/ppl/m/n/
+12 ob-tained when vary-ing the de-po-si-tion rate (the coloured |
+ []
+
+
 Overfull \hbox (19.733pt too wide) in paragraph at lines 16--16
- \T1/ppl/m/n/12 and their ex-trap-o-lated SCL $\OML/zplm/m/it/12 V[]$ \T1/ppl/m
-/n/12 line. (b) Weak re-la-tion-ship be-tween the nor-malised 
+ \T1/ppl/m/n/12 and their ex-trap-o-lated SCL []$\OML/zplm/m/it/12 V[]$ \T1/ppl
+/m/n/12 line. (b) Weak re-la-tion-ship be-tween the nor-malised |
  []
 
 [8]
+Overfull \hbox (0.73064pt too wide) in paragraph at lines 23--23
+ \T1/ppl/m/n/12 clear en-dother-mic troughs in-di-cat-ing []$\OML/zplm/m/it/12 
+T[]$ \T1/ppl/m/n/12 and []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , but no clear 
+exother-mal peaks |
+ []
+
 Requested font "pplr8t" at 10.0pt
 
 Overfull \hbox (36.92444pt too wide) in paragraph at lines 29--29
- [][] [][][]\T1/ppl/m/n/12 Plots of $\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , $\O
-ML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , $\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , $\
-OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , and $\OT1/zplm/m/n/12 ^^A\OML/zplm/m/it/1
-2 T$ \T1/ppl/m/n/12 for al-loys pre-sented in Ta-ble [][]7.2. (a) Mg$[]$Zn$[]$C
-a$[]$, 
+ [][] []\T1/ppl/m/n/12 Plots of []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , []$\O
+ML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , 
+[]$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , and $\OT1/zplm/m/n/12 ^^A\OML/zplm/m/
+it/12 T$ \T1/ppl/m/n/12 for al-loys pre-sented in Ta-ble [][]7.2. (a) Mg$[]$Zn$
+[]$Ca$[]$, |
  []
 
 )
-\tf@lof=\write8
+\tf@lof=\write7
  [9] ("ScottGleason PhDThesis.lot"
 Overfull \hbox (8.04738pt too wide) in paragraph at lines 9--9
- [][] [][][]\T1/ppl/m/n/12 MgZnCa ternary phases $\OML/zplm/m/it/12 T[]$\T1/ppl
-/m/n/12 , $\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , and $\OML/zplm/m/it/12 T[]$ \
-T1/ppl/m/n/12 of Fig-ure [][]7.1. Note: The first com-po-si-tion 
+ [][] []\T1/ppl/m/n/12 MgZnCa ternary phases $\OML/zplm/m/it/12 T[]$\T1/ppl/m/n
+/12 , $\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , and $\OML/zplm/m/it/12 T[]$ \T1/p
+pl/m/n/12 of Fig-ure [][]7.1. Note: The first com-po-si-tion |
  []
 
 )
-\tf@lot=\write9
+\tf@lot=\write8
  [10
 
 ]
@@ -1649,31 +1660,31 @@ Chapter 1.
 
 Overfull \hbox (25.76938pt too wide) in paragraph at lines 157--159
 \T1/ppl/m/n/12 read-min-is-ter sev-eral times per day or week. Coat-ing phar-ma
--ceu-ti-cals with tai-lored bioab-sorbable
+-ceu-ti-cals with tai-lored bioab-sorbable|
  []
 
 
 Overfull \hbox (8.26239pt too wide) in paragraph at lines 157--159
 \T1/ppl/m/n/12 films de-signed to de-grade over time could al-low for a slow co
-n-trolled re-lease of drug pack-ages
+n-trolled re-lease of drug pack-ages|
  []
 
 
 Overfull \hbox (8.15343pt too wide) in paragraph at lines 160--161
 \T1/ppl/m/n/12 novel amor-phous metal-lic ma-te-ri-als have been demon-strated 
-to sig-nif-i-cantly mod-ify sub-strate
+to sig-nif-i-cantly mod-ify sub-strate|
  []
 
 
 Overfull \hbox (4.63724pt too wide) in paragraph at lines 160--161
 \T1/ppl/m/n/12 de-liv-ery sys-tems, or even or-thopaedic de-vices, could po-ten
--tially pro-vide great im-prove-ments
+-tially pro-vide great im-prove-ments|
  []
 
 
 Overfull \hbox (8.22604pt too wide) in paragraph at lines 162--163
 []\T1/ppl/m/n/12 The aims of this the-sis are to pro-duce and in-ves-ti-gate qu
-al-ity [][][]TFMG[][]s and [][][]SMG[][]s for biomed-i-cal
+al-ity []TFMGs and []SMGs for biomed-i-cal|
  []
 
 [1
@@ -1705,25 +1716,25 @@ Requested font "pplr8t" at 14.4pt
 
 Overfull \hbox (65.7649pt too wide) in paragraph at lines 169--170
 \T1/ppl/m/n/12 prop-er-ties which make them dis-tinct even from tra-di-tional c
-rys-talline al-loys of sim-i-lar com-po-si-tion. 
+rys-talline al-loys of sim-i-lar com-po-si-tion. |
  []
 
 
 Overfull \hbox (11.29857pt too wide) in paragraph at lines 172--173
 \T1/ppl/m/n/12 strength, hard-ness, cor-ro-sion, ox-i-da-tion and wear re-sis-t
-ance, re-duced den-sity, re-duced ther-mal
+ance, re-duced den-sity, re-duced ther-mal|
  []
 
 
 Overfull \hbox (2.65742pt too wide) in paragraph at lines 172--173
 \T1/ppl/m/n/12 and elec-tri-cal con-duc-tiv-ity, and low co-ef-fi-cients of fri
-c-tion when com-pared with con-ven-tional
+c-tion when com-pared with con-ven-tional|
  []
 
 
 Overfull \hbox (8.81406pt too wide) in paragraph at lines 174--175
 \T1/ppl/m/n/12 of slip sys-tems and dis-lo-ca-tion move-ment; the fun-da-men-ta
-l mech-a-nism of plas-tic de-for-ma-tion
+l mech-a-nism of plas-tic de-for-ma-tion|
  []
 
 
@@ -1734,35 +1745,24 @@ LaTeX Warning: Marginpar on page 2 moved.
 ]
 Overfull \hbox (23.96953pt too wide) in paragraph at lines 195--196
 \T1/ppl/m/n/12 This so-lid-i-fi-ca-tion is de-scribed by Gibb's Free En-ergy Th
-e-ory for ho-moge-nous and het-ero-ge-neous
+e-ory for ho-moge-nous and het-ero-ge-neous|
  []
 
-[3]
-File: ./images/nucleation_free_energy.png Graphic file (type QTm)
- <use  "./images/nucleation_free_energy.png" >
-File: ./images/gibbs_free_energy.png Graphic file (type QTm)
-
-<use  "./images/gibbs_free_energy.png" > [4]
-File: ./images/Glass_Cooling_Graph.png Graphic file (type QTm)
-
-<use  "./images/Glass_Cooling_Graph.png" > [5]
+[3] [4] [5]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 255.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 255.
 Requested font "cmsy10" at 12.0pt
-File: ./images/BMG_Tg_on_Tm_01.png Graphic file (type QTm)
 
-<use  "./images/BMG_Tg_on_Tm_01.png" >
 Overfull \hbox (11.55414pt too wide) in paragraph at lines 270--271
 \T1/ppl/m/n/12 ($\OML/zplm/m/it/12 t[]$\T1/ppl/m/n/12 ) reach-ing the 1mm mark.
  Note the $\OML/zplm/m/it/12 R[]$ \T1/ppl/m/n/12 and $\OML/zplm/m/it/12 t[]$ \T
 1/ppl/m/n/12 im-prove with in-creas-ing $\OML/zplm/m/it/12 T[]\OT1/zplm/m/n/12 
-/\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , sig-ni-fy-ing
+/\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , sig-ni-fy-ing|
  []
 
 [6] [7]
@@ -1772,78 +1772,66 @@ LaTeX Warning: Marginpar on page 8 moved.
 
 Overfull \hbox (47.27335pt too wide) in paragraph at lines 288--289
 []\T1/ppl/m/n/12 The in-tro-duc-tion of this tem-po-rary plas-tic de-for-ma-tio
-n mech-a-nism al-lows [][][]BMGs[][] to be post-processed
+n mech-a-nism al-lows []BMGs to be post-processed|
  []
 
-File: ./images/ProcessingofBMGs.png Graphic file (type QTm)
-<use  "./images/ProcessingofBMGs.png" > [8]
+[8]
 Overfull \hbox (5.29819pt too wide) in paragraph at lines 298--299
-[]\T1/ppl/m/n/12 Figure [][][][]2.4[][] shows a TTT di-a-gram for a generic [][
-][]BMG[][]. Line (1) of this im-age shows the min-i-mum
+[]\T1/ppl/m/n/12 Figure [][]2.4 shows a TTT di-a-gram for a generic []BMG. Line
+ (1) of this im-age shows the min-i-mum|
  []
 
 
 Overfull \hbox (17.48965pt too wide) in paragraph at lines 298--299
 \T1/ppl/m/n/12 Line (2) then dis-plays an el-e-vated tem-per-a-ture pro-cess-in
-g win-dow avail-able for post-processing
+g win-dow avail-able for post-processing|
  []
 
 
 Overfull \hbox (4.72096pt too wide) in paragraph at lines 304--305
 \T1/ppl/m/n/12 to a sub-strate with the ex-press pur-pose of mod-i-fy-ing the s
-ub-strate prop-er-ties. The ap-pli-ca-tion
+ub-strate prop-er-ties. The ap-pli-ca-tion|
  []
 
 [9]
 
 LaTeX Warning: Marginpar on page 10 moved.
 
-File: ./images/ThinFilm.png Graphic file (type QTm)
-<use  "./images/ThinFilm.png" >
+
 Overfull \hbox (0.36452pt too wide) in paragraph at lines 317--318
-[]\T1/ppl/m/n/12 The [][][]VD[][] man-u-fac-tur-ing route has a sig-nif-i-cant 
-ad-van-tage over tra-di-tional [][][]BMG[][] liq-uid cast-ing
+[]\T1/ppl/m/n/12 The []VD man-u-fac-tur-ing route has a sig-nif-i-cant ad-van-t
+age over tra-di-tional []BMG liq-uid cast-ing|
  []
 
 [10]
-File: ./images/PLD_02.png Graphic file (type QTm)
- <use  "./images/PLD_02.png" >
 Overfull \hbox (0.78528pt too wide) in paragraph at lines 334--335
-\T1/ppl/m/n/12 cause par-tial crys-talli-sa-tion (Fig-ure [][][][]2.7[][]), whi
-le still achiev-ing amor-phous [][][]TFMGs[][] de-po-si-tions
+\T1/ppl/m/n/12 cause par-tial crys-talli-sa-tion (Fig-ure [][]2.7), while still
+ achiev-ing amor-phous []TFMGs de-po-si-tions|
  []
 
-File: ./images/CaoThesis_XRDTarget.png Graphic file (type QTm)
-<use  "./images/CaoThesis_XRDTarget.png" > [11]
+[11]
 Overfull \hbox (11.1286pt too wide) in paragraph at lines 347--349
-[]\T1/ppl/m/n/12 Sputtering de-po-si-tion is sim-i-lar to [][][]PLD[][] in that
- it also coats a sub-strate with ma-te-rial trans-ferred
+[]\T1/ppl/m/n/12 Sputtering de-po-si-tion is sim-i-lar to []PLD in that it also
+ coats a sub-strate with ma-te-rial trans-ferred|
  []
 
 [12]
-File: ./images/Sputtering_02.png Graphic file (type QTm)
- <use  "./images/Sputtering_02.png" >
-File: ./images/Field_Sputtering.png Graphic file (type QTm)
-
-<use  "./images/Field_Sputtering.png" >
 
 LaTeX Warning: Float too large for page by 7.61633pt on input line 370.
 
 
 Overfull \hbox (3.86952pt too wide) in paragraph at lines 372--373
 \T1/ppl/m/n/12 work-ing gas, greater de-po-si-tion ef-fi-ciency can be achieved
- when de-posit-ing lighter or heav-ier
+ when de-posit-ing lighter or heav-ier|
  []
 
 
 Overfull \hbox (2.84987pt too wide) in paragraph at lines 380--381
 \T1/ppl/m/n/12 sput-ter-ing power, and that higher rates re-sult in smoother fi
-lm sur-faces [][[], []]. Ad-di-tion-ally,
+lm sur-faces [][[], []]. Ad-di-tion-ally,|
  []
 
 [13] [14] [15] [16]
-File: ./images/Tsub_Yu_SMG.png Graphic file (type QTm)
- <use  "./images/Tsub_Yu_SMG.png" >
 Missing character: There is no “ in font pplr8t!
 Missing character: There is no ” in font pplr8t!
 Missing character: There is no “ in font pplr8t!
@@ -1859,22 +1847,10 @@ LaTeX Warning: Marginpar on page 17 moved.
 [17]
 Overfull \hbox (2.5006pt too wide) in paragraph at lines 415--415
 []\T1/ppl/b/n/12 Fictive Tem-per-a-ture ($\OML/zplm/m/it/12 T[]$\T1/ppl/b/n/12 
-), Ki-netic Sta-bil-ity and En-thalpy via Dif-fer-en-tial Scan-ning
+), Ki-netic Sta-bil-ity and En-thalpy via Dif-fer-en-tial Scan-ning|
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 415.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 415.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 415.
-
-
 LaTeX Warning: Marginpar on page 18 moved.
 
 
@@ -1886,10 +1862,6 @@ LaTeX Warning: Marginpar on page 18 moved.
 
 LaTeX Warning: Marginpar on page 18 moved.
 
-File: ./images/Kearns_DSC.png Graphic file (type QTm)
-<use  "./images/Kearns_DSC.png" >
-File: ./images/Guo_DSC.png Graphic file (type QTm)
- <use  "./images/Guo_DSC.png" >
 
 LaTeX Warning: Float too large for page by 39.34715pt on input line 441.
 
@@ -1900,20 +1872,8 @@ LaTeX Warning: Marginpar on page 20 moved.
 
 Overfull \hbox (11.71051pt too wide) in paragraph at lines 445--445
 []\T1/ppl/b/n/12 The The-o-ret-i-cal En-tropy Limit of Glasses and the Kauz-man
-n Tem-per-a-ture ($\OML/zplm/m/it/12 T[]$\T1/ppl/b/n/12 ) 
+n Tem-per-a-ture ($\OML/zplm/m/it/12 T[]$\T1/ppl/b/n/12 ) |
  []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 445.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 445.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 445.
 
 Missing character: There is no “ in font pplr8t!
 Missing character: There is no ” in font pplr8t!
@@ -1926,8 +1886,7 @@ Missing character: There is no ” in font pplr8t!
 
 LaTeX Warning: Marginpar on page 20 moved.
 
-File: ./images/Tk_Graph_Simple_02.png Graphic file (type QTm)
-<use  "./images/Tk_Graph_Simple_02.png" > [20]
+[20]
 Missing character: There is no ‘ in font pplr8t!
 Missing character: There is no ’ in font pplr8t!
 Missing character: There is no ‘ in font pplr8t!
@@ -1944,49 +1903,17 @@ Missing character: There is no ‘ in font pplr8t!
 Missing character: There is no ’ in font pplr8t!
 Missing character: There is no ‘ in font pplr8t!
 Missing character: There is no ’ in font pplr8t!
-File: ./images/ShelbyFragilityPlot.png Graphic file (type QTm)
-
-<use  "./images/ShelbyFragilityPlot.png" >
-File: ./images/YuMTg.png Graphic file (type QTm)
- <use  "./images/YuMTg.png" >
-[21] [22]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 500.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rho' on input line 500.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 500.
-
-[23]
-File: ./images/Density_Vs_Tsub_Ishii.png Graphic file (type QTm)
- <use  "./images/Density_Vs_Tsub_Ishii.png" >
-File: ./images/IshiiMTg.png Graphic file (type QTm)
-
-<use  "./images/IshiiMTg.png" >
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 529.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 529.
-
-
+ [21] [22] [23]
 Overfull \hbox (18.02988pt too wide) in paragraph at lines 530--531
-[]\T1/ppl/m/n/12 The [][][]in-den-ta-tion mod-u-lus ($\OML/zplm/m/it/12 M$\T1/p
-pl/m/n/12 )[][] of a ma-te-rial is an elas-tic con-stant which ac-counts for co
-m-pres-sive
+[]\T1/ppl/m/n/12 The []in-den-ta-tion mod-u-lus ($\OML/zplm/m/it/12 M$\T1/ppl/m
+/n/12 ) of a ma-te-rial is an elas-tic con-stant which ac-counts for com-pres-s
+ive|
  []
 
 [24] [25]
 Overfull \hbox (4.48193pt too wide) in paragraph at lines 544--545
 \T1/ppl/m/n/12 be-cause so-lid-i-fi-ca-tion from liq-uid, or an-neal-ing al-rea
-dy formed glass at el-e-vated tem-per-a-ture,
+dy formed glass at el-e-vated tem-per-a-ture,|
  []
 
 [26] [27]
@@ -1994,7 +1921,7 @@ Requested font "pplri8t" at 12.0pt
 
 Overfull \hbox (19.17009pt too wide) in paragraph at lines 572--573
 \T1/ppl/m/n/12 tis-sues and the body as a whole. Ac-tual pass-ing re-quire-ment
-s are de-pen-dent on the con-se-quence
+s are de-pen-dent on the con-se-quence|
  []
 
 [28]
@@ -2004,53 +1931,50 @@ LaTeX Warning: Marginpar on page 29 moved.
 [29]
 Overfull \hbox (35.14139pt too wide) in paragraph at lines 601--602
 []\T1/ppl/m/n/12 The ki-net-ics of the cor-ro-sion re-ac-tion act-ing upon a sp
-ec-i-men can be mea-sured via [][][]po-ten-tio-dy-namic
+ec-i-men can be mea-sured via []po-ten-tio-dy-namic|
  []
 
 
 Overfull \hbox (4.84132pt too wide) in paragraph at lines 601--602
-\T1/ppl/m/n/12 po-lar-i-sa-tion (PDP)[][] scans, in which the rate of the an-od
-ic or ca-thodic re-ac-tions on the spec-i-men
+\T1/ppl/m/n/12 po-lar-i-sa-tion (PDP) scans, in which the rate of the an-odic o
+r ca-thodic re-ac-tions on the spec-i-men|
  []
 
 
 Overfull \hbox (1.94969pt too wide) in paragraph at lines 603--604
 []\T1/ppl/m/n/12 The po-lar-i-sa-tion scans are per-formed via con-trol-ling th
-e an-odic or ca-thodic re-ac-tions' driv-ing
+e an-odic or ca-thodic re-ac-tions' driv-ing|
  []
 
 
 Overfull \hbox (2.81403pt too wide) in paragraph at lines 605--606
-[]\T1/ppl/m/n/12 The Tafel equa-tion (Equa-tion [][][][]2.6[][]) and Tafel Plot
-s are tools used to in-ter-pret the data gen-er-ated
+[]\T1/ppl/m/n/12 The Tafel equa-tion (Equa-tion [][]2.6) and Tafel Plots are to
+ols used to in-ter-pret the data gen-er-ated|
  []
 
 
 Overfull \hbox (21.64992pt too wide) in paragraph at lines 612--613
 []\T1/ppl/m/n/12 Where $\OML/zplm/m/it/12 ^^L$ \T1/ppl/m/n/12 is the Tafel slop
 e, $\OML/zplm/m/it/12 i$ \T1/ppl/m/n/12 the ap-plied cur-rent den-sity, and $\O
-ML/zplm/m/it/12 i[]$ \T1/ppl/m/n/12 the ex-change cur-rent den-sity. 
+ML/zplm/m/it/12 i[]$ \T1/ppl/m/n/12 the ex-change cur-rent den-sity. |
  []
 
-[30]
-File: ./images/Enos_TafelPlot.png Graphic file (type QTm)
- <use  "./images/Enos_TafelPlot.png" > [31]
+[30] [31]
 Overfull \hbox (9.49794pt too wide) in paragraph at lines 634--635
 \T1/ppl/m/n/12 pro-tec-tive pas-sive films, and al-loy-ing to pro-mote the for-
-ma-tion of amor-phous struc-tures. 
+ma-tion of amor-phous struc-tures. |
  []
 
 
 Overfull \hbox (8.83835pt too wide) in paragraph at lines 638--639
 \T1/ppl/m/n/12 Mg al-loy (WZ21) within the ab-dom-i-nal walls for a pe-riod of 
-three months. The wound-healing
+three months. The wound-healing|
  []
 
-File: ./images/ZbergHydrogen.png Graphic file (type QTm)
-<use  "./images/ZbergHydrogen.png" >
+
 Overfull \hbox (5.13095pt too wide) in paragraph at lines 648--649
 []\T1/ppl/m/n/12 As Witte [][[]] has shown in his re-view mag-ne-sium was show-
-ing promise as a bio-reabsorbable
+ing promise as a bio-reabsorbable|
  []
 
 [32]
@@ -2061,7 +1985,7 @@ Missing character: There is no … in font pplr8t!
 
 Overfull \hbox (7.58995pt too wide) in paragraph at lines 666--667
 []\T1/ppl/m/n/12 Amorphous Mg al-lows for higher al-loy con-ti-nents and a ho-m
-o-ge-neous single-phase struc-ture.
+o-ge-neous single-phase struc-ture.|
  []
 
 [33] [34]
@@ -2069,42 +1993,38 @@ Chapter 3.
 
 Overfull \hbox (5.38205pt too wide) in paragraph at lines 689--690
 \T1/ppl/m/n/12 pure base el-e-ments. This is ac-com-plished via in-duc-tion fur
--nace and shap-ing op-er-a-tions. 
+-nace and shap-ing op-er-a-tions. |
  []
 
 
 Overfull \hbox (9.65276pt too wide) in paragraph at lines 692--693
 \T1/ppl/m/n/12 el-e-ments re-quired are then checked via a de-vel-oped MS Ex-ce
-l tool which cal-cu-lates con-stituent
+l tool which cal-cu-lates con-stituent|
  []
 
-File: ./images/ChargeSheet.png Graphic file (type QTm)
-<use  "./images/ChargeSheet.png" > [35
+[35
 
 ]
-File: ./images/CruciblePlateRiserRoughtarget.png Graphic file (type QTm)
-
-<use  "./images/CruciblePlateRiserRoughtarget.png" >
 Overfull \hbox (3.71382pt too wide) in paragraph at lines 718--719
 \T1/ppl/m/n/12 onto a sub-strate, which is about an hour of de-po-si-tion at ra
-te of 3.3nm/s. Af-ter full de-po-si-tion
+te of 3.3nm/s. Af-ter full de-po-si-tion|
  []
 
 [36] [37]
 Overfull \hbox (22.30891pt too wide) in paragraph at lines 723--724
-[]\T1/ppl/m/n/12 The ini-tial [][][]TFMG[][] sput-ter-ing pa-ram-e-ters will be
- based on Liu, et al. [][[]] work on Zr$[]$Cu$[]$Ni$[]$Al$[]$
+[]\T1/ppl/m/n/12 The ini-tial []TFMG sput-ter-ing pa-ram-e-ters will be based o
+n Liu, et al. [][[]] work on Zr$[]$Cu$[]$Ni$[]$Al$[]$|
  []
 
 
 Overfull \hbox (0.67776pt too wide) in paragraph at lines 723--724
 \T1/ppl/m/n/12 be re-fined via ap-pro-pri-ate step sizes as re-quired to suit t
-he ex-am-ined MgZnCa bio-com-pat-i-ble
+he ex-am-ined MgZnCa bio-com-pat-i-ble|
  []
 
 
 Overfull \hbox (23.1978pt too wide) in paragraph at lines 728--741
- [][] 
+ [][] |
  []
 
 Missing character: There is no – in font pplr8t!
@@ -2113,32 +2033,32 @@ Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 
 Overfull \hbox (17.81259pt too wide) in paragraph at lines 749--750
-\T1/ppl/m/n/12 wa-ter sol-u-ble sub-strate, [][][]bulk metal-lic glass (BMG)[][
-] sub-strates, and PCL scaf-fold sub-strates. 
+\T1/ppl/m/n/12 wa-ter sol-u-ble sub-strate, []bulk metal-lic glass (BMG) sub-st
+rates, and PCL scaf-fold sub-strates. |
  []
 
 [38]
 Overfull \hbox (8.74083pt too wide) in paragraph at lines 758--759
-[]\T1/ppl/m/n/12 Depositing films onto [][][]BMG[][] sub-strates of sim-i-lar c
-om-po-si-tion al-lows for prop-erty mod-i-fi-ca-tion
+[]\T1/ppl/m/n/12 Depositing films onto []BMG sub-strates of sim-i-lar com-po-si
+-tion al-lows for prop-erty mod-i-fi-ca-tion|
  []
 
 
 Overfull \hbox (2.02107pt too wide) in paragraph at lines 761--762
 []\T1/ppl/m/n/12 Depositing films onto Poly-capro-lac-tone (PCL) scaf-folds sub
--strates will al-low for ex-am-i-na-tion
+-strates will al-low for ex-am-i-na-tion|
  []
 
 
 Overfull \hbox (3.222pt too wide) in paragraph at lines 761--762
 \T1/ppl/m/n/12 of the films' ef-fects and degra-da-tion per-for-mance. Ide-ally
- this will lead to the slow, con-trolled
+ this will lead to the slow, con-trolled|
  []
 
 
 Overfull \hbox (16.50555pt too wide) in paragraph at lines 767--768
 []\T1/ppl/m/n/12 The phys-i-cal and chem-i-cal prop-er-ties of the films will b
-e char-ac-terised via a range of tech-niques;
+e char-ac-terised via a range of tech-niques;|
  []
 
 [39] [40]
@@ -2148,29 +2068,27 @@ Chapter 4.
 ]
 Overfull \hbox (5.86093pt too wide) in paragraph at lines 788--789
 \T1/ppl/m/n/12 How-ever it is pos-si-ble the tar-gets are semi-crystalline, es-
-pe-cially given how sub-tle exother-mal
+pe-cially given how sub-tle exother-mal|
  []
 
 
 Overfull \hbox (1.6025pt too wide) in paragraph at lines 794--795
 \T1/ppl/m/n/12 Mg$[]$Zn$[]$Ca$[]$, and Mg$[]$Zn$[]$Ca$[]$ re-spec-tively shows,
- semi-crystalline struc-tures dis-play both
+ semi-crystalline struc-tures dis-play both|
  []
 
-File: ./images/T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png Graphic file
- (type QTm)
-<use  "./images/T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png" >
+
 Overfull \hbox (11.20166pt too wide) in paragraph at lines 804--805
 \T1/ppl/m/n/12 ca-thodic re-ac-tion ki-net-ics and de-creased an-odic re-ac-tio
-n when com-pared to CP Mg, sug-gest-ing
+n when com-pared to CP Mg, sug-gest-ing|
  []
 
 [42] [43]
 Chapter 5.
 
 Overfull \hbox (6.45026pt too wide) in paragraph at lines 817--818
-[]\T1/ppl/m/n/12 Found [][][]thin film metal-lic glasses (TFMGs)[][] and [][][]
-ul-tra-stable metal-lic glasses (SMGs)[][] were... 
+[]\T1/ppl/m/n/12 Found []thin film metal-lic glasses (TFMGs) and []ul-tra-stabl
+e metal-lic glasses (SMGs) were... |
  []
 
 ("ScottGleason PhDThesis.bbl" [44
@@ -2239,45 +2157,35 @@ Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 ) [50]
 Chapter 7.
-File: ./images/MgZnCa300CPhaseDiagram_SprMats.png Graphic file (type QTm)
-<use  "./images/MgZnCa300CPhaseDiagram_SprMats.png" > [51
+[51
 
 ]
-File: ./images/MgZnCaLiquidPhase_SprMats.png Graphic file (type QTm)
-
-<use  "./images/MgZnCaLiquidPhase_SprMats.png" >
 Overfull \hbox (22.5048pt too wide) in paragraph at lines 872--896
- [][] 
+ [][] |
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: ./images/Mg72-XZn24+XCa4.png Graphic file (type QTm)
-<use  "./images/Mg72-XZn24+XCa4.png" >
-File: ./images/Mg70-XZn24+XCa6.png Graphic file (type QTm)
- <use  "./images/Mg70-XZn24+XCa6.png" >
-File: ./images/Mg75-XZn20+XCa5.png Graphic file (type QTm)
-
-<use  "./images/Mg75-XZn20+XCa5.png" > [52] [53] ("ScottGleason PhDThesis.gls"
-[54] [55
+[52] [53] ("ScottGleason PhDThesis.gls" [54] [55
 
 
-]) [56]
+] [56]) [57]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 931.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 931.
- ("ScottGleason PhDThesis.aux")
+
+("ScottGleason PhDThesis.aux")
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 931.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 931.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 931.
  ) 
 Here is how much of TeX's memory you used:
- 46737 strings out of 428755
- 960986 string characters out of 3164221
- 1207109 words of memory out of 3000000
- 49396 multiletter control sequences out of 15000+200000
- 25871 words of font info for 60 fonts, out of 3000000 for 9000
+ 46804 strings out of 428755
+ 961297 string characters out of 3164221
+ 1203417 words of memory out of 3000000
+ 49467 multiletter control sequences out of 15000+200000
+ 26184 words of font info for 61 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ScottGleason PhDThesis.pdf (67 pages).
+Output written on ScottGleason PhDThesis.pdf (68 pages).
