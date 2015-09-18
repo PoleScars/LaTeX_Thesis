@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  18 SEP 2015 14:02
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  18 SEP 2015 14:48
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1581,9 +1581,9 @@ $\T1/ppl/m/n/12 ) or []spe-cific vol-ume ($\OML/zplm/m/it/12 v$\T1/ppl/m/n/12 )
 
 
 Overfull \hbox (9.14597pt too wide) in paragraph at lines 5--5
- \T1/ppl/m/n/12 num-ber of glass form-ing sys-tems. Note the $\OML/zplm/m/it/12
- R[]$ \T1/ppl/m/n/12 and $\OML/zplm/m/it/12 t[]$ \T1/ppl/m/n/12 im-prove with i
-n-creas-ing |
+ \T1/ppl/m/n/12 num-ber of glass form-ing sys-tems. Note the []$\OML/zplm/m/it/
+12 R[]$ \T1/ppl/m/n/12 and []$\OML/zplm/m/it/12 t[]$ \T1/ppl/m/n/12 im-prove wi
+th in-creas-ing |
  []
 
 
@@ -1760,9 +1760,9 @@ Requested font "cmsy10" at 12.0pt
 
 Overfull \hbox (11.55414pt too wide) in paragraph at lines 270--271
 \T1/ppl/m/n/12 ($\OML/zplm/m/it/12 t[]$\T1/ppl/m/n/12 ) reach-ing the 1mm mark.
- Note the $\OML/zplm/m/it/12 R[]$ \T1/ppl/m/n/12 and $\OML/zplm/m/it/12 t[]$ \T
-1/ppl/m/n/12 im-prove with in-creas-ing $\OML/zplm/m/it/12 T[]\OT1/zplm/m/n/12 
-/\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , sig-ni-fy-ing|
+ Note the []$\OML/zplm/m/it/12 R[]$ \T1/ppl/m/n/12 and []$\OML/zplm/m/it/12 t[]
+$ \T1/ppl/m/n/12 im-prove with in-creas-ing $\OML/zplm/m/it/12 T[]\OT1/zplm/m/n
+/12 /\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , sig-ni-fy-ing|
  []
 
 [6] [7]
@@ -2018,15 +2018,9 @@ te of 3.3nm/s. Af-ter full de-po-si-tion|
  []
 
 [36] [37]
-Overfull \hbox (22.30891pt too wide) in paragraph at lines 723--724
+Overfull \hbox (48.2167pt too wide) in paragraph at lines 723--724
 []\T1/ppl/m/n/12 The ini-tial []TFMG sput-ter-ing pa-ram-e-ters will be based o
-n Liu, et al. [][[]] work on Zr$[]$Cu$[]$Ni$[]$Al$[]$|
- []
-
-
-Overfull \hbox (0.67776pt too wide) in paragraph at lines 723--724
-\T1/ppl/m/n/12 be re-fined via ap-pro-pri-ate step sizes as re-quired to suit t
-he ex-am-ined MgZnCa bio-com-pat-i-ble|
+n Liu, et al. [][[]] work on Zr$[]$Cu$[]$Ni$[]$Al$[]$  film|
  []
 
 
@@ -2169,10 +2163,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 931.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 931.
  ) 
 Here is how much of TeX's memory you used:
- 46804 strings out of 428755
- 961297 string characters out of 3164221
- 1203532 words of memory out of 3000000
- 49467 multiletter control sequences out of 15000+200000
+ 46806 strings out of 428755
+ 961311 string characters out of 3164221
+ 1203568 words of memory out of 3000000
+ 49469 multiletter control sequences out of 15000+200000
  26184 words of font info for 61 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
