@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  18 SEP 2015 12:44
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  18 SEP 2015 14:02
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1903,7 +1903,14 @@ Missing character: There is no ‘ in font pplr8t!
 Missing character: There is no ’ in font pplr8t!
 Missing character: There is no ‘ in font pplr8t!
 Missing character: There is no ’ in font pplr8t!
- [21] [22] [23]
+
+Overfull \hbox (26.36797pt too wide) in paragraph at lines 490--491
+\T1/ppl/m/n/12 glass sys-tems by An-gell [][[]] sup-ports this fragility re-la-
+tion-ship, sug-gest-ing the []$\OML/zplm/m/it/12 ^^NT[]$ \T1/ppl/m/n/12 im-prov
+e-ments|
+ []
+
+[21] [22] [23]
 Overfull \hbox (18.02988pt too wide) in paragraph at lines 530--531
 []\T1/ppl/m/n/12 The []in-den-ta-tion mod-u-lus ($\OML/zplm/m/it/12 M$\T1/ppl/m
 /n/12 ) of a ma-te-rial is an elas-tic con-stant which ac-counts for com-pres-s
@@ -2031,28 +2038,10 @@ Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
-
-Overfull \hbox (17.81259pt too wide) in paragraph at lines 749--750
-\T1/ppl/m/n/12 wa-ter sol-u-ble sub-strate, []bulk metal-lic glass (BMG) sub-st
-rates, and PCL scaf-fold sub-strates. |
- []
-
 [38]
 Overfull \hbox (8.74083pt too wide) in paragraph at lines 758--759
 []\T1/ppl/m/n/12 Depositing films onto []BMG sub-strates of sim-i-lar com-po-si
 -tion al-lows for prop-erty mod-i-fi-ca-tion|
- []
-
-
-Overfull \hbox (2.02107pt too wide) in paragraph at lines 761--762
-[]\T1/ppl/m/n/12 Depositing films onto Poly-capro-lac-tone (PCL) scaf-folds sub
--strates will al-low for ex-am-i-na-tion|
- []
-
-
-Overfull \hbox (3.222pt too wide) in paragraph at lines 761--762
-\T1/ppl/m/n/12 of the films' ef-fects and degra-da-tion per-for-mance. Ide-ally
- this will lead to the slow, con-trolled|
  []
 
 
@@ -2182,7 +2171,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 931.
 Here is how much of TeX's memory you used:
  46804 strings out of 428755
  961297 string characters out of 3164221
- 1203417 words of memory out of 3000000
+ 1203532 words of memory out of 3000000
  49467 multiletter control sequences out of 15000+200000
  26184 words of font info for 61 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
