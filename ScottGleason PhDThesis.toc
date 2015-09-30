@@ -33,22 +33,22 @@
 \contentsline {subsection}{\numberline {2.3.4}SMG Characterisation}{18}{subsection.2.3.4}
 \contentsline {subsubsection}{\numberline {2.3.4.1}Fictive Temperature ($T_{f}$), Kinetic Stability and Enthalpy via Differential Scanning Calorimetry (DSC)}{18}{subsubsection.2.3.4.1}
 \contentsline {subsubsection}{\numberline {2.3.4.2}The Theoretical Entropy Limit of Glasses and the Kauzmann Temperature ($T_{k}$)}{20}{subsubsection.2.3.4.2}
-\contentsline {subsubsection}{\numberline {2.3.4.3}Glass Fragility (m)}{21}{subsubsection.2.3.4.3}
+\contentsline {subsubsection}{\numberline {2.3.4.3}Glass Fragility (m)}{20}{subsubsection.2.3.4.3}
 \contentsline {subsubsection}{\numberline {2.3.4.4}Glass Density ($\rho $)}{23}{subsubsection.2.3.4.4}
 \contentsline {subsubsection}{\numberline {2.3.4.5}Indentation Modulus ($M$)}{24}{subsubsection.2.3.4.5}
-\contentsline {subsection}{\numberline {2.3.5}SMG Structure, Medium Range Order (MRO)}{24}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.5}SMG Structure, Medium Range Order (MRO)}{26}{subsection.2.3.5}
 \contentsline {subsection}{\numberline {2.3.6}Potential SMG Challenges}{26}{subsection.2.3.6}
-\contentsline {subsection}{\numberline {2.3.7}Thin Film Testing Methods}{27}{subsection.2.3.7}
-\contentsline {subsubsection}{\numberline {2.3.7.1}Adhesion}{27}{subsubsection.2.3.7.1}
+\contentsline {subsection}{\numberline {2.3.7}Thin Film Testing Methods}{28}{subsection.2.3.7}
+\contentsline {subsubsection}{\numberline {2.3.7.1}Adhesion}{28}{subsubsection.2.3.7.1}
 \contentsline {section}{\numberline {2.4}Biomedical Materials}{28}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Introduction}{28}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Biomaterial Requirements}{28}{subsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.2.1}Current Metallic Biomaterials}{28}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.1}Current Metallic Biomaterials}{29}{subsubsection.2.4.2.1}
 \contentsline {subsubsection}{\numberline {2.4.2.2}Metallic Biochemistry}{29}{subsubsection.2.4.2.2}
-\contentsline {subsection}{\numberline {2.4.3}Degradation of Biomaterials}{29}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Degradation of Biomaterials}{30}{subsection.2.4.3}
 \contentsline {subsubsection}{\numberline {2.4.3.1}Basic Theory of Corrosion and Its Measurement}{30}{subsubsection.2.4.3.1}
-\contentsline {subsubsection}{\numberline {2.4.3.2}Mg Hydrogen Evolution}{31}{subsubsection.2.4.3.2}
-\contentsline {subsubsection}{\numberline {2.4.3.3}Pitting Corrosion}{33}{subsubsection.2.4.3.3}
+\contentsline {subsubsection}{\numberline {2.4.3.2}Mg Hydrogen Evolution}{32}{subsubsection.2.4.3.2}
+\contentsline {subsubsection}{\numberline {2.4.3.3}Pitting Corrosion}{34}{subsubsection.2.4.3.3}
 \contentsline {subsection}{\numberline {2.4.4}Anti-biotic Scaffolds}{34}{subsection.2.4.4}
 \contentsline {chapter}{\numberline {3}EXPERIMENTAL PROCEDURE}{35}{chapter.3}
 \contentsline {section}{\numberline {3.1}Target Manufacture}{35}{section.3.1}

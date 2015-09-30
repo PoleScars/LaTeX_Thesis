@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  30 SEP 2015 16:05
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  30 SEP 2015 17:06
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1938,8 +1938,8 @@ Missing character: There is no ” in font pplr8t!
 
 LaTeX Warning: Marginpar on page 20 moved.
 
-File: ./images/Tk_Graph_Simple_02.png Graphic file (type QTm)
-<use  "./images/Tk_Graph_Simple_02.png" > [20]
+File: ./images/Tk_Graph_New_Draw.png Graphic file (type QTm)
+<use  "./images/Tk_Graph_New_Draw.png" >
 Missing character: There is no ‘ in font pplr8t!
 Missing character: There is no ’ in font pplr8t!
 Missing character: There is no ‘ in font pplr8t!
@@ -1956,6 +1956,7 @@ Missing character: There is no ‘ in font pplr8t!
 Missing character: There is no ’ in font pplr8t!
 Missing character: There is no ‘ in font pplr8t!
 Missing character: There is no ’ in font pplr8t!
+ [20] [21]
 File: ./images/ShelbyFragilityPlot.png Graphic file (type QTm)
 
 <use  "./images/ShelbyFragilityPlot.png" >
@@ -1965,8 +1966,9 @@ tion-ship, sug-gest-ing the [][][]$\OML/zplm/m/it/12 ^^NT[]$[][] \T1/ppl/m/n/12
  im-prove-ments
  []
 
+[22]
 File: ./images/YuMTg.png Graphic file (type QTm)
-<use  "./images/YuMTg.png" > [21] [22]
+ <use  "./images/YuMTg.png" >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 500.
@@ -2063,25 +2065,25 @@ Overfull \hbox (8.83835pt too wide) in paragraph at lines 638--639
 three months. The wound-healing
  []
 
+[32]
 File: ./images/ZbergHydrogen.png Graphic file (type QTm)
-<use  "./images/ZbergHydrogen.png" >
+ <use  "./images/ZbergHydrogen.png" >
 Overfull \hbox (5.13095pt too wide) in paragraph at lines 648--649
 []\T1/ppl/m/n/12 As Witte [][[]] has shown in his re-view mag-ne-sium was show-
 ing promise as a bio-reabsorbable
  []
 
-[32]
 Missing character: There is no … in font pplr8t!
 Missing character: There is no … in font pplr8t!
 Missing character: There is no … in font pplr8t!
 Missing character: There is no … in font pplr8t!
-
+[33]
 Overfull \hbox (7.58995pt too wide) in paragraph at lines 666--667
 []\T1/ppl/m/n/12 Amorphous Mg al-lows for higher al-loy con-ti-nents and a ho-m
 o-ge-neous single-phase struc-ture.
  []
 
-[33] [34]
+[34]
 Chapter 3.
 
 Overfull \hbox (5.38205pt too wide) in paragraph at lines 689--690
@@ -2266,7 +2268,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 931.
  ) 
 Here is how much of TeX's memory you used:
  46859 strings out of 428755
- 962616 string characters out of 3164221
+ 962614 string characters out of 3164221
  1211892 words of memory out of 3000000
  49518 multiletter control sequences out of 15000+200000
  25871 words of font info for 60 fonts, out of 3000000 for 9000
