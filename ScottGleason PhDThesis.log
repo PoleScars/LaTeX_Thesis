@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  1 OCT 2015 09:45
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  1 OCT 2015 10:08
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -2059,10 +2059,6 @@ ma-tion of amor-phous struc-tures.
  []
 
 [31]
-
-LaTeX Warning: Marginpar on page 32 moved.
-
-
 Overfull \hbox (8.83835pt too wide) in paragraph at lines 638--639
 \T1/ppl/m/n/12 Mg al-loy (WZ21) within the ab-dom-i-nal walls for a pe-riod of 
 three months. The wound-healing
@@ -2271,7 +2267,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 931.
 Here is how much of TeX's memory you used:
  46859 strings out of 428755
  962614 string characters out of 3164221
- 1212281 words of memory out of 3000000
+ 1212282 words of memory out of 3000000
  49518 multiletter control sequences out of 15000+200000
  25871 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
