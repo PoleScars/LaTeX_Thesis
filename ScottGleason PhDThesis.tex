@@ -1,5 +1,5 @@
-\documentclass[a4paper,12pt,oneside]{report}%FinalView
-%\documentclass[draft,a4paper,12pt,oneside]{report}%draftView
+%\documentclass[a4paper,12pt,oneside]{report}%FinalView
+\documentclass[draft,a4paper,12pt,oneside]{report}%draftView
 
 \input{settings/preamble.tex}%Inputs Preamble for its .tex
 \usepackage[color]{showkeys}%Shows cross ref paths
@@ -245,9 +245,9 @@ When a liquid is cooled below its \gls{Tm} without solidifying it is termed a \g
 As the production demonstrates \glspl{mg} have a similar amorphous atomic structure to liquid metals. This explains \glspl{mg}' relative low density as their atoms are essentially still arranged in a spacious liquid-like configuration (see Figure \ref{fig:GlassCooling}). This liquid-like structure enables \glspl{mg} to excide traditional alloys' solubility limits as the lack of \gls{lro} helps prevents the formation of intermetallic compounds. \glspl{mg} lack of significant plastic deformation is due to the atoms not possessing the required kinetic energy for molecular rearrangement. Hence the atoms are not able to 'slide' past one another to deform as in the molten liquid state.
 
 \subsubsection{Glass Forming Ability (GFA) and Bulk Metallic Glasses (BMGs)}
-The ease at which a material is able to form a glass is termed its \gls{gfa}. The \gls{gfa} is also closely tied to a glass's stability with high \glspl{gfa} generally indicating high thermal stability \cite{Aji2013}. Molecular glasses possess sufficiently high \glspl{gfa} and thermal stability that the material has been produced since ancient times, and polymers' \glspl{gfa} are often high enough they can form glass even with slow cooling rates. In contrast metals have such low \glspl{gfa} their amorphous glass state was only discovered in 1960 by Klement, et al. \cite{Klement1960}. \hl{This low GFA results from metals' high atomic mobility, which allows for MGs' fast structural relaxation and recrystallization at elevated temperatures} \cite{Aji2013}. \todo{Maybe more this down to the processing section.}
+The ease at which a material is able to form a glass is termed its \gls{gfa}. The \gls{gfa} is also closely tied to a glass's stability with high \glspl{gfa} generally indicating high thermal stability \cite{Aji2013}. Molecular glasses possess sufficiently high \glspl{gfa} and thermal stability that the material has been produced since ancient times, and polymers' \glspl{gfa} are often high enough they can form glass even with slow cooling rates. In contrast metals have such low \glspl{gfa} their amorphous glass state was only discovered in 1960 by Klement, et al. \cite{Klement1960}. \hl{This low GFA results from metals' high atomic mobility, which allows for mgs' fast structural relaxation and recrystallization at elevated temperatures} \cite{Aji2013}. \todo{Maybe more this down to the processing section.}
 
-Much of the work on \glspl{mg} has been to improve their \glspl{gfa} in order to decrease their \gls{Rc}, the rate of quench required to avoid nucleation into the crystalline state \cite{Inoue2000}. From these works it has been discovered alloys with their \gls{Tg} near their \gls{Tm} have higher \glspl{gfa} \cite{Inoue2000, Trexler2010, Turnbull1969}. Meaning the \gls{gfa} of an alloy increases with its reduced glass transition temperature ($T_{g}/T_{m}$) \cite{Inoue2000, Trexler2010, Turnbull1969}. 
+Much of the work on \glspl{mg} has been to improve their \glspl{gfa} in order to decrease their \gls{Rc}, the rate of quench required to avoid nucleation into the crystalline state \cite{Inoue2000}. From these works it has been discovered alloys with their \gls{Tg} near their \gls{Tm} have higher \glspl{gfa} \cite{Inoue2000, Trexler2010, Turnbull1969}. Meaning the \gls{gfa} of an alloy increases with its \gls{Trg}, given by \gls{Trg} $= T_{g}/T_{m}$ \cite{Inoue2000, Trexler2010, Turnbull1969}. 
 
 From these findings Inoue \cite{Inoue2000} has formulised three rules for high \gls{gfa} systems;
 
@@ -264,7 +264,7 @@ Alloys that follow these rules display deep eutectics with low \gls{Tm}, sluggis
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=0.75\textwidth]{BMG_Tg_on_Tm_01.png}
-	\caption[Schematic of \acrfull{Rc} and \acrfull{tmax} as a function of reduced glass transition temperature ($T_{rg}=T_{g}/T_{m}$) for a number of glass forming systems. Note the \acrshort{Rc} and \acrshort{tmax} improve with increasing $T_{g}/T_{m}$.]{Schematic of \acrfull{Rc} and \acrfull{tmax} as a function of reduced glass transition temperature ($T_{rg}=T_{g}/T_{m}$) for a number of glass forming systems. Note the \acrshort{Rc} and \acrshort{tmax} improve with increasing $T_{g}/T_{m}$. Adapted from \cite{Trexler2010}.}
+	\caption[Schematic of \acrfull{Rc} and \acrfull{tmax} as a function of reduced glass transition temperature (\acrshort{Trg} $= T_{g}/T_{m}$) for a number of glass forming systems. Note the \acrshort{Rc} and \acrshort{tmax} improve with increasing $T_{g}/T_{m}$.]{Schematic of \acrfull{Rc} and \acrfull{tmax} as a function of reduced glass transition temperature (\acrshort{Trg} $= T_{g}/T_{m}$) for a number of glass forming systems. Note the \acrshort{Rc} and \acrshort{tmax} improve with increasing $T_{g}/T_{m}$. Adapted from \cite{Trexler2010}.}
 	\label{fig:BMGRc}
 \end{figure}
 
@@ -404,7 +404,7 @@ Yu, et al. \cite{Yu2013} has noted that while more complicated atomic structures
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Tsub_Yu_SMG.png}
-	\caption[Relationship between \Tsub~ and \acrshort{dTg} for the Yu, et al. SMG. Data clearly shows deposition at \Tsub~ outside of the ideal temperature range results in poor \acrshort{usg} \acrshort{dTg} gains.]{Relationship between \Tsub~ and \acrshort{dTg} for the Yu, et al. \cite{Yu2013} SMG. Data clearly shows deposition at \Tsub~ outside of the ideal temperature range results in poor \acrshort{usg} \acrshort{dTg} gains. Reproduced from \cite{Yu2013}.}
+	\caption[Relationship between \Tsub~ and \acrshort{dTg} for the Yu, et al. \acrshort{smg}. Data clearly shows deposition at \Tsub~ outside of the ideal temperature range results in poor \acrshort{usg} \acrshort{dTg} gains.]{Relationship between \Tsub~ and \acrshort{dTg} for the Yu, et al. \cite{Yu2013} \acrshort{smg}. Data clearly shows deposition at \Tsub~ outside of the ideal temperature range results in poor \acrshort{usg} \acrshort{dTg} gains. Reproduced from \cite{Yu2013}.}
 	\label{fig:YuTsub}
 \end{figure}
 
@@ -467,7 +467,7 @@ Equation \ref{equ:EngeryLandscape} follows the extrapolation \gls{scl} line of a
 Thus for real \glspl{usg} with reduced entropy \todo{Tf was used in enthalpy before Should this be ‘enthalpy’ instead of ‘entropy’?} the $\theta_{k}$ falls between 0.0 and 1.0, while the higher entropy \glspl{smg} of Yu, et al. \cite{Yu2013} would yield $\theta_{k}$ greater than 1.0, indicating they have moving up the energy landscape past the \gls{Tg} datum. For example, a $\theta_{k}=1.25$ would indicate a glass's entropy is 125\% greater than its ideal \gls{Tk} glass.
 
 \subsubsection{Glass Fragility (m)}
-The fragility (m) \todo{Angell invented this relationship in old paper. Should use it more as source on m. (Angell, 1995)} of a glass is a measure of its deviation from ideal Arrhenius behaviour; defined as the rate of change of the glass's \acrfull{n} as a function of reduced inverse temperature scaled by the glass transition temperature ($T_{g}/T$).
+The \gls{m} \todo{Angell invented this relationship in old paper. Should use it more as source on m. (Angell, 1995)} of a glass is a measure of its deviation from ideal Arrhenius behaviour; defined as the rate of change of the glass's \acrfull{n} as a function of reduced inverse temperature scaled by the glass transition temperature ($T_{g}/T$).
 
 %numbered display equation
 \begin{equation}
@@ -494,7 +494,7 @@ Yu, et al. \cite{Yu2013} found m of metallic, molecular, and polymer \glspl{usg}
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=0.75\textwidth]{YuMTg.png}
-	\caption[Schematic of the relationship between glass frigidity (m) and the enhanced glass transition on glass transition ratio ($\delta T_{g}/T_{g}$) for a selection of metallic, molecular, and polymer \acrshort{usg}s.]{Schematic of the relationship between glass frigidity (m) and the enhanced glass transition on glass transition ratio ($\delta T_{g}/T_{g}$) for a selection of metallic, molecular, and polymer \acrshort{usg}s. Reproduced from \cite{Yu2013}.}
+	\caption[Schematic of the relationship between glass \gls{m} and the enhanced glass transition on glass transition ratio ($\delta T_{g}/T_{g}$) for a selection of metallic, molecular, and polymer \acrshort{usg}s.]{Schematic of the relationship between glass \gls{m} and the enhanced glass transition on glass transition ratio ($\delta T_{g}/T_{g}$) for a selection of metallic, molecular, and polymer \acrshort{usg}s. Reproduced from \cite{Yu2013}.}
 	\label{fig:YuMTgPlot}
 \end{figure}
 
@@ -518,7 +518,7 @@ Ishii and Nakayama \cite{Ishii2014} and Nakayama, et al. \cite{Nakayama2013} hav
 		\caption{}
 		\label{fig:IshiiMTg}
 	\end{subfigure}
-	\caption[(a) Relationship between normalised substrate temperature ($T_{sub}/T_{g0}$) and normalised molar volume ($V_{m}/V_{m} (T_{g0})$) for several VD molecular glasses showing the greatest density occurs near the intersection of the VD glasses and their extrapolated SCL \acrshort{Vm} line. (b) Weak relationship between the normalised intersection temperature ($T_{i}/T_{g0}$) found in (a) and the glass fragility (m).]{(a) Relationship between normalised substrate temperature ($T_{sub}/T_{g0}$) and normalised molar volume ($V_{m}/V_{m} (T_{g0})$) for several VD molecular glasses showing the greatest density occurs near the intersection of the VD glasses and their extrapolated SCL \acrshort{Vm} line. (b) Weak relationship between the normalised intersection temperature ($T_{i}/T_{g0}$) found in (a) and the glass fragility (m). (a) Modified from \cite{Ishii2014} and (b) Reproduced from \cite{Ishii2014}.}%global caption
+	\caption[(a) Relationship between normalised substrate temperature ($T_{sub}/T_{g0}$) and normalised molar volume ($V_{m}/V_{m} (T_{g0})$) for several \acrshort{vd} molecular glasses showing the greatest density occurs near the intersection of the \acrshort{vd} glasses and their extrapolated SCL \acrshort{Vm} line. (b) Weak relationship between the normalised intersection temperature ($T_{i}/T_{g0}$) found in (a) and the glass \acrfull{m}.]{(a) Relationship between normalised substrate temperature ($T_{sub}/T_{g0}$) and normalised molar volume ($V_{m}/V_{m} (T_{g0})$) for several \acrshort{vd} molecular glasses showing the greatest density occurs near the intersection of the \acrshort{vd} glasses and their extrapolated SCL \acrshort{Vm} line. (b) Weak relationship between the normalised intersection temperature ($T_{i}/T_{g0}$) found in (a) and the glass \acrfull{m}. (a) Modified from \cite{Ishii2014} and (b) Reproduced from \cite{Ishii2014}.}%global caption
 	\label{fig:IshiiTsubM}
 \end{figure}
 
@@ -601,24 +601,24 @@ Corrosion is an electrochemical reaction describing the flow of electrons which 
 
 The kinetics of the corrosion reaction acting upon a specimen can be measured via \gls{pdp} scans, in which the rate of the anodic or cathodic reactions on the specimen (i.e. the working electrode) are represented by the current density (i.e. current per unit area). The rate of the corrosion reaction can be significantly affected by numerous variables including temperature, specimen surface condition \cite{Jones1992}, and the chemical environment and thus these should be carefully controlled and standardised. 
 
-The polarisation scans are performed via controlling the anodic or cathodic reactions' driving force, AKA their \gls{Vp}, and observing the applied current density ($i$) required to produce the desired variations in potential. The anodic scans start at low potentials and ramp up, whereas the cathodic start at high potentials and ramp down, hence by convention anodic currents are positive and cathodic negative. \todo{May not be the reason. May have to do with electron flow. Re-read Jones Chapter 3 to see what it says.} The slowest corrosion rate will occur when the anodic and cathodic currents equal each other and the applied current density is at its minimum (theoretically zero); this is known as the \gls{ocp}. 
+The polarisation scans are performed via controlling the anodic or cathodic reactions' driving force, AKA their \gls{Vp}, and observing the applied \gls{i} required to produce the desired variations in potential. The anodic scans start at low potentials and ramp up, whereas the cathodic start at high potentials and ramp down, hence by convention anodic currents are positive and cathodic negative. \todo{May not be the reason. May have to do with electron flow. Re-read Jones Chapter 3 to see what it says.} The slowest corrosion rate will occur when the anodic and cathodic currents equal each other and the applied current density is at its minimum (theoretically zero); this is known as the \gls{ocp}. 
 
-The Tafel equation (Equation \ref{equ:Tafel}) and Tafel Plots are tools used to interpret the data generated by \gls{pdp} scans. The Tafel equation expresses the anodic or cathodic reactions' current density as a function of their \gls{nOver}; overpotential being defined as the difference between the applied potential ($E_{A}$) and OCP (\acrshort{Eocp}).
+The Tafel equation (Equation \ref{equ:Tafel}) and Tafel Plots are tools used to interpret the data generated by \gls{pdp} scans. The Tafel equation expresses the anodic or cathodic reactions' current density as a function of their \gls{nOver}; overpotential being defined as the difference between the \gls{Ea} and \gls{ocp} (\acrshort{Eocp}).
 
 \begin{equation}
 \eta = E_{A} - E_{OCP}=\beta log \frac{i}{i_{0}}
 \label{equ:Tafel}
 \end{equation}
 
-Where $\beta$ is the Tafel slope, $i$ the applied current density, and $i_{0}$ the exchange current density. 
+Where $\beta$ is the Tafel slope, \acrshort{i} the applied current density, and \acrshort{i0} the exchange current density. 
 
-Plotting the Tafel equation for both the anodic and cathodic reactions produces the Tafel Plot (Figure \ref{fig:EnosTafel}) for the corrosion reaction. From the plot the OCP, where anodic and cathodic currents are equal, can be obtained via extrapolation. This is performed along the linear region of the anodic and cathodic $\beta$ slopes, with the extrapolations' intersection indicating the OCP. The current density and potential coordinates of the OCP on the plot indicate the corrosion current density ($i_{corr}$), and corrosion potential ($E_{corr}$) for the reaction. When evaluating improved corrosion resistance the idea specimen will have both a more noble potential (i.e. $E_{corr}$ is more cathodic), \todo{i.e. The Potential is a larger number ( -1.0 V < -0.5 V)} and a reduced $i_{corr}$ in relation to the comparison specimen.
+Plotting the Tafel equation for both the anodic and cathodic reactions produces the Tafel Plot (Figure \ref{fig:EnosTafel}) for the corrosion reaction. From the plot the \gls{ocp}, where anodic and cathodic currents are equal, can be obtained via extrapolation. This is performed along the linear region of the anodic and cathodic $\beta$ slopes, with the extrapolations' intersection indicating the \gls{ocp}. The current density and potential coordinates of the \gls{ocp} on the plot indicate the \gls{icorr}, and \gls{Ecorr} for the reaction. When evaluating improved corrosion resistance the idea specimen will have both a more noble potential (i.e. \gls{Ecorr} is more cathodic), \todo{i.e. The Potential is a larger number ( -1.0 V < -0.5 V)} and a reduced \gls{icorr} in relation to the comparison specimen.
 
 %single image
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Enos_TafelPlot.png}
-	\caption[Tafel Plot showing the positive anodic Tafle slope $\beta_{a}$ negative cathodic Tafle slope $\beta_{c}$, and their linear extrapolations with their intersection indicating the OCP, and thus the $i_{corr}$ and the $E_{corr}$ positions.]{Tafel Plot showing the positive anodic Tafle slope $\beta_{a}$ negative cathodic Tafle slope $\beta_{c}$, and their linear extrapolations with their intersection indicating the OCP, and thus the $i_{corr}$ and the $E_{corr}$ positions. Adapted from \cite{Enos1997}.}
+	\caption[Tafel Plot showing the positive anodic Tafle slope $\beta_{a}$ negative cathodic Tafle slope $\beta_{c}$, and their linear extrapolations with their intersection indicating the \acrshort{ocp}, and thus the \acrshort{icorr} and the \acrshort{Ecorr} positions.]{Tafel Plot showing the positive anodic Tafle slope $\beta_{a}$ negative cathodic Tafle slope $\beta_{c}$, and their linear extrapolations with their intersection indicating the \acrshort{ocp}, and thus the \acrshort{icorr} and the \acrshort{Ecorr} positions. Adapted from \cite{Enos1997}.}
 	\label{fig:EnosTafel}
 \end{figure}
 
@@ -730,13 +730,13 @@ The initial \gls{tfmg} sputtering parameters will be based on Liu, et al. \cite{
 		\toprule
 		\multicolumn{3}{c}{Sputter Parameters}\\
 		\midrule
-		Nominal Sputtering Parameters: & TFMG & SMG \\
+		Nominal Sputtering Parameters: & \acrshort{tfmg} & \acrshort{smg} \\
 		\midrule
 		Base Camber Pressure: & $3 \times 10^{-4} - 10^{-2}~ Pa$ & $5 \times 10^{-5} - 10^{-4}~ Pa$ \\
 		Deposition Ar Pressure:	& $0.3 - 3.0~ Pa$ & $5\times 10^{-2} - 0.3~ Pa$\\
 		Deposition Power Range:	& $30 - 50~ W$ & $30 - 50~ W$\\
-		Max Deposition Rate: (To be determined via TEM) & $3.3~ nm s^{-1}$ & $1.4~ nm s^{-1}$ \\	 
-		Substrate Deposition Temperature: & Room Temperature & $0.7 - 0.8~ T_{g}$ \\
+		Max Deposition Rate: (To be determined via \acrshort{tem}) & $3.3~ nm s^{-1}$ & $1.4~ nm s^{-1}$ \\	 
+		Substrate Deposition Temperature: & Room Temperature & $0.7 - 0.8$ \acrshort{Tg} \\
 		\bottomrule
 	\end{tabular}
 	\caption{Nominal Sputtering Parameters}
@@ -765,7 +765,7 @@ Depositing films onto \gls{pcl} scaffolds substrates will allow for examination 
 The properties of the \glspl{tfmg} and \glspl{smg} will be investigated via characterising the films after application to the different substrates; allowing standalone films as well as their substrate property modification effects to be investigated. 
 
 \subsection{Physical and Chemical Properties}
-The physical and chemical properties of the films will be characterised via a range of techniques; \acrshort{xrd}, \acrshort{dsc}, \acrshort{fib}, \acrshort{eds}, \acrshort{epma}, ICP, \acrshort{stem}, \acrshort{abed}, etc. 
+The physical and chemical properties of the films will be characterised via a range of techniques; \acrshort{xrd}, \acrshort{dsc}, \acrshort{fib}, \acrshort{eds}, \acrshort{epma}, \acrshort{icp}, \acrshort{sem}, \acrshort{tem}, \acrshort{stem}, \acrshort{abed}, etc. 
 
 \subsection{Biocompatibility and Bioabsorption} 
 The biocompatibility and bioabsorption of the \glspl{tfmg} will be characterised via cytotoxicity testing, \acrshort{pdp} scans, etc. 
@@ -872,7 +872,7 @@ Significant because...
 	\centering
 	\begin{tabular}{ l l l l l l l l l l }
 		\toprule
-		Composition & \acrshort{Tg} & \acrshort{Tx} & \acrshort{Tm} & \acrshort{Tl} & \acrshort{dT} & $T_{rg(m)}$ & $T_{rg(l)}$ & \acrshort{gfa} & Source \\ 
+		Composition & \acrshort{Tg} & \acrshort{Tx} & \acrshort{Tm} & \acrshort{Tl} & \acrshort{dT} & \acrshort{Trg}$_{(m)}$ & \acrshort{Trg}$_{(l)}$ & \acrshort{gfa} & Source \\ 
 		& & & & & $(T_{x} - T_{g})$ & $(T_{g}/T_{m})$ & $(T_{g}/T_{l})$ & (mm) & \\ 
 		\midrule
 		Mg$_{70}$Zn$_{24}$Ca$_{6}$ & 120 & 141 & 352 & 442 & 21 & 0.629 & 0.550 & 3.0 & \cite{Cao2013, Cao2012} \\ 
