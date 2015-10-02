@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  1 OCT 2015 16:14
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  2 OCT 2015 10:50
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1900,11 +1900,7 @@ LaTeX Warning: Marginpar on page 18 moved.
 File: ./images/Kearns_DSC.png Graphic file (type QTm)
 <use  "./images/Kearns_DSC.png" >
 File: ./images/Guo_DSC.png Graphic file (type QTm)
- <use  "./images/Guo_DSC.png" >
-
-LaTeX Warning: Float too large for page by 39.34715pt on input line 441.
-
-[18] [19]
+ <use  "./images/Guo_DSC.png" > [18] [19]
 
 LaTeX Warning: Marginpar on page 20 moved.
 
@@ -2268,7 +2264,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 931.
 Here is how much of TeX's memory you used:
  46859 strings out of 428755
  962630 string characters out of 3164221
- 1211900 words of memory out of 3000000
+ 1211896 words of memory out of 3000000
  49518 multiletter control sequences out of 15000+200000
  25871 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
