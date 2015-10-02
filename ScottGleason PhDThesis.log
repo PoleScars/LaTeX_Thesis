@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  2 OCT 2015 11:12
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  2 OCT 2015 14:03
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1589,8 +1589,8 @@ th in-creas-ing
 
 
 Overfull \hbox (11.57367pt too wide) in paragraph at lines 6--6
- [][] [][][]\T1/ppl/m/n/12 Schematic TTT di-a-gram where line (1) in-di-cates t
-he slow-est cool-ing rate pos-si-ble 
+ [][] [][][]\T1/ppl/m/n/12 Schematic []TTT di-a-gram where line (1) in-di-cates
+ the slow-est cool-ing rate pos-si-ble 
  []
 
 
@@ -1600,10 +1600,10 @@ lm/m/it/12 T[]$ \T1/ppl/m/n/12 where metal-lic glass dis-plays
  []
 
 
-Overfull \hbox (12.81519pt too wide) in paragraph at lines 7--7
- \T1/ppl/m/n/12 film thick-ness (t) ranges are from a few $\OML/zplm/m/it/12 nm
-$ \T1/ppl/m/n/12 to sev-eral $\OML/zplm/m/it/12 ^^Vm$ \T1/ppl/m/n/12 de-pend-in
-g on ap-pli-ca-tion.[][] [][]  
+Overfull \hbox (13.1992pt too wide) in paragraph at lines 7--7
+ \T1/ppl/m/n/12 film thick-ness ($\OML/zplm/m/it/12 t$\T1/ppl/m/n/12 ) ranges a
+re from a few $\OML/zplm/m/it/12 nm$ \T1/ppl/m/n/12 to sev-eral $\OML/zplm/m/it
+/12 ^^Vm$ \T1/ppl/m/n/12 de-pend-ing on ap-pli-ca-tion.[][] [][]  
  []
 
 
@@ -1638,9 +1638,9 @@ Requested font "pplr8t" at 10.0pt
 Overfull \hbox (36.92444pt too wide) in paragraph at lines 29--29
  [][] [][][]\T1/ppl/m/n/12 Plots of []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , [
 ]$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/1
-2 , []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , and $\OT1/zplm/m/n/12 ^^A\OML/zpl
-m/m/it/12 T$ \T1/ppl/m/n/12 for al-loys pre-sented in Ta-ble [][]7.2. (a) Mg$[]
-$Zn$[]$Ca$[]$, 
+2 , []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , and []$\OT1/zplm/m/n/12 ^^A\OML/z
+plm/m/it/12 T$ \T1/ppl/m/n/12 for al-loys pre-sented in Ta-ble [][]7.2. (a) Mg$
+[]$Zn$[]$Ca$[]$, 
  []
 
 )
@@ -1789,15 +1789,9 @@ n mech-a-nism al-lows [][][]BMGs[][] to be post-processed
 
 File: ./images/ProcessingofBMGs_NewDraw.png Graphic file (type QTm)
 <use  "./images/ProcessingofBMGs_NewDraw.png" >
-Overfull \hbox (5.29819pt too wide) in paragraph at lines 299--300
-[]\T1/ppl/m/n/12 Figure [][][][]2.4[][] shows a TTT di-a-gram for a generic [][
-][]BMG[][]. Line (1) of this im-age shows the min-i-mum
- []
-
-
-Overfull \hbox (17.48965pt too wide) in paragraph at lines 299--300
-\T1/ppl/m/n/12 Line (2) then dis-plays an el-e-vated tem-per-a-ture pro-cess-in
-g win-dow avail-able for post-processing
+Overfull \hbox (4.98581pt too wide) in paragraph at lines 299--300
+\T1/ppl/m/n/12 nu-cle-ation when form-ing the [][][]BMG[][]. Line (2) then dis-
+plays an el-e-vated tem-per-a-ture pro-cess-ing
  []
 
 
@@ -2155,7 +2149,13 @@ Overfull \hbox (11.20166pt too wide) in paragraph at lines 805--806
 n when com-pared to CP Mg, sug-gest-ing
  []
 
-[42] [43]
+[42]
+Overfull \hbox (6.23361pt too wide) in paragraph at lines 813--814
+[][][][]\T1/ppl/m/n/12 Energy-dispersive X-ray spec-troscopy (EDS)[][] anal-y-s
+is via [][][]scan-ning elec-tron mi-croscopy (SEM)[][]
+ []
+
+[43]
 Chapter 5.
 
 Overfull \hbox (6.45026pt too wide) in paragraph at lines 818--819
@@ -2262,10 +2262,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 932.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 932.
  ) 
 Here is how much of TeX's memory you used:
- 46859 strings out of 428755
- 962630 string characters out of 3164221
- 1211896 words of memory out of 3000000
- 49518 multiletter control sequences out of 15000+200000
+ 46919 strings out of 428755
+ 963486 string characters out of 3164221
+ 1212624 words of memory out of 3000000
+ 49578 multiletter control sequences out of 15000+200000
  25871 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
