@@ -684,24 +684,42 @@ Pitting occur on anodic end of the Tafel Plots \cite{Schluter2012}.
 \glsresetall
 
 \section{Target Manufacture}
-The \glspl{tfmg} and \glspl{smg} are deposited onto various substrates via \gls{pvd} processes.
+The production of thin films by \gls{pvd} requires targets of appropriate composition for the desired film stoichiometry. These master alloy targets are produced by induction melting of pure constituent elements.
 
-\subsection{Induction Furnace} 
-The production of thin films via \gls{pvd} processes first requires the manufacture of targets from pure base elements. This is accomplished via induction furnace and shaping operations. 
+\subsection{Base Elements}
+The master alloy is prepared from pure constituent elements of Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%). Each element is polished and filed to removal surface contamination and oxides.
 
-\section{Charges Preparation}
-The pure alloy constituent elements of Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%) are polished and filed to removal surface contamination and oxides. The quantities of elements required are then checked via a developed MS Excel workbook which calculates constituent element weights, checks alloy composition, and provides a form for notes on the induction casting process (i.e. heating cycles, observations, possible future refinements, etc.).
+The total weight of each constituent element required for a master alloy charged is automatically calculated via a developed MS Excel workbook. This tool computes the necessary total weights of each element from the available innovatory, checks the expected master alloy composition, and provides a space for notes entire process (i.e. heating cycles, observations, possible future refinements, etc.).
 
 %single image
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.99\textwidth]{ChargeSheet.png}
-	\caption{Screenshot of the MS Excel tool developed for calculating charge weights, checking alloy composition, and taking notes for improvements in future charges.}
+	\caption{Screenshot of the MS Excel workbook developed for auto-calculating master alloy charge weights, checking expected master alloy composition, and taking notes for future improvements.}
 	\label{fig:ChargeSheet}
 \end{figure}
 
-\subsection{Induction Casting of Alloys}
+\subsection{Induction Furnace Casting}
 Thin 4mm plates \todo{First plate was 3mm. These were difficult to cast and often broke. Hence we went to 4mm.} of \MgZnCa~ alloy are produced via melting the constituent elements via induction furnace within a boron nitrate coated graphite crucible. The pure Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%) elements are heated under an inert Ar atmosphere and the plates produced via gravity casting. Alloy homogony is ensured via following a multiple heating/cooling cycle between the alloy's solidus/liquidus region and the liquid state. The \MgZnCa~ alloy cycle is; initial melting of all constituent elements together at 700\degree C, partial solidification at 385\degree C, remelt at 650\degree C, partial re-solidification at 385\degree C, and remelt at 650\degree C. The melt is then cooled to a casting temperature of 500 $-$ 510\degree C and gravity cast into a naturally cooled copper plate mould, producing thin plate of the alloy. 
+
+%code to put 2 images side by side in a figure
+\begin{figure}[htbp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{LAWS_Induction_Casting.png}
+		\caption{}
+		\label{fig:LawsCasting}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Laws_Copper_Mould.png}
+		\caption{}
+		\label{fig:LawsMould}
+	\end{subfigure}
+	\caption[(a) Inducting casting setup. (b) Copper plate mould.]{(a) Inducting casting setup. (b) Copper plate mould. Reproduced from \cite{Laws2007}.}%global caption
+	\label{fig:MgZnCaPlots}
+\end{figure}
 
 \subsection{Shaping of Targets}
 After casting the riser is cut off, and a target extracted from the amorphous plate via a slightly oversized diamond bit drill press. The amorphous target is then shaped into a nominally $1in$ ($25.2 - 25.4mm$) diameter disk via removal of excess pieces and linishing operations. The targets are then gradually polished on both sides to at least a P1200 grit, before they are suitable for use in the sputtering gun. 
@@ -710,13 +728,21 @@ After casting the riser is cut off, and a target extracted from the amorphous pl
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{CruciblePlateRiserRoughtarget.png}
-	\caption{(a) boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) cracked amorphous plate, (c) riser cut free from main casting, and (d) drilled and partly shaped target.}
+	\caption{(a) Boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) cracked amorphous plate, (c) riser cut free from main casting, and (d) drilled and partly shaped target.}
 	\label{fig:CrucibleShaping}
 \end{figure}
 
 \section{PVD via Magnetron Sputtering}
 \subsection{Sputtering of TFMGs and SMGs}
 Each target is expected to be able to deposit approximately $10 - 15~ \mu m$ of total film thickness onto a substrate, which is about an hour of deposition at rate of 3.3nm/s. After full deposition the targets are no longer usable and should be disposed. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Cao_SputterMachine.png}
+	\caption{\acrshort{dc} in house sputtering setup used. Reproduced from \cite{Cao2013}.}
+	\label{fig:CaoSputtering}
+\end{figure}
 
 \subsection{Sputtering Methods and Initial Parameters}
 Once placed in the sputtering gun the targets are prepared for deposition via a pre-sputter to remove contamination and oxides from their surface. The \glspl{tfmg} are deposited onto room temperature substrates, and \glspl{smg} onto elevated temperate substrates. The elevated temperatures are achieved and controlled via hot plate and thermocouple.
@@ -728,8 +754,6 @@ The initial \gls{tfmg} sputtering parameters will be based on Liu, et al. \cite{
 	\centering
 	\begin{tabular}{ l l l }
 		\toprule
-		\multicolumn{3}{c}{Sputter Parameters}\\
-		\midrule
 		Nominal Sputtering Parameters: & \acrshort{tfmg} & \acrshort{smg} \\
 		\midrule
 		Base Camber Pressure: & $3 \times 10^{-4} - 10^{-2}~ Pa$ & $5 \times 10^{-5} - 10^{-4}~ Pa$ \\
