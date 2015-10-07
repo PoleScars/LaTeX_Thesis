@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  7 OCT 2015 17:28
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  7 OCT 2015 18:22
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -2104,49 +2104,45 @@ File: ./images/LAWS_Induction_Casting.png Graphic file (type QTm)
 <use  "./images/LAWS_Induction_Casting.png" >
 File: ./images/Laws_Copper_Mould.png Graphic file (type QTm)
 
-<use  "./images/Laws_Copper_Mould.png" >
+<use  "./images/Laws_Copper_Mould.png" > [36]
 File: ./images/CruciblePlateRiserRoughtarget.png Graphic file (type QTm)
 
 <use  "./images/CruciblePlateRiserRoughtarget.png" >
-Overfull \hbox (3.71382pt too wide) in paragraph at lines 737--738
+Overfull \hbox (3.71382pt too wide) in paragraph at lines 746--747
 \T1/ppl/m/n/12 onto a sub-strate, which is about an hour of de-po-si-tion at ra
 te of 3.3nm/s. Af-ter full de-po-si-tion
  []
 
-[36] [37]
 File: ./images/Cao_SputterMachine.png Graphic file (type QTm)
- <use  "./images/Cao_SputterMachine.png" >
-Overfull \hbox (48.2167pt too wide) in paragraph at lines 750--751
+<use  "./images/Cao_SputterMachine.png" >
+Overfull \hbox (48.2167pt too wide) in paragraph at lines 759--760
 []\T1/ppl/m/n/12 The ini-tial [][][]TFMG[][] sput-ter-ing pa-ram-e-ters will be
  based on Liu, et al. [][[]] work on Zr$[]$Cu$[]$Ni$[]$Al$[]$  film
  []
 
-
-Overfull \hbox (23.1978pt too wide) in paragraph at lines 755--766
+[37] [38]
+Overfull \hbox (23.1978pt too wide) in paragraph at lines 764--775
  [][] 
  []
 
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-[38]
-Overfull \hbox (5.81436pt too wide) in paragraph at lines 777--778
+Overfull \hbox (5.81436pt too wide) in paragraph at lines 786--787
 []\T1/ppl/m/n/12 Films are eas-ily and read-ily de-posed onto un-doped (100) si
 l-i-con wafer with min-i-mal dif-fi-cult.
  []
 
 
-Overfull \hbox (8.74083pt too wide) in paragraph at lines 783--784
+Overfull \hbox (8.74083pt too wide) in paragraph at lines 792--793
 []\T1/ppl/m/n/12 Depositing films onto [][][]BMG[][] sub-strates of sim-i-lar c
 om-po-si-tion al-lows for prop-erty mod-i-fi-ca-tion
  []
 
 [39]
-Overfull \hbox (16.50555pt too wide) in paragraph at lines 792--793
+Overfull \hbox (16.50555pt too wide) in paragraph at lines 801--802
 []\T1/ppl/m/n/12 The phys-i-cal and chem-i-cal prop-er-ties of the films will b
 e char-ac-terised via a range of tech-niques;
  []
@@ -2156,13 +2152,13 @@ Chapter 4.
 [41
 
 ]
-Overfull \hbox (5.86093pt too wide) in paragraph at lines 813--814
+Overfull \hbox (5.86093pt too wide) in paragraph at lines 822--823
 \T1/ppl/m/n/12 How-ever it is pos-si-ble the tar-gets are semi-crystalline, es-
 pe-cially given how sub-tle exother-mal
  []
 
 
-Overfull \hbox (1.6025pt too wide) in paragraph at lines 819--820
+Overfull \hbox (1.6025pt too wide) in paragraph at lines 828--829
 \T1/ppl/m/n/12 Mg$[]$Zn$[]$Ca$[]$, and Mg$[]$Zn$[]$Ca$[]$ re-spec-tively shows,
  semi-crystalline struc-tures dis-play both
  []
@@ -2170,13 +2166,13 @@ Overfull \hbox (1.6025pt too wide) in paragraph at lines 819--820
 File: ./images/T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png Graphic file
  (type QTm)
 <use  "./images/T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png" >
-Overfull \hbox (11.20166pt too wide) in paragraph at lines 829--830
+Overfull \hbox (11.20166pt too wide) in paragraph at lines 838--839
 \T1/ppl/m/n/12 ca-thodic re-ac-tion ki-net-ics and de-creased an-odic re-ac-tio
 n when com-pared to [][][]CP[][] Mg, sug-gest-ing
  []
 
 [42]
-Overfull \hbox (6.23361pt too wide) in paragraph at lines 837--838
+Overfull \hbox (6.23361pt too wide) in paragraph at lines 846--847
 [][][][]\T1/ppl/m/n/12 Energy-dispersive X-ray spec-troscopy (EDS)[][] anal-y-s
 is via [][][]scan-ning elec-tron mi-croscopy (SEM)[][]
  []
@@ -2184,7 +2180,7 @@ is via [][][]scan-ning elec-tron mi-croscopy (SEM)[][]
 [43]
 Chapter 5.
 
-Overfull \hbox (6.45026pt too wide) in paragraph at lines 842--843
+Overfull \hbox (6.45026pt too wide) in paragraph at lines 851--852
 []\T1/ppl/m/n/12 Found [][][]thin film metal-lic glasses (TFMGs)[][] and [][][]
 ul-tra-stable metal-lic glasses (SMGs)[][] were... 
  []
@@ -2262,7 +2258,7 @@ File: ./images/MgZnCa300CPhaseDiagram_SprMats.png Graphic file (type QTm)
 File: ./images/MgZnCaLiquidPhase_SprMats.png Graphic file (type QTm)
 
 <use  "./images/MgZnCaLiquidPhase_SprMats.png" >
-Overfull \hbox (22.5048pt too wide) in paragraph at lines 897--921
+Overfull \hbox (22.5048pt too wide) in paragraph at lines 906--930
  [][] 
  []
 
@@ -2280,22 +2276,22 @@ File: ./images/Mg75-XZn20+XCa5.png Graphic file (type QTm)
 
 
 ] [56] [57]) [58]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 956.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 956.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 965.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 965.
  ("ScottGleason PhDThesis.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 956.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 956.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 965.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 965.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 956.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 965.
  ) 
 Here is how much of TeX's memory you used:
- 46885 strings out of 428755
- 963451 string characters out of 3164221
- 1210442 words of memory out of 3000000
- 49550 multiletter control sequences out of 15000+200000
+ 46961 strings out of 428755
+ 964693 string characters out of 3164221
+ 1211314 words of memory out of 3000000
+ 49626 multiletter control sequences out of 15000+200000
  25871 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
