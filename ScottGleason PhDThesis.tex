@@ -718,9 +718,19 @@ The total weight of each constituent element required for a master alloy charged
 	\label{fig:ChargeSheet}
 \end{figure}
 
-\subsection{Induction Furnace Casting}
+\subsection{Induction Furnace Melting}
+The master alloy is produced from the prepared base element ingots by a in house induction furnace. This furnace circulates Ar (99.997 vol.\% purity) over the melt at $80 cm^{3} / min$ to prevent oxidation of the melt. Temperature is regulated by a K-type thermocouple. Boron nitride coated graphite crucible are used because the coating is inert in molten Mg. Stirring is accomplished with a tungsten rod. 
+
 Thin 4mm plates \todo{First plate was 3mm. These were difficult to cast and often broke. Hence we went to 4mm.} of \MgZnCa~ alloy are produced via melting the constituent elements via induction furnace within a boron nitrate coated graphite crucible. The pure Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%) elements are heated under an inert Ar atmosphere and the plates produced via gravity casting. Alloy homogony is ensured via following a multiple heating/cooling cycle between the alloy's solidus/liquidus region and the liquid state. The \MgZnCa~ alloy cycle is; initial melting of all constituent elements together at 700\degree C, partial solidification at 385\degree C, remelt at 650\degree C, partial re-solidification at 385\degree C, and remelt at 650\degree C. The melt is then cooled to a casting temperature of 500 $-$ 510\degree C and gravity cast into a naturally cooled copper plate mould, producing thin plate of the alloy. 
 \todo{add crucible size, and mould size.}
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Ex_Laws_Induction_Schematic.png}
+	\caption[Induction casting schematic.]{Induction casting schematic. Modified from \cite{Laws2007}}
+	\label{fig:CastingSchematic}
+\end{figure}
 
 %code to put 4 images side by side in a figure
 \begin{figure}[htbp]
@@ -756,6 +766,20 @@ Thin 4mm plates \todo{First plate was 3mm. These were difficult to cast and ofte
 \subsection{Final Shaping}
 Once a master alloy plate is cast the riser is removed. The plate is mounted in a polymer grip vice and the riser carefully cut off with a 24 or 32 \acrshort{tpi} hacksaw. Paper is placed under the vice grips to capture the dust for later analysis.
 
+The target is extracted from the plate by a notched $32 mm$ diameter diamond bit drill on a Hercus Sales (W2) drill press at 360 \acrshort{rpm} with a bore rate of approximately $15mm/hr$. The plate is mounted in a polymer grip horizontal vice on top of cut plywood for dampening, and placed in a drip tray. A constant stream of lubricating distilled water is supplied by a standard spray bottle.
+
+The target is then shaped to a nominally $1 in$ ($25.2 - 25.4 mm$) diameter disk by removal of excess circumferential material. Large sections are removed by hacksaw with finer shaping accomplished by linishing operations. Target roundness is checked throughout by comparing with a 2 Euro or washer template, $25.75 mm$ and nominal $1 in$ diameter respectively. Final nominal target diameter is confirmed by vernier caliper measurement.  
+
+The target is progressively manually polished with light pressure on glass plate in a figure eight pattern with flowing lubricating water. The grit progression is 320, 800, 1200, and 4000 with target washing between all stages. After 800 and higher grit stages the target is ultrasound cleaned for 1 minute in soap and water. Polishing wheels are not used because they produce a less consistent flat surface and targets require high surface tolerance to fire within the sputtering gun. Target flatness is check by micrometre, with nominal variation between the two opposing surfaces being less than 1\% the target diameter, about $0.254 mm$. 
+
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Ex_CruciblePlateRiserRoughtarget.png}
+	\caption{(a) Boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) Cracked amorphous plate, (c) Riser cut free from main casting, and (d) Drilled and partly shaped target.}
+	\label{fig:CrucibleShaping}
+\end{figure}
+
 %code to put 4 images side by side in a figure
 \begin{figure}[htbp]
 	\centering
@@ -785,20 +809,6 @@ Once a master alloy plate is cast the riser is removed. The plate is mounted in 
 	\end{subfigure}
 	\caption{(a) Polymer grip vice clamping plate below riser and 32 \acrshort{tpi} hacksaw. (b) Fully shaped target with 2 Euro and washer template. (c) Notched $32 mm$ diameter diamond drill bit. (d) Drill press, bit, horizontial vice with polymer grips, plywood damper and drip tray for target extraction.}%global caption
 	\label{fig:ShapingEquipment}
-\end{figure}
-
-The target is extracted from the plate by a notched $32 mm$ diameter diamond bit drill on a Hercus Sales (W2) drill press at 360 \acrshort{rpm} with a bore rate of approximately $15mm/hr$. The plate is mounted in a polymer grip horizontal vice on top of cut plywood for dampening, and placed in a drip tray. A constant stream of lubricating distilled water is supplied by a standard spray bottle.
-
-The target is then shaped to a nominally $1 in$ ($25.2 - 25.4 mm$) diameter disk by removal of excess circumferential material. Large sections are removed by hacksaw with finer shaping accomplished by linishing operations. Target roundness is checked throughout by comparing with a 2 Euro or washer template, $25.75 mm$ and nominal $1 in$ diameter respectively. Final nominal target diameter is confirmed by vernier caliper measurement.  
-
-The target is progressively manually polished with light pressure on glass plate in a figure eight pattern with flowing lubricating water. The grit progression is 320, 800, 1200, and 4000 with target washing between all stages. After 800 and higher grit stages the target is ultrasound cleaned for 1 minute in soap and water. Polishing wheels are not used because they produce a less consistent flat surface and targets require high surface tolerance to fire within the sputtering gun. Target flatness is check by micrometre, with nominal variation between the two opposing surfaces being less than 1\% the target diameter, about $0.254 mm$. 
-
-%single image
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.75\textwidth]{Ex_CruciblePlateRiserRoughtarget.png}
-	\caption{(a) Boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) Cracked amorphous plate, (c) Riser cut free from main casting, and (d) Drilled and partly shaped target.}
-	\label{fig:CrucibleShaping}
 \end{figure}
 
 \section{PVD via Magnetron Sputtering}

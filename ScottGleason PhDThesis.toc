@@ -53,29 +53,29 @@
 \contentsline {chapter}{\numberline {3}EXPERIMENTAL PROCEDURE}{35}{chapter.3}
 \contentsline {section}{\numberline {3.1}Target Manufacture}{35}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Base Elements}{35}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Induction Furnace Casting}{35}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Final Shaping}{37}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.2}Induction Furnace Melting}{35}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Final Shaping}{39}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}PVD via Magnetron Sputtering}{39}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Sputtering of TFMGs and SMGs}{39}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Sputtering Methods and Initial Parameters}{39}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Examined Substrates}{41}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Silicon Wafer Substrate}{41}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Water Soluble Substrate}{41}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}BMG Substrate}{41}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Polycaprolactone (PCL) Scaffolds}{42}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Film Characterisation}{42}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Physical and Chemical Properties}{42}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Biocompatibility and Bioabsorption}{42}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Quality of Deposition}{42}{subsection.3.4.3}
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{43}{chapter.4}
-\contentsline {section}{\numberline {4.1}Experimental Results}{43}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Casting Challenges and Observations}{43}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}DSC Scans}{43}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Target Structure}{44}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Target Composition}{45}{subsection.4.1.4}
-\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{46}{chapter.5}
-\contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{47}{chapter.6}
-\contentsline {chapter}{\numberline {7}APPENDICES}{53}{chapter.7}
-\contentsline {section}{\numberline {7.1}MgZnCa System}{53}{section.7.1}
-\contentsline {chapter}{GLOSSARY}{57}{section*.88}
+\contentsline {section}{\numberline {3.3}Examined Substrates}{43}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Silicon Wafer Substrate}{43}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Water Soluble Substrate}{43}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}BMG Substrate}{43}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Polycaprolactone (PCL) Scaffolds}{43}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Film Characterisation}{44}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Physical and Chemical Properties}{44}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Biocompatibility and Bioabsorption}{44}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Quality of Deposition}{44}{subsection.3.4.3}
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Experimental Results}{45}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Casting Challenges and Observations}{45}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}DSC Scans}{45}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Target Structure}{46}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Target Composition}{47}{subsection.4.1.4}
+\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{48}{chapter.5}
+\contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{49}{chapter.6}
+\contentsline {chapter}{\numberline {7}APPENDICES}{55}{chapter.7}
+\contentsline {section}{\numberline {7.1}MgZnCa System}{55}{section.7.1}
+\contentsline {chapter}{GLOSSARY}{59}{section*.89}
 \contentsfinish 

@@ -19,16 +19,17 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces (a) Struers Discotom-6 auto-cutter. (b) Cut and fully deoxided Mg ingot ready for casting.\relax }}{36}{figure.caption.69}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Screenshot of the MS Excel workbook developed for auto-calculating master alloy charge weights, checking expected master alloy composition, and taking notes for future refinements.\relax }}{36}{figure.caption.70}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces (a) Inducting casting chamber. (b) Boron nitrate coated graphite crucible with Mg and Zn ingot charge. (c) Copper plate mould parameters. (d) Cast master alloy plate within mould.}}{37}{figure.caption.73}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) Polymer grip vice clamping plate below riser and 32 \acrshort {tpi} hacksaw. (b) Fully shaped target with 2 Euro and washer template. (c) Notched $32 mm$ diameter diamond drill bit. (d) Drill press, bit, horizontial vice with polymer grips, plywood damper and drip tray for target extraction.\relax }}{38}{figure.caption.74}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Induction casting schematic.}}{37}{figure.caption.73}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) Inducting casting chamber. (b) Boron nitrate coated graphite crucible with Mg and Zn ingot charge. (c) Copper plate mould parameters. (d) Cast master alloy plate within mould.}}{38}{figure.caption.74}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces (a) Boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) Cracked amorphous plate, (c) Riser cut free from main casting, and (d) Drilled and partly shaped target.\relax }}{40}{figure.caption.75}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces In house \acrshort {dc} sputtering setup. Reproduced from \cite {Cao2013}.\relax }}{40}{figure.caption.76}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces (a) Polymer grip vice clamping plate below riser and 32 \acrshort {tpi} hacksaw. (b) Fully shaped target with 2 Euro and washer template. (c) Notched $32 mm$ diameter diamond drill bit. (d) Drill press, bit, horizontial vice with polymer grips, plywood damper and drip tray for target extraction.\relax }}{41}{figure.caption.76}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces In house \acrshort {dc} sputtering setup. Reproduced from \cite {Cao2013}.\relax }}{42}{figure.caption.77}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \acrshort {dsc} trace of the 3mm Mg$_{65}$Zn$_{30}$Ca$_{5}$\nobreakspace {} target plate casting. The trace shows clear endothermic troughs indicating \acrshort {Tm} and \acrshort {Tl}, but no clear exothermal peaks which would indicate \acrshort {Tg} and \acrshort {Tx}. This data suggest the casting is primary crystalline.\relax }}{45}{figure.caption.81}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \acrshort {dsc} trace of the 3mm Mg$_{65}$Zn$_{30}$Ca$_{5}$\nobreakspace {} target plate casting. The trace shows clear endothermic troughs indicating \acrshort {Tm} and \acrshort {Tl}, but no clear exothermal peaks which would indicate \acrshort {Tg} and \acrshort {Tx}. This data suggest the casting is primary crystalline.\relax }}{47}{figure.caption.82}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Partial isothermal ternary phase diagram of MgZnCa system at 300$^{\circ }$C.}}{53}{figure.caption.83}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Liquidus Projection ternary phase diagram of MgZnCa system.}}{54}{figure.caption.85}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Plots of \acrshort {Tg}, \acrshort {Tx}, \acrshort {Tm}, \acrshort {Tl}, and \acrshort {dT} for alloys presented in Table \ref {tab:MgZnCaAlloys}. (a) Mg$_{72-X}$Zn$_{24+X}$Ca$_{4}$, (b) Mg$_{70-X}$Zn$_{24+X}$Ca$_{6}$, (c) Mg$_{75-X}$Zn$_{20+X}$Ca$_{5}$.}}{56}{figure.caption.87}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Partial isothermal ternary phase diagram of MgZnCa system at 300$^{\circ }$C.}}{55}{figure.caption.84}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Liquidus Projection ternary phase diagram of MgZnCa system.}}{56}{figure.caption.86}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Plots of \acrshort {Tg}, \acrshort {Tx}, \acrshort {Tm}, \acrshort {Tl}, and \acrshort {dT} for alloys presented in Table \ref {tab:MgZnCaAlloys}. (a) Mg$_{72-X}$Zn$_{24+X}$Ca$_{4}$, (b) Mg$_{70-X}$Zn$_{24+X}$Ca$_{6}$, (c) Mg$_{75-X}$Zn$_{20+X}$Ca$_{5}$.}}{58}{figure.caption.88}
 \contentsfinish 
