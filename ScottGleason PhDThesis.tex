@@ -684,17 +684,36 @@ Pitting occur on anodic end of the Tafel Plots \cite{Schluter2012}.
 \glsresetall
 
 \section{Target Manufacture}
-The production of thin films by \gls{pvd} requires targets of appropriate composition for the desired film stoichiometry. These master alloy targets are produced by induction melting of pure constituent elements.
+The production of thin films by \gls{pvd} requires targets of appropriate composition for the desired film stoichiometry. These master alloy targets are produced by induction melting of pure constituent element ingots.
 
 \subsection{Base Elements}
-The master alloy is prepared from pure constituent elements of Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%). Each element is polished and filed to removal surface contamination and oxides.
+The master alloy is prepared from pure constituent element ingots of Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%). Each element ingot is polished and filed to removal surface contamination and oxides. The ingots are cut to size on an auto-cutter (Struers Discotom-6) at a feed rate of no more than $0.2 mm/s$ at $2850 - 3420$ \acrshort{rpm}.
 
-The total weight of each constituent element required for a master alloy charged is automatically calculated via a developed MS Excel workbook. This tool computes the necessary total weights of each element from the available innovatory, checks the expected master alloy composition, and provides a space for notes entire process (i.e. heating cycles, observations, possible future refinements, etc.).
+%code to put 2 images side by side in a figure
+\begin{figure}[htbp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Ex_AutoCutter.jpg}
+		\caption{}
+		\label{fig:AutoCutter}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.30\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Mg_Cut_Ingot.jpg}
+		\caption{}
+		\label{fig:MgIngot}
+	\end{subfigure}
+	\caption{(a) Struers Discotom-6 auto-cutter. (b) Cut and fully deoxided Mg ingot ready for casting.}%global caption
+	\label{fig:Cutter_MgIngot}
+\end{figure}
+
+The total weight of each constituent element required for a master alloy charged is automatically calculated via a developed MS Excel workbook. This tool computes the necessary total weights of each element from the available prepared ingot innovatory, checks the expected master alloy composition, and provides a space for notes entire process (i.e. heating cycles, observations, possible future refinements, etc.).
 
 %single image
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.99\textwidth]{ChargeSheet.png}
+	\includegraphics[width=0.99\textwidth]{Ex_ChargeSheet.png}
 	\caption{Screenshot of the MS Excel workbook developed for auto-calculating master alloy charge weights, checking expected master alloy composition, and taking notes for future improvements.}
 	\label{fig:ChargeSheet}
 \end{figure}
@@ -702,41 +721,82 @@ The total weight of each constituent element required for a master alloy charged
 \subsection{Induction Furnace Casting}
 Thin 4mm plates \todo{First plate was 3mm. These were difficult to cast and often broke. Hence we went to 4mm.} of \MgZnCa~ alloy are produced via melting the constituent elements via induction furnace within a boron nitrate coated graphite crucible. The pure Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%) elements are heated under an inert Ar atmosphere and the plates produced via gravity casting. Alloy homogony is ensured via following a multiple heating/cooling cycle between the alloy's solidus/liquidus region and the liquid state. The \MgZnCa~ alloy cycle is; initial melting of all constituent elements together at 700\degree C, partial solidification at 385\degree C, remelt at 650\degree C, partial re-solidification at 385\degree C, and remelt at 650\degree C. The melt is then cooled to a casting temperature of 500 $-$ 510\degree C and gravity cast into a naturally cooled copper plate mould, producing thin plate of the alloy. 
 
-%code to put 2 images side by side in a figure
+%code to put 4 images side by side in a figure
 \begin{figure}[htbp]
 	\centering
 	%Image 1
 	\begin{subfigure}[htbp]{0.49\textwidth}
-		\includegraphics[width=\textwidth]{LAWS_Induction_Casting.png}
+		\includegraphics[width=\textwidth]{Ex_LAWS_Induction_Casting.png}
 		\caption{}
 		\label{fig:LawsCasting}
 	\end{subfigure}
+	%Image 4
+	\begin{subfigure}[htbp]{0.375\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Crucible_Charge.jpg}
+		\caption{}
+		\label{fig:CrucibleCharge}
+	\end{subfigure}
 	%Image 2
-	\begin{subfigure}[htbp]{0.49\textwidth}
-		\includegraphics[width=\textwidth]{Laws_Copper_Mould.png}
+	\begin{subfigure}[htbp]{0.41\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Laws_Copper_Mould.png}
 		\caption{}
 		\label{fig:LawsMould}
 	\end{subfigure}
-	\caption[(a) Inducting casting setup. (b) Copper plate mould.]{(a) Inducting casting setup. (b) Copper plate mould. Reproduced from \cite{Laws2007}.}%global caption
-	\label{fig:MgZnCaPlots}
+	%Image 3
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Mould_Cast_Plate.jpg}
+		\caption{}
+		\label{fig:FilledMould}
+	\end{subfigure}
+	\caption[(a) Inducting casting chamber. (b) Boron nitrate coated graphite crucible with Mg and Zn ingot charge. (c) Copper plate mould parameters. (d) Cast master alloy plate within mould.]{(a) Inducting casting chamber. (b) Boron nitrate coated graphite crucible with Mg and Zn ingot charge. (c) Copper plate mould parameters. (d) Cast master alloy plate within mould. (a) and (c) reproduced from \cite{Laws2007}.}%global caption
+	\label{fig:Induction}
 \end{figure}
 
 \subsection{Final Shaping}
-Once a master alloy plate is cast the riser is removed. The plate is mounted in a polymer grip vice and the riser carefully cut off with a 24 or 32 \acrshort{tpi} hacksaw. Paper is placed under the vice grips to capture the dust for later analysis. \todo{add photo riser removal}
+Once a master alloy plate is cast the riser is removed. The plate is mounted in a polymer grip vice and the riser carefully cut off with a 24 or 32 \acrshort{tpi} hacksaw. Paper is placed under the vice grips to capture the dust for later analysis.
 
-The target is extracted from the plate by a $32 mm$ diameter diamond bit drill on a 'xxx brand' drill press at xxx \acrshort{rpm}. The plate is mounted in a polymer grip horizontal vice on top of cut plywood for dampening. Drilling is at a slow rate of approximately $3mm$ per $10$ minutes, with a constant stream of distilled water for lubrication. 
+%code to put 4 images side by side in a figure
+\begin{figure}[htbp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Vice_Hacksaw.jpg}
+		\caption{}
+		\label{fig:Vice}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.38\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Target_Euro.jpg}
+		\caption{}
+		\label{fig:TargetEuro}
+	\end{subfigure}
+	%Image 3
+	\begin{subfigure}[htbp]{0.275\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Drill_Bit.jpg}
+		\caption{}
+		\label{fig:DrillBit}
+	\end{subfigure}
+	%Image 4
+	\begin{subfigure}[htbp]{0.30\textwidth}
+		\includegraphics[width=\textwidth]{Ex_Drill_Press.jpg}
+		\caption{}
+		\label{fig:DrillPress}
+	\end{subfigure}
+	\caption{(a) Polymer grip vice and 32 \acrshort{tpi} hacksaw used to remove plate riser. (b) Fully shaped target with 2 Euro and washer template. (c) Notched $32 mm$ diameter drill bit. (d) Drill press, bit, horizontial vice with polymer grips, plywood damper and drip tray for target extraction.}%global caption
+	\label{fig:ShapingEquipment}
+\end{figure}
+
+The target is extracted from the plate by a notched $32 mm$ diameter diamond bit drill on a Hercus Sales (W2) drill press at 360 \acrshort{rpm}. The plate is mounted in a polymer grip horizontal vice on top of cut plywood for dampening. Drilling is at a slow rate of approximately $3mm$ per $10$ minutes, with a constant stream of distilled water for lubrication. 
 
 The entire set-up is positioned in a drip tray. 
 
 
 The target is extracted from the plate via a $32 mm$ diameter diamond bit drill on a drill press. The amorphous target is then shaped into a nominally $1 in$ ($25.2 - 25.4 mm$) diameter disk via removal of excess pieces and linishing operations. The targets are then gradually polished on both sides to at least a P1200 grit, before they are suitable for use in the sputtering gun. 
 
-\todo{Add photo of drill press set up, with bit, drip tray, etc.}
-
 %single image
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.75\textwidth]{CruciblePlateRiserRoughtarget.png}
+	\includegraphics[width=0.75\textwidth]{Ex_CruciblePlateRiserRoughtarget.png}
 	\caption{(a) Boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) cracked amorphous plate, (c) riser cut free from main casting, and (d) drilled and partly shaped target.}
 	\label{fig:CrucibleShaping}
 \end{figure}
@@ -748,7 +808,7 @@ Each target is expected to be able to deposit approximately $10 - 15~ \mu m$ of 
 %single image
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.75\textwidth]{Cao_SputterMachine.png}
+	\includegraphics[width=0.75\textwidth]{Ex_Cao_SputterMachine.png}
 	\caption{\acrshort{dc} in house sputtering setup used. Reproduced from \cite{Cao2013}.}
 	\label{fig:CaoSputtering}
 \end{figure}
