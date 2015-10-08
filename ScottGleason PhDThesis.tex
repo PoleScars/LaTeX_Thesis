@@ -708,18 +708,19 @@ The master alloy is prepared from pure constituent element ingots of Mg (99.85 w
 	\label{fig:Cutter_MgIngot}
 \end{figure}
 
-The total weight of each constituent element required for a master alloy charged is automatically calculated via a developed MS Excel workbook. This tool computes the necessary total weights of each element from the available prepared ingot innovatory, checks the expected master alloy composition, and provides a space for notes entire process (i.e. heating cycles, observations, possible future refinements, etc.).
+The total weight of each constituent element required for a master alloy charged is automatically calculated via a developed MS Excel workbook. This tool auto-computes the required weights of each element from the prepared ingot innovatory, checks the expected master alloy composition, and provides a space for notes entire process (i.e. heating cycles, observations, possible future refinements, etc.).
 
 %single image
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.99\textwidth]{Ex_ChargeSheet.png}
-	\caption{Screenshot of the MS Excel workbook developed for auto-calculating master alloy charge weights, checking expected master alloy composition, and taking notes for future improvements.}
+	\caption{Screenshot of the MS Excel workbook developed for auto-calculating master alloy charge weights, checking expected master alloy composition, and taking notes for future refinements.}
 	\label{fig:ChargeSheet}
 \end{figure}
 
 \subsection{Induction Furnace Casting}
 Thin 4mm plates \todo{First plate was 3mm. These were difficult to cast and often broke. Hence we went to 4mm.} of \MgZnCa~ alloy are produced via melting the constituent elements via induction furnace within a boron nitrate coated graphite crucible. The pure Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%) elements are heated under an inert Ar atmosphere and the plates produced via gravity casting. Alloy homogony is ensured via following a multiple heating/cooling cycle between the alloy's solidus/liquidus region and the liquid state. The \MgZnCa~ alloy cycle is; initial melting of all constituent elements together at 700\degree C, partial solidification at 385\degree C, remelt at 650\degree C, partial re-solidification at 385\degree C, and remelt at 650\degree C. The melt is then cooled to a casting temperature of 500 $-$ 510\degree C and gravity cast into a naturally cooled copper plate mould, producing thin plate of the alloy. 
+\todo{add crucible size, and mould size.}
 
 %code to put 4 images side by side in a figure
 \begin{figure}[htbp]
@@ -782,22 +783,21 @@ Once a master alloy plate is cast the riser is removed. The plate is mounted in 
 		\caption{}
 		\label{fig:DrillPress}
 	\end{subfigure}
-	\caption{(a) Polymer grip vice and 32 \acrshort{tpi} hacksaw used to remove plate riser. (b) Fully shaped target with 2 Euro and washer template. (c) Notched $32 mm$ diameter drill bit. (d) Drill press, bit, horizontial vice with polymer grips, plywood damper and drip tray for target extraction.}%global caption
+	\caption{(a) Polymer grip vice clamping plate below riser and 32 \acrshort{tpi} hacksaw. (b) Fully shaped target with 2 Euro and washer template. (c) Notched $32 mm$ diameter diamond drill bit. (d) Drill press, bit, horizontial vice with polymer grips, plywood damper and drip tray for target extraction.}%global caption
 	\label{fig:ShapingEquipment}
 \end{figure}
 
-The target is extracted from the plate by a notched $32 mm$ diameter diamond bit drill on a Hercus Sales (W2) drill press at 360 \acrshort{rpm}. The plate is mounted in a polymer grip horizontal vice on top of cut plywood for dampening. Drilling is at a slow rate of approximately $3mm$ per $10$ minutes, with a constant stream of distilled water for lubrication. 
+The target is extracted from the plate by a notched $32 mm$ diameter diamond bit drill on a Hercus Sales (W2) drill press at 360 \acrshort{rpm} with a bore rate of approximately $15mm/hr$. The plate is mounted in a polymer grip horizontal vice on top of cut plywood for dampening, and placed in a drip tray. A constant stream of lubricating distilled water is supplied by a standard spray bottle.
 
-The entire set-up is positioned in a drip tray. 
+The target is then shaped to a nominally $1 in$ ($25.2 - 25.4 mm$) diameter disk by removal of excess circumferential material. Large sections are removed by hacksaw with finer shaping accomplished by linishing operations. Target roundness is checked throughout by comparing with a 2 Euro or washer template, $25.75 mm$ and nominal $1 in$ diameter respectively. Final nominal target diameter is confirmed by vernier caliper measurement.  
 
-
-The target is extracted from the plate via a $32 mm$ diameter diamond bit drill on a drill press. The amorphous target is then shaped into a nominally $1 in$ ($25.2 - 25.4 mm$) diameter disk via removal of excess pieces and linishing operations. The targets are then gradually polished on both sides to at least a P1200 grit, before they are suitable for use in the sputtering gun. 
+The target is progressively manually polished with light pressure on glass plate in a figure eight pattern with flowing lubricating water. The grit progression is 320, 800, 1200, and 4000 with target washing between all stages. After 800 and higher grit stages the target is ultrasound cleaned for 1 minute in soap and water. Polishing wheels are not used because they produce a less consistent flat surface and targets require high surface tolerance to fire within the sputtering gun. Target flatness is check by micrometre, with nominal variation between the two opposing surfaces being less than 1\% the target diameter, about $0.254 mm$. 
 
 %single image
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Ex_CruciblePlateRiserRoughtarget.png}
-	\caption{(a) Boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) cracked amorphous plate, (c) riser cut free from main casting, and (d) drilled and partly shaped target.}
+	\caption{(a) Boron nitrate coated graphite crucible for induction furnace melting of alloys, (b) Cracked amorphous plate, (c) Riser cut free from main casting, and (d) Drilled and partly shaped target.}
 	\label{fig:CrucibleShaping}
 \end{figure}
 
@@ -809,7 +809,7 @@ Each target is expected to be able to deposit approximately $10 - 15~ \mu m$ of 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Ex_Cao_SputterMachine.png}
-	\caption{\acrshort{dc} in house sputtering setup used. Reproduced from \cite{Cao2013}.}
+	\caption{In house \acrshort{dc} sputtering setup. Reproduced from \cite{Cao2013}.}
 	\label{fig:CaoSputtering}
 \end{figure}
 

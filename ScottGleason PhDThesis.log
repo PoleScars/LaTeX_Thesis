@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  8 OCT 2015 12:30
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  8 OCT 2015 14:39
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -2089,6 +2089,18 @@ Overfull \hbox (17.72939pt too wide) in paragraph at lines 711--712
  a mas-ter al-loy charged is au-to-mat-i-cally
  []
 
+
+Overfull \hbox (6.73685pt too wide) in paragraph at lines 711--712
+\T1/ppl/m/n/12 cal-cu-lated via a de-vel-oped MS Ex-cel work-book. This tool au
+to-computes the re-quired weights
+ []
+
+
+Overfull \hbox (31.54134pt too wide) in paragraph at lines 711--712
+\T1/ppl/m/n/12 of each el-e-ment from the pre-pared in-got in-no-va-tory, check
+s the ex-pected mas-ter al-loy com-po-si-tion,
+ []
+
 File: ./images/Ex_ChargeSheet.png Graphic file (type QTm)
 <use  "./images/Ex_ChargeSheet.png" > [35
 
@@ -2116,34 +2128,42 @@ File: ./images/Ex_Drill_Bit.jpg Graphic file (type QTm)
 File: ./images/Ex_Drill_Press.jpg Graphic file (type QTm)
  <use  "./images/Ex_Drill_Press.jpg" >
 [37] [38]
+Overfull \hbox (4.52968pt too wide) in paragraph at lines 792--793
+\T1/ppl/m/n/12 ac-com-plished by lin-ish-ing op-er-a-tions. Tar-get round-ness 
+is checked through-out by com-par-ing
+ []
+
+
+Overfull \hbox (16.57835pt too wide) in paragraph at lines 794--795
+\T1/ppl/m/n/12 be-tween the two op-pos-ing sur-faces be-ing less than 1% the ta
+r-get di-am-e-ter, about $\OT1/ppl/m/n/12 0.254\OML/zplm/m/it/12 mm$\T1/ppl/m/n
+/12 . 
+ []
+
 File: ./images/Ex_CruciblePlateRiserRoughtarget.png Graphic file (type QTm)
- <use  "./images/Ex_CruciblePlateRiserRoughtarget.png" >
+<use  "./images/Ex_CruciblePlateRiserRoughtarget.png" >
 Overfull \hbox (3.71382pt too wide) in paragraph at lines 806--807
 \T1/ppl/m/n/12 onto a sub-strate, which is about an hour of de-po-si-tion at ra
 te of 3.3nm/s. Af-ter full de-po-si-tion
  []
 
-[39]
 File: ./images/Ex_Cao_SputterMachine.png Graphic file (type QTm)
- <use  "./images/Ex_Cao_SputterMachine.png" >
+<use  "./images/Ex_Cao_SputterMachine.png" >
 Overfull \hbox (48.2167pt too wide) in paragraph at lines 819--820
 []\T1/ppl/m/n/12 The ini-tial [][][]TFMG[][] sput-ter-ing pa-ram-e-ters will be
  based on Liu, et al. [][[]] work on Zr$[]$Cu$[]$Ni$[]$Al$[]$  film
  []
 
-
+[39] [40]
 Overfull \hbox (23.1978pt too wide) in paragraph at lines 824--835
  [][] 
  []
 
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplr8t!
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-Missing character: There is no – in font pplr8t!
-[40]
 Overfull \hbox (5.81436pt too wide) in paragraph at lines 846--847
 []\T1/ppl/m/n/12 Films are eas-ily and read-ily de-posed onto un-doped (100) si
 l-i-con wafer with min-i-mal dif-fi-cult.
@@ -2298,10 +2318,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1025.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1025.
  ) 
 Here is how much of TeX's memory you used:
- 46981 strings out of 428755
- 965050 string characters out of 3164221
- 1212174 words of memory out of 3000000
- 49637 multiletter control sequences out of 15000+200000
+ 46989 strings out of 428755
+ 965243 string characters out of 3164221
+ 1212335 words of memory out of 3000000
+ 49645 multiletter control sequences out of 15000+200000
  25871 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
