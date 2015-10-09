@@ -86,7 +86,7 @@
 \glossaryentry{MG?\glossentry{mg}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{MG?\glossentry{mg}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{MG?\glossentry{mg}|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{STZ?\glossentry{stz}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{STZ?\glossentry{stz}|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{MG?\glossentry{mg}|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{MG?\glossentry{mg}|setentrycounter[]{page}\glsnumberformat}{3}
 \glossaryentry{MG?\glossentry{mg}|setentrycounter[]{page}\glsnumberformat}{3}
@@ -130,9 +130,9 @@
 \glossaryentry{$T_{g}$?\glossentry{Tg}|setentrycounter[]{page}\glsnumberformat}{4}
 \glossaryentry{$H$?\glossentry{H}|setentrycounter[]{page}\glsnumberformat}{4}
 \glossaryentry{$V$?\glossentry{V}|setentrycounter[]{page}\glsnumberformat}{4}
-\glossaryentry{$T_{g}$?\glossentry{Tg}|setentrycounter[]{page}\glsnumberformat}{4}
-\glossaryentry{$H$?\glossentry{H}|setentrycounter[]{page}\glsnumberformat}{4}
-\glossaryentry{$V$?\glossentry{V}|setentrycounter[]{page}\glsnumberformat}{4}
+\glossaryentry{$T_{g}$?\glossentry{Tg}|setentrycounter[]{page}\glsnumberformat}{5}
+\glossaryentry{$H$?\glossentry{H}|setentrycounter[]{page}\glsnumberformat}{5}
+\glossaryentry{$V$?\glossentry{V}|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{$h$?\glossentry{h}|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{$v$?\glossentry{v}|setentrycounter[]{page}\glsnumberformat}{5}
 \glossaryentry{$T_{g}$?\glossentry{Tg}|setentrycounter[]{page}\glsnumberformat}{5}
@@ -466,7 +466,7 @@
 \glossaryentry{BMG?\glossentry{bmg}|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{GFA?\glossentry{gfa}|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{SMG?\glossentry{smg}|setentrycounter[]{page}\glsnumberformat}{26}
-\glossaryentry{SMG?\glossentry{smg}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{SMG?\glossentry{smg}|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{TFMG?\glossentry{tfmg}|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{USG?\glossentry{usg}|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{SMG?\glossentry{smg}|setentrycounter[]{page}\glsnumberformat}{27}
