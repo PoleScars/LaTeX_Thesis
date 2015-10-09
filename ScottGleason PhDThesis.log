@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  9 OCT 2015 12:33
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  9 OCT 2015 14:22
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1696,7 +1696,11 @@ pl/m/n/12 line. (b) Weak re-la-tion-ship be-tween the nor-malised
  []
 
 [8]
-Requested font "pplr8t" at 10.0pt
+Overfull \hbox (20.10625pt too wide) in paragraph at lines 23--23
+ \T1/ppl/m/n/12 Mg and Zn in-got charge. (c) 3D schematic of cop-per plate moul
+d with di-men-tions. 
+ []
+
 
 Overfull \hbox (0.73064pt too wide) in paragraph at lines 28--28
  \T1/ppl/m/n/12 clear en-dother-mic troughs in-di-cat-ing []$\OML/zplm/m/it/12 
@@ -1704,6 +1708,7 @@ T[]$ \T1/ppl/m/n/12 and []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , but no clear
 exother-mal peaks 
  []
 
+Requested font "pplr8t" at 10.0pt
 
 Overfull \hbox (36.92444pt too wide) in paragraph at lines 34--34
  [][] [][][]\T1/ppl/m/n/12 Plots of []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , [
@@ -2178,7 +2183,7 @@ Overfull \hbox (17.72939pt too wide) in paragraph at lines 711--712
 
 File: ./images/Ex_ChargeSheet.png Graphic file (type QTm)
 <use  "./images/Ex_ChargeSheet.png" >
-Overfull \hbox (15.15617pt too wide) in paragraph at lines 722--723
+Overfull \hbox (15.15617pt too wide) in paragraph at lines 723--724
 \T1/ppl/m/n/12 ca-pa-bil-ity [][[]]. The dyan-mic gas flow rate can be var-ied 
 from $\OT1/ppl/m/n/12 0 \OMS/zplm/m/n/12 ^^@ \OT1/ppl/m/n/12 200\OML/zplm/m/it/
 12 cm[]\OT1/zplm/m/n/12 /\OML/zplm/m/it/12 min$\T1/ppl/m/n/12 , and tem-per-a-t
@@ -2186,7 +2191,7 @@ ure
  []
 
 
-Overfull \hbox (46.44432pt too wide) in paragraph at lines 722--723
+Overfull \hbox (46.44432pt too wide) in paragraph at lines 723--724
 \T1/ppl/m/n/12 grav-ity cast-ing, in-verted in-jec-tion cast-ing, vac-uum/sucti
 on cast-ing or com-bi-na-tion in-jec-tion/vacuum
  []
@@ -2195,7 +2200,7 @@ on cast-ing or com-bi-na-tion in-jec-tion/vacuum
 
 ] [36]
 File: ./images/Ex_Laws_Induction_Schematic.png Graphic file (type QTm)
- <use  "./images/Ex_Laws_Induction_Schematic.png" >
+ <use  "./images/Ex_Laws_Induction_Schematic.png" > [37]
 File: ./images/Ex_LAWS_Induction_Casting.png Graphic file (type QTm)
 
 <use  "./images/Ex_LAWS_Induction_Casting.png" >
@@ -2207,20 +2212,9 @@ File: ./images/Ex_Laws_Copper_Mould.png Graphic file (type QTm)
 <use  "./images/Ex_Laws_Copper_Mould.png" >
 File: ./images/Ex_Mould_Cast_Plate.jpg Graphic file (type QTm)
 
-<use  "./images/Ex_Mould_Cast_Plate.jpg" >
-Overfull \hbox (4.52968pt too wide) in paragraph at lines 774--775
-\T1/ppl/m/n/12 ac-com-plished by lin-ish-ing op-er-a-tions. Tar-get round-ness 
-is checked through-out by com-par-ing
- []
-
-[37] [38] [39]
-Overfull \hbox (16.57835pt too wide) in paragraph at lines 776--777
-\T1/ppl/m/n/12 be-tween the two op-pos-ing sur-faces be-ing less than 1% the ta
-r-get di-am-e-ter, about $\OT1/ppl/m/n/12 0.254\OML/zplm/m/it/12 mm$\T1/ppl/m/n
-/12 . 
- []
-
+<use  "./images/Ex_Mould_Cast_Plate.jpg" > [38] [39]
 File: ./images/Ex_CruciblePlateRiserRoughtarget.png Graphic file (type QTm)
+
 <use  "./images/Ex_CruciblePlateRiserRoughtarget.png" >
 File: ./images/Ex_Vice_Hacksaw.jpg Graphic file (type QTm)
 
@@ -2232,61 +2226,57 @@ File: ./images/Ex_Drill_Bit.jpg Graphic file (type QTm)
 <use  "./images/Ex_Drill_Bit.jpg" >
 File: ./images/Ex_Drill_Press.jpg Graphic file (type QTm)
  <use  "./images/Ex_Drill_Press.jpg" >
-Overfull \hbox (3.71382pt too wide) in paragraph at lines 819--820
+Overfull \hbox (3.71382pt too wide) in paragraph at lines 827--828
 \T1/ppl/m/n/12 onto a sub-strate, which is about an hour of de-po-si-tion at ra
 te of 3.3nm/s. Af-ter full de-po-si-tion
  []
 
-[40] [41]
 File: ./images/Ex_Cao_SputterMachine.png Graphic file (type QTm)
- <use  "./images/Ex_Cao_SputterMachine.png" >
-Overfull \hbox (48.2167pt too wide) in paragraph at lines 832--833
+<use  "./images/Ex_Cao_SputterMachine.png" > [40] [41] [42]
+Overfull \hbox (48.2167pt too wide) in paragraph at lines 840--841
 []\T1/ppl/m/n/12 The ini-tial [][][]TFMG[][] sput-ter-ing pa-ram-e-ters will be
  based on Liu, et al. [][[]] work on Zr$[]$Cu$[]$Ni$[]$Al$[]$  film
  []
 
 
-Overfull \hbox (23.1978pt too wide) in paragraph at lines 837--848
+Overfull \hbox (23.1978pt too wide) in paragraph at lines 845--856
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
-[42]
-Overfull \hbox (5.81436pt too wide) in paragraph at lines 859--860
+[43]
+Overfull \hbox (5.81436pt too wide) in paragraph at lines 867--868
 []\T1/ppl/m/n/12 Films are eas-ily and read-ily de-posed onto un-doped (100) si
 l-i-con wafer with min-i-mal dif-fi-cult.
  []
 
 
-Overfull \hbox (8.74083pt too wide) in paragraph at lines 865--866
+Overfull \hbox (8.74083pt too wide) in paragraph at lines 873--874
 []\T1/ppl/m/n/12 Depositing films onto [][][]BMG[][] sub-strates of sim-i-lar c
 om-po-si-tion al-lows for prop-erty mod-i-fi-ca-tion
  []
 
-[43]
-Overfull \hbox (16.50555pt too wide) in paragraph at lines 874--875
+[44]
+Overfull \hbox (16.50555pt too wide) in paragraph at lines 882--883
 []\T1/ppl/m/n/12 The phys-i-cal and chem-i-cal prop-er-ties of the films will b
 e char-ac-terised via a range of tech-niques;
  []
 
-[44]
+[45]
 Chapter 4.
-[45
+[46
 
 ]
-Overfull \hbox (5.86093pt too wide) in paragraph at lines 895--896
+Overfull \hbox (5.86093pt too wide) in paragraph at lines 903--904
 \T1/ppl/m/n/12 How-ever it is pos-si-ble the tar-gets are semi-crystalline, es-
 pe-cially given how sub-tle exother-mal
  []
 
 
-Overfull \hbox (1.6025pt too wide) in paragraph at lines 901--902
+Overfull \hbox (1.6025pt too wide) in paragraph at lines 909--910
 \T1/ppl/m/n/12 Mg$[]$Zn$[]$Ca$[]$, and Mg$[]$Zn$[]$Ca$[]$ re-spec-tively shows,
  semi-crystalline struc-tures dis-play both
  []
@@ -2294,26 +2284,26 @@ Overfull \hbox (1.6025pt too wide) in paragraph at lines 901--902
 File: ./images/T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png Graphic file
  (type QTm)
 <use  "./images/T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png" >
-Overfull \hbox (11.20166pt too wide) in paragraph at lines 911--912
+Overfull \hbox (11.20166pt too wide) in paragraph at lines 919--920
 \T1/ppl/m/n/12 ca-thodic re-ac-tion ki-net-ics and de-creased an-odic re-ac-tio
 n when com-pared to [][][]CP[][] Mg, sug-gest-ing
  []
 
-[46]
-Overfull \hbox (6.23361pt too wide) in paragraph at lines 919--920
+[47]
+Overfull \hbox (6.23361pt too wide) in paragraph at lines 927--928
 [][][][]\T1/ppl/m/n/12 Energy-dispersive X-ray spec-troscopy (EDS)[][] anal-y-s
 is via [][][]scan-ning elec-tron mi-croscopy (SEM)[][]
  []
 
-[47]
+[48]
 Chapter 5.
 
-Overfull \hbox (6.45026pt too wide) in paragraph at lines 924--925
+Overfull \hbox (6.45026pt too wide) in paragraph at lines 932--933
 []\T1/ppl/m/n/12 Found [][][]thin film metal-lic glasses (TFMGs)[][] and [][][]
 ul-tra-stable metal-lic glasses (SMGs)[][] were... 
  []
 
-("ScottGleason PhDThesis.bbl" [48
+("ScottGleason PhDThesis.bbl" [49
 
 ]
 Chapter 6.
@@ -2325,7 +2315,7 @@ Underfull \hbox (badness 1097) in paragraph at lines 15--19
 
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
-[49
+[50
 
 ]
 Missing character: There is no – in font pplr8t!
@@ -2337,9 +2327,9 @@ Missing character: There is no ‐ in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
- [50]
-Missing character: There is no – in font pplr8t!
  [51]
+Missing character: There is no – in font pplr8t!
+ [52]
 Underfull \hbox (badness 1803) in paragraph at lines 220--223
 []\T1/ppl/m/n/12 C. A. An-gell.  For-ma-tion of glasses from liq-uids and biopo
 ly-mers.  \T1/ppl/m/it/12 Sci-ence\T1/ppl/m/n/12 ,
@@ -2356,7 +2346,7 @@ Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
-[52]
+[53]
 Missing character: There is no ’ in font pplr8t!
 Missing character: There is no ’ in font pplr8t!
 Missing character: There is no – in font pplr8t!
@@ -2369,7 +2359,7 @@ ng Wang, and
 
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
-[53]
+[54]
 Underfull \hbox (badness 1609) in paragraph at lines 371--375
 []\T1/ppl/m/n/12 R. Paris.  Sur les al-liages ter-naires magnésium-zinc-calcium
 .  \T1/ppl/m/it/12 Comptes Ren-dus
@@ -2377,16 +2367,16 @@ Underfull \hbox (badness 1609) in paragraph at lines 371--375
 
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
-) [54]
+) [55]
 Chapter 7.
 File: ./images/MgZnCa300CPhaseDiagram_SprMats.png Graphic file (type QTm)
-<use  "./images/MgZnCa300CPhaseDiagram_SprMats.png" > [55
+<use  "./images/MgZnCa300CPhaseDiagram_SprMats.png" > [56
 
 ]
 File: ./images/MgZnCaLiquidPhase_SprMats.png Graphic file (type QTm)
 
 <use  "./images/MgZnCaLiquidPhase_SprMats.png" >
-Overfull \hbox (22.5048pt too wide) in paragraph at lines 979--1003
+Overfull \hbox (22.5048pt too wide) in paragraph at lines 987--1011
  [][] 
  []
 
@@ -2399,25 +2389,25 @@ File: ./images/Mg70-XZn24+XCa6.png Graphic file (type QTm)
  <use  "./images/Mg70-XZn24+XCa6.png" >
 File: ./images/Mg75-XZn20+XCa5.png Graphic file (type QTm)
 
-<use  "./images/Mg75-XZn20+XCa5.png" > [56] ("ScottGleason PhDThesis.gls"
-[57] [58] [59
+<use  "./images/Mg75-XZn20+XCa5.png" > [57] ("ScottGleason PhDThesis.gls"
+[58] [59] [60
 
 
-] [60] [61]) [62]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1038.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1038.
+] [61] [62]) [63]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1046.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1046.
  ("ScottGleason PhDThesis.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1038.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1038.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1038.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1046.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1046.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1046.
  ) 
 Here is how much of TeX's memory you used:
- 47358 strings out of 428755
- 970910 string characters out of 3164221
- 1214033 words of memory out of 3000000
- 50003 multiletter control sequences out of 15000+200000
+ 47361 strings out of 428755
+ 970964 string characters out of 3164221
+ 1214101 words of memory out of 3000000
+ 50006 multiletter control sequences out of 15000+200000
  25927 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ScottGleason PhDThesis.pdf (73 pages).
+Output written on ScottGleason PhDThesis.pdf (74 pages).
