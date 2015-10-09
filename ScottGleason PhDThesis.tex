@@ -687,7 +687,7 @@ Pitting occur on anodic end of the Tafel Plots \cite{Schluter2012}.
 The production of thin films by \gls{pvd} requires targets of appropriate composition for the desired film stoichiometry. These master alloy targets are produced by induction melting of pure constituent element ingots.
 
 \subsection{Base Elements}
-The master alloy is prepared from pure constituent element ingots of Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%). Each element ingot is polished and filed to removal surface contamination and oxides. The ingots are cut to size on an auto-cutter (Struers Discotom-6) at a feed rate of no more than $0.2 mm/s$ at $2850 - 3420$ \acrshort{rpm}.
+The \MgZnCa~ master alloy is prepared from pure constituent element ingots of Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%). Each element ingot is polished and filed to removal surface contamination and oxides. The ingots are cut to size on an auto-cutter (Struers Discotom-6) at a feed rate of no more than $0.2 mm/s$ at $2850 - 3420$ \acrshort{rpm} (Figures \ref{fig:AutoCutter} and \ref{fig:MgIngot}).
 
 %code to put 2 images side by side in a figure
 \begin{figure}[htbp]
@@ -708,7 +708,7 @@ The master alloy is prepared from pure constituent element ingots of Mg (99.85 w
 	\label{fig:Cutter_MgIngot}
 \end{figure}
 
-The total weight of each constituent element required for a master alloy charged is automatically calculated via a developed MS Excel workbook. This tool auto-computes the required weights of each element from the prepared ingot innovatory, checks the expected master alloy composition, and provides a space for notes entire process (i.e. heating cycles, observations, possible future refinements, etc.).
+The total weight of each constituent element required for a master alloy charged is automatically calculated via a developed MS Excel workbook, Figure \ref{fig:ChargeSheet}. This tool auto-computes the required weights of each element from the prepared ingot innovatory, checks the expected master alloy composition, and provides a space for notes entire process (i.e. heating cycles, observations, possible future refinements, etc.).
 
 %single image
 \begin{figure}[htbp]
@@ -719,16 +719,19 @@ The total weight of each constituent element required for a master alloy charged
 \end{figure}
 
 \subsection{Induction Furnace Melting}
-The master alloy is produced from the prepared base element ingots by a in house induction furnace. This furnace circulates Ar (99.997 vol.\% purity) over the melt at $80 cm^{3} / min$ to prevent oxidation of the melt. Temperature is regulated by a K-type thermocouple. Boron nitride coated graphite crucible are used because the coating is inert in molten Mg. Stirring is accomplished with a tungsten rod. 
+The \MgZnCa~ master alloy was prepared from the base element ingots by an in house induction furnace and casting facility (Figures \ref{fig:CastingSchematic} and \ref{fig:LawsCasting}). The facility has a maximum temperature of 1300\degree C, heating rate of 500\degree C/min, and vacuum and dynamic gas melting capability \cite{Laws2007}. The dyanmic gas flow rate can be varied from $0-200 cm^{3}/min$, and temperature regulated by a K-type thermocouple \cite{Laws2007}. The casting capabilities allow for conventional gravity casting, inverted injection casting, vacuum/suction casting or combination injection/vacuum casting \cite{Laws2007}.
 
-Thin 4mm plates \todo{First plate was 3mm. These were difficult to cast and often broke. Hence we went to 4mm.} of \MgZnCa~ alloy are produced via melting the constituent elements via induction furnace within a boron nitrate coated graphite crucible. The pure Mg (99.85 wt\%), Zn (99.995 wt\%), and Ca (99.8 wt\%) elements are heated under an inert Ar atmosphere and the plates produced via gravity casting. Alloy homogony is ensured via following a multiple heating/cooling cycle between the alloy's solidus/liquidus region and the liquid state. The \MgZnCa~ alloy cycle is; initial melting of all constituent elements together at 700\degree C, partial solidification at 385\degree C, remelt at 650\degree C, partial re-solidification at 385\degree C, and remelt at 650\degree C. The melt is then cooled to a casting temperature of 500 $-$ 510\degree C and gravity cast into a naturally cooled copper plate mould, producing thin plate of the alloy. 
-\todo{add crucible size, and mould size.}
+Boron nitride coated graphite crucibles are used for the melting because the coating is inert in molten Mg. Two sizes are available for the facility, $32mm$ and $34mm$ diameter, by $85mm$ in length, allowing for melts of $40$ and $60cc$ respectively. The Mg and Zn ingots were places around the crucible with maximum wall to ingot contact, with the Ca being added on the top, Figure \ref{fig:CrucibleCharge}.
+
+The crucible was sealed in the induction furnace chamber, evacuated and purged with Ar (99.997 vol.\% purity) five times before starting a continues circulating Ar flow through the camber to prevent oxidation of the melt (Figures \ref{fig:CastingSchematic}). The crucible charge was induction melted at 700\degree C for a couple minutes and stirred with a tungsten rod. The melt was then partially solidification at 385\degree C, remelted and stirred at 650\degree C, partially re-solidification at 385\degree C, and remelted and stirred again at 650\degree C. The melt was then cooled to a casting temperature of $500- 510$\degree C and removed from the melt camber by the incorporated raising bar. This heating/cooling cycle between the alloy's solidus/liquidus region and the liquid state helps ensure a homogeneous melt. 
+
+For naturally cooled gravity casting the melt was manually poured into a prepared copper plate mould. This mould has spacers allowing for plate thickness ranging from $2mm$ to several $mm$, with $4mm$ plates proving the most practical (Figures \ref{fig:LawsMould} and \ref{fig:FilledMould}). The mould was prepared by cleaning with lint free paper, polishing with Brasso \textcopyright, and wiping clean again with paper.
 
 %single image
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Ex_Laws_Induction_Schematic.png}
-	\caption[Induction casting schematic.]{Induction casting schematic. Modified from \cite{Laws2007}}
+	\caption[Schematic of induction casting melting chamber.]{Schematic of induction casting melting chamber. Modified from \cite{Laws2007}.}
 	\label{fig:CastingSchematic}
 \end{figure}
 
@@ -764,11 +767,11 @@ Thin 4mm plates \todo{First plate was 3mm. These were difficult to cast and ofte
 \end{figure}
 
 \subsection{Final Shaping}
-Once a master alloy plate is cast the riser is removed. The plate is mounted in a polymer grip vice and the riser carefully cut off with a 24 or 32 \acrshort{tpi} hacksaw. Paper is placed under the vice grips to capture the dust for later analysis.
+Once a master alloy plate is cast the riser is removed. The plate is mounted in a polymer grip vice and the riser carefully cut off with a 24 or 32 \acrshort{tpi} hacksaw. Paper is placed under the vice grips to capture the dust for later analysis (Figure \ref{fig:Vice}).
 
-The target is extracted from the plate by a notched $32 mm$ diameter diamond bit drill on a Hercus Sales (W2) drill press at 360 \acrshort{rpm} with a bore rate of approximately $15mm/hr$. The plate is mounted in a polymer grip horizontal vice on top of cut plywood for dampening, and placed in a drip tray. A constant stream of lubricating distilled water is supplied by a standard spray bottle.
+The target is extracted from the plate by a notched $32 mm$ diameter diamond bit drill on a Hercus Sales (W2) drill press at 360 \acrshort{rpm} with a bore rate of approximately $15mm/hr$. The plate is mounted in a polymer grip horizontal vice on top of cut plywood for dampening, and placed in a drip tray. A constant stream of lubricating distilled water is supplied by a standard spray bottle (Figures \ref{fig:DrillBit} and \ref{fig:DrillPress}).
 
-The target is then shaped to a nominally $1 in$ ($25.2 - 25.4 mm$) diameter disk by removal of excess circumferential material. Large sections are removed by hacksaw with finer shaping accomplished by linishing operations. Target roundness is checked throughout by comparing with a 2 Euro or washer template, $25.75 mm$ and nominal $1 in$ diameter respectively. Final nominal target diameter is confirmed by vernier caliper measurement.  
+The target is then shaped to a nominally $1 in$ ($25.2 - 25.4 mm$) diameter disk by removal of excess circumferential material. Large sections are removed by hacksaw with finer shaping accomplished by linishing operations. Target roundness is checked throughout by comparing with a 2 Euro or washer template, $25.75 mm$ and nominal $1 in$ diameter respectively. Final nominal target diameter is confirmed by vernier caliper measurement (Figure \ref{fig:TargetEuro}).  
 
 The target is progressively manually polished with light pressure on glass plate in a figure eight pattern with flowing lubricating water. The grit progression is 320, 800, 1200, and 4000 with target washing between all stages. After 800 and higher grit stages the target is ultrasound cleaned for 1 minute in soap and water. Polishing wheels are not used because they produce a less consistent flat surface and targets require high surface tolerance to fire within the sputtering gun. Target flatness is check by micrometre, with nominal variation between the two opposing surfaces being less than 1\% the target diameter, about $0.254 mm$. 
 
