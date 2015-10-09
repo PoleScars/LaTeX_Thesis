@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  9 OCT 2015 14:22
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  9 OCT 2015 15:23
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1710,7 +1710,7 @@ exother-mal peaks
 
 Requested font "pplr8t" at 10.0pt
 
-Overfull \hbox (36.92444pt too wide) in paragraph at lines 34--34
+Overfull \hbox (36.92444pt too wide) in paragraph at lines 37--37
  [][] [][][]\T1/ppl/m/n/12 Plots of []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , [
 ]$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/1
 2 , []$\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , and []$\OT1/zplm/m/n/12 ^^A\OML/z
@@ -1721,10 +1721,10 @@ plm/m/it/12 T$ \T1/ppl/m/n/12 for al-loys pre-sented in Ta-ble [][]7.2. (a) Mg$
 )
 \tf@lof=\write8
  [9] ("ScottGleason PhDThesis.lot"
-Overfull \hbox (8.04738pt too wide) in paragraph at lines 9--9
- [][] [][][]\T1/ppl/m/n/12 MgZnCa ternary phases $\OML/zplm/m/it/12 T[]$\T1/ppl
-/m/n/12 , $\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , and $\OML/zplm/m/it/12 T[]$ \
-T1/ppl/m/n/12 of Fig-ure [][]7.1. Note: The first com-po-si-tion 
+Overfull \hbox (16.03929pt too wide) in paragraph at lines 9--9
+ [][] [][][]\T1/ppl/m/n/12 Mg-Zn-Ca ternary phases $\OML/zplm/m/it/12 T[]$\T1/p
+pl/m/n/12 , $\OML/zplm/m/it/12 T[]$\T1/ppl/m/n/12 , and $\OML/zplm/m/it/12 T[]$
+ \T1/ppl/m/n/12 of Fig-ure [][]7.4. Note: The first com-po-si-tion 
  []
 
 )
@@ -2359,8 +2359,16 @@ ng Wang, and
 
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
+Missing character: There is no – in font pplri8t!
+
+Underfull \hbox (badness 1237) in paragraph at lines 353--358
+[]\T1/ppl/m/n/12 B. Pre-del.  Mg-zn (magnesium-zinc).  In O. Madelung, ed-i-tor
+, \T1/ppl/m/it/12 Li-Mg  Nd-Zr\T1/ppl/m/n/12 ,
+ []
+
+Missing character: There is no − in font pplr8t!
 [54]
-Underfull \hbox (badness 1609) in paragraph at lines 371--375
+Underfull \hbox (badness 1609) in paragraph at lines 388--392
 []\T1/ppl/m/n/12 R. Paris.  Sur les al-liages ter-naires magnésium-zinc-calcium
 .  \T1/ppl/m/it/12 Comptes Ren-dus
  []
@@ -2369,14 +2377,28 @@ Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 ) [55]
 Chapter 7.
-File: ./images/MgZnCa300CPhaseDiagram_SprMats.png Graphic file (type QTm)
-<use  "./images/MgZnCa300CPhaseDiagram_SprMats.png" > [56
+File: ./images/Ph_Mg-Zn_Binary_Phase_Diagram.png Graphic file (type QTm)
+<use  "./images/Ph_Mg-Zn_Binary_Phase_Diagram.png" >
+File: ./images/Ph_Ca-Mg_Binary_Phase_Diagram.png Graphic file (type QTm)
 
-]
-File: ./images/MgZnCaLiquidPhase_SprMats.png Graphic file (type QTm)
+<use  "./images/Ph_Ca-Mg_Binary_Phase_Diagram.png" >
 
-<use  "./images/MgZnCaLiquidPhase_SprMats.png" >
-Overfull \hbox (22.5048pt too wide) in paragraph at lines 987--1011
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./images/Ph_Ca-Zn_Binary_Phase_Diagram.png Graphic file (type QTm)
+<use  "./images/Ph_Ca-Zn_Binary_Phase_Diagram.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[56
+
+] [57]
+File: ./images/Ph_MgZnCa300CPhaseDiagram_SprMats.png Graphic file (type QTm)
+ <use  "./images/Ph_MgZnCa300CPhaseDiagram_SprMats.png" >
+File: ./images/Ph_MgZnCaLiquidPhase_SprMats.png Graphic file (type QTm)
+
+<use  "./images/Ph_MgZnCaLiquidPhase_SprMats.png" >
+Overfull \hbox (22.5048pt too wide) in paragraph at lines 1016--1040
  [][] 
  []
 
@@ -2389,25 +2411,27 @@ File: ./images/Mg70-XZn24+XCa6.png Graphic file (type QTm)
  <use  "./images/Mg70-XZn24+XCa6.png" >
 File: ./images/Mg75-XZn20+XCa5.png Graphic file (type QTm)
 
-<use  "./images/Mg75-XZn20+XCa5.png" > [57] ("ScottGleason PhDThesis.gls"
-[58] [59] [60
+<use  "./images/Mg75-XZn20+XCa5.png" > [58
+
+] ("ScottGleason PhDThesis.gls"
+[59] [60] [61] [62
 
 
-] [61] [62]) [63]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1046.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1046.
+] [63] [64]) [65]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1074.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1074.
  ("ScottGleason PhDThesis.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1046.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1046.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1046.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1074.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1074.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1074.
  ) 
 Here is how much of TeX's memory you used:
- 47361 strings out of 428755
- 970964 string characters out of 3164221
- 1214101 words of memory out of 3000000
- 50006 multiletter control sequences out of 15000+200000
+ 47379 strings out of 428755
+ 971408 string characters out of 3164221
+ 1214317 words of memory out of 3000000
+ 50021 multiletter control sequences out of 15000+200000
  25927 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ScottGleason PhDThesis.pdf (74 pages).
+Output written on ScottGleason PhDThesis.pdf (76 pages).
