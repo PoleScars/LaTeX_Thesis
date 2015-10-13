@@ -698,7 +698,7 @@ Pitting occur on anodic end of the Tafel Plots \cite{Schluter2012}.
 \chapter{EXPERIMENTAL PROCEDURE}
 \glsresetall
 
-\section{Target Manufacture}
+\section{Target Manufacture} \label{sec:TargetManufacture}
 The production of thin films by \gls{pvd} requires targets of appropriate composition for the desired film stoichiometry. These master alloy targets are produced by induction melting of pure constituent element ingots.
 
 \subsection{Base Elements}
@@ -833,13 +833,15 @@ The target was progressively manually polished with light pressure on glass plat
 		\caption{}
 		\label{fig:DrillPress}
 	\end{subfigure}
-	\caption{(a) Polymer grip vice clamping plate below riser with 32 \acrshort{tpi} hacksaw. (b) Fully shaped target with 2 Euro and washer template. (c) Notched $32 mm$ diameter diamond drill bit. (d) Drill press, bit, horizontial vice with polymer grips, plywood damper and drip tray for target extraction.}%global caption
+	\caption{(a) Polymer grip vice clamping plate below riser with 32 \acrshort{tpi} hacksaw. (b) Fully shaped, unpolished target with 2 Euro and washer template. (c) Notched $32 mm$ diameter diamond drill bit. (d) Drill press, bit, horizontial vice with polymer grips, plywood damper and drip tray for target extraction.}%global caption
 	\label{fig:ShapingEquipment}
 \end{figure}
 
-\section{Thin Film Deposition}
+\clearpage
+
+\section{DC Magnetron Sputtering}
 \subsection{DC Magnetron Sputtering Equipment}
-The thin films were deposited by an in house \acrshort{dc} magnetron sputtering facility (Figure \ref{fig:CaoSputtering}). This facility has a maximum power of 50W, with a working gas of ultra-high purity Ar (99.999\%). The sputtering gun nominal target diameter is $25.4mm$ ($1in$). The chamber can achieve a base vacuum pressure of at least $10^{-2} Pa$, and a working Ar pressure of at least $2 Pa$ at constant flow rate of $2 cm^{3}/s$. The chamber has direct access and a large deposition area, allowing for batch processing of multiple substrates simultaneously.
+The thin films were deposited by an in house \acrshort{dc} magnetron sputtering facility (Figure \ref{fig:CaoSputtering}). This facility has a maximum power of 50 W, with a working gas of ultra-high purity Ar (99.999\%). The sputtering gun nominal target diameter is $25.4~ mm$ ($1~ in$). The chamber can achieve a base vacuum pressure of at least $10^{-2}~ Pa$, and a working Ar pressure of at least $2~ Pa$ at constant flow rate of $2~ cm^{3}/s$. The chamber has direct access and a large deposition area, allowing for batch processing of multiple substrates simultaneously.
 
 %single image
 \begin{figure}[htbp]
@@ -849,13 +851,12 @@ The thin films were deposited by an in house \acrshort{dc} magnetron sputtering 
 	\label{fig:CaoSputtering}
 \end{figure}
 
-\subsection{DC Sputtering of TFMGs and SMGs}
-Each target is expected to be able to deposit approximately $10 - 15~ \mu m$ of total film thickness onto a substrate, which is about an hour of deposition at rate of 3.3nm/s. After full deposition the targets are no longer usable and should be disposed. 
+\subsection{Depostion of Thin Films}
+A target was affixed in the sputtering gun mount by applying \hl{thermal gel} to one side for coincident contact. The desired substrate was position on the sample stage within the chamber and the chamber sealed. The chamber was evacuated to the desired base pressure, and then backfilled to the desired working Ar pressure. Coincident Ar pressure was maintained by a constant flow of Ar gas. This was necessary because the number of Ar$^{+}$ ions increases with chamber pressure, and accordantly increases the rate of deposition \hl{(Cao source 168)}. Before deposition the targets were prepared by a pre-sputter to remove contamination and oxides from their surface. During this stage the substrates were protect by a shield positioned over the sample area preventing deposition.
 
-\subsection{Sputtering Methods and Initial Parameters}
-Once placed in the sputtering gun the targets are prepared for deposition via a pre-sputter to remove contamination and oxides from their surface. The \glspl{tfmg} are deposited onto room temperature substrates, and \glspl{smg} onto elevated temperate substrates. The elevated temperatures are achieved and controlled via hot plate and thermocouple.
+The \glspl{tfmg} were deposited onto room temperature substrates, and \glspl{smg} onto elevated temperate substrates. The elevated substrate temperatures were achieved and controlled by a hot plate and K-type thermocouple.
 
-The initial \gls{tfmg} sputtering parameters will be based on Liu, et al. \cite{Liu2012} work on \ZrCuNiAl~ film refinement, and the \gls{smg} parameters will be based on Yu, et al. \cite{Yu2013} and Aji, et al. \cite{Aji2013} work on \ZrCuAl~ and \ZrCuNiAl~ \gls{smg} films respectively. These parameters will be refined via appropriate step sizes as required to suit the examined MgZnCa biocompatible systems. 
+The initial \gls{tfmg} sputtering parameters were based on Liu, et al. \cite{Liu2012} work on \ZrCuNiAl~ film refinement, and the \gls{smg} parameters were based on Yu, et al. \cite{Yu2013} and Aji, et al. \cite{Aji2013} work on \ZrCuAl~ and \ZrCuNiAl~ \gls{smg} films respectively. These parameters were refined by appropriate step sizes as required to suit the examined MgZnCa biocompatible systems. 
 
 %table
 \begin{table}[h]
@@ -867,8 +868,8 @@ The initial \gls{tfmg} sputtering parameters will be based on Liu, et al. \cite{
 		Base Camber Pressure: & $3 \times 10^{-4} - 10^{-2}~ Pa$ & $5 \times 10^{-5} - 10^{-4}~ Pa$ \\
 		Deposition Ar Pressure:	& $0.3 - 3.0~ Pa$ & $5\times 10^{-2} - 0.3~ Pa$\\
 		Deposition Power Range:	& $30 - 50~ W$ & $30 - 50~ W$\\
-		Max Deposition Rate: (To be determined via \acrshort{tem}) & $3.3~ nm s^{-1}$ & $1.4~ nm s^{-1}$ \\	 
-		Substrate Deposition Temperature: & Room Temperature & $0.7 - 0.8$ \acrshort{Tg} \\
+		Max Deposition Rate: & $3.3~ nm s^{-1}$ & $1.4~ nm s^{-1}$ \\	 
+		Substrate Deposition Temperature: & \acrshort{rt} & $0.7 - 0.8$ \acrshort{Tg} \\
 		\bottomrule
 	\end{tabular}
 	\caption{Nominal Sputtering Parameters}
@@ -878,17 +879,20 @@ MgCaZn has more light elements near Ar than ZrCuNiAl.
 Therefore expect greater deposition efficiencies and to not require as much power.
 ZrCuNiAl used 50 – 150 W, but we cannot get power that high unless we use 3 inch targets (not practical).} 	
 
+\subsection{Target Lifespan}
+Each target is expected to be able to deposit approximately $10 - 15~ \mu m$ of total film thickness onto a substrate, which is about an hour of deposition at rate of 3.3nm/s. After full deposition the targets are no longer usable and should be disposed. 
+
 \section{Examined Substrates} 
 The thin films will be deposited onto four different substrates for examination; silicon wafer, water soluble substrate, \gls{bmg} substrates, and \gls{pcl} scaffold substrates.
 
 \subsection{Silicon Wafer Substrate}
-Films are easily and readily deposed onto un-doped (100) silicon wafer with minimal difficult. This substrate allows film properties to be easily examined with minimal influence from the substrate. These substrates can be purchased. 
+Thin films are easily and readily deposed onto un-doped (100) silicon wafer with minimal difficult. This substrate allows film properties to be easily examined with minimal influence from the substrate (I.E. film amorphousness can be confirmed with confidence by \acrshort{xrd}). These substrates can be purchased. 
 
 \subsection{Water Soluble Substrate} 
-Depositing films onto water soluble substrates allows the films be physically separated from a substrate and examined without their influence. A possible candidate substrate is NaCl wafer which dissolve quickly with the application of water, allowing for the physical separation of the films. These substrates can be purchased. 
+Depositing films onto water soluble substrates allows the films be physically separated from a substrate and examined without substrate influence. A possible candidate substrate is NaCl wafer which dissolve quickly with the application of water, allowing for the physical separation of the films. These substrates can be purchased. 
 
 \subsection{BMG Substrate}
-Depositing films onto \gls{bmg} substrates of similar composition allows for property modification effects of the films to be examined. Knowing the properties of the \gls{bmg} substrates and the applied films independently will allow the extent of the property modification to be fully evaluated, and should allow for modelling. These substrates can be produced via the same methods used to produce targets. \todo{Wedge mould to get amorphous metal!}
+Depositing films onto \gls{bmg} substrates of similar composition allows for property modification effects of the films to be examined. Knowing the properties of the \gls{bmg} substrates and the applied films independently will allow the extent of the property modification to be fully evaluated, and should allow for modelling. These substrates can be manufactured as per the method described in Section \ref{sec:TargetManufacture}. \todo{Wedge mould to get amorphous metal!}
 
 \subsection{Polycaprolactone (PCL) Scaffolds}
 Depositing films onto \gls{pcl} scaffolds substrates will allow for examination of the films' effects and degradation performance. Ideally this will lead to the slow, controlled release of infused with antimicrobial, antibiotic, or analgesics packages.

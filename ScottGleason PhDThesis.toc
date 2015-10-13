@@ -63,29 +63,29 @@
 \contentsline {subsubsection}{\numberline {3.1.3.2}Target Extraction}{40}{subsubsection.3.1.3.2}
 \contentsline {subsubsection}{\numberline {3.1.3.3}Target Rounding}{40}{subsubsection.3.1.3.3}
 \contentsline {subsubsection}{\numberline {3.1.3.4}Target Polishing}{40}{subsubsection.3.1.3.4}
-\contentsline {section}{\numberline {3.2}Thin Film Deposition}{40}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}DC Magnetron Sputtering Equipment}{40}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}DC Sputtering of TFMGs and SMGs}{43}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Sputtering Methods and Initial Parameters}{43}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.2}DC Magnetron Sputtering}{43}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}DC Magnetron Sputtering Equipment}{43}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Depostion of Thin Films}{43}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Target Lifespan}{44}{subsection.3.2.3}
 \contentsline {section}{\numberline {3.3}Examined Substrates}{44}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Silicon Wafer Substrate}{44}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Water Soluble Substrate}{44}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}BMG Substrate}{44}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.2}Water Soluble Substrate}{45}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}BMG Substrate}{45}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Polycaprolactone (PCL) Scaffolds}{45}{subsection.3.3.4}
 \contentsline {section}{\numberline {3.4}Thin Film Characterisation}{45}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Physical and Chemical Properties}{45}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Quality of Deposition}{45}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Biocompatibility and Bioabsorption}{45}{subsection.3.4.3}
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{46}{chapter.4}
-\contentsline {section}{\numberline {4.1}Experimental Results}{46}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Casting Challenges and Observations}{46}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}DSC Scans}{46}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Target Structure}{47}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Target Composition}{48}{subsection.4.1.4}
-\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{49}{chapter.5}
-\contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{50}{chapter.6}
-\contentsline {chapter}{\numberline {7}APPENDICES}{56}{chapter.7}
-\contentsline {section}{\numberline {7.1}MgZnCa Binary Phases}{56}{section.7.1}
-\contentsline {section}{\numberline {7.2}MgZnCa Ternary Phases}{58}{section.7.2}
-\contentsline {chapter}{GLOSSARY}{62}{section*.90}
+\contentsline {subsection}{\numberline {3.4.2}Quality of Deposition}{46}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Biocompatibility and Bioabsorption}{46}{subsection.3.4.3}
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}Experimental Results}{47}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Casting Challenges and Observations}{47}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}DSC Scans}{47}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Target Structure}{48}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Target Composition}{49}{subsection.4.1.4}
+\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{50}{chapter.5}
+\contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{51}{chapter.6}
+\contentsline {chapter}{\numberline {7}APPENDICES}{57}{chapter.7}
+\contentsline {section}{\numberline {7.1}MgZnCa Binary Phases}{57}{section.7.1}
+\contentsline {section}{\numberline {7.2}MgZnCa Ternary Phases}{59}{section.7.2}
+\contentsline {chapter}{GLOSSARY}{63}{section*.90}
 \contentsfinish 
