@@ -73,8 +73,8 @@
 \contentsline {subsection}{\numberline {3.3.4}Polycaprolactone (PCL) Scaffolds}{44}{subsection.3.3.4}
 \contentsline {section}{\numberline {3.4}Thin Film Characterisation}{45}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Physical and Chemical Properties}{45}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Biocompatibility and Bioabsorption}{45}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Quality of Deposition}{45}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.2}Quality of Deposition}{45}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Biocompatibility and Bioabsorption}{45}{subsection.3.4.3}
 \contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{46}{chapter.4}
 \contentsline {section}{\numberline {4.1}Experimental Results}{46}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Casting Challenges and Observations}{46}{subsection.4.1.1}

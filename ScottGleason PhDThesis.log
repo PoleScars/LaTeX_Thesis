@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  9 OCT 2015 15:38
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  13 OCT 2015 11:11
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1603,7 +1603,7 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 ]
 Requested font "pplr8t" at 24.88pt
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 52.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 54.
 Requested font "pplb8t" at 24.88pt
 Missing character: There is no ’ in font pplr8t!
  [1
@@ -1615,7 +1615,7 @@ Requested font "pplr8t" at 9.0pt
 
 ]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 115.
+ine 121.
  [3
 
 ] ("ScottGleason PhDThesis.toc" [4
@@ -1659,7 +1659,7 @@ Missing character: There is no “ in font pplr8t!
 Missing character: There is no ” in font pplr8t!
 Requested font "pplr8t" at 17.28pt
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 168.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 180.
 Requested font "pplb8t" at 17.28pt
 Requested font "pplr8t" at 14.4pt
 [2
@@ -1673,7 +1673,7 @@ File: ./images/gibbs_free_energy.png Graphic file (type QTm)
 File: ./images/Glass_Cooling_Graph.png Graphic file (type QTm)
 
 <use  "./images/Glass_Cooling_Graph.png" > [5]
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 256.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 268.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ppl.fd"
@@ -1687,14 +1687,14 @@ File: ./images/BMG_Tg_on_Tm_01.png Graphic file (type QTm)
 LaTeX Warning: Marginpar on page 7 moved.
 
 [7]
-Underfull \hbox (badness 1253) in paragraph at lines 289--290
+Underfull \hbox (badness 1253) in paragraph at lines 301--302
 []\T1/ppl/m/n/12 The in-tro-duc-tion of this tem-po-rary plas-tic de-for-ma-tio
 n mech-a-nism al-lows [][][]BMGs[][] to
  []
 
 File: ./images/ProcessingofBMGs_NewDraw.png Graphic file (type QTm)
 <use  "./images/ProcessingofBMGs_NewDraw.png" >
-Underfull \hbox (badness 1430) in paragraph at lines 305--306
+Underfull \hbox (badness 1430) in paragraph at lines 317--318
 \T1/ppl/m/n/12 via mod-i-fy-ing the shear band dis-tri-bu-tion. This abil-ity t
 o dra-mat-i-cally im-prov-ing
  []
@@ -1713,7 +1713,7 @@ File: ./images/Sputtering_02.png Graphic file (type QTm)
 File: ./images/Field_Sputtering.png Graphic file (type QTm)
  <use  "./images/Field_Sputtering.png" >
 
-LaTeX Warning: Float too large for page by 7.61633pt on input line 371.
+LaTeX Warning: Float too large for page by 7.61633pt on input line 383.
 
 [13] [14] [15]
 File: ./images/Tsub_Yu_SMG.png Graphic file (type QTm)
@@ -1734,22 +1734,22 @@ LaTeX Warning: Marginpar on page 17 moved.
 LaTeX Warning: Marginpar on page 17 moved.
 
 [17]
-Underfull \hbox (badness 2865) in paragraph at lines 416--416
+Underfull \hbox (badness 2865) in paragraph at lines 428--428
 []\T1/ppl/b/n/12 Fictive Tem-per-a-ture ($\OML/zplm/m/it/12 T[]$\T1/ppl/b/n/12 
 ), Ki-netic Sta-bil-ity and En-thalpy via Dif-fer-en-tial
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 416.
+(hyperref)                removing `math shift' on input line 428.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 416.
+(hyperref)                removing `subscript' on input line 428.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 416.
+(hyperref)                removing `math shift' on input line 428.
 
 
 LaTeX Warning: Marginpar on page 18 moved.
@@ -1772,15 +1772,15 @@ LaTeX Warning: Marginpar on page 20 moved.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 446.
+(hyperref)                removing `math shift' on input line 458.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 446.
+(hyperref)                removing `subscript' on input line 458.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 446.
+(hyperref)                removing `math shift' on input line 458.
 
 Missing character: There is no “ in font pplr8t!
 Missing character: There is no ” in font pplr8t!
@@ -1819,15 +1819,15 @@ File: ./images/YuMTg.png Graphic file (type QTm)
  <use  "./images/YuMTg.png" >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 501.
+(hyperref)                removing `math shift' on input line 513.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rho' on input line 501.
+(hyperref)                removing `\rho' on input line 513.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 501.
+(hyperref)                removing `math shift' on input line 513.
 
 [23]
 File: ./images/Density_Vs_Tsub_Ishii.png Graphic file (type QTm)
@@ -1837,11 +1837,11 @@ File: ./images/IshiiMTg.png Graphic file (type QTm)
 <use  "./images/IshiiMTg.png" >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 530.
+(hyperref)                removing `math shift' on input line 542.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 530.
+(hyperref)                removing `math shift' on input line 542.
 
 [24] [25] [26] [27]
 Requested font "pplri8t" at 12.0pt
@@ -1855,7 +1855,7 @@ File: ./images/Enos_TafelPlot.png Graphic file (type QTm)
 File: ./images/ZbergHydrogen.png Graphic file (type QTm)
 
 <use  "./images/ZbergHydrogen.png" >
-Underfull \hbox (badness 3449) in paragraph at lines 649--650
+Underfull \hbox (badness 3449) in paragraph at lines 661--662
 []\T1/ppl/m/n/12 As Witte [][[]] has shown in his re-view mag-ne-sium was show-
 ing promise as a
  []
@@ -1906,7 +1906,7 @@ File: ./images/Ex_Drill_Press.jpg Graphic file (type QTm)
 File: ./images/Ex_Cao_SputterMachine.png Graphic file (type QTm)
 
 <use  "./images/Ex_Cao_SputterMachine.png" > [40] [41] [42]
-Overfull \hbox (23.1978pt too wide) in paragraph at lines 845--856
+Overfull \hbox (23.1978pt too wide) in paragraph at lines 860--871
  [][] 
  []
 
@@ -1915,17 +1915,23 @@ Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 [43]
-Underfull \hbox (badness 2671) in paragraph at lines 873--874
+Underfull \hbox (badness 2671) in paragraph at lines 888--889
 []\T1/ppl/m/n/12 Depositing films onto [][][]BMG[][] sub-strates of sim-i-lar c
 om-po-si-tion al-lows for prop-erty
  []
 
-[44] [45]
+[44]
+Underfull \hbox (badness 1655) in paragraph at lines 902--903
+[]\T1/ppl/m/n/12 The rate of de-po-si-tion will be cal-cu-lated by di-vid-ing t
+he mea-sured film thick-ness
+ []
+
+[45]
 Chapter 4.
 [46
 
 ]
-Underfull \hbox (badness 1132) in paragraph at lines 903--904
+Underfull \hbox (badness 1132) in paragraph at lines 922--923
 \T1/ppl/m/n/12 of con-struc-tional el-e-ments within the tar-gets. The ini-tial
  [][][]DSC[][] scans of the tar-gets
  []
@@ -1936,7 +1942,7 @@ File: ./images/T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png Graphic file
 [48]
 Chapter 5.
 
-Underfull \hbox (badness 2644) in paragraph at lines 932--933
+Underfull \hbox (badness 2644) in paragraph at lines 953--954
 []\T1/ppl/m/n/12 Found [][][]thin film metal-lic glasses (TFMGs)[][] and [][][]
 ul-tra-stable metal-lic glasses (SMGs)[][]
  []
@@ -2036,7 +2042,7 @@ File: ./images/Ph_MgZnCa300CPhaseDiagram_SprMats.png Graphic file (type QTm)
 File: ./images/Ph_MgZnCaLiquidPhase_SprMats.png Graphic file (type QTm)
 
 <use  "./images/Ph_MgZnCaLiquidPhase_SprMats.png" >
-Overfull \hbox (22.5048pt too wide) in paragraph at lines 1016--1040
+Overfull \hbox (22.5048pt too wide) in paragraph at lines 1038--1062
  [][] 
  []
 
@@ -2056,12 +2062,12 @@ File: ./images/Mg75-XZn20+XCa5.png Graphic file (type QTm)
 
 
 ] [63] [64]) [65]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1074.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1074.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1096.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1096.
  ("ScottGleason PhDThesis.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1074.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1074.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1074.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1096.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1096.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1096.
  ) 
 Here is how much of TeX's memory you used:
  47379 strings out of 428755
