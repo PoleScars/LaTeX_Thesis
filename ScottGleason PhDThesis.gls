@@ -166,6 +166,7 @@
 		\setentrycounter[]{page}\glsnumberformat{48}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossentry{dc}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{iii}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{viii\delimN ix}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{12\delimR 14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{43}}}%

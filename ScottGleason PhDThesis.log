@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  13 OCT 2015 14:47
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  13 OCT 2015 15:06
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1734,11 +1734,6 @@ LaTeX Warning: Marginpar on page 17 moved.
 LaTeX Warning: Marginpar on page 17 moved.
 
 [17]
-Underfull \hbox (badness 2865) in paragraph at lines 428--428
-[]\T1/ppl/b/n/12 Fictive Tem-per-a-ture ($\OML/zplm/m/it/12 T[]$\T1/ppl/b/n/12 
-), Ki-netic Sta-bil-ity and En-thalpy via Dif-fer-en-tial
- []
-
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 428.
@@ -1849,7 +1844,13 @@ Requested font "pplri8t" at 12.0pt
 
 LaTeX Warning: Marginpar on page 29 moved.
 
-[29] [30]
+[29]
+Underfull \hbox (badness 1062) in paragraph at lines 614--615
+[]\T1/ppl/m/n/12 The ki-net-ics of the cor-ro-sion re-ac-tion act-ing upon a sp
+ec-i-men can be mea-sured by
+ []
+
+[30]
 File: ./images/Enos_TafelPlot.png Graphic file (type QTm)
  <use  "./images/Enos_TafelPlot.png" > [31] [32]
 File: ./images/ZbergHydrogen.png Graphic file (type QTm)
@@ -2081,7 +2082,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1103.
 Here is how much of TeX's memory you used:
  47380 strings out of 428755
  971431 string characters out of 3164221
- 1214398 words of memory out of 3000000
+ 1214377 words of memory out of 3000000
  50022 multiletter control sequences out of 15000+200000
  25927 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
