@@ -78,10 +78,14 @@
 \contentsline {subsection}{\numberline {3.4.3}Biocompatibility and Bioabsorption}{46}{subsection.3.4.3}
 \contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{47}{chapter.4}
 \contentsline {section}{\numberline {4.1}Targets}{47}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Manufacturing}{47}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}DSC Scans}{48}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Target Structure}{48}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Target Composition}{49}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.1}Target Manufacture}{47}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Target Bulk Properties}{48}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Target Strucutre}{48}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}Differential Scanning Calorimetry (DSC)}{48}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}X-Ray Diffraction (XRD)}{49}{subsubsection.4.1.3.2}
+\contentsline {subsection}{\numberline {4.1.4}Target Composition}{50}{subsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.4.1}Inductively Coupled Plasma Mass Spectrometry (ICP)}{50}{subsubsection.4.1.4.1}
+\contentsline {subsubsection}{\numberline {4.1.4.2}Energy-Dispersive X-Ray Spectroscopy (EDS)}{50}{subsubsection.4.1.4.2}
 \contentsline {section}{\numberline {4.2}DC Magnetron Sputtering}{50}{section.4.2}
 \contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{51}{chapter.5}
 \contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{52}{chapter.6}

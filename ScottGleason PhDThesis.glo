@@ -573,7 +573,8 @@
 \glossaryentry{$T_{x}$?\glossentry{Tx}|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{CP?\glossentry{comp}|setentrycounter[]{page}\glsnumberformat}{49}
 \glossaryentry{RT?\glossentry{rt}|setentrycounter[]{page}\glsnumberformat}{49}
-\glossaryentry{ICP?\glossentry{icp}|setentrycounter[]{page}\glsnumberformat}{49}
+\glossaryentry{XRD?\glossentry{xrd}|setentrycounter[]{page}\glsnumberformat}{49}
+\glossaryentry{ICP?\glossentry{icp}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{EDS?\glossentry{eds}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{SEM?\glossentry{sem}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{TFMG?\glossentry{tfmg}|setentrycounter[]{page}\glsnumberformat}{51}
