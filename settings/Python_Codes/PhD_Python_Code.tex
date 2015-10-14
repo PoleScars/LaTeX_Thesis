@@ -1,6 +1,18 @@
 \documentclass[a4paper,8pt]{article}
 \usepackage[utf8]{inputenc}
 
+%Page Geometry
+\usepackage[
+top=3cm,
+bottom=2cm,
+left=0.5cm,
+right=0.5cm,
+%bindingoffset=2cm, %Adds a Binding offset for printed documents
+marginparwidth=6cm, %Adds Overflow Width to Rigth Margin 
+marginparsep=3mm %Gap between right margin and right overflow margin
+]{geometry}
+\sloppy
+
 % Default fixed font does not support bold face
 \DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
 \DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
@@ -214,202 +226,203 @@ return [
 ]
 \end{python}
 
-
+\newpage
 \subsubsection{SMG Target Deposition Calculations}
 
 \begin{python}
-	# In[1]:
-	
-	'''Code for the Deposition of Targets
-	Code by Scott Gleason, University of New South Wales (UNSW), Australia 
-	S.Gleason@student.unsw.edu.au, May 2015'''
-	
-	
-	# In[2]:
-	
-	'imports numpy and matplotlib libaries into code'
-	import numpy as np
-	import matplotlib.pyplot as plt
-	
-	
-	# In[3]:
-	
-	def DepositionTime(Rate = 1.5, Thickness = 1000):
-	'''Finds the deposition time for a desidered film thickness 
-	time = Thickness / Rate
-	Rate is in nm/s, default 1.5 nm/s
-	Thickness is in nm, default 1000 nm'''
-	
-	assert (Rate and Thickness) > 0.0, "Rate/Thickness must be greater than 0.0"
-	
-	TimeSeconds = Thickness / Rate #seconds
-	TimeMinutes = TimeSeconds / 60. #minutes
-	print 'Deposition Rate is', Rate, 'nm/s'
-	print 'Film Thickness T is', Thickness, 'nm'
-	print 'Time to deposite thin film', round(TimeSeconds, 3), 'seconds'
-	print 'Time to deposite thin film', round(TimeMinutes, 3), 'minutes'
-	
-	
-	# In[4]:
-	
-	def SubstrateTemp(GlassTransition = 132, LowerTsub = 0.7, UpperTsub = 0.8):
-	'''Finds the USG deposition temperatures 
-	Tsub = GlassTransition * LowerTsub OR UpperTsub
-	GlassTransition is in C, default 132 C
-	LowerTsub & UpperTsub are unitless, default is 0.7 and 0.8'''
-	
-	assert (GlassTransition and LowerTsub and UpperTsub) > 0.0, "Parameters must be greater than 0.0"
-	
-	TempKelvin = GlassTransition + 273.15 #kelvin
-	LowerTsubKelvin = LowerTsub * TempKelvin #kelvin
-	UpperTsubKelvin = UpperTsub * TempKelvin #kelvin
-	LowerTsubCelius = LowerTsubKelvin - 273.15 #celious
-	UpperTsubCelius = UpperTsubKelvin - 273.15 #celious
-	
-	print 'The glass transition temperature (Tg) is', GlassTransition, 'C,  or', TempKelvin, 'K'
-	print 'The lower Tsub limit is', LowerTsub, 'of Tg'
-	print 'The upper Tsub limit is', UpperTsub, 'of Tg'
-	print 'The lower Tsub temperature is', LowerTsubCelius, 'C,  or', LowerTsubKelvin, 'K'
-	print 'The upper Tsub temperature is', UpperTsubCelius, 'C,  or', UpperTsubKelvin, 'K'
-	
+# In[1]:
+
+'''Code for the Deposition of Targets
+Code by Scott Gleason, University of New South Wales (UNSW), Australia 
+S.Gleason@student.unsw.edu.au, May 2015'''
+
+
+# In[2]:
+
+'imports numpy and matplotlib libaries into code'
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+# In[3]:
+
+def DepositionTime(Rate = 1.5, Thickness = 1000):
+'''Finds the deposition time for a desidered film thickness 
+time = Thickness / Rate
+Rate is in nm/s, default 1.5 nm/s
+Thickness is in nm, default 1000 nm'''
+
+assert (Rate and Thickness) > 0.0, "Rate/Thickness must be greater than 0.0"
+
+TimeSeconds = Thickness / Rate #seconds
+TimeMinutes = TimeSeconds / 60. #minutes
+print 'Deposition Rate is', Rate, 'nm/s'
+print 'Film Thickness T is', Thickness, 'nm'
+print 'Time to deposite thin film', round(TimeSeconds, 3), 'seconds'
+print 'Time to deposite thin film', round(TimeMinutes, 3), 'minutes'
+
+
+# In[4]:
+
+def SubstrateTemp(GlassTransition = 132, LowerTsub = 0.7, UpperTsub = 0.8):
+'''Finds the USG deposition temperatures 
+Tsub = GlassTransition * LowerTsub OR UpperTsub
+GlassTransition is in C, default 132 C
+LowerTsub & UpperTsub are unitless, default is 0.7 and 0.8'''
+
+assert (GlassTransition and LowerTsub and UpperTsub) > 0.0, "Parameters must be greater than 0.0"
+
+TempKelvin = GlassTransition + 273.15 #kelvin
+LowerTsubKelvin = LowerTsub * TempKelvin #kelvin
+UpperTsubKelvin = UpperTsub * TempKelvin #kelvin
+LowerTsubCelius = LowerTsubKelvin - 273.15 #celious
+UpperTsubCelius = UpperTsubKelvin - 273.15 #celious
+
+print 'The glass transition temperature (Tg) is', GlassTransition, 'C,  or', TempKelvin, 'K'
+print 'The lower Tsub limit is', LowerTsub, 'of Tg'
+print 'The upper Tsub limit is', UpperTsub, 'of Tg'
+print 'The lower Tsub temperature is', LowerTsubCelius, 'C,  or', LowerTsubKelvin, 'K'
+print 'The upper Tsub temperature is', UpperTsubCelius, 'C,  or', UpperTsubKelvin, 'K'
+
 \end{python}
 
-
+\newpage
 \subsubsection{Casting Volume Calculations}
 
 \begin{python}
-	# In[1]:
-	
-	'''Code for the Volume of Tagets
-	Code by Scott Gleason, University of New South Wales (UNSW), Australia 
-	S.Gleason@student.unsw.edu.au, April 2015'''
-	
-	
-	# In[2]:
-	
-	'imports numpy and matplotlib libaries into code'
-	import numpy as np
-	import matplotlib.pyplot as plt
-	
-	
-	# In[3]:
-	
-	def CylindarVolume(Diameter = 25.4, Thickness = 4.0):
-	'''Finds the volume of a cylindar as given by 
-	V = pi * (D/2)^2 * t
-	Diameter is in mm, default 25.4 mm
-	Thickness is in mm, default 4 mm'''
-	
-	assert Diameter > 0.0, "Diameter must be a positive value"
-	assert Thickness > 0.0, "Thickness must be a positive value"
-	
-	Radius = Diameter / 2.0
-	Volume = np.pi * Thickness * Radius**2 #mm^3
-	VolumeCC = Volume / 1000 #cc #(1000mm^3 per cm^3)
-	print 'Radius R is', Radius, 'mm'
-	print 'Thickness t is', Thickness, 'mm'
-	print 'Volume of cylinder is', round(Volume, 3), 'mm^3'
-	print 'Volume of cylinder is', round(VolumeCC, 3), 'cc'
-	
-	
-	# In[4]:
-	
-	def PlateVolume(Thickness = 4.0, Height = 49.0, Length = 102.0):
-	'''Finds the volume of a plate as given by 
-	V = L * H * t
-	Thickness is in mm, default 4 mm
-	Height is in mm, default 49 mm
-	Length is in mm, default 102 mm'''
-	
-	assert Thickness > 0.0, "Thickness must be a positive value"
-	assert Height > 0.0, "Height must be a positive value"
-	assert Length > 0.0, "Length must be a positive value"
-	
-	Volume = Length * Height * Thickness #mm^3
-	VolumeCC = Volume / 1000 #cc #(1000mm^3 per cm^3)
-	print 'Thickness t is', Thickness, 'mm'
-	print 'Height H is', Height, 'mm'
-	print 'Length L is', Length, 'mm'
-	print 'Volume of plate is', round(Volume, 3), 'mm^3'
-	print 'Volume of plate is', round(VolumeCC, 3), 'cc'
-	return round(VolumeCC, 3)
-	
-	
-	# In[5]:
-	
-	def PlateRiserVolume(Thickness = 4.0, RiserHeight = 18.0, Length = 102.0):
-	'''Finds the volume of a plate riser as given by 
-	V = L * Rh/2 * (t0 + Thickness)
-	Thickness is in mm, default 4 mm
-	RiserHeight is in mm, default 18 mm
-	Length is in mm, default 102 mm'''
-	
-	assert Thickness > 0.0, "Thickness must be a positive value"
-	assert RiserHeight > 0.0, "RiserHeight must be a positive value"
-	assert Length > 0.0, "Length must be a positive value"
-	
-	OpeningThickness = 13.0 #Thickness of plate riser opening
-	Area = RiserHeight/2 * (Thickness + OpeningThickness) #mm^2
-	Volume = Length * Area #mm^3
-	VolumeCC = Volume / 1000 #cc #(1000mm^3 per cm^3)
-	print 'Riser Base Thickness t0 is', Thickness, 'mm'
-	print 'Riser Opening Thickness t is', Thickness + OpeningThickness, 'mm'
-	print 'Riser Height Rh is', RiserHeight, 'mm'
-	print 'Length L is', Length, 'mm'
-	print 'Volume of riser is', round(Volume, 3), 'mm^3'
-	print 'Volume of riser is', round(VolumeCC, 3), 'cc'
-	return round(VolumeCC, 3)
-	
-	
-	# In[6]:
-	
-	def VolumeCCToMass(VolumeCC = 8.107, Density = 2.85):
-	'''Converts cc volume to total mass from density 
-	VolumeCC = volume in cc, default to 8.107 cc
-	Density = Total alloy density, default to 2.85 g/cm3 (Mg65Zn30Ca5)'''
-	
-	assert VolumeCC > 0.0, "Volume must be a positive value"
-	assert Density > 0.0, "Density must be a positive value"
-	
-	Mass = VolumeCC * Density #cc * g/cm3 = g
-	print VolumeCC, 'cc of material with a density of', Density, 'g/cm3 is:'
-	print round(Mass,3), 'g'
-	
-	
-	# In[7]:
-	
-	def MassToVolumeCC(Mass = 100.0, Density = 2.85):
-	'''Converts total mass to cc volume from density 
-	Mass = Total alloy mass, default to 100 g
-	Density = Total alloy density, default to 2.85 g/cm3 (Mg65Zn30Ca5)'''
-	
-	assert Mass > 0.0, "Mass must be a positive value"
-	assert Density > 0.0, "Density must be a positive value"
-	
-	VolumeCC = Mass / Density #g / (g/cm3) = cm3 = cc
-	print Mass, 'g of material with a density of', Density, 'g/cm3 is:'
-	print round(VolumeCC,3), 'cc'
-	
-	
-	# In[8]:
-	
-	print '2-Inch Target size:'
-	CylindarVolume(50.8, 4.5)
-	
-	
-	# In[9]:
-	
-	print 'Small Crucible Size:'
-	CylindarVolume(32, 85)
-	
-	
-	# In[10]:
-	
-	print 'Large Crucible Size:'
-	CylindarVolume(34, 85)
-	
+# In[1]:
+
+'''Code for the Volume of Tagets
+Code by Scott Gleason, University of New South Wales (UNSW), Australia 
+S.Gleason@student.unsw.edu.au, April 2015'''
+
+
+# In[2]:
+
+'imports numpy and matplotlib libaries into code'
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+# In[3]:
+
+def CylindarVolume(Diameter = 25.4, Thickness = 4.0):
+'''Finds the volume of a cylindar as given by 
+V = pi * (D/2)^2 * t
+Diameter is in mm, default 25.4 mm
+Thickness is in mm, default 4 mm'''
+
+assert Diameter > 0.0, "Diameter must be a positive value"
+assert Thickness > 0.0, "Thickness must be a positive value"
+
+Radius = Diameter / 2.0
+Volume = np.pi * Thickness * Radius**2 #mm^3
+VolumeCC = Volume / 1000 #cc #(1000mm^3 per cm^3)
+print 'Radius R is', Radius, 'mm'
+print 'Thickness t is', Thickness, 'mm'
+print 'Volume of cylinder is', round(Volume, 3), 'mm^3'
+print 'Volume of cylinder is', round(VolumeCC, 3), 'cc'
+
+
+# In[4]:
+
+def PlateVolume(Thickness = 4.0, Height = 49.0, Length = 102.0):
+'''Finds the volume of a plate as given by 
+V = L * H * t
+Thickness is in mm, default 4 mm
+Height is in mm, default 49 mm
+Length is in mm, default 102 mm'''
+
+assert Thickness > 0.0, "Thickness must be a positive value"
+assert Height > 0.0, "Height must be a positive value"
+assert Length > 0.0, "Length must be a positive value"
+
+Volume = Length * Height * Thickness #mm^3
+VolumeCC = Volume / 1000 #cc #(1000mm^3 per cm^3)
+print 'Thickness t is', Thickness, 'mm'
+print 'Height H is', Height, 'mm'
+print 'Length L is', Length, 'mm'
+print 'Volume of plate is', round(Volume, 3), 'mm^3'
+print 'Volume of plate is', round(VolumeCC, 3), 'cc'
+return round(VolumeCC, 3)
+
+
+# In[5]:
+
+def PlateRiserVolume(Thickness = 4.0, RiserHeight = 18.0, Length = 102.0):
+'''Finds the volume of a plate riser as given by 
+V = L * Rh/2 * (t0 + Thickness)
+Thickness is in mm, default 4 mm
+RiserHeight is in mm, default 18 mm
+Length is in mm, default 102 mm'''
+
+assert Thickness > 0.0, "Thickness must be a positive value"
+assert RiserHeight > 0.0, "RiserHeight must be a positive value"
+assert Length > 0.0, "Length must be a positive value"
+
+OpeningThickness = 13.0 #Thickness of plate riser opening
+Area = RiserHeight/2 * (Thickness + OpeningThickness) #mm^2
+Volume = Length * Area #mm^3
+VolumeCC = Volume / 1000 #cc #(1000mm^3 per cm^3)
+print 'Riser Base Thickness t0 is', Thickness, 'mm'
+print 'Riser Opening Thickness t is', Thickness + OpeningThickness, 'mm'
+print 'Riser Height Rh is', RiserHeight, 'mm'
+print 'Length L is', Length, 'mm'
+print 'Volume of riser is', round(Volume, 3), 'mm^3'
+print 'Volume of riser is', round(VolumeCC, 3), 'cc'
+return round(VolumeCC, 3)
+
+
+# In[6]:
+
+def VolumeCCToMass(VolumeCC = 8.107, Density = 2.85):
+'''Converts cc volume to total mass from density 
+VolumeCC = volume in cc, default to 8.107 cc
+Density = Total alloy density, default to 2.85 g/cm3 (Mg65Zn30Ca5)'''
+
+assert VolumeCC > 0.0, "Volume must be a positive value"
+assert Density > 0.0, "Density must be a positive value"
+
+Mass = VolumeCC * Density #cc * g/cm3 = g
+print VolumeCC, 'cc of material with a density of', Density, 'g/cm3 is:'
+print round(Mass,3), 'g'
+
+
+# In[7]:
+
+def MassToVolumeCC(Mass = 100.0, Density = 2.85):
+'''Converts total mass to cc volume from density 
+Mass = Total alloy mass, default to 100 g
+Density = Total alloy density, default to 2.85 g/cm3 (Mg65Zn30Ca5)'''
+
+assert Mass > 0.0, "Mass must be a positive value"
+assert Density > 0.0, "Density must be a positive value"
+
+VolumeCC = Mass / Density #g / (g/cm3) = cm3 = cc
+print Mass, 'g of material with a density of', Density, 'g/cm3 is:'
+print round(VolumeCC,3), 'cc'
+
+
+# In[8]:
+
+print '2-Inch Target size:'
+CylindarVolume(50.8, 4.5)
+
+
+# In[9]:
+
+print 'Small Crucible Size:'
+CylindarVolume(32, 85)
+
+
+# In[10]:
+
+print 'Large Crucible Size:'
+CylindarVolume(34, 85)
+
 \end{python}
 
+\newpage
 \section{Plotting Codes}
 \subsubsection{MgZnCa System Property Plots}
 
@@ -608,7 +621,7 @@ PlotFile(filesToPlot[1], '$Mg_{72-X}Zn_{24+X}Ca_{4}$')
 PlotFile(filesToPlot[2], '$Mg_{75-X}Zn_{20+X}Ca_{5}$')
 \end{python}
 
-
+\newpage
 \subsubsection{Gibbs Free Energy Plots}
 
 \begin{python}
@@ -780,6 +793,7 @@ NucleationEnergy()
 \end{python}
 
 
+\newpage
 \subsubsection{EDS Plotting Loop Function}
 
 \begin{python}
