@@ -77,15 +77,16 @@
 \contentsline {subsection}{\numberline {3.4.2}Quality of Deposition}{46}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Biocompatibility and Bioabsorption}{46}{subsection.3.4.3}
 \contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{47}{chapter.4}
-\contentsline {section}{\numberline {4.1}Experimental Results}{47}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Casting Challenges and Observations}{47}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}DSC Scans}{47}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.1}Targets}{47}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Manufacturing}{47}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}DSC Scans}{48}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Target Structure}{48}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}Target Composition}{49}{subsection.4.1.4}
-\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{50}{chapter.5}
-\contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{51}{chapter.6}
-\contentsline {chapter}{\numberline {7}APPENDICES}{57}{chapter.7}
-\contentsline {section}{\numberline {7.1}MgZnCa Binary Phases}{57}{section.7.1}
-\contentsline {section}{\numberline {7.2}MgZnCa Ternary Phases}{59}{section.7.2}
-\contentsline {chapter}{GLOSSARY}{63}{section*.90}
+\contentsline {section}{\numberline {4.2}DC Magnetron Sputtering}{50}{section.4.2}
+\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{51}{chapter.5}
+\contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{52}{chapter.6}
+\contentsline {chapter}{\numberline {7}APPENDICES}{58}{chapter.7}
+\contentsline {section}{\numberline {7.1}MgZnCa Binary Phases}{58}{section.7.1}
+\contentsline {section}{\numberline {7.2}MgZnCa Ternary Phases}{60}{section.7.2}
+\contentsline {chapter}{GLOSSARY}{64}{section*.89}
 \contentsfinish 
