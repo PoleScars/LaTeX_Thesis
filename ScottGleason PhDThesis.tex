@@ -943,12 +943,23 @@ Alloys of similar composition, like Mg$_{70}$Zn$_{25}$Ca$_{5}$, have a low \gls{
 
 The work of Schlüter, et al. \cite{Schluter2012}, Zhou, et al. \cite{Zhou2013}, and Wang, et al. \cite{Wang2012} on Mg$_{60}$Zn$_{35}$Ca$_{5}$, Mg$_{70}$Zn$_{25}$Ca$_{5}$, and Mg$_{67}$Zn$_{28}$Ca$_{5}$ respectively shows, semi-crystalline structures display both lower corrosion current density and more noble corrosion potential in comparison to fully crystalline alloy, and similar values to amorphous alloy. Hence semi-crystalline targets are expected to be relativity stable from crystalline galvanic/intergranular corrosion between the alloy constituents. 
 
-%single image
+%code to put 2 images side by side in a figure
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.75\textwidth]{T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png}
-	\caption{\acrshort{dsc} trace of the $3~ mm$ \MgZnCa~ target plate casting. The trace shows clear endothermic troughs indicating \acrshort{Tm} and \acrshort{Tl}, but no clear exothermal peaks which would indicate \acrshort{Tg} and \acrshort{Tx}. This data suggest the casting is primary crystalline.}
-	\label{fig:DSCTarget1}
+	%Image 1
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Re_DSC_T1_20kmin_MgZnCa_301014.png}
+		\caption{}
+		\label{fig:DSCTarget1}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Re_DSC_T2_20kmin_MgZnCa_110215.png}
+		\caption{}
+		\label{fig:DSCTarget2}
+	\end{subfigure}
+	\caption{(a) \acrshort{dsc} trace of the $3~ mm$ \MgZnCa~ target plate casting. The trace shows clear endothermic troughs indicating \acrshort{Tm} and \acrshort{Tl}, but no clear exothermal peaks which would indicate \acrshort{Tg} and \acrshort{Tx}. This data suggest the casting is primary crystalline. (b)}%global caption
+	\label{fig:DSCTarget1n2}
 \end{figure}
 
 However Zhou, et al. \cite{Zhou2013} has shown that despite this amorphous alloy has increased cathodic reaction kinetics and decreased anodic reaction when compared to \acrshort{comp} Mg, suggesting the corrosion rate of amorphous and semi-crystalline alloys is not significantly different from pure Mg. 
@@ -958,6 +969,15 @@ Ehrler \cite{Ehrler2008} master's on amorphous ribbons found Mg$_{67}$Zn$_{28}$C
 \subsubsection{X-Ray Diffraction (XRD)}
 \gls{xrd} (Philips X-Pert Materials Research Diffractometer)
 
+%single image
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.95\textwidth]{Re_XRD_T1_2A_2B_4AP.png}
+	\caption{\acrshort{xrd} for \MgZnCa~ Targets 1, 2B, 2A, and 4A. From this \acrshort{xrd} it is seen each target is semi-crystallin with the same phases. The main amorphous hump is highlighted in purple.}
+	\label{fig:XRD_T1_2_4}
+\end{figure}
+\todo{indentify some of the phases}
+
 \subsection{Target Composition}
 
 \subsubsection{Inductively Coupled Plasma Mass Spectrometry (ICP)}
@@ -965,6 +985,45 @@ Ehrler \cite{Ehrler2008} master's on amorphous ribbons found Mg$_{67}$Zn$_{28}$C
 
 \subsubsection{Energy-Dispersive X-Ray Spectroscopy (EDS)}
 \Gls{eds} analysis by \gls{sem} (S3400 Hitachi) on the first five plates has shown (insert results here). 
+
+Hyper-mapping of elements shows a homogeneous structure for all targets. Composition is in good agreement with \gls{icp} results.
+
+%code to put 2 images side by side in a figure
+\begin{figure}[htbp]
+	\centering
+	%Image 1
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Re_EDS_T4A_Image.png}
+		\caption{}
+		\label{fig:EDST4A_Micro}
+	\end{subfigure}
+	%Image 2
+	\begin{subfigure}[htbp]{0.49\textwidth}
+		\includegraphics[width=\textwidth]{Re_EDS_T4A_Spectra.png}
+		\caption{}
+		\label{fig:EDST4A_Spectra}
+	\end{subfigure}
+	\caption{(a) \acrshort{eds} map of Mg, Zn, and Ca in Target 4A showing a homogeneous distribution of elements. (b) The \acrshort{eds} spectra from the hyper-map.}%global caption
+	\label{fig:EDST4A}
+\end{figure}
+
+%table
+\begin{table}[H]
+	\centering
+	\begin{tabular}{llllllll}
+		\toprule
+		Element & AN & Series & Net & Unn. Con. & Nom. Con. & Atom Con. & Error (1 Sigma)\\
+		& & & & (wt.\%) & (wt.\%) & (at.\%) & (wt.\%) \\
+		\midrule
+		Mg & 12 & K-series & 219432 & 39.4 & 40.11 & 63.5 & 2.11 \\
+		Zn & 30 & K-series & 46656  & 55.48  & 56.48  & 33.23 & 1.87  \\
+		Ca & 20 & K-series & 21143  & 3.35 & 3.41  & 3.27 & 0.13  \\
+		&  &    & Total:   & 98.22 & 100  & 100  & \\
+		\bottomrule                
+	\end{tabular}
+	\caption{\MgZnCa~ Target 4A wt\% and at\% concentration of Mg, Zn, and Ca with 1 sigma error (wt\%) from \acrshort{eds}.}
+	\label{tab:EDST4Tabel}
+\end{table}
 
 \section{DC Magnetron Sputtering}
 Thin Film Results

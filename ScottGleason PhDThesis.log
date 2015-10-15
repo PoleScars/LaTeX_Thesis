@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  14 OCT 2015 17:40
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  15 OCT 2015 17:41
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1947,18 +1947,33 @@ Underfull \hbox (badness 1132) in paragraph at lines 938--939
  []
 
 [48]
-File: ./images/T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png Graphic file
- (type QTm)
- <use  "./images/T1_Curve2_Test2+Correction_20kmin_MgZnCa_301014.png" >
-[49] [50]
+File: ./images/Re_DSC_T1_20kmin_MgZnCa_301014.png Graphic file (type QTm)
+ <use  "./images/Re_DSC_T1_20kmin_MgZnCa_301014.png" >
+File: ./images/Re_DSC_T2_20kmin_MgZnCa_110215.png Graphic file (type QTm)
+
+<use  "./images/Re_DSC_T2_20kmin_MgZnCa_110215.png" >
+File: ./images/Re_XRD_T1_2A_2B_4AP.png Graphic file (type QTm)
+
+<use  "./images/Re_XRD_T1_2A_2B_4AP.png" > [49] [50]
+File: ./images/Re_EDS_T4A_Image.png Graphic file (type QTm)
+
+<use  "./images/Re_EDS_T4A_Image.png" >
+File: ./images/Re_EDS_T4A_Spectra.png Graphic file (type QTm)
+
+<use  "./images/Re_EDS_T4A_Spectra.png" >
+Overfull \hbox (7.36394pt too wide) in paragraph at lines 1013--1024
+ [][] 
+ []
+
+[51] [52]
 Chapter 5.
 
-Underfull \hbox (badness 2644) in paragraph at lines 977--978
+Underfull \hbox (badness 2644) in paragraph at lines 1036--1037
 []\T1/ppl/m/n/12 Found [][][]thin film metal-lic glasses (TFMGs)[][] and [][][]
 ul-tra-stable metal-lic glasses (SMGs)[][]
  []
 
-("ScottGleason PhDThesis.bbl" [51
+("ScottGleason PhDThesis.bbl" [53
 
 ]
 Chapter 6.
@@ -1970,7 +1985,7 @@ Underfull \hbox (badness 1097) in paragraph at lines 15--19
 
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
-[52
+[54
 
 ]
 Missing character: There is no – in font pplr8t!
@@ -1982,9 +1997,9 @@ Missing character: There is no ‐ in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
- [53]
+ [55]
 Missing character: There is no – in font pplr8t!
- [54]
+ [56]
 Underfull \hbox (badness 1803) in paragraph at lines 220--223
 []\T1/ppl/m/n/12 C. A. An-gell.  For-ma-tion of glasses from liq-uids and biopo
 ly-mers.  \T1/ppl/m/it/12 Sci-ence\T1/ppl/m/n/12 ,
@@ -2001,7 +2016,7 @@ Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
-[55]
+[57]
 Missing character: There is no ’ in font pplr8t!
 Missing character: There is no ’ in font pplr8t!
 Missing character: There is no – in font pplr8t!
@@ -2021,7 +2036,7 @@ Underfull \hbox (badness 1237) in paragraph at lines 358--363
 , \T1/ppl/m/it/12 Li-Mg  Nd-Zr\T1/ppl/m/n/12 ,
  []
 
-[56]
+[58]
 Missing character: There is no − in font pplr8t!
 
 Underfull \hbox (badness 1609) in paragraph at lines 393--397
@@ -2031,7 +2046,7 @@ Underfull \hbox (badness 1609) in paragraph at lines 393--397
 
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
-) [57]
+) [59]
 Chapter 7.
 File: ./images/Ph_Mg-Zn_Binary_Phase_Diagram.png Graphic file (type QTm)
 <use  "./images/Ph_Mg-Zn_Binary_Phase_Diagram.png" >
@@ -2046,15 +2061,15 @@ File: ./images/Ph_Ca-Zn_Binary_Phase_Diagram.png Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[58
+[60
 
-] [59]
+] [61]
 File: ./images/Ph_MgZnCa300CPhaseDiagram_SprMats.png Graphic file (type QTm)
  <use  "./images/Ph_MgZnCa300CPhaseDiagram_SprMats.png" >
 File: ./images/Ph_MgZnCaLiquidPhase_SprMats.png Graphic file (type QTm)
 
 <use  "./images/Ph_MgZnCaLiquidPhase_SprMats.png" >
-Overfull \hbox (22.5048pt too wide) in paragraph at lines 1062--1086
+Overfull \hbox (22.5048pt too wide) in paragraph at lines 1121--1145
  [][] 
  []
 
@@ -2067,27 +2082,27 @@ File: ./images/Mg70-XZn24+XCa6.png Graphic file (type QTm)
  <use  "./images/Mg70-XZn24+XCa6.png" >
 File: ./images/Mg75-XZn20+XCa5.png Graphic file (type QTm)
 
-<use  "./images/Mg75-XZn20+XCa5.png" > [60
+<use  "./images/Mg75-XZn20+XCa5.png" > [62
 
 ] ("ScottGleason PhDThesis.gls"
-[61] [62] [63] [64
+[63] [64] [65] [66
 
 
-] [65] [66]) [67]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1122.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1122.
+] [67] [68]) [69]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1181.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1181.
  ("ScottGleason PhDThesis.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1122.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1122.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1122.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1181.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1181.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1181.
  ) 
 Here is how much of TeX's memory you used:
- 47377 strings out of 428755
- 971325 string characters out of 3164221
- 1214258 words of memory out of 3000000
- 50019 multiletter control sequences out of 15000+200000
+ 47404 strings out of 428755
+ 971920 string characters out of 3164221
+ 1215186 words of memory out of 3000000
+ 50042 multiletter control sequences out of 15000+200000
  25927 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,860s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ScottGleason PhDThesis.pdf (78 pages).
+Output written on ScottGleason PhDThesis.pdf (80 pages).
