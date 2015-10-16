@@ -26,7 +26,7 @@ Daisman~PB Aji, Akihiko Hirata, Fan Zhu, Liu Pan, K~Madhav Reddy, Shuangxi
 \bibitem{Klement1960}
 W~Klement, RH~Willens, and POL Duwez.
 \newblock Non-crystalline structure in solidified gold–silicon alloys.
-\newblock 1960.
+\newblock {\em Nature}, 187:869--870, 1960.
 
 \bibitem{Inoue2000}
 Akihisa Inoue.
@@ -226,7 +226,7 @@ C.~Austen Angell.
 \newblock On the uncertain distinction between fast landscape exploration and
   second amorphous phase (ideal glass) interpretations of the ultrastable glass
   phenomenon.
-\newblock {\em Journal of Non-Crystalline Solids}, (0), 2014.
+\newblock {\em Journal of Non-Crystalline Solids}, 407(0):246–255, 2014.
 
 \bibitem{Schluter2012}
 K.~Schlüter, C.~Zamponi, N.~Hort, K.~U. Kainer, and E.~Quandt.
@@ -366,13 +366,13 @@ A.A. Nayeb-Hashemi and J.B. Clark.
 \newblock The ca−mg (calcium-magnesium) system.
 \newblock {\em Bulletin of Alloy Phase Diagrams}, 8(1):58--65, 1987.
 
-\bibitem{Itkin1990}
-V.P. Itkin and C.B. Alcock.
-\newblock The ca-zn (calcium-zinc) system.
-\newblock {\em Bulletin of Alloy Phase Diagrams}, 11(4):328--333, 1990.
+\bibitem{Messing1963}
+A.F. Messing, M.D. Adams, and R.K. Steunenberg.
+\newblock Contribution to the phase diagram calcium-zinc.
+\newblock {\em ASM Transactions Quarterly}, 56:345--350, 1963.
 
 \bibitem{Melnik1978}
-Kostina M.F. Yarmolyuk Ya.P. Zmiy~O.F. Melnik, E.V.
+E.V. Melnik, M.F. Kostina, Ya.P. Yarmolyuk, and O.F. Zmiy.
 \newblock Study of magnesium - zinc - cerium and magnesium - zinc - calcium
   ternary systems.
 \newblock {\em Magnievye Splavy, "Nauka", Moscow}, pages 95--99, 1978.
@@ -385,7 +385,7 @@ J.B. Clark.
   221:644--645, 1961.
 
 \bibitem{Schulze1961}
-Wieting~J. Schulze, G.E.R.
+G.E.R. Schulze and J.~Wieting.
 \newblock About the constitution principles of the cazn2-lattice.
 \newblock {\em Z. Metallkd.}, 52(11):743--746, 1961.
 
