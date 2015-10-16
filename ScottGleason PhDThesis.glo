@@ -73,6 +73,9 @@
 \glossaryentry{$T_{m}$?\glossentry{Tm}|setentrycounter[]{page}\glsnumberformat}{ix}
 \glossaryentry{$T_{l}$?\glossentry{Tl}|setentrycounter[]{page}\glsnumberformat}{ix}
 \glossaryentry{$\Delta T$?\glossentry{dT}|setentrycounter[]{page}\glsnumberformat}{ix}
+\glossaryentry{ICP?\glossentry{icp}|setentrycounter[]{page}\glsnumberformat}{x}
+\glossaryentry{ICP?\glossentry{icp}|setentrycounter[]{page}\glsnumberformat}{x}
+\glossaryentry{EDS?\glossentry{eds}|setentrycounter[]{page}\glsnumberformat}{x}
 \glossaryentry{EDS?\glossentry{eds}|setentrycounter[]{page}\glsnumberformat}{x}
 \glossaryentry{BMG?\glossentry{bmg}|setentrycounter[]{page}\glsnumberformat}{x}
 \glossaryentry{TFMG?\glossentry{tfmg}|setentrycounter[]{page}\glsnumberformat}{1}
@@ -582,26 +585,31 @@
 \glossaryentry{XRD?\glossentry{xrd}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{XRD?\glossentry{xrd}|setentrycounter[]{page}\glsnumberformat}{50}
 \glossaryentry{ICP?\glossentry{icp}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{MDL?\glossentry{mdl}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{ICP?\glossentry{icp}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{ICP?\glossentry{icp}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{MDL?\glossentry{mdl}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{EDS?\glossentry{eds}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{SEM?\glossentry{sem}|setentrycounter[]{page}\glsnumberformat}{51}
-\glossaryentry{ICP?\glossentry{icp}|setentrycounter[]{page}\glsnumberformat}{51}
-\glossaryentry{EDS?\glossentry{eds}|setentrycounter[]{page}\glsnumberformat}{51}
-\glossaryentry{EDS?\glossentry{eds}|setentrycounter[]{page}\glsnumberformat}{51}
-\glossaryentry{EDS?\glossentry{eds}|setentrycounter[]{page}\glsnumberformat}{51}
-\glossaryentry{TFMG?\glossentry{tfmg}|setentrycounter[]{page}\glsnumberformat}{53}
-\glossaryentry{SMG?\glossentry{smg}|setentrycounter[]{page}\glsnumberformat}{53}
-\glossaryentry{$T_{g}$?\glossentry{Tg}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{$T_{x}$?\glossentry{Tx}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{$T_{m}$?\glossentry{Tm}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{$T_{l}$?\glossentry{Tl}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{$\Delta T$?\glossentry{dT}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{$T_{rg}$?\glossentry{Trg}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{$T_{rg}$?\glossentry{Trg}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{GFA?\glossentry{gfa}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{BMG?\glossentry{bmg}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{$T_{g}$?\glossentry{Tg}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{ICP?\glossentry{icp}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{EDS?\glossentry{eds}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{EDS?\glossentry{eds}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{EDS?\glossentry{eds}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{EDS?\glossentry{eds}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{TFMG?\glossentry{tfmg}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{SMG?\glossentry{smg}|setentrycounter[]{page}\glsnumberformat}{54}
 \glossaryentry{$T_{g}$?\glossentry{Tg}|setentrycounter[]{page}\glsnumberformat}{65}
 \glossaryentry{$T_{x}$?\glossentry{Tx}|setentrycounter[]{page}\glsnumberformat}{65}
 \glossaryentry{$T_{m}$?\glossentry{Tm}|setentrycounter[]{page}\glsnumberformat}{65}
 \glossaryentry{$T_{l}$?\glossentry{Tl}|setentrycounter[]{page}\glsnumberformat}{65}
 \glossaryentry{$\Delta T$?\glossentry{dT}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{$T_{rg}$?\glossentry{Trg}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{$T_{rg}$?\glossentry{Trg}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{GFA?\glossentry{gfa}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{BMG?\glossentry{bmg}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{$T_{g}$?\glossentry{Tg}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{$T_{g}$?\glossentry{Tg}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{$T_{x}$?\glossentry{Tx}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{$T_{m}$?\glossentry{Tm}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{$T_{l}$?\glossentry{Tl}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{$\Delta T$?\glossentry{dT}|setentrycounter[]{page}\glsnumberformat}{66}

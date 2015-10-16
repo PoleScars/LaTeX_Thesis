@@ -983,6 +983,46 @@ Ehrler \cite{Ehrler2008} master's on amorphous ribbons found Mg$_{67}$Zn$_{28}$C
 \subsubsection{Inductively Coupled Plasma Mass Spectrometry (ICP)}
 \Gls{icp} (OPTIMA 3000DV, Perkin Elmer, Waltham, USA) testing found the first $3~ mm$ target plate only has about 26\% Zn. This is a loss of about 13\% Zn, or 8 grams of the total 108 grams of alloy cast. \todo{Draft result. And rough numbers. Put in correct ones if you use this.} This is too much material to attribute to loses, implying the Zn has migrated to riser during cooling. Injection moulding may produce more even cooling and better composition. 
 
+\todo{Choose a table design and remove the other}
+%table
+\begin{table}[H]
+	\centering
+	\begin{tabular}{l l l l l l l l}
+		\toprule
+		Sample & Location & Mg & Zn & Ca & Mg & Zn & Ca \\ 
+		& & (wt\%) & (wt\%) & (wt\%) & (At\%) & (At\%) & (At\%) \\ 
+		\midrule
+		T4B-01 & Drill Extraction Site & 42.26 & 52.26 & 5.39 & 65.06 & 29.91 & 5.03 \\ 
+		T4B-02 & Target Shaping Dust A & 38.9 & 56.98 & 4.02 & 62.22 & 33.88 & 3.9 \\
+		T4B-03 & Target Shaping Dust A & 42.77 & 50.52 & 6.6 & 65.24 & 28.65 & 6.11 \\
+		\midrule
+		& \acrshort{mdl} & 0.5 & 0.5 & 0.2 &  &  &  \\
+		\bottomrule
+	\end{tabular}
+	\caption{\acrshort{icp} composition results for several samples from Target 4B.}
+	\label{tab:ICPT4B}
+\end{table}
+
+%table
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ l l l l l l l l }
+		\toprule
+		Sample & \multicolumn{2}{l}{T4B-01} & \multicolumn{2}{l}{T4B-02} & \multicolumn{2}{l}{T4B-03} & MLD \\
+		Location & \multicolumn{2}{l}{Drill Extraction Site} & \multicolumn{2}{l}{Hacksaw Dust A} & \multicolumn{2}{l}{Hacksaw Dust B}  &  \\
+		& (wt\%) & (at\%) & (wt\%) & (at\%) & (wt\%) & (at\%) & (wt\%) \\
+		\midrule
+		Mg & 42.26 & 65.06 & 38.9 & 62.22 & 42.77 & 65.24 & 0.5 \\
+		Zn & 52.26 & 29.91 & 56.98 & 33.88 & 50.52 & 28.65 & 0.5 \\
+		Ca & 5.39 & 5.03 & 4.02 & 3.9 & 6.6 & 6.11 & 0.2 \\
+		\bottomrule
+	\end{tabular}
+	\caption{\acrshort{icp} composition results for several samples from Target 4B.}
+	\label{tab:ICPT4B_V2}
+\end{table}
+
+\Gls{mdl} is the lowest concentration which can be detected with 99\% certainty.
+
 \subsubsection{Energy-Dispersive X-Ray Spectroscopy (EDS)}
 \Gls{eds} analysis by \gls{sem} (S3400 Hitachi) on the first five plates has shown (insert results here). 
 
@@ -993,20 +1033,21 @@ Hyper-mapping of elements shows a homogeneous structure for all targets. Composi
 	\centering
 	%Image 1
 	\begin{subfigure}[htbp]{0.49\textwidth}
-		\includegraphics[width=\textwidth]{Re_EDS_T4A_Image.png}
+		\includegraphics[width=\textwidth]{Re_EDS_T4B_Image.png}
 		\caption{}
 		\label{fig:EDST4A_Micro}
 	\end{subfigure}
 	%Image 2
 	\begin{subfigure}[htbp]{0.49\textwidth}
-		\includegraphics[width=\textwidth]{Re_EDS_T4A_Spectra.png}
+		\includegraphics[width=\textwidth]{Re_EDS_T4B_Spectra.png}
 		\caption{}
 		\label{fig:EDST4A_Spectra}
 	\end{subfigure}
-	\caption{(a) \acrshort{eds} map of Mg, Zn, and Ca in Target 4A showing a homogeneous distribution of elements. (b) The \acrshort{eds} spectra from the hyper-map.}%global caption
+	\caption{(a) \acrshort{eds} map of Mg, Zn, and Ca in Target 4B showing a homogeneous distribution of elements. (b) The \acrshort{eds} spectra from the hyper-map.}%global caption
 	\label{fig:EDST4A}
 \end{figure}
 
+\todo{Choose a table design and remove the other}
 %table
 \begin{table}[H]
 	\centering
@@ -1015,14 +1056,36 @@ Hyper-mapping of elements shows a homogeneous structure for all targets. Composi
 		Element & AN & Series & Net & Unn. Con. & Nom. Con. & Atom Con. & Error (1 Sigma)\\
 		& & & & (wt.\%) & (wt.\%) & (at.\%) & (wt.\%) \\
 		\midrule
-		Mg & 12 & K-series & 219432 & 39.4 & 40.11 & 63.5 & 2.11 \\
-		Zn & 30 & K-series & 46656  & 55.48  & 56.48  & 33.23 & 1.87  \\
-		Ca & 20 & K-series & 21143  & 3.35 & 3.41  & 3.27 & 0.13  \\
-		&  &    & Total:   & 98.22 & 100  & 100  & \\
+		Mg & 12 & K-series & 275506 & 39.5 & 39.64 & 63.05 & 2.11 \\
+		Zn & 30 & K-series & 54902  & 56.78  & 56.98  & 33.69 & 1.91  \\
+		Ca & 20 & K-series & 24957  & 3.37 & 3.38  & 3.26 & 0.13  \\
+		\midrule
+		&  &    & Total:   & 99.64 & 100  & 100  & \\
 		\bottomrule                
 	\end{tabular}
-	\caption{\MgZnCa~ Target 4A wt\% and at\% concentration of Mg, Zn, and Ca with 1 sigma error (wt\%) from \acrshort{eds}.}
+	\caption{\MgZnCa~ Target 4B wt\% and at\% concentration of Mg, Zn, and Ca with 1 sigma error (wt\%) from \acrshort{eds}.}
 	\label{tab:EDST4Tabel}
+\end{table}
+
+%table
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ l l l l l l }
+		\toprule
+		El & & Mg & Zn & Ca & Total:  \\
+		AN & & 12 & 30 & 20 &   \\
+		\midrule
+		Series & & K-series & K-series & K-series & \   \\
+		Net & & 275506 & 54902 & 24957 & \   \\	
+		Unn. Con. & (wt.\%) & 39.5 & 56.78 & 3.37 & 99.64 \\
+		Norm. Con. & (wt.\%) & 39.64 & 56.98 & 3.38 & 100 \\
+		Atom Con. & (at.\%) & 63.05 & 33.69 & 3.26 & 100 \\
+		\midrule
+		Error (1 Sigma) & (wt.\%) & 2.11 & 1.91 & 0.13 & \  \\
+		\bottomrule
+	\end{tabular}
+	\caption{\MgZnCa~ Target 4B wt\% and at\% concentration of Mg, Zn, and Ca with 1 sigma error (wt\%) from \acrshort{eds}.}
+	\label{tab:EDST4Tabel_V2}
 \end{table}
 
 \section{DC Magnetron Sputtering}
