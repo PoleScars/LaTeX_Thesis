@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  16 OCT 2015 16:21
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  19 OCT 2015 16:29
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -2008,14 +2008,14 @@ Missing character: There is no – in font pplr8t!
  [56]
 Missing character: There is no – in font pplr8t!
  [57]
-Underfull \hbox (badness 1803) in paragraph at lines 220--223
+Underfull \hbox (badness 1803) in paragraph at lines 225--228
 []\T1/ppl/m/n/12 C. A. An-gell.  For-ma-tion of glasses from liq-uids and biopo
 ly-mers.  \T1/ppl/m/it/12 Sci-ence\T1/ppl/m/n/12 ,
  []
 
 Missing character: There is no – in font pplr8t!
 
-Underfull \hbox (badness 1466) in paragraph at lines 237--242
+Underfull \hbox (badness 1466) in paragraph at lines 242--247
 \T1/ppl/m/n/12 Quan-ti-ta-tive in vitro as-sess-ment of mg65zn30ca5 degra-da-ti
 on and its ef-fect on
  []
@@ -2031,24 +2031,24 @@ Missing character: There is no ’ in font pplr8t!
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
 
-Underfull \hbox (badness 1005) in paragraph at lines 332--337
+Underfull \hbox (badness 1005) in paragraph at lines 337--342
 []\T1/ppl/m/n/12 Xuenan Gu, Yufeng Zheng, Sheng-ping Zhong, Tingfei Xi, Jun-qia
 ng Wang, and
  []
 
 Missing character: There is no – in font pplr8t!
 Missing character: There is no – in font pplr8t!
+[59]
 Missing character: There is no – in font pplri8t!
 
-Underfull \hbox (badness 1237) in paragraph at lines 358--363
+Underfull \hbox (badness 1237) in paragraph at lines 363--368
 []\T1/ppl/m/n/12 B. Pre-del.  Mg-zn (magnesium-zinc).  In O. Madelung, ed-i-tor
 , \T1/ppl/m/it/12 Li-Mg  Nd-Zr\T1/ppl/m/n/12 ,
  []
 
-[59]
 Missing character: There is no − in font pplr8t!
 
-Underfull \hbox (badness 1609) in paragraph at lines 393--397
+Underfull \hbox (badness 1609) in paragraph at lines 398--402
 []\T1/ppl/m/n/12 R. Paris.  Sur les al-liages ter-naires magnésium-zinc-calcium
 .  \T1/ppl/m/it/12 Comptes Ren-dus
  []
@@ -2106,10 +2106,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1268.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1268.
  ) 
 Here is how much of TeX's memory you used:
- 47471 strings out of 428755
- 973175 string characters out of 3164221
- 1216683 words of memory out of 3000000
- 50107 multiletter control sequences out of 15000+200000
+ 47474 strings out of 428755
+ 973235 string characters out of 3164221
+ 1216699 words of memory out of 3000000
+ 50110 multiletter control sequences out of 15000+200000
  25927 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,860s stack positions out of 5000i,500n,10000p,200000b,50000s
