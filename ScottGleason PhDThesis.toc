@@ -87,11 +87,11 @@
 \contentsline {subsection}{\numberline {4.1.5}Target Composition}{50}{subsection.4.1.5}
 \contentsline {subsubsection}{\numberline {4.1.5.1}Inductively Coupled Plasma Mass Spectrometry (ICP)}{50}{subsubsection.4.1.5.1}
 \contentsline {subsubsection}{\numberline {4.1.5.2}Energy-Dispersive X-Ray Spectroscopy (EDS)}{52}{subsubsection.4.1.5.2}
-\contentsline {section}{\numberline {4.2}DC Magnetron Sputtering}{53}{section.4.2}
-\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{54}{chapter.5}
-\contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{55}{chapter.6}
-\contentsline {chapter}{\numberline {7}APPENDICES}{61}{chapter.7}
-\contentsline {section}{\numberline {7.1}MgZnCa Binary Phases}{61}{section.7.1}
-\contentsline {section}{\numberline {7.2}MgZnCa Ternary Phases}{63}{section.7.2}
-\contentsline {chapter}{GLOSSARY}{67}{section*.100}
+\contentsline {section}{\numberline {4.2}DC Magnetron Sputtering}{54}{section.4.2}
+\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{55}{chapter.5}
+\contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{56}{chapter.6}
+\contentsline {chapter}{\numberline {7}APPENDICES}{62}{chapter.7}
+\contentsline {section}{\numberline {7.1}MgZnCa Binary Phases}{62}{section.7.1}
+\contentsline {section}{\numberline {7.2}MgZnCa Ternary Phases}{64}{section.7.2}
+\contentsline {chapter}{GLOSSARY}{68}{section*.101}
 \contentsfinish 
