@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  21 OCT 2015 16:32
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  22 OCT 2015 12:28
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1629,10 +1629,10 @@ ine 121.
 Requested font "pplr8t" at 10.0pt
 )
 \tf@lof=\write8
- [9] ("ScottGleason PhDThesis.lot")
+ [9] [10] ("ScottGleason PhDThesis.lot")
 \tf@lot=\write9
 
-[10
+[11
 
 ]
 Chapter 1.
@@ -2110,10 +2110,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1276.
 Here is how much of TeX's memory you used:
  47477 strings out of 428755
  973302 string characters out of 3164221
- 1216824 words of memory out of 3000000
+ 1216826 words of memory out of 3000000
  50112 multiletter control sequences out of 15000+200000
  25927 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,860s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ScottGleason PhDThesis.pdf (82 pages).
+Output written on ScottGleason PhDThesis.pdf (83 pages).
