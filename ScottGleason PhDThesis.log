@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  27 OCT 2015 12:40
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2015.9.1)  2 NOV 2015 11:01
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1954,25 +1954,22 @@ Underfull \hbox (badness 1112) in paragraph at lines 962--963
 s-tinc-tive exother-mal [][][]glass
  []
 
-[49]
+
 Underfull \hbox (badness 1221) in paragraph at lines 964--965
 \T1/ppl/m/n/12 of con-stituent el-e-ments within the tar-gets. [][][]DSC[][] sc
 ans of the $\OT1/ppl/m/n/12 3$ \T1/ppl/m/n/12 and $\OT1/ppl/m/n/12 4 []\OML/zpl
 m/m/it/12 mm$ \T1/ppl/m/n/12 tar-gets
  []
 
+[49]
 File: ./images/Re_DSC_T1_20kmin_MgZnCa_301014.png Graphic file (type QTm)
-<use  "./images/Re_DSC_T1_20kmin_MgZnCa_301014.png" >
+ <use  "./images/Re_DSC_T1_20kmin_MgZnCa_301014.png" >
 File: ./images/Re_DSC_T2_20kmin_MgZnCa_110215.png Graphic file (type QTm)
 
 <use  "./images/Re_DSC_T2_20kmin_MgZnCa_110215.png" > [50]
 File: ./images/Re_XRD_T1_2A_2B_4AP.png Graphic file (type QTm)
 
 <use  "./images/Re_XRD_T1_2A_2B_4AP.png" > [51]
-
-LaTeX Warning: Marginpar on page 52 moved.
-
-
 Underfull \hbox (badness 3386) in paragraph at lines 1008--1009
 \T1/ppl/m/n/12 (SEM)[][] (S3400 Hi-tachi). These scans showed all tar-gets had 
 a sim-i-lar struc-ture
@@ -1982,14 +1979,15 @@ File: ./images/Re_SEM_T01.png Graphic file (type QTm)
 <use  "./images/Re_SEM_T01.png" >
 File: ./images/Re_SEM_T4A_PhaseInterface.jpg Graphic file (type QTm)
 
-<use  "./images/Re_SEM_T4A_PhaseInterface.jpg" > [52] [53]
+<use  "./images/Re_SEM_T4A_PhaseInterface.jpg" > [52]
 Underfull \hbox (badness 1199) in paragraph at lines 1062--1063
 []\T1/ppl/m/n/12 Non-destructive [][][]energy-dispersive X-ray spec-troscopy (E
 DS)[][] anal-y-sis by [][][]SEM[][] (S3400
  []
 
+[53]
 File: ./images/Re_EDS_T4B_Image.png Graphic file (type QTm)
-<use  "./images/Re_EDS_T4B_Image.png" >
+ <use  "./images/Re_EDS_T4B_Image.png" >
 File: ./images/Re_EDS_T4B_Spectra.png Graphic file (type QTm)
 
 <use  "./images/Re_EDS_T4B_Spectra.png" > [54] [55]
@@ -2127,7 +2125,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1261.
 Here is how much of TeX's memory you used:
  47464 strings out of 428755
  972971 string characters out of 3164221
- 1216899 words of memory out of 3000000
+ 1216893 words of memory out of 3000000
  50098 multiletter control sequences out of 15000+200000
  25927 words of font info for 60 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
