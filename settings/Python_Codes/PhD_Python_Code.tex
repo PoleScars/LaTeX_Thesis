@@ -61,7 +61,6 @@ showstringspaces=false            %
 \subsection{Calculation Codes}
 \subsubsection{At\% to Wt\% Calculations}
 
-
 \begin{python}
 # In[1]:
 
@@ -226,10 +225,12 @@ return [
 ]
 \end{python}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \subsubsection{SMG Target Deposition Calculations}
 
 \begin{python}
+
 # In[1]:
 
 '''Code for the Deposition of Targets
@@ -284,8 +285,45 @@ print 'The upper Tsub limit is', UpperTsub, 'of Tg'
 print 'The lower Tsub temperature is', LowerTsubCelius, 'C,  or', LowerTsubKelvin, 'K'
 print 'The upper Tsub temperature is', UpperTsubCelius, 'C,  or', UpperTsubKelvin, 'K'
 
+
+# In[5]:
+
+DepositionTime(1.4, 1000)
+
+
+# In[6]:
+
+SubstrateTemp(132, 0.7, 0.8)
+
+
+# In[7]:
+
+print 'Ideal Tg for 0.7 room temp deposition:'
+SubstrateTemp(145, 0.7, 0.8)
+
+
+# In[8]:
+
+print 'Upper ideal Tg for 0.7 room temp deposition'
+print 'Assumes plasma adds 20K to substrate temp:'
+SubstrateTemp(174, 0.7, 0.8)
+
+
+# In[9]:
+
+print 'Ideal Tg for 0.8 RT deposition'
+SubstrateTemp(93, 0.7, 0.8)
+
+
+# In[10]:
+
+print 'Upper ideal Tg for 0.8 RT deposition'
+print 'Assumes plasma adds 20K to substrate temp:'
+SubstrateTemp(118, 0.7, 0.8)
+
 \end{python}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \subsubsection{Casting Volume Calculations}
 
@@ -422,8 +460,9 @@ CylindarVolume(34, 85)
 
 \end{python}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
-\section{Plotting Codes}
+\subsection{Plotting Codes}
 \subsubsection{MgZnCa System Property Plots}
 
 \begin{python}
@@ -621,6 +660,211 @@ PlotFile(filesToPlot[1], '$Mg_{72-X}Zn_{24+X}Ca_{4}$')
 PlotFile(filesToPlot[2], '$Mg_{75-X}Zn_{20+X}Ca_{5}$')
 \end{python}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsubsection{MgZnCa Tg}
+
+\begin{python}
+# In[1]:
+
+'''Code to plot MgZnCa Temperature Properites from .txt directory
+Code by Scott Gleason, University of New South Wales (UNSW), Australia 
+S.Gleason@student.unsw.edu.au, June 2015'''
+
+
+# In[2]:
+
+'''Imports numpy, matplotlib, and glob libaries 
+numpy & matplotlib allow for complex math
+glob allows for pattern matching with * and ? wild cards
+(note glob's only function is glob (i.e. glob.glob('search critrea')))'''
+
+'%matplotlib inline'
+'Generates plots inline of the notebook. Commit out if want indivudual files'
+
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.ticker import AutoMinorLocator #Used for minor axis ticks
+import glob
+
+
+# In[3]:
+
+cd 'C:\\Users\\z3492622\\Documents\\PhD Project\\Results'
+
+
+# In[4]:
+
+cd 'Modelling\\'
+
+
+# In[5]:
+
+'Directs to directory containing files to be anaylised'
+
+Folder = 'MgZnCa BMG Properites'
+
+print 'Directory to be anaylised:'
+print Folder
+
+
+# In[6]:
+
+def dataFilesRange(FileType, StartFile = 0, EndFile = None):
+'''Preforms a glob list of *.filetype within directory
+FileType = csv, txt, etc
+StartFile = Number of first file to be anaylsis from the glob
+Defaulted to 0
+EndFile = Number of last file to be anaylsis from the glob
+Defaulted to None, as to return last value'''
+
+'assertion test for the function'
+assert StartFile > -1, 'First file must be atleast 0'
+if EndFile<>None:
+assert EndFile > 0, 'Last file must be atleast 1'
+
+dataFiles = glob.glob(Folder + '\\*.'+ FileType)
+
+'set range of files to be analysed'
+Range = dataFiles[StartFile:EndFile]
+
+return Range
+
+
+# In[7]:
+
+def dataArray(filename, Delimiter = ',', StartRow = 1, LastColumn = None):
+'''Creates an array from an input file, and defines limits of the array
+filename = file to anaylisied
+Delimiter = data separator (defaulted to ',' for .csv)
+StartRow = row data starts on (defaulted to 1)
+LastColumn = column data ends on (defaulted to None)
+Note: .txt use 'None' as Delimiter'''
+
+assert StartRow > 0, 'First row must be atleast 1'
+
+'''If condition determining the last column of the array
+also contains assertion to ensure last column is valid'''
+if LastColumn<>None:
+assert LastColumn > 0, 'Last column must be atleast 1'
+Column = range(0, LastColumn, 1)
+else:
+Column = None
+
+'Returns array of data, do not edit this string'
+return np.loadtxt(filename, delimiter = Delimiter,
+skiprows = StartRow - 1, 
+usecols = Column)
+
+
+# In[8]:
+
+def plotFile(filename, title, xAxis=1, yAxis=2):
+'''Generates a plot of data from a file, and formates chart layout
+filename = file to anaylisied
+title = tile of the plot
+xAxis = Column of X-Axis Data (defaulted to 1st column)
+yAxis = Column of Y-Axis Data (defaulted to 2nd column)'''
+
+'Assertion to ensure x and y axis are valid'
+assert xAxis > 0, 'X Axis must be at least 1'
+assert yAxis > 0, 'Y Axis must be at least 1'
+
+'Defines the columns X & Y axis data come from in filename array'
+xAxisData = filename[:, xAxis-1]
+Y1 = filename[:, yAxis-1]
+Y2 = filename[:, yAxis]
+Y3 = filename[:, yAxis+1]
+
+'Define Plot layout, axis lables, legends, etc'
+PlotLayout = {'fileName': title, # Plot filename 
+	'title': title, # Title lable
+	'titleFontSize': 25, # Title lable font size
+	'X-Lable': '$X$ $(at\%)$', # X axis lable
+	'Y-Lable': '$T_{g}$  $(^{\circ}C)$', # Y axis lable
+	'axisFontSize': 18, # X & Y axis lable font size
+	'xAxisMin': -1, # lower scale limit for x axis
+	'xAxisMax': 16, # upper scale limit for X axis
+	'yAxisMin': 50, # lower scale limit for y axis
+	'yAxisMax': 200, # upper scale limit for y axis
+	'lineColourType': 'b', # line colour and style
+	'lineWeight': 1.2 # weight of line
+}
+
+'Add PlotLayout objects to plot'
+plt.figure(PlotLayout['fileName'])
+plt.title(PlotLayout['title'], fontsize = PlotLayout['titleFontSize'])
+plt.xlabel(PlotLayout['X-Lable'], fontsize = PlotLayout['axisFontSize'])
+plt.ylabel(PlotLayout['Y-Lable'], fontsize = PlotLayout['axisFontSize'])
+
+
+
+'Add Tg Limit Lines'
+r = np.linspace(0,50,10000) # linearly spaced numbers
+TgL = 93 + r*0 #
+TgH = 146 + r*0 #
+TgLP = 118 + r*0 #
+TgHP = 174 + r*0 #
+
+TgLimitLines = [
+{'xAxis': r, 'yAxis': TgL, 'colour': 'black', 'line': '--'},
+{'xAxis': r, 'yAxis': TgH, 'colour': 'black', 'line': '--'},
+{'xAxis': r, 'yAxis': TgLP, 'colour': 'purple', 'line': ':'},
+{'xAxis': r, 'yAxis': TgHP, 'colour': 'purple', 'line': ':'}]
+
+for i in TgLimitLines:
+plt.plot(i['xAxis'], i['yAxis'], 
+color=i['colour'], linestyle=i['line'], 
+linewidth=PlotLayout['lineWeight'])
+
+
+
+'Turns on minor axis ticks'
+plt.minorticks_on()
+
+'Generates the plot'
+plt.hold(True)
+plt.plot(xAxisData, Y1, linewidth = PlotLayout['lineWeight'],
+label='$Mg_{70-X}Zn_{24+X}Ca_{6}$')
+plt.plot(xAxisData, Y2, linewidth = PlotLayout['lineWeight'],
+label='$Mg_{72-X}Zn_{24+X}Ca_{4}$')
+plt.plot(xAxisData, Y3, linewidth = PlotLayout['lineWeight'],
+label='$Mg_{75-X}Zn_{20+X}Ca_{5}$')
+plt.axis([PlotLayout['xAxisMin'], PlotLayout['xAxisMax'], 
+PlotLayout['yAxisMin'], PlotLayout['yAxisMax']])
+plt.legend(loc = 2)
+plt.show()
+
+
+# In[9]:
+
+filesToPlot = dataFilesRange('txt', 4, 5)
+print filesToPlot
+
+
+# In[10]:
+
+def PlotFile(filename, title):
+'''Plot a .txt or .csv file with a title
+Prints filepath of each *.filetype file anaylisied 
+Uses dataArray() function to print matrix of each file
+Uses dataArray() and plotFile() functions to plot each file'''
+
+print filename #Prints files
+'''dataArray takes 4 arrguments; filename, Delimiter, StartRow, and LastColumn
+Note1: For .csv Delimiter = ',' and for .txt Delimiter = None'''
+dataToPlot = dataArray(filename, None, 2, None) #Defines data and limits
+print dataToPlot #Prints matrix
+'plotfile requires the X & Y axis be specified'
+plotFile(dataToPlot, title, 1, 2) #Generates plot
+
+
+# In[11]:
+
+PlotFile(filesToPlot[0], '$MgZnCa$ System $T_{g}$')
+\end{python}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \subsubsection{Gibbs Free Energy Plots}
 
@@ -792,7 +1036,7 @@ NucleationEnergy()
 
 \end{python}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \subsubsection{EDS Plotting Loop Function}
 
