@@ -333,6 +333,11 @@ K.~Ozeki, T.~Yuhta, Y.~Fukui, and H.~Aoki.
 \newblock Phase composition of sputtered films from a hydroxyapatite target.
 \newblock {\em Surface and Coatings Technology}, 160(1):54--61, 2002.
 
+\bibitem{Ehrler2008}
+Daniel Ehrler.
+\newblock Investigation of the corrosive and mechanical properties of melt-spun
+  amorphous mgzn and mgxzn ribbons (x = al, ca, la), 2008.
+
 \bibitem{Gu2010}
 Xuenan Gu, Yufeng Zheng, Shengping Zhong, Tingfei Xi, Junqiang Wang, and Weihua
   Wang.
@@ -354,10 +359,17 @@ J~D Cao, K~J Laws, N~Birbilis, and M~Ferry.
 \newblock {\em Corrosion Engineering, Science and Technology}, 47(5):329--334,
   2012.
 
-\bibitem{Ehrler2008}
-Daniel Ehrler.
-\newblock Investigation of the corrosive and mechanical properties of melt-spun
-  amorphous mgzn and mgxzn ribbons (x = al, ca, la), 2008.
+\bibitem{Laws2016}
+K.~J. Laws, D.~Granata, and J.~F. Löffler.
+\newblock Alloy design strategies for sustained ductility in mg-based amorphous
+  alloys – tackling structural relaxation.
+\newblock {\em Acta Materialia}, 103:735--745, 2016.
+
+\bibitem{Khan1989}
+Y.~Khan.
+\newblock Dynamic temperature crystallization behaviour of amorphous and liquid
+  mg70zn30 alloy.
+\newblock {\em Journal of Materials Science}, 24(3):963--973, 1989.
 
 \bibitem{Predel1997}
 B.~Predel.
