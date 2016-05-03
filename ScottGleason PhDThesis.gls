@@ -146,7 +146,9 @@
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossentry{abed}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{26}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{46}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{46}}}%
+\glossentry{afm}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{ii}}}\glsgroupskip
 \glsgroupheading{B}\relax \glsresetentrylist %
 \glossentry{bmg}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{xii}\delimN 
@@ -325,7 +327,7 @@
 		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{26}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{45\delimN 46}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{50\delimN 51}}}%
+		\setentrycounter[]{page}\glsnumberformat{50\delimR 52}}}%
 \glossentry{xrr}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{46}}}%
 \end{theglossary}\glossarypostamble
