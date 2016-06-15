@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.20)  3 MAY 2016 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.20)  15 JUN 2016 10:31
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -1542,7 +1542,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
 
-<./images/UNIlogo.png, id=402, 147.4308pt x 154.4169pt>
+<./images/UNIlogo.png, id=414, 147.4308pt x 154.4169pt>
 File: ./images/UNIlogo.png Graphic file (type png)
 
 <use ./images/UNIlogo.png>
@@ -1598,7 +1598,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 182.
 [2
 
-] [3] <./images/nucleation_free_energy.png, id=935, 578.16pt x 431.4519pt>
+] [3] <./images/nucleation_free_energy.png, id=950, 578.16pt x 431.4519pt>
 File: ./images/nucleation_free_energy.png Graphic file (type png)
 
 <use ./images/nucleation_free_energy.png>
@@ -1606,7 +1606,7 @@ Package pdftex.def Info: ./images/nucleation_free_energy.png used on input line
  224.
 (pdftex.def)             Requested size: 237.01411pt x 176.87009pt.
 
-<./images/gibbs_free_energy.png, id=936, 578.16pt x 431.4519pt>
+<./images/gibbs_free_energy.png, id=951, 578.16pt x 431.4519pt>
 File: ./images/gibbs_free_energy.png Graphic file (type png)
 
 <use ./images/gibbs_free_energy.png>
@@ -1614,7 +1614,7 @@ Package pdftex.def Info: ./images/gibbs_free_energy.png used on input line 230.
 
 (pdftex.def)             Requested size: 237.01411pt x 176.87009pt.
  [4 <./images/nucleation_free_energy.png> <./images/gibbs_free_energy.png>]
-<./images/Glass_Cooling_Graph.png, id=984, 641.39626pt x 639.89063pt>
+<./images/Glass_Cooling_Graph.png, id=999, 641.39626pt x 639.89063pt>
 File: ./images/Glass_Cooling_Graph.png Graphic file (type png)
 
 <use ./images/Glass_Cooling_Graph.png>
@@ -1628,7 +1628,7 @@ LaTeX Font Info:    Try loading font information for TS1+ppl on input line 270.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ppl.fd"
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-<./images/BMG_Tg_on_Tm_01.png, id=1043, 874.26625pt x 855.195pt>
+<./images/BMG_Tg_on_Tm_01.png, id=1058, 874.26625pt x 855.195pt>
 File: ./images/BMG_Tg_on_Tm_01.png Graphic file (type png)
 
 <use ./images/BMG_Tg_on_Tm_01.png>
@@ -1644,29 +1644,29 @@ Underfull \hbox (badness 1253) in paragraph at lines 303--304
 n mech-a-nism al-lows [][][]BMGs[][] to
  []
 
-<./images/ProcessingofBMGs_NewDraw.png, id=1114, 226.2051pt x 179.9523pt>
+<./images/ProcessingofBMGs_NewDraw.png, id=1129, 226.2051pt x 179.9523pt>
 File: ./images/ProcessingofBMGs_NewDraw.png Graphic file (type png)
 
 <use ./images/ProcessingofBMGs_NewDraw.png>
 Package pdftex.def Info: ./images/ProcessingofBMGs_NewDraw.png used on input li
 ne 308.
 (pdftex.def)             Requested size: 362.77264pt x 288.616pt.
- [8] [9 <./images/ProcessingofBMGs_NewDraw.png>] <./images/ThinFilm.png, id=116
-8, 726.715pt x 411.5375pt>
+ [8] [9 <./images/ProcessingofBMGs_NewDraw.png>] <./images/ThinFilm.png, id=118
+3, 726.715pt x 411.5375pt>
 File: ./images/ThinFilm.png Graphic file (type png)
 
 <use ./images/ThinFilm.png>
 Package pdftex.def Info: ./images/ThinFilm.png used on input line 327.
 (pdftex.def)             Requested size: 241.84843pt x 136.95695pt.
 
-<./images/PLD.png, id=1182, 680.5425pt x 370.38374pt>
+<./images/PLD.png, id=1197, 680.5425pt x 370.38374pt>
 File: ./images/PLD.png Graphic file (type png)
  <use ./images/PLD.png>
 Package pdftex.def Info: ./images/PLD.png used on input line 343.
 (pdftex.def)             Requested size: 362.77264pt x 197.43842pt.
 
 [10 <./images/ThinFilm.png>]
-<./images/CaoThesis_XRDTarget.png, id=1210, 352.77pt x 263.01pt>
+<./images/CaoThesis_XRDTarget.png, id=1225, 352.77pt x 263.01pt>
 File: ./images/CaoThesis_XRDTarget.png Graphic file (type png)
 
 <use ./images/CaoThesis_XRDTarget.png>
@@ -1674,14 +1674,14 @@ Package pdftex.def Info: ./images/CaoThesis_XRDTarget.png used on input line 35
 7.
 (pdftex.def)             Requested size: 362.77264pt x 270.48192pt.
  [11 <./images/PLD.png>] [12 <./images/CaoThesis_XRDTarget.png>]
-<./images/Sputtering_02.png, id=1240, 405.515pt x 313.17pt>
+<./images/Sputtering_02.png, id=1255, 405.515pt x 313.17pt>
 File: ./images/Sputtering_02.png Graphic file (type png)
 
 <use ./images/Sputtering_02.png>
 Package pdftex.def Info: ./images/Sputtering_02.png used on input line 376.
 (pdftex.def)             Requested size: 362.77264pt x 280.16832pt.
 
-<./images/Field_Sputtering.png, id=1241, 2002.48125pt x 1617.04124pt>
+<./images/Field_Sputtering.png, id=1256, 2002.48125pt x 1617.04124pt>
 File: ./images/Field_Sputtering.png Graphic file (type png)
 
 <use ./images/Field_Sputtering.png>
@@ -1692,7 +1692,7 @@ Package pdftex.def Info: ./images/Field_Sputtering.png used on input line 382.
 LaTeX Warning: Float too large for page by 7.51529pt on input line 388.
 
 [13] [14 <./images/Sputtering_02.png> <./images/Field_Sputtering.png>] [15]
-<./images/Tsub_Yu_SMG.png, id=1347, 451.6875pt x 488.82625pt>
+<./images/Tsub_Yu_SMG.png, id=1362, 451.6875pt x 488.82625pt>
 File: ./images/Tsub_Yu_SMG.png Graphic file (type png)
 
 <use ./images/Tsub_Yu_SMG.png>
@@ -1727,14 +1727,14 @@ LaTeX Warning: Marginpar on page 18 moved.
 
 LaTeX Warning: Marginpar on page 18 moved.
 
-<./images/Kearns_DSC.png, id=1422, 238.6365pt x 168.79167pt>
+<./images/Kearns_DSC.png, id=1437, 238.6365pt x 168.79167pt>
 File: ./images/Kearns_DSC.png Graphic file (type png)
 
 <use ./images/Kearns_DSC.png>
 Package pdftex.def Info: ./images/Kearns_DSC.png used on input line 447.
 (pdftex.def)             Requested size: 338.58632pt x 239.49783pt.
 
-<./images/Guo_DSC.png, id=1423, 728.7225pt x 700.6175pt>
+<./images/Guo_DSC.png, id=1438, 728.7225pt x 700.6175pt>
 File: ./images/Guo_DSC.png Graphic file (type png)
 
 <use ./images/Guo_DSC.png>
@@ -1759,7 +1759,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Warning: Marginpar on page 20 moved.
 
-<./images/Tk_Graph_New_Draw.png, id=1485, 641.39626pt x 639.89063pt>
+<./images/Tk_Graph_New_Draw.png, id=1500, 641.39626pt x 639.89063pt>
 File: ./images/Tk_Graph_New_Draw.png Graphic file (type png)
 
 <use ./images/Tk_Graph_New_Draw.png>
@@ -1767,7 +1767,7 @@ Package pdftex.def Info: ./images/Tk_Graph_New_Draw.png used on input line 469.
 
 (pdftex.def)             Requested size: 362.77264pt x 361.92943pt.
  [20] [21 <./images/Tk_Graph_New_Draw.png>] <./images/ShelbyFragilityPlot.png, 
-id=1551, 448.67625pt x 414.04688pt>
+id=1566, 448.67625pt x 414.04688pt>
 File: ./images/ShelbyFragilityPlot.png Graphic file (type png)
 
 <use ./images/ShelbyFragilityPlot.png>
@@ -1775,7 +1775,7 @@ Package pdftex.def Info: ./images/ShelbyFragilityPlot.png used on input line 50
 3.
 (pdftex.def)             Requested size: 362.77264pt x 334.78224pt.
  [22 <./images/ShelbyFragilityPlot.png>]
-<./images/YuMTg.png, id=1573, 1161.33875pt x 927.465pt>
+<./images/YuMTg.png, id=1588, 1161.33875pt x 927.465pt>
 File: ./images/YuMTg.png Graphic file (type png)
 
 <use ./images/YuMTg.png>
@@ -1795,7 +1795,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 518.
 
 [23 <./images/YuMTg.png>]
-<./images/Density_Vs_Tsub_Ishii.png, id=1606, 813.0375pt x 621.82312pt>
+<./images/Density_Vs_Tsub_Ishii.png, id=1621, 813.0375pt x 621.82312pt>
 File: ./images/Density_Vs_Tsub_Ishii.png Graphic file (type png)
 
 <use ./images/Density_Vs_Tsub_Ishii.png>
@@ -1803,7 +1803,7 @@ Package pdftex.def Info: ./images/Density_Vs_Tsub_Ishii.png used on input line
 528.
 (pdftex.def)             Requested size: 362.77264pt x 277.45525pt.
 
-<./images/IshiiMTg.png, id=1607, 169.1118pt x 126.7134pt>
+<./images/IshiiMTg.png, id=1622, 169.1118pt x 126.7134pt>
 File: ./images/IshiiMTg.png Graphic file (type png)
 
 <use ./images/IshiiMTg.png>
@@ -1834,14 +1834,14 @@ Underfull \hbox (badness 1062) in paragraph at lines 619--620
 ec-i-men can be mea-sured by
  []
 
-[30] <./images/Enos_TafelPlot.png, id=1856, 255.84634pt x 278.00212pt>
+[30] <./images/Enos_TafelPlot.png, id=1871, 255.84634pt x 278.00212pt>
 File: ./images/Enos_TafelPlot.png Graphic file (type png)
 
 <use ./images/Enos_TafelPlot.png>
 Package pdftex.def Info: ./images/Enos_TafelPlot.png used on input line 637.
 (pdftex.def)             Requested size: 362.77264pt x 394.18886pt.
  [31 <./images/Enos_TafelPlot.png>] [32]
-<./images/ZbergHydrogen.png, id=1900, 1253.68375pt x 891.33pt>
+<./images/ZbergHydrogen.png, id=1915, 1253.68375pt x 891.33pt>
 File: ./images/ZbergHydrogen.png Graphic file (type png)
 
 <use ./images/ZbergHydrogen.png>
@@ -1855,21 +1855,21 @@ ing promise as a
 
 [33 <./images/ZbergHydrogen.png>] [34]
 Chapter 3.
-<./images/Ex_AutoCutter.jpg, id=1932, 2951.025pt x 2088.80376pt>
+<./images/Ex_AutoCutter.jpg, id=1947, 2951.025pt x 2088.80376pt>
 File: ./images/Ex_AutoCutter.jpg Graphic file (type jpg)
 
 <use ./images/Ex_AutoCutter.jpg>
 Package pdftex.def Info: ./images/Ex_AutoCutter.jpg used on input line 717.
 (pdftex.def)             Requested size: 237.01411pt x 167.74516pt.
 
-<./images/Ex_Mg_Cut_Ingot.jpg, id=1933, 1763.58875pt x 3106.60625pt>
+<./images/Ex_Mg_Cut_Ingot.jpg, id=1948, 1763.58875pt x 3106.60625pt>
 File: ./images/Ex_Mg_Cut_Ingot.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Mg_Cut_Ingot.jpg>
 Package pdftex.def Info: ./images/Ex_Mg_Cut_Ingot.jpg used on input line 723.
 (pdftex.def)             Requested size: 145.11053pt x 255.59662pt.
 
-<./images/Ex_ChargeSheet.png, id=1935, 1927.2pt x 1043.9pt>
+<./images/Ex_ChargeSheet.png, id=1950, 1927.2pt x 1043.9pt>
 File: ./images/Ex_ChargeSheet.png Graphic file (type png)
 
 <use ./images/Ex_ChargeSheet.png>
@@ -1879,7 +1879,7 @@ Package pdftex.def Info: ./images/Ex_ChargeSheet.png used on input line 736.
 
 ] [36 <./images/Ex_AutoCutter.jpg> <./images/Ex_Mg_Cut_Ingot.jpg> <./images/Ex_
 ChargeSheet.png>]
-<./images/Ex_Laws_Induction_Schematic.png, id=1951, 604.2575pt x 681.54625pt>
+<./images/Ex_Laws_Induction_Schematic.png, id=1966, 604.2575pt x 681.54625pt>
 File: ./images/Ex_Laws_Induction_Schematic.png Graphic file (type png)
 
 <use ./images/Ex_Laws_Induction_Schematic.png>
@@ -1887,7 +1887,7 @@ Package pdftex.def Info: ./images/Ex_Laws_Induction_Schematic.png used on input
  line 748.
 (pdftex.def)             Requested size: 362.77264pt x 409.17009pt.
  [37 <./images/Ex_Laws_Induction_Schematic.png>]
-<./images/Ex_LAWS_Induction_Casting.png, id=1963, 274.91653pt x 209.18352pt>
+<./images/Ex_LAWS_Induction_Casting.png, id=1978, 274.91653pt x 209.18352pt>
 File: ./images/Ex_LAWS_Induction_Casting.png Graphic file (type png)
 
 <use ./images/Ex_LAWS_Induction_Casting.png>
@@ -1895,7 +1895,7 @@ Package pdftex.def Info: ./images/Ex_LAWS_Induction_Casting.png used on input l
 ine 767.
 (pdftex.def)             Requested size: 237.01411pt x 180.34755pt.
 
-<./images/Ex_Crucible_Charge.jpg, id=1964, 1918.16624pt x 1935.23pt>
+<./images/Ex_Crucible_Charge.jpg, id=1979, 1918.16624pt x 1935.23pt>
 File: ./images/Ex_Crucible_Charge.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Crucible_Charge.jpg>
@@ -1903,7 +1903,7 @@ Package pdftex.def Info: ./images/Ex_Crucible_Charge.jpg used on input line 773
 .
 (pdftex.def)             Requested size: 181.38632pt x 182.99242pt.
 
-<./images/Ex_Laws_Copper_Mould.png, id=1965, 249.31699pt x 218.2612pt>
+<./images/Ex_Laws_Copper_Mould.png, id=1980, 249.31699pt x 218.2612pt>
 File: ./images/Ex_Laws_Copper_Mould.png Graphic file (type png)
 
 <use ./images/Ex_Laws_Copper_Mould.png>
@@ -1911,7 +1911,7 @@ Package pdftex.def Info: ./images/Ex_Laws_Copper_Mould.png used on input line 7
 79.
 (pdftex.def)             Requested size: 198.31747pt x 173.61673pt.
 
-<./images/Ex_Mould_Cast_Plate.jpg, id=1966, 3244.12pt x 2367.84625pt>
+<./images/Ex_Mould_Cast_Plate.jpg, id=1981, 3244.12pt x 2367.84625pt>
 File: ./images/Ex_Mould_Cast_Plate.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Mould_Cast_Plate.jpg>
@@ -1920,7 +1920,7 @@ Package pdftex.def Info: ./images/Ex_Mould_Cast_Plate.jpg used on input line 78
 (pdftex.def)             Requested size: 237.01411pt x 172.99225pt.
  [38] [39 <./images/Ex_LAWS_Induction_Casting.png> <./images/Ex_Crucible_Charge
 .jpg> <./images/Ex_Laws_Copper_Mould.png> <./images/Ex_Mould_Cast_Plate.jpg>]
-<./images/Ex_CruciblePlateRiserRoughtarget.png, id=1984, 1702.36pt x 1668.2325p
+<./images/Ex_CruciblePlateRiserRoughtarget.png, id=1999, 1702.36pt x 1668.2325p
 t>
 File: ./images/Ex_CruciblePlateRiserRoughtarget.png Graphic file (type png)
  <use ./images/Ex_CruciblePlateRiserRoughtarget.png>
@@ -1928,28 +1928,28 @@ Package pdftex.def Info: ./images/Ex_CruciblePlateRiserRoughtarget.png used on
 input line 809.
 (pdftex.def)             Requested size: 362.77264pt x 355.48111pt.
 
-<./images/Ex_Vice_Hacksaw.jpg, id=1985, 3393.67876pt x 2348.775pt>
+<./images/Ex_Vice_Hacksaw.jpg, id=2000, 3393.67876pt x 2348.775pt>
 File: ./images/Ex_Vice_Hacksaw.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Vice_Hacksaw.jpg>
 Package pdftex.def Info: ./images/Ex_Vice_Hacksaw.jpg used on input line 819.
 (pdftex.def)             Requested size: 237.01411pt x 164.03682pt.
 
-<./images/Ex_Target_Euro.jpg, id=1986, 1521.685pt x 1354.05875pt>
+<./images/Ex_Target_Euro.jpg, id=2001, 1521.685pt x 1354.05875pt>
 File: ./images/Ex_Target_Euro.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Target_Euro.jpg>
 Package pdftex.def Info: ./images/Ex_Target_Euro.jpg used on input line 825.
 (pdftex.def)             Requested size: 183.80716pt x 163.55441pt.
 
-<./images/Ex_Drill_Bit.jpg, id=1987, 1535.7375pt x 3134.71124pt>
+<./images/Ex_Drill_Bit.jpg, id=2002, 1535.7375pt x 3134.71124pt>
 File: ./images/Ex_Drill_Bit.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Drill_Bit.jpg>
 Package pdftex.def Info: ./images/Ex_Drill_Bit.jpg used on input line 831.
 (pdftex.def)             Requested size: 133.01367pt x 271.49318pt.
 
-<./images/Ex_Drill_Press.jpg, id=1988, 1958.31625pt x 3639.5975pt>
+<./images/Ex_Drill_Press.jpg, id=2003, 1958.31625pt x 3639.5975pt>
 File: ./images/Ex_Drill_Press.jpg Graphic file (type jpg)
 
 <use ./images/Ex_Drill_Press.jpg>
@@ -1957,152 +1957,152 @@ Package pdftex.def Info: ./images/Ex_Drill_Press.jpg used on input line 837.
 (pdftex.def)             Requested size: 145.11053pt x 269.68143pt.
  [40] [41 <./images/Ex_CruciblePlateRiserRoughtarget.png>] [42 <./images/Ex_Vic
 e_Hacksaw.jpg> <./images/Ex_Target_Euro.jpg> <./images/Ex_Drill_Bit.jpg> <./ima
-ges/Ex_Drill_Press.jpg>]
-<./images/Ex_Cao_SputterMachine.png, id=2006, 426.80922pt x 283.40434pt>
+ges/Ex_Drill_Press.jpg>] [43]
+<./images/Ex_Cao_SputterMachine.png, id=2026, 426.80922pt x 283.40434pt>
 File: ./images/Ex_Cao_SputterMachine.png Graphic file (type png)
 
 <use ./images/Ex_Cao_SputterMachine.png>
 Package pdftex.def Info: ./images/Ex_Cao_SputterMachine.png used on input line 
-854.
+862.
 (pdftex.def)             Requested size: 362.77264pt x 240.89482pt.
- [43
+ [44
 
  <./images/Ex_Cao_SputterMachine.png>]
-Underfull \hbox (badness 2970) in paragraph at lines 862--863
+Underfull \hbox (badness 2970) in paragraph at lines 870--871
 \T1/ppl/m/n/12 and [][][]ul-tra-stable metal-lic glasses (SMGs)[][] onto el-e-v
 ated tem-per-ate sub-strates. The
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 864--865
+Underfull \hbox (badness 1558) in paragraph at lines 872--873
 []\T1/ppl/m/n/12 The ini-tial [][][]TFMG[][] sput-ter-ing pa-ram-e-ters were ba
 sed on Liu, et al. [][[]] work on
  []
 
-[44]
-Underfull \hbox (badness 2671) in paragraph at lines 900--901
+[45]
+Underfull \hbox (badness 2671) in paragraph at lines 908--909
 []\T1/ppl/m/n/12 Depositing films onto [][][]BMG[][] sub-strates of sim-i-lar c
 om-po-si-tion al-lows for prop-erty
  []
 
-[45]
-Underfull \hbox (badness 1655) in paragraph at lines 914--915
+[46]
+Underfull \hbox (badness 1655) in paragraph at lines 922--923
 []\T1/ppl/m/n/12 The rate of de-po-si-tion will be cal-cu-lated by di-vid-ing t
 he mea-sured film thick-ness
  []
 
-[46]
+[47]
 Chapter 4.
-[47
+[48
 
-] <./images/Re_EtchTarget.jpg, id=2077, 1345.025pt x 1345.025pt>
+] <./images/Re_EtchTarget.jpg, id=2098, 1345.025pt x 1345.025pt>
 File: ./images/Re_EtchTarget.jpg Graphic file (type jpg)
 
 <use ./images/Re_EtchTarget.jpg>
-Package pdftex.def Info: ./images/Re_EtchTarget.jpg used on input line 943.
+Package pdftex.def Info: ./images/Re_EtchTarget.jpg used on input line 951.
 (pdftex.def)             Requested size: 241.84843pt x 241.84776pt.
 
-Underfull \hbox (badness 1028) in paragraph at lines 950--951
+Underfull \hbox (badness 1028) in paragraph at lines 958--959
 []\T1/ppl/m/n/12 The Vick-ers hard-ness (Struers DuraS-can) of tar-get plates w
 as mea-sured. A typ-i-cal
  []
 
-<./images/Re_VickersHardness.png, id=2078, 774.7344pt x 592.8549pt>
+<./images/Re_VickersHardness.png, id=2099, 774.7344pt x 592.8549pt>
 File: ./images/Re_VickersHardness.png Graphic file (type png)
 
 <use ./images/Re_VickersHardness.png>
-Package pdftex.def Info: ./images/Re_VickersHardness.png used on input line 955
+Package pdftex.def Info: ./images/Re_VickersHardness.png used on input line 963
 .
 (pdftex.def)             Requested size: 338.58632pt x 259.10199pt.
- [48 <./images/Re_EtchTarget.jpg>]
-Underfull \hbox (badness 1112) in paragraph at lines 967--968
+ [49 <./images/Re_EtchTarget.jpg>]
+Underfull \hbox (badness 1112) in paragraph at lines 975--976
 \T1/ppl/m/n/12 Struc-ture was iden-ti-fied by look-ing for ev-i-dence of the di
 s-tinc-tive exother-mal [][][]glass
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 969--970
+Underfull \hbox (badness 1221) in paragraph at lines 977--978
 \T1/ppl/m/n/12 of con-stituent el-e-ments within the tar-gets. [][][]DSC[][] sc
 ans of the $\OT1/ppl/m/n/12 3$ \T1/ppl/m/n/12 and $\OT1/ppl/m/n/12 4 []\OML/zpl
 m/m/it/12 mm$ \T1/ppl/m/n/12 tar-gets
  []
 
-[49 <./images/Re_VickersHardness.png>]
-<./images/Re_DSC_T1_20kmin_MgZnCa_301014.png, id=2108, 794.97pt x 614.295pt>
+[50 <./images/Re_VickersHardness.png>]
+<./images/Re_DSC_T1_20kmin_MgZnCa_301014.png, id=2128, 794.97pt x 614.295pt>
 File: ./images/Re_DSC_T1_20kmin_MgZnCa_301014.png Graphic file (type png)
 
 <use ./images/Re_DSC_T1_20kmin_MgZnCa_301014.png>
 Package pdftex.def Info: ./images/Re_DSC_T1_20kmin_MgZnCa_301014.png used on in
-put line 978.
+put line 986.
 (pdftex.def)             Requested size: 237.01411pt x 183.14636pt.
 
-<./images/Re_DSC_T2_20kmin_MgZnCa_110215.png, id=2109, 794.97pt x 614.295pt>
+<./images/Re_DSC_T2_20kmin_MgZnCa_110215.png, id=2129, 794.97pt x 614.295pt>
 File: ./images/Re_DSC_T2_20kmin_MgZnCa_110215.png Graphic file (type png)
 
 <use ./images/Re_DSC_T2_20kmin_MgZnCa_110215.png>
 Package pdftex.def Info: ./images/Re_DSC_T2_20kmin_MgZnCa_110215.png used on in
-put line 984.
+put line 992.
 (pdftex.def)             Requested size: 237.01411pt x 183.14636pt.
- [50 <./images/Re_DSC_T1_20kmin_MgZnCa_301014.png> <./images/Re_DSC_T2_20kmin_M
+ [51 <./images/Re_DSC_T1_20kmin_MgZnCa_301014.png> <./images/Re_DSC_T2_20kmin_M
 gZnCa_110215.png>]
-<./images/Re_XRD_T1_2A_2B_4AP.png, id=2150, 845.19765pt x 597.6729pt>
+<./images/Re_XRD_T1_2A_2B_4AP.png, id=2170, 845.19765pt x 597.6729pt>
 File: ./images/Re_XRD_T1_2A_2B_4AP.png Graphic file (type png)
 
 <use ./images/Re_XRD_T1_2A_2B_4AP.png>
 Package pdftex.def Info: ./images/Re_XRD_T1_2A_2B_4AP.png used on input line 10
-00.
+08.
 (pdftex.def)             Requested size: 459.51054pt x 324.93642pt.
- [51 <./images/Re_XRD_T1_2A_2B_4AP.png>]
-Underfull \hbox (badness 3386) in paragraph at lines 1019--1020
+ [52 <./images/Re_XRD_T1_2A_2B_4AP.png>]
+Underfull \hbox (badness 3386) in paragraph at lines 1027--1028
 \T1/ppl/m/n/12 (SEM)[][] (S3400 Hi-tachi). These scans showed all tar-gets had 
 a sim-i-lar struc-ture
  []
 
-<./images/Re_SEM_T01.png, id=2177, 361.35pt x 271.0125pt>
+<./images/Re_SEM_T01.png, id=2197, 361.35pt x 271.0125pt>
 File: ./images/Re_SEM_T01.png Graphic file (type png)
 
 <use ./images/Re_SEM_T01.png>
-Package pdftex.def Info: ./images/Re_SEM_T01.png used on input line 1026.
+Package pdftex.def Info: ./images/Re_SEM_T01.png used on input line 1034.
 (pdftex.def)             Requested size: 246.68274pt x 185.01387pt.
 
-<./images/Re_SEM_T4A_PhaseInterface.jpg, id=2178, 581.79622pt x 472.70943pt>
+<./images/Re_SEM_T4A_PhaseInterface.jpg, id=2198, 581.79622pt x 472.70943pt>
 File: ./images/Re_SEM_T4A_PhaseInterface.jpg Graphic file (type jpg)
 
 <use ./images/Re_SEM_T4A_PhaseInterface.jpg>
 Package pdftex.def Info: ./images/Re_SEM_T4A_PhaseInterface.jpg used on input l
-ine 1032.
+ine 1040.
 (pdftex.def)             Requested size: 227.3381pt x 184.70937pt.
- [52]
-Underfull \hbox (badness 1199) in paragraph at lines 1073--1074
+ [53]
+Underfull \hbox (badness 1199) in paragraph at lines 1081--1082
 []\T1/ppl/m/n/12 Non-destructive [][][]energy-dispersive X-ray spec-troscopy (E
 DS)[][] anal-y-sis by [][][]SEM[][] (S3400
  []
 
-[53 <./images/Re_SEM_T01.png> <./images/Re_SEM_T4A_PhaseInterface.jpg>]
-<./images/Re_EDS_T4B_Image.png, id=2219, 464.26248pt x 297.99pt>
+[54 <./images/Re_SEM_T01.png> <./images/Re_SEM_T4A_PhaseInterface.jpg>]
+<./images/Re_EDS_T4B_Image.png, id=2240, 464.26248pt x 297.99pt>
 File: ./images/Re_EDS_T4B_Image.png Graphic file (type png)
 
 <use ./images/Re_EDS_T4B_Image.png>
-Package pdftex.def Info: ./images/Re_EDS_T4B_Image.png used on input line 1084.
+Package pdftex.def Info: ./images/Re_EDS_T4B_Image.png used on input line 1092.
 
 (pdftex.def)             Requested size: 237.01411pt x 152.13203pt.
 
-<./images/Re_EDS_T4B_Spectra.png, id=2220, 464.26248pt x 300.96pt>
+<./images/Re_EDS_T4B_Spectra.png, id=2241, 464.26248pt x 300.96pt>
 File: ./images/Re_EDS_T4B_Spectra.png Graphic file (type png)
 
 <use ./images/Re_EDS_T4B_Spectra.png>
 Package pdftex.def Info: ./images/Re_EDS_T4B_Spectra.png used on input line 109
-0.
+8.
 (pdftex.def)             Requested size: 237.01411pt x 153.64828pt.
- [54 <./images/Re_EDS_T4B_Image.png> <./images/Re_EDS_T4B_Spectra.png>] [55]
+ [55 <./images/Re_EDS_T4B_Image.png> <./images/Re_EDS_T4B_Spectra.png>] [56]
 Chapter 5.
 
-Underfull \hbox (badness 2644) in paragraph at lines 1126--1127
+Underfull \hbox (badness 2644) in paragraph at lines 1134--1135
 []\T1/ppl/m/n/12 Found [][][]thin film metal-lic glasses (TFMGs)[][] and [][][]
 ul-tra-stable metal-lic glasses (SMGs)[][]
  []
 
-("ScottGleason PhDThesis.bbl" [56
+("ScottGleason PhDThesis.bbl" [57
 
 ]
 Chapter 6.
@@ -2112,7 +2112,7 @@ Underfull \hbox (badness 1097) in paragraph at lines 15--19
  Phys-i-cal Chem-istry Chem-i-cal Physics\T1/ppl/m/n/12 ,
  []
 
-[57
+[58
 
 ]
 Underfull \hbox (badness 1297) in paragraph at lines 110--115
@@ -2120,7 +2120,7 @@ Underfull \hbox (badness 1297) in paragraph at lines 110--115
  Min‐Lee,
  []
 
-[58] [59]
+[59] [60]
 Underfull \hbox (badness 1803) in paragraph at lines 225--228
 []\T1/ppl/m/n/12 C. A. An-gell.  For-ma-tion of glasses from liq-uids and biopo
 ly-mers.  \T1/ppl/m/it/12 Sci-ence\T1/ppl/m/n/12 ,
@@ -2132,116 +2132,116 @@ Underfull \hbox (badness 1466) in paragraph at lines 242--247
 on and its ef-fect on
  []
 
-[60]
+[61]
 Underfull \hbox (badness 5105) in paragraph at lines 315--319
 []\T1/ppl/m/n/12 A Lam-botte.  L’u-til-i-sa-tion du mag-ne-sium comme ma-teri
 el perdu dans
  []
 
-[61]) [62]
+[62]) [63]
 Chapter 7.
 
-<./images/Ph_Mg-Zn_Binary_Phase_Diagram.png, id=2278, 781.92125pt x 568.1225pt>
+<./images/Ph_Mg-Zn_Binary_Phase_Diagram.png, id=2298, 781.92125pt x 568.1225pt>
 File: ./images/Ph_Mg-Zn_Binary_Phase_Diagram.png Graphic file (type png)
 <use ./images/Ph_Mg-Zn_Binary_Phase_Diagram.png>
 Package pdftex.def Info: ./images/Ph_Mg-Zn_Binary_Phase_Diagram.png used on inp
-ut line 1149.
+ut line 1157.
 (pdftex.def)             Requested size: 435.32422pt x 316.29129pt.
 
-<./images/Ph_Ca-Mg_Binary_Phase_Diagram.png, id=2281, 779.91376pt x 570.13pt>
+<./images/Ph_Ca-Mg_Binary_Phase_Diagram.png, id=2301, 779.91376pt x 570.13pt>
 File: ./images/Ph_Ca-Mg_Binary_Phase_Diagram.png Graphic file (type png)
 
 <use ./images/Ph_Ca-Mg_Binary_Phase_Diagram.png>
 Package pdftex.def Info: ./images/Ph_Ca-Mg_Binary_Phase_Diagram.png used on inp
-ut line 1157.
+ut line 1165.
 (pdftex.def)             Requested size: 435.32422pt x 318.22668pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<./images/Ph_Ca-Zn_Binary_Phase_Diagram.png, id=2284, 769.87625pt x 560.0925pt>
+<./images/Ph_Ca-Zn_Binary_Phase_Diagram.png, id=2304, 769.87625pt x 560.0925pt>
 File: ./images/Ph_Ca-Zn_Binary_Phase_Diagram.png Graphic file (type png)
 <use ./images/Ph_Ca-Zn_Binary_Phase_Diagram.png>
 Package pdftex.def Info: ./images/Ph_Ca-Zn_Binary_Phase_Diagram.png used on inp
-ut line 1165.
+ut line 1173.
 (pdftex.def)             Requested size: 435.32422pt x 316.70923pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[63
+[64
 
- <./images/Ph_Mg-Zn_Binary_Phase_Diagram.png>] [64 <./images/Ph_Ca-Mg_Binary_Ph
+ <./images/Ph_Mg-Zn_Binary_Phase_Diagram.png>] [65 <./images/Ph_Ca-Mg_Binary_Ph
 ase_Diagram.png> <./images/Ph_Ca-Zn_Binary_Phase_Diagram.png>]
-<./images/Ph_MgZnCa300CPhaseDiagram_SprMats.png, id=2296, 572.1375pt x 491.8375
+<./images/Ph_MgZnCa300CPhaseDiagram_SprMats.png, id=2316, 572.1375pt x 491.8375
 pt>
 File: ./images/Ph_MgZnCa300CPhaseDiagram_SprMats.png Graphic file (type png)
  <use ./images/Ph_MgZnCa300CPhaseDiagram_SprMats.png>
 Package pdftex.def Info: ./images/Ph_MgZnCa300CPhaseDiagram_SprMats.png used on
- input line 1178.
+ input line 1186.
 (pdftex.def)             Requested size: 435.32422pt x 374.22815pt.
 
-<./images/Ph_MgZnCaLiquidPhase_SprMats.png, id=2308, 799.98875pt x 746.79pt>
+<./images/Ph_MgZnCaLiquidPhase_SprMats.png, id=2328, 799.98875pt x 746.79pt>
 File: ./images/Ph_MgZnCaLiquidPhase_SprMats.png Graphic file (type png)
 
 <use ./images/Ph_MgZnCaLiquidPhase_SprMats.png>
 Package pdftex.def Info: ./images/Ph_MgZnCaLiquidPhase_SprMats.png used on inpu
-t line 1204.
+t line 1212.
 (pdftex.def)             Requested size: 435.32422pt x 406.38284pt.
 
-Overfull \hbox (22.5048pt too wide) in paragraph at lines 1212--1236
+Overfull \hbox (22.5048pt too wide) in paragraph at lines 1220--1244
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/Mg72-XZn24+XCa4.png, id=2365, 578.16pt x 431.4519pt>
+<./images/Mg72-XZn24+XCa4.png, id=2385, 578.16pt x 431.4519pt>
 File: ./images/Mg72-XZn24+XCa4.png Graphic file (type png)
 
 <use ./images/Mg72-XZn24+XCa4.png>
-Package pdftex.def Info: ./images/Mg72-XZn24+XCa4.png used on input line 1245.
+Package pdftex.def Info: ./images/Mg72-XZn24+XCa4.png used on input line 1253.
 (pdftex.def)             Requested size: 237.01411pt x 176.87009pt.
 
-<./images/Mg70-XZn24+XCa6.png, id=2366, 578.16pt x 431.4519pt>
+<./images/Mg70-XZn24+XCa6.png, id=2386, 578.16pt x 431.4519pt>
 File: ./images/Mg70-XZn24+XCa6.png Graphic file (type png)
 
 <use ./images/Mg70-XZn24+XCa6.png>
-Package pdftex.def Info: ./images/Mg70-XZn24+XCa6.png used on input line 1251.
+Package pdftex.def Info: ./images/Mg70-XZn24+XCa6.png used on input line 1259.
 (pdftex.def)             Requested size: 237.01411pt x 176.87009pt.
 
-<./images/Mg75-XZn20+XCa5.png, id=2367, 578.16pt x 431.4519pt>
+<./images/Mg75-XZn20+XCa5.png, id=2387, 578.16pt x 431.4519pt>
 File: ./images/Mg75-XZn20+XCa5.png Graphic file (type png)
 
 <use ./images/Mg75-XZn20+XCa5.png>
-Package pdftex.def Info: ./images/Mg75-XZn20+XCa5.png used on input line 1257.
+Package pdftex.def Info: ./images/Mg75-XZn20+XCa5.png used on input line 1265.
 (pdftex.def)             Requested size: 237.01411pt x 176.87009pt.
- [65
+ [66
 
  <./images/Ph_MgZnCa300CPhaseDiagram_SprMats.png>] ("ScottGleason PhDThesis.gls
-" [66 <./images/Ph_MgZnCaLiquidPhase_SprMats.png>] [67] [68 <./images/Mg72-XZn2
-4+XCa4.png> <./images/Mg70-XZn24+XCa6.png> <./images/Mg75-XZn20+XCa5.png>] [69
+" [67 <./images/Ph_MgZnCaLiquidPhase_SprMats.png>] [68] [69 <./images/Mg72-XZn2
+4+XCa4.png> <./images/Mg70-XZn24+XCa6.png> <./images/Mg75-XZn20+XCa5.png>] [70
 
 
-] [70] [71]) [72]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1272.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1272.
+] [71] [72]) [73]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1280.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1280.
 
 ("ScottGleason PhDThesis.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1272.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1272.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1280.
 
 Package rerunfilecheck Info: File `"ScottGleason PhDThesis".out' has not change
 d.
-(rerunfilecheck)             Checksum: CAE38895A92A2C43FBD806B96F9FE1A9;7794.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1272.
+(rerunfilecheck)             Checksum: 5FDC84CF5B42058A89961BEB9D10FD96;8035.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1280.
  ) 
 Here is how much of TeX's memory you used:
- 45707 strings out of 493673
- 969359 string characters out of 3143959
- 1198834 words of memory out of 3000000
- 47822 multiletter control sequences out of 15000+200000
+ 45723 strings out of 493673
+ 969694 string characters out of 3143959
+ 1198982 words of memory out of 3000000
+ 47833 multiletter control sequences out of 15000+200000
  37676 words of font info for 87 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  64i,16n,77p,10443b,860s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2256,9 +2256,9 @@ fonts/type1/public/mathpazo/fplmr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/mathpazo/fplmri.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatin
 o/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "ScottGleason PhDThesis.pdf" (85 pages, 16776331 bytes).
+Output written on "ScottGleason PhDThesis.pdf" (86 pages, 16780364 bytes).
 PDF statistics:
- 2977 PDF objects out of 2984 (max. 8388607)
- 444 named destinations out of 1000 (max. 500000)
- 1065 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2998 PDF objects out of 3580 (max. 8388607)
+ 449 named destinations out of 1000 (max. 500000)
+ 1089 words of extra memory for PDF output out of 10000 (max. 10000000)
 
