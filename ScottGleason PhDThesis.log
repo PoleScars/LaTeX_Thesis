@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.20)  20 JUL 2016 11:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.20)  20 JUL 2016 13:55
 entering extended mode
 **"ScottGleason PhDThesis.tex"
 ("ScottGleason PhDThesis.tex"
@@ -2109,31 +2109,19 @@ Underfull \hbox (badness 1097) in paragraph at lines 15--19
 
 [58
 
-]
-Underfull \hbox (badness 1297) in paragraph at lines 110--115
-[]\T1/ppl/m/n/12 D Di-jkkamp, T Venkate-san, XD Wu, SA Sha-heen, N Jis-rawi, YH
- Min‐Lee,
- []
-
-[59] [60]
-Underfull \hbox (badness 1803) in paragraph at lines 225--228
+] [59] [60]
+Underfull \hbox (badness 1803) in paragraph at lines 228--231
 []\T1/ppl/m/n/12 C. A. An-gell.  For-ma-tion of glasses from liq-uids and biopo
 ly-mers.  \T1/ppl/m/it/12 Sci-ence\T1/ppl/m/n/12 ,
  []
 
-
-Underfull \hbox (badness 1466) in paragraph at lines 242--247
-\T1/ppl/m/n/12 Quan-ti-ta-tive in vitro as-sess-ment of mg65zn30ca5 degra-da-ti
-on and its ef-fect on
+[61] [62]
+Underfull \hbox (badness 1609) in paragraph at lines 414--418
+[]\T1/ppl/m/n/12 R. Paris.  Sur les al-liages ter-naires magn�sium-zinc-calcium
+.  \T1/ppl/m/it/12 Comptes Ren-dus
  []
 
-[61]
-Underfull \hbox (badness 5105) in paragraph at lines 315--319
-[]\T1/ppl/m/n/12 A Lam-botte.  L’u-til-i-sa-tion du mag-ne-sium comme ma-teri
-el perdu dans
- []
-
-[62]) [63]
+) [63]
 Chapter 7.
 
 <./images/Ph_Mg-Zn_Binary_Phase_Diagram.png, id=2299, 781.92125pt x 568.1225pt>
@@ -2251,7 +2239,7 @@ fonts/type1/public/mathpazo/fplmr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/mathpazo/fplmri.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatin
 o/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "ScottGleason PhDThesis.pdf" (86 pages, 16780869 bytes).
+Output written on "ScottGleason PhDThesis.pdf" (86 pages, 16779521 bytes).
 PDF statistics:
  2999 PDF objects out of 3580 (max. 8388607)
  449 named destinations out of 1000 (max. 500000)

@@ -25,7 +25,7 @@ Daisman~PB Aji, Akihiko Hirata, Fan Zhu, Liu Pan, K~Madhav Reddy, Shuangxi
 
 \bibitem{Klement1960}
 W~Klement, RH~Willens, and POL Duwez.
-\newblock Non-crystalline structure in solidified gold–silicon alloys.
+\newblock Non-crystalline structure in solidified gold{-}silicon alloys.
 \newblock {\em Nature}, 187:869--870, 1960.
 
 \bibitem{Inoue2000}
@@ -54,19 +54,20 @@ Jinn~P. Chu, J.~E. Greene, Jason S.~C. Jang, J.~C. Huang, Yu-Lin Shen, Peter~K.
   Liaw, Yoshihiko Yokoyama, Akihisa Inoue, and T.~G. Nieh.
 \newblock Bendable bulk metallic glass: Effects of a thin, adhesive, strong,
   and ductile coating.
-\newblock {\em Acta Materialia}, 60(6–7):3226--3238, 2012.
+\newblock {\em Acta Materialia}, 60(6{-}7):3226--3238, 2012.
 
 \bibitem{Liu2009}
 F.~X. Liu, F.~Q. Yang, Y.~F. Gao, W.~H. Jiang, Y.~F. Guan, P.~D. Rack,
   O.~Sergic, and P.~K. Liaw.
-\newblock Micro-scratch study of a magnetron-sputtered zr-based metallic-glass
-  film.
+\newblock Micro-scratch study of a magnetron-sputtered {Zr}-based
+  metallic-glass film.
 \newblock {\em Surface and Coatings Technology}, 203(22):3480--3484, 2009.
 
 \bibitem{Prakash2005}
 Braham Prakash.
-\newblock Abrasive wear behaviour of fe, co and ni based metallic glasses.
-\newblock {\em Wear}, 258(1–4):217--224, 2005.
+\newblock Abrasive wear behaviour of {Fe}, {Co} and {Ni} based metallic
+  glasses.
+\newblock {\em Wear}, 258(1{-}4):217--224, 2005.
 
 \bibitem{Chiang2006}
 C.~L. Chiang, J.~P. Chu, F.~X. Liu, P.~K. Liaw, and R.~A. Buchanan.
@@ -76,20 +77,21 @@ C.~L. Chiang, J.~P. Chu, F.~X. Liu, P.~K. Liaw, and R.~A. Buchanan.
 
 \bibitem{Chu2011}
 J.~P. Chu, C.~M. Lee, R.~T. Huang, and P.~K. Liaw.
-\newblock Zr-based glass-forming film for fatigue-property improvements of 316l
-  stainless steel: Annealing effects.
+\newblock Zr-based glass-forming film for fatigue-property improvements of
+  316{L} stainless steel: Annealing effects.
 \newblock {\em Surface and Coatings Technology}, 205(16):4030--4034, 2011.
 
 \bibitem{Chu2009}
 C.~W. Chu, Jason S.~C. Jang, S.~M. Chiu, and J.~P. Chu.
-\newblock Study of the characteristics and corrosion behavior for the zr-based
-  metallic glass thin film fabricated by pulse magnetron sputtering process.
+\newblock Study of the characteristics and corrosion behavior for the
+  {Zr}-based metallic glass thin film fabricated by pulse magnetron sputtering
+  process.
 \newblock {\em Thin Solid Films}, 517(17):4930--4933, 2009.
 
 \bibitem{Tsai2012}
 P.~H. Tsai, Y.~Z. Lin, J.~B. Li, S.~R. Jian, J.~S.~C. Jang, C.~Li, J.~P. Chu,
   and J.~C. Huang.
-\newblock Sharpness improvement of surgical blade by means of zrcualagsi
+\newblock Sharpness improvement of surgical blade by means of {ZrCuAlAgSi}
   metallic glass and metallic glass thin film coating.
 \newblock {\em Intermetallics}, 31(0):127--131, 2012.
 
@@ -102,20 +104,21 @@ Jinn~P. Chu, J.~S.~C. Jang, J.~C. Huang, H.~S. Chou, Y.~Yang, J.~C. Ye, Y.~C.
 \newblock {\em Thin Solid Films}, 520(16):5097--5122, 2012.
 
 \bibitem{Krebs1993}
-Hans‐Ulrich Krebs and Olaf Bremert.
+Hans{-}Ulrich Krebs and Olaf Bremert.
 \newblock Pulsed laser deposition of thin metallic alloys.
 \newblock {\em Applied Physics Letters}, 62(19):2341--2343, 1993.
 
 \bibitem{Dijkkamp1987}
-D~Dijkkamp, T~Venkatesan, XD~Wu, SA~Shaheen, N~Jisrawi, YH~Min‐Lee,
+D~Dijkkamp, T~Venkatesan, XD~Wu, SA~Shaheen, N~Jisrawi, YH~Min{-}Lee,
   WL~McLean, and M~Croft.
-\newblock Preparation of y‐ba‐cu oxide superconductor thin films using
-  pulsed laser evaporation from high tc bulk material.
+\newblock Preparation of {Y{-}Ba{-}Cu} oxide superconductor thin films using
+  pulsed laser evaporation from high {Tc} bulk material.
 \newblock {\em Applied Physics Letters}, 51(8):619--621, 1987.
 
 \bibitem{Heitz1990}
-J~Heitz, XZ~Wang, P~Schwab, D~Bäuerle, and L~Schultz.
-\newblock Krf laser‐induced ablation and patterning of y–ba–cu–o films.
+J~Heitz, XZ~Wang, P~Schwab, D~B{\"a}uerle, and L~Schultz.
+\newblock {KrF} laser{-}induced ablation and patterning of {Y{-}Ba{-}Cu{-}O}
+  films.
 \newblock {\em Journal of Applied Physics}, 68(5):2512--2514, 1990.
 
 \bibitem{Cao2013}
@@ -137,7 +140,7 @@ Y.~H. Liu, T.~Fujita, A.~Hirata, S.~Li, H.~W. Liu, W.~Zhang, A.~Inoue, and
 \bibitem{Kondoh2008}
 Katsuyoshi Kondoh, Kenshi Kawabata, Tadashi Serikawa, and Hisamichi Kimura.
 \newblock Structural characteristics and crystallization of metallic glass
-  sputtered films by using zr system target.
+  sputtered films by using {Zr} system target.
 \newblock {\em Advances in Materials Science and Engineering}, 2008, 2008.
 
 \bibitem{Kowalski1983}
@@ -149,21 +152,21 @@ Zbigniew~W. Kowalski.
 Y.~P. Deng, Y.~F. Guan, J.~D. Fowlkes, S.~Q. Wen, F.~X. Liu, G.~M. Pharr, P.~K.
   Liaw, C.~T. Liu, and P.~D. Rack.
 \newblock A combinatorial thin film sputtering approach for synthesizing and
-  characterizing ternary zrcual metallic glasses.
+  characterizing ternary {ZrCuAl} metallic glasses.
 \newblock {\em Intermetallics}, 15(9):1208--1216, 2007.
 
 \bibitem{Qin2009}
 Jing Qin, Xu~Yong, Zhang Xin-Yu, Li~Gong, Li~Li-Xin, Xu~Zhe, Ma~Ming-Zhen, and
   Liu Ri-Ping.
-\newblock Zr-cu amorphous films prepared by magnetron co-sputtering deposition
-  of pure zr and cu.
+\newblock Zr{-}{Cu} amorphous films prepared by magnetron co-sputtering
+  deposition of pure {Zr} and {Cu}.
 \newblock {\em Chinese Physics Letters}, 26(8):086109, 2009.
 
 \bibitem{Apreutesei2014}
 M.~Apreutesei, P.~Steyer, L.~Joly-Pottuz, A.~Billard, J.~Qiao, S.~Cardinal,
   F.~Sanchette, J.~M. Pelletier, and C.~Esnouf.
 \newblock Microstructural, thermal and mechanical behavior of co-sputtered
-  binary zr–cu thin film metallic glasses.
+  binary {Zr{-}Cu} thin film metallic glasses.
 \newblock {\em Thin Solid Films}, 561(0):53--59, 2014.
 
 \bibitem{Swallen2007}
@@ -187,7 +190,7 @@ Hai-Bin Yu, Yuansu Luo, and Konrad Samwer.
 \bibitem{Wang2014}
 J.~Q. Wang, N.~Chen, P.~Liu, Z.~Wang, D.~V. Louzguine-Luzgin, M.~W. Chen, and
   J.~H. Perepezko.
-\newblock The ultrastable kinetic behavior of an au-based nanoglass.
+\newblock The ultrastable kinetic behavior of an {Au}-based nanoglass.
 \newblock {\em Acta Materialia}, 79(0):30--36, 2014.
 
 \bibitem{Nakayama2013}
@@ -231,35 +234,35 @@ C.~Austen Angell.
 \newblock On the uncertain distinction between fast landscape exploration and
   second amorphous phase (ideal glass) interpretations of the ultrastable glass
   phenomenon.
-\newblock {\em Journal of Non-Crystalline Solids}, 407(0):246–255, 2014.
+\newblock {\em Journal of Non-Crystalline Solids}, 407(0):246{--}255, 2014.
 
 \bibitem{Schluter2012}
 K.~Schl{\"u}ter, C.~Zamponi, N.~Hort, K.~U. Kainer, and E.~Quandt.
-\newblock Polycrystalline and amorphous mgznca thin films.
+\newblock Polycrystalline and amorphous {MgZnCa} thin films.
 \newblock {\em Corrosion Science}, 63(0):234--238, 2012.
 
 \bibitem{Cao2013b}
 Jake~D. Cao, Penny Martens, Kevin~J. Laws, Philip Boughton, and Michael Ferry.
-\newblock Quantitative in vitro assessment of mg65zn30ca5 degradation and its
+\newblock Quantitative in vitro assessment of {Mg65Zn30Ca5} degradation and its
   effect on cell viability.
 \newblock {\em Journal of Biomedical Materials Research Part B: Applied
   Biomaterials}, 101B(1):43--49, 2013.
 
 \bibitem{Gu2005}
 X.~Gu, G.J. Shiflet, F.Q. Guo, and S.J. Poon.
-\newblock Mg–ca–zn bulk metallic glasses with high strength and significant
-  ductility.
+\newblock {Mg{-}Ca{-}Zn} bulk metallic glasses with high strength and
+  significant ductility.
 \newblock {\em Journal of Materials Research}, 20(08):1935--1938, 2005.
 
 \bibitem{Bull1996}
 S.~J. Bull and A.~M. Jones.
 \newblock Multilayer coatings for improved performance.
-\newblock {\em Surface and Coatings Technology}, 78(1–3):173--184, 1996.
+\newblock {\em Surface and Coatings Technology}, 78(1{-}3):173--184, 1996.
 
 \bibitem{Burnett1987}
 P.~J. Burnett and D.~S. Rickerby.
 \newblock The relationship between hardness and scratch adhession.
-\newblock {\em Thin Solid Films}, 154(1–2):403--416, 1987.
+\newblock {\em Thin Solid Films}, 154(1{-}2):403--416, 1987.
 
 \bibitem{Burnett1988}
 P.~J. Burnett and D.~S. Rickerby.
@@ -268,20 +271,20 @@ P.~J. Burnett and D.~S. Rickerby.
 
 \bibitem{Pan2010}
 C.~T. Pan, T.~T. Wu, C.~F. Liu, C.~Y. Su, W.~J. Wang, and J.~C. Huang.
-\newblock Study of scratching mg-based bmg using nanoindenter with berkovich
-  probe.
+\newblock Study of scratching {Mg}-based {BMG} using nanoindenter with
+  berkovich probe.
 \newblock {\em Materials Science and Engineering: A}, 527(9):2342--2349, 2010.
 
 \bibitem{Wang2012}
 Yongsheng Wang, Ming~Jen Tan, Jianjun Pang, Zhaomeng Wang, and Anders W.~E.
   Jarfors.
-\newblock In vitro corrosion behaviors of mg67zn28ca5 alloy: From amorphous to
-  crystalline.
-\newblock {\em Materials Chemistry and Physics}, 134(2–3):1079--1087, 2012.
+\newblock In vitro corrosion behaviors of {Mg67Zn28Ca5} alloy: From amorphous
+  to crystalline.
+\newblock {\em Materials Chemistry and Physics}, 134(2{-}3):1079--1087, 2012.
 
 \bibitem{Zberg2009}
-Bruno Zberg, Peter~J Uggowitzer, and Jörg~F Löffler.
-\newblock Mgznca glasses without clinically observable hydrogen evolution for
+Bruno Zberg, Peter~J Uggowitzer, and J{\"o}rg~F L{\"o}ffler.
+\newblock {MgZnCa} glasses without clinically observable hydrogen evolution for
   biodegradable implants.
 \newblock {\em Nature Materials}, 8(11):887--891, 2009.
 
@@ -308,13 +311,14 @@ David~G Enos and LL~Scribner.
 
 \bibitem{Verbrugge1933}
 J~Verbrugge.
-\newblock La tolérance du tissu osseux vis-à-vis du magnésium métallique.
-\newblock {\em Presse méd}, 55:1112--1114, 1933.
+\newblock La tol{\'e}rance du tissu osseux vis-{\'a}-vis du magn{\'e}sium
+  m{\'e}tallique.
+\newblock {\em Presse m{\'e}d}, 55:1112--1114, 1933.
 
 \bibitem{Lambotte1932}
 A~Lambotte.
-\newblock L’utilisation du magnesium comme materiel perdu dans
-  l’osteosynthèse.
+\newblock L'utilisation du magnesium comme materiel perdu dans
+  l'osteosynth{\'e}se.
 \newblock {\em Bull Mem Soc Nat Chir}, 28:1325--1334, 1932.
 
 \bibitem{Schweitzer2009}
@@ -336,12 +340,12 @@ K.~Ozeki, T.~Yuhta, Y.~Fukui, and H.~Aoki.
 \bibitem{Ehrler2008}
 Daniel Ehrler.
 \newblock Investigation of the corrosive and mechanical properties of melt-spun
-  amorphous mgzn and mgxzn ribbons (x = al, ca, la), 2008.
+  amorphous {MgZn} and {MgXZn} ribbons ({X} = {Al}, {Ca}, {La}), 2008.
 
 \bibitem{Gu2010}
 Xuenan Gu, Yufeng Zheng, Shengping Zhong, Tingfei Xi, Junqiang Wang, and Weihua
   Wang.
-\newblock Corrosion of, and cellular responses to mg–zn–ca bulk metallic
+\newblock Corrosion of, and cellular responses to {Mg-Zn-Ca} bulk metallic
   glasses.
 \newblock {\em Biomaterials}, 31(6):1093--1103, 2010.
 
@@ -349,38 +353,38 @@ Xuenan Gu, Yufeng Zheng, Shengping Zhong, Tingfei Xi, Junqiang Wang, and Weihua
 X.~Zhou, K.~D. Ralston, K.~J. Laws, J.~D. Cao, R.~K. Gupta, M.~Ferry, and
   N.~Birbilis.
 \newblock Effect of the degree of crystallinity on the electrochemical behavior
-  of mg65cu25y10 and mg70zn25ca5 bulk metallic glasses.
+  of {Mg65Cu25Y10} and {Mg70Zn25Ca5} bulk metallic glasses.
 \newblock {\em Corrosion}, 69(8):781--792, 2013.
 
 \bibitem{Cao2012}
 J~D Cao, K~J Laws, N~Birbilis, and M~Ferry.
 \newblock Potentiodynamic polarisation study of bulk metallic glasses based on
-  the mg–zn–ca ternary system.
+  the {Mg{-}Zn{-}Ca} ternary system.
 \newblock {\em Corrosion Engineering, Science and Technology}, 47(5):329--334,
   2012.
 
 \bibitem{Laws2016}
-K.~J. Laws, D.~Granata, and J.~F. Löffler.
-\newblock Alloy design strategies for sustained ductility in mg-based amorphous
-  alloys – tackling structural relaxation.
+K.~J. Laws, D.~Granata, and J.~F. L{\"o}ffler.
+\newblock Alloy design strategies for sustained ductility in {Mg-}based
+  amorphous alloys - tackling structural relaxation.
 \newblock {\em Acta Materialia}, 103:735--745, 2016.
 
 \bibitem{Khan1989}
 Y.~Khan.
 \newblock Dynamic temperature crystallization behaviour of amorphous and liquid
-  mg70zn30 alloy.
+  {Mg70Zn30} alloy.
 \newblock {\em Journal of Materials Science}, 24(3):963--973, 1989.
 
 \bibitem{Predel1997}
 B.~Predel.
-\newblock Mg-zn (magnesium-zinc).
-\newblock In O.~Madelung, editor, {\em Li-Mg – Nd-Zr}, volume~5H of {\em
-  Landolt-Börnstein - Group IV Physical Chemistry}, pages 1--4. Springer
+\newblock {Mg-Zn} (magnesium-zinc).
+\newblock In O.~Madelung, editor, {\em Li-Mg - Nd-Zr}, volume~5H of {\em
+  Landolt-B{\"o}rnstein - Group IV Physical Chemistry}, pages 1--4. Springer
   Berlin Heidelberg, 1997.
 
 \bibitem{Nayeb1987}
 A.A. Nayeb-Hashemi and J.B. Clark.
-\newblock The ca−mg (calcium-magnesium) system.
+\newblock The {Ca-Mg} (calcium-magnesium) system.
 \newblock {\em Bulletin of Alloy Phase Diagrams}, 8(1):58--65, 1987.
 
 \bibitem{Messing1963}
@@ -396,26 +400,26 @@ E.V. Melnik, M.F. Kostina, Ya.P. Yarmolyuk, and O.F. Zmiy.
 
 \bibitem{Clark1961}
 J.B. Clark.
-\newblock The solid constitution in the magnesium rich region of the mg-ca-zn
+\newblock The solid constitution in the magnesium rich region of the {Mg-Ca-Zn}
   phase diagram.
 \newblock {\em Transactions of the Metallurgical Society of AIME},
   221:644--645, 1961.
 
 \bibitem{Schulze1961}
 G.E.R. Schulze and J.~Wieting.
-\newblock About the constitution principles of the cazn2-lattice.
+\newblock About the constitution principles of the {CaZn}2-lattice.
 \newblock {\em Z. Metallkd.}, 52(11):743--746, 1961.
 
 \bibitem{Paris1933}
 R.~Paris.
-\newblock Sur les alliages ternaires magnésium-zinc-calcium.
+\newblock Sur les alliages ternaires magn{\'e}sium-zinc-calcium.
 \newblock {\em Comptes Rendus Hebdomadaires des Seances de l'Academie des
   Sciences}, 197:1634--1636, 1933.
 
 \bibitem{Wang2013}
 Jingfeng Wang, Song Huang, Yang Li, Yiyun Wei, Xingfeng Xi, and Kaiyong Cai.
-\newblock Microstructure, mechanical and bio-corrosion properties of mn-doped
-  mg–zn–ca bulk metallic glass composites.
+\newblock Microstructure, mechanical and bio-corrosion properties of {Mn}-doped
+  {Mg-Zn-Ca} bulk metallic glass composites.
 \newblock {\em Materials Science and Engineering: C}, 33(7):3832--3838, 2013.
 
 \end{thebibliography}
