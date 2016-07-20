@@ -52,7 +52,7 @@
 \BOOKMARK [3][-]{subsubsection.2.4.3.3}{Pitting Corrosion}{subsection.2.4.3}% 52
 \BOOKMARK [2][-]{subsection.2.4.4}{Anti-biotic Scaffolds}{section.2.4}% 53
 \BOOKMARK [0][-]{chapter.3}{EXPERIMENTAL PROCEDURE}{}% 54
-\BOOKMARK [1][-]{section.3.1}{Target Manufacture}{chapter.3}% 55
+\BOOKMARK [1][-]{section.3.1}{Semi-Crystalline Target Manufacture}{chapter.3}% 55
 \BOOKMARK [2][-]{subsection.3.1.1}{Base Elements}{section.3.1}% 56
 \BOOKMARK [2][-]{subsection.3.1.2}{Induction Furnace Melting}{section.3.1}% 57
 \BOOKMARK [3][-]{subsubsection.3.1.2.1}{Induction Furnace Equipment}{subsection.3.1.2}% 58
@@ -64,39 +64,44 @@
 \BOOKMARK [3][-]{subsubsection.3.1.3.2}{Target Extraction}{subsection.3.1.3}% 64
 \BOOKMARK [3][-]{subsubsection.3.1.3.3}{Target Rounding}{subsection.3.1.3}% 65
 \BOOKMARK [3][-]{subsubsection.3.1.3.4}{Target Polishing}{subsection.3.1.3}% 66
-\BOOKMARK [2][-]{subsection.3.1.4}{Cylinder Casting}{section.3.1}% 67
-\BOOKMARK [3][-]{subsubsection.3.1.4.1}{Gravity Casting}{subsection.3.1.4}% 68
-\BOOKMARK [3][-]{subsubsection.3.1.4.2}{Sectioning of Targets}{subsection.3.1.4}% 69
-\BOOKMARK [1][-]{section.3.2}{DC Magnetron Sputtering}{chapter.3}% 70
-\BOOKMARK [2][-]{subsection.3.2.1}{DC Magnetron Sputtering Equipment}{section.3.2}% 71
-\BOOKMARK [2][-]{subsection.3.2.2}{Depostion of Thin Films}{section.3.2}% 72
-\BOOKMARK [2][-]{subsection.3.2.3}{Target Lifespan}{section.3.2}% 73
-\BOOKMARK [1][-]{section.3.3}{Examined Substrates}{chapter.3}% 74
-\BOOKMARK [2][-]{subsection.3.3.1}{Silicon Wafer Substrate}{section.3.3}% 75
-\BOOKMARK [2][-]{subsection.3.3.2}{Water Soluble Substrate}{section.3.3}% 76
-\BOOKMARK [2][-]{subsection.3.3.3}{BMG Substrate}{section.3.3}% 77
-\BOOKMARK [2][-]{subsection.3.3.4}{Polycaprolactone \(PCL\) Scaffolds}{section.3.3}% 78
-\BOOKMARK [1][-]{section.3.4}{Thin Film Characterisation}{chapter.3}% 79
-\BOOKMARK [2][-]{subsection.3.4.1}{Physical and Chemical Properties}{section.3.4}% 80
-\BOOKMARK [2][-]{subsection.3.4.2}{Quality of Deposition}{section.3.4}% 81
-\BOOKMARK [2][-]{subsection.3.4.3}{Biocompatibility and Bioabsorption}{section.3.4}% 82
-\BOOKMARK [0][-]{chapter.4}{RESULTS AND DISCUSSION}{}% 83
-\BOOKMARK [1][-]{section.4.1}{Targets}{chapter.4}% 84
-\BOOKMARK [2][-]{subsection.4.1.1}{Target Manufacture}{section.4.1}% 85
-\BOOKMARK [2][-]{subsection.4.1.2}{Target Bulk Properties}{section.4.1}% 86
-\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Hardness}{subsection.4.1.2}% 87
-\BOOKMARK [3][-]{subsubsection.4.1.2.2}{Long Term Storage}{subsection.4.1.2}% 88
-\BOOKMARK [2][-]{subsection.4.1.3}{Target Strucutre}{section.4.1}% 89
-\BOOKMARK [3][-]{subsubsection.4.1.3.1}{Differential Scanning Calorimetry \(DSC\)}{subsection.4.1.3}% 90
-\BOOKMARK [3][-]{subsubsection.4.1.3.2}{X-Ray Diffraction \(XRD\)}{subsection.4.1.3}% 91
-\BOOKMARK [3][-]{subsubsection.4.1.3.3}{Scanning Electron Microscopy \(SEM\)}{subsection.4.1.3}% 92
-\BOOKMARK [2][-]{subsection.4.1.4}{Target Composition}{section.4.1}% 93
-\BOOKMARK [3][-]{subsubsection.4.1.4.1}{Inductively Coupled Plasma Mass Spectrometry \(ICP\)}{subsection.4.1.4}% 94
-\BOOKMARK [3][-]{subsubsection.4.1.4.2}{Energy-Dispersive X-Ray Spectroscopy \(EDS\)}{subsection.4.1.4}% 95
-\BOOKMARK [1][-]{section.4.2}{DC Magnetron Sputtering}{chapter.4}% 96
-\BOOKMARK [0][-]{chapter.5}{SUMMARY AND CONCLUSIONS}{}% 97
-\BOOKMARK [0][-]{chapter.6}{BIBLIOGRAPHY}{}% 98
-\BOOKMARK [0][-]{chapter.7}{APPENDICES}{}% 99
-\BOOKMARK [1][-]{section.7.1}{MgZnCa Binary Phases}{chapter.7}% 100
-\BOOKMARK [1][-]{section.7.2}{MgZnCa Ternary Phases}{chapter.7}% 101
-\BOOKMARK [0][-]{section*.100}{GLOSSARY}{}% 102
+\BOOKMARK [1][-]{section.3.2}{Crystalline Target Manufacture}{chapter.3}% 67
+\BOOKMARK [2][-]{subsection.3.2.1}{Induction Furnace Melting}{section.3.2}% 68
+\BOOKMARK [3][-]{subsubsection.3.2.1.1}{Melt Cycle}{subsection.3.2.1}% 69
+\BOOKMARK [3][-]{subsubsection.3.2.1.2}{Gravity Casting}{subsection.3.2.1}% 70
+\BOOKMARK [2][-]{subsection.3.2.2}{Final Shaping}{section.3.2}% 71
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{Sectioning of Targets}{subsection.3.2.2}% 72
+\BOOKMARK [3][-]{subsubsection.3.2.2.2}{Target Rounding}{subsection.3.2.2}% 73
+\BOOKMARK [3][-]{subsubsection.3.2.2.3}{Target Polishing}{subsection.3.2.2}% 74
+\BOOKMARK [1][-]{section.3.3}{DC Magnetron Sputtering}{chapter.3}% 75
+\BOOKMARK [2][-]{subsection.3.3.1}{DC Magnetron Sputtering Equipment}{section.3.3}% 76
+\BOOKMARK [2][-]{subsection.3.3.2}{Depostion of Thin Films}{section.3.3}% 77
+\BOOKMARK [2][-]{subsection.3.3.3}{Target Lifespan}{section.3.3}% 78
+\BOOKMARK [1][-]{section.3.4}{Examined Substrates}{chapter.3}% 79
+\BOOKMARK [2][-]{subsection.3.4.1}{Silicon Wafer Substrate}{section.3.4}% 80
+\BOOKMARK [2][-]{subsection.3.4.2}{Water Soluble Substrate}{section.3.4}% 81
+\BOOKMARK [2][-]{subsection.3.4.3}{BMG Substrate}{section.3.4}% 82
+\BOOKMARK [2][-]{subsection.3.4.4}{Polycaprolactone \(PCL\) Scaffolds}{section.3.4}% 83
+\BOOKMARK [1][-]{section.3.5}{Thin Film Characterisation}{chapter.3}% 84
+\BOOKMARK [2][-]{subsection.3.5.1}{Physical and Chemical Properties}{section.3.5}% 85
+\BOOKMARK [2][-]{subsection.3.5.2}{Quality of Deposition}{section.3.5}% 86
+\BOOKMARK [2][-]{subsection.3.5.3}{Biocompatibility and Bioabsorption}{section.3.5}% 87
+\BOOKMARK [0][-]{chapter.4}{RESULTS AND DISCUSSION}{}% 88
+\BOOKMARK [1][-]{section.4.1}{Targets}{chapter.4}% 89
+\BOOKMARK [2][-]{subsection.4.1.1}{Target Manufacture}{section.4.1}% 90
+\BOOKMARK [2][-]{subsection.4.1.2}{Target Bulk Properties}{section.4.1}% 91
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Hardness}{subsection.4.1.2}% 92
+\BOOKMARK [3][-]{subsubsection.4.1.2.2}{Long Term Storage}{subsection.4.1.2}% 93
+\BOOKMARK [2][-]{subsection.4.1.3}{Target Strucutre}{section.4.1}% 94
+\BOOKMARK [3][-]{subsubsection.4.1.3.1}{Differential Scanning Calorimetry \(DSC\)}{subsection.4.1.3}% 95
+\BOOKMARK [3][-]{subsubsection.4.1.3.2}{X-Ray Diffraction \(XRD\)}{subsection.4.1.3}% 96
+\BOOKMARK [3][-]{subsubsection.4.1.3.3}{Scanning Electron Microscopy \(SEM\)}{subsection.4.1.3}% 97
+\BOOKMARK [2][-]{subsection.4.1.4}{Target Composition}{section.4.1}% 98
+\BOOKMARK [3][-]{subsubsection.4.1.4.1}{Inductively Coupled Plasma Mass Spectrometry \(ICP\)}{subsection.4.1.4}% 99
+\BOOKMARK [3][-]{subsubsection.4.1.4.2}{Energy-Dispersive X-Ray Spectroscopy \(EDS\)}{subsection.4.1.4}% 100
+\BOOKMARK [1][-]{section.4.2}{DC Magnetron Sputtering}{chapter.4}% 101
+\BOOKMARK [0][-]{chapter.5}{SUMMARY AND CONCLUSIONS}{}% 102
+\BOOKMARK [0][-]{chapter.6}{BIBLIOGRAPHY}{}% 103
+\BOOKMARK [0][-]{chapter.7}{APPENDICES}{}% 104
+\BOOKMARK [1][-]{section.7.1}{MgZnCa Binary Phases}{chapter.7}% 105
+\BOOKMARK [1][-]{section.7.2}{MgZnCa Ternary Phases}{chapter.7}% 106
+\BOOKMARK [0][-]{section*.99}{GLOSSARY}{}% 107
