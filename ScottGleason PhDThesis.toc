@@ -1,9 +1,9 @@
 \contentsline {chapter}{CERTIFICATE OF ORIGINALITY}{i}{chapter*.1}
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}{chapter*.2}
-\contentsline {chapter}{ABSTRACT}{iii}{chapter*.3}
-\contentsline {chapter}{TABLE OF CONTENTS}{viii}{chapter*.6}
-\contentsline {chapter}{LIST OF FIGURES}{viii}{chapter*.7}
-\contentsline {chapter}{LIST OF TABLES}{xii}{chapter*.8}
+\contentsline {chapter}{ABSTRACT}{iv}{chapter*.3}
+\contentsline {chapter}{TABLE OF CONTENTS}{ix}{chapter*.6}
+\contentsline {chapter}{LIST OF FIGURES}{ix}{chapter*.7}
+\contentsline {chapter}{LIST OF TABLES}{xiii}{chapter*.8}
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}LITERATURE SURVEY}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Metallic Glasses (MGs)}{2}{section.2.1}
@@ -98,7 +98,9 @@
 \contentsline {subsection}{\numberline {4.1.4}Target Composition}{54}{subsection.4.1.4}
 \contentsline {subsubsection}{\numberline {4.1.4.1}Inductively Coupled Plasma Mass Spectrometry (ICP)}{54}{subsubsection.4.1.4.1}
 \contentsline {subsubsection}{\numberline {4.1.4.2}Energy-Dispersive X-Ray Spectroscopy (EDS)}{56}{subsubsection.4.1.4.2}
-\contentsline {section}{\numberline {4.2}DC Magnetron Sputtering}{57}{section.4.2}
+\contentsline {section}{\numberline {4.2}Crystallization Pathways}{57}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}XRD and Heated XRD}{57}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Relaxation}{57}{section.4.3}
 \contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{58}{chapter.5}
 \contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{59}{chapter.6}
 \contentsline {chapter}{\numberline {7}APPENDICES}{65}{chapter.7}
