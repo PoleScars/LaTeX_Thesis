@@ -85,26 +85,32 @@
 \contentsline {subsection}{\numberline {3.5.1}Physical and Chemical Properties}{48}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Quality of Deposition}{48}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Biocompatibility and Bioabsorption}{48}{subsection.3.5.3}
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{49}{chapter.4}
-\contentsline {section}{\numberline {4.1}Targets}{49}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Target Manufacture}{49}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Target Bulk Properties}{50}{subsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.2.1}Hardness}{50}{subsubsection.4.1.2.1}
-\contentsline {subsubsection}{\numberline {4.1.2.2}Long Term Storage}{51}{subsubsection.4.1.2.2}
-\contentsline {subsection}{\numberline {4.1.3}Target Strucutre}{51}{subsection.4.1.3}
-\contentsline {subsubsection}{\numberline {4.1.3.1}Differential Scanning Calorimetry (DSC)}{51}{subsubsection.4.1.3.1}
-\contentsline {subsubsection}{\numberline {4.1.3.2}X-Ray Diffraction (XRD)}{52}{subsubsection.4.1.3.2}
-\contentsline {subsubsection}{\numberline {4.1.3.3}Scanning Electron Microscopy (SEM)}{54}{subsubsection.4.1.3.3}
-\contentsline {subsection}{\numberline {4.1.4}Target Composition}{54}{subsection.4.1.4}
-\contentsline {subsubsection}{\numberline {4.1.4.1}Inductively Coupled Plasma Mass Spectrometry (ICP)}{54}{subsubsection.4.1.4.1}
-\contentsline {subsubsection}{\numberline {4.1.4.2}Energy-Dispersive X-Ray Spectroscopy (EDS)}{56}{subsubsection.4.1.4.2}
-\contentsline {section}{\numberline {4.2}Crystallization Pathways}{57}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}XRD and Heated XRD}{57}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Relaxation}{57}{section.4.3}
-\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{58}{chapter.5}
-\contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{59}{chapter.6}
-\contentsline {chapter}{\numberline {7}APPENDICES}{65}{chapter.7}
-\contentsline {section}{\numberline {7.1}MgZnCa Binary Phases}{65}{section.7.1}
-\contentsline {section}{\numberline {7.2}MgZnCa Ternary Phases}{67}{section.7.2}
-\contentsline {chapter}{GLOSSARY}{71}{section*.99}
+\contentsline {subsection}{\numberline {3.5.4}Master alloy}{48}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}\acrshort {dc} magnetron sputtering}{48}{subsection.3.5.5}
+\contentsline {subsection}{\numberline {3.5.6}Stylus profiler analysis}{49}{subsection.3.5.6}
+\contentsline {subsection}{\numberline {3.5.7}\acrshort {eds} analysis}{49}{subsection.3.5.7}
+\contentsline {subsection}{\numberline {3.5.8}\acrshort {dsc} characterization}{49}{subsection.3.5.8}
+\contentsline {subsection}{\numberline {3.5.9}\acrshort {xrd} characterization}{49}{subsection.3.5.9}
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{51}{chapter.4}
+\contentsline {section}{\numberline {4.1}Targets}{51}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Target Manufacture}{51}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Target Bulk Properties}{52}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Hardness}{52}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}Long Term Storage}{53}{subsubsection.4.1.2.2}
+\contentsline {subsection}{\numberline {4.1.3}Target Strucutre}{53}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}Differential Scanning Calorimetry (DSC)}{53}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}X-Ray Diffraction (XRD)}{54}{subsubsection.4.1.3.2}
+\contentsline {subsubsection}{\numberline {4.1.3.3}Scanning Electron Microscopy (SEM)}{56}{subsubsection.4.1.3.3}
+\contentsline {subsection}{\numberline {4.1.4}Target Composition}{56}{subsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.4.1}Inductively Coupled Plasma Mass Spectrometry (ICP)}{56}{subsubsection.4.1.4.1}
+\contentsline {subsubsection}{\numberline {4.1.4.2}Energy-Dispersive X-Ray Spectroscopy (EDS)}{58}{subsubsection.4.1.4.2}
+\contentsline {section}{\numberline {4.2}Crystallization Pathways}{59}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}XRD and Heated XRD}{59}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Relaxation}{59}{section.4.3}
+\contentsline {chapter}{\numberline {5}SUMMARY AND CONCLUSIONS}{60}{chapter.5}
+\contentsline {chapter}{\numberline {6}BIBLIOGRAPHY}{61}{chapter.6}
+\contentsline {chapter}{\numberline {7}APPENDICES}{67}{chapter.7}
+\contentsline {section}{\numberline {7.1}MgZnCa Binary Phases}{67}{section.7.1}
+\contentsline {section}{\numberline {7.2}MgZnCa Ternary Phases}{69}{section.7.2}
+\contentsline {chapter}{GLOSSARY}{73}{section*.99}
 \contentsfinish 
